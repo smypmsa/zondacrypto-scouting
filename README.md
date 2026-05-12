@@ -1,6 +1,6 @@
 # Zondacrypto scouting
 
-[ZondaCrypto](https://zondacrypto.com), formerly BitBay, is a Polish cryptocurrency exchange. In April 2026, after [months of withdrawal failures](https://x.com/przemyslaw_kral/status/2041229323382804500), [its CEO publicly acknowledged](https://x.com/przemyslaw_kral/status/2044763900541854094) that the company's largest claimed bitcoin reserve was not under company control. [Polish prosecutors opened a criminal case](https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference) with damages estimated at no less than 350 million złoty. This repository collects publicly verifiable facts about the case and follows the money on-chain.
+[Zondacrypto](https://zondacrypto.com), formerly BitBay, is a Polish cryptocurrency exchange. In April 2026, after [months of withdrawal failures](https://x.com/przemyslaw_kral/status/2041229323382804500), [its CEO publicly acknowledged](https://x.com/przemyslaw_kral/status/2044763900541854094) that the company's largest claimed bitcoin reserve was not under company control. [Polish prosecutors opened a criminal case](https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference) with damages estimated at no less than 350 million złoty. This repository collects publicly verifiable facts about the case and follows the money on-chain.
 
 ## Contents
 
