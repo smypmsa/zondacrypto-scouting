@@ -1,10 +1,12 @@
 # Known wallets
 
-Wallets attributed to ZondaCrypto, BitBay, or the ZND token by a primary reference. One file per wallet.
+Wallets attributed to ZondaCrypto, BitBay, or the ZND token by a primary reference. One file per wallet, except where a single primary source attributes a cluster of operational hot-wallet / per-user-deposit addresses to the operator — in that case the cluster is documented as a single inventory item.
 
 | Address | Chains | What it is | Detail |
 |---|---|---|---|
 | `16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n` | Bitcoin | Disclosed BTC cold reserve | [→](bitcoin/16aEn4p6-cold-reserve.md) |
+| WalletExplorer cluster `BitBay.net` (26,014 addresses) | Bitcoin | Post-2019 operational hot-wallet cluster | [→](bitcoin/bitbay-net-cluster.md) |
+| `0xd388…8046` family (3 addresses incl. Zonda 6) | Polygon | Zonda Polygon-side vanity-suffix cluster | [→](polygon/zonda-d388-family-polygon.md) |
 | `0xf646cbe3b030fb6c2569215f0117dba58badb95e` | Ethereum | Zonda 1 | [→](ethereum/zonda-1.md) |
 | `0x781229c7a798c33ec788520a6bbe12a79ed657fc` | Ethereum | Zonda 2 | [→](ethereum/zonda-2.md) |
 | `0x0ff24158220a14398f047a80a513617ddc4f5289` | Ethereum | Zonda 3 | [→](ethereum/zonda-3.md) |
