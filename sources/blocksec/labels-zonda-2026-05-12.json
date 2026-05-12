@@ -1,0 +1,194 @@
+{
+  "0xf646cbe3b030fb6c2569215f0117dba58badb95e": {
+    "note": "Zonda 1",
+    "resp": {
+      "request_id": "e7888a156c4e446d",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "main_entity": "BitBay",
+        "main_entity_info": {
+          "entity": "BitBay",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "http://BitBay.net",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "BitBay Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "BitBay: Hot Wallet"
+      }
+    }
+  },
+  "0x781229c7a798c33ec788520a6bbe12a79ed657fc": {
+    "note": "Zonda 2",
+    "resp": {
+      "request_id": "fddac37667e644a4",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "main_entity": "BitBay",
+        "main_entity_info": {
+          "entity": "BitBay",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "http://BitBay.net",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "BitBay Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "BitBay: Hot Wallet"
+      }
+    }
+  },
+  "0x0ff24158220a14398f047a80a513617ddc4f5289": {
+    "note": "Zonda 3",
+    "resp": {
+      "request_id": "4c36201b1c8e4da1",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "main_entity": "BitBay",
+        "main_entity_info": {
+          "entity": "BitBay",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "http://BitBay.net",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "BitBay Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "BitBay: Hot Wallet"
+      }
+    }
+  },
+  "0x6edf968da408a9640b8865826429a977a11c5048": {
+    "note": "Zonda 5",
+    "resp": {
+      "request_id": "777ed711153042c7",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Zonda (BitBay) (0x6edf)"
+      }
+    }
+  },
+  "0x82c829237159287dac6fc62eb139e6a89195900c": {
+    "note": "Bubblemaps Zonda Deposit",
+    "resp": {
+      "request_id": "83eb321467834466",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x82c829237159287dac6fc62eb139e6a89195900c",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  }
+}

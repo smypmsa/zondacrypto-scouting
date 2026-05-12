@@ -1,0 +1,21 @@
+# Zonda 2
+
+**Address:** `0x781229c7a798c33ec788520a6bbe12a79ed657fc`
+
+**Chain:** Ethereum.
+
+**Role:** ZondaCrypto exchange wallet.
+
+**Confidence:** CONFIRMED.
+
+## Attribution
+
+Etherscan carries the public name tag "Zonda 2 (Exchange)" on this address.[^1] The label is sourced from the hildobby compilation of known EVM centralised-exchange addresses maintained on Dune Analytics.[^2] BlockSec's MetaSleuth address-label database independently attributes this address to the entity "BitBay" (the legacy brand of the same operator) under the EXCHANGE category.[^3]
+
+## Block-explorer link
+
+https://etherscan.io/address/0x781229c7a798c33ec788520a6bbe12a79ed657fc
+
+[^1]: Etherscan, public name tag on Zonda 2. https://etherscan.io/address/0x781229c7a798c33ec788520a6bbe12a79ed657fc
+[^2]: hildobby, "All Known EVM CEX Addresses", Dune query 3237025. https://dune.com/queries/3237025
+[^3]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-12 with `main_entity = "BitBay"`, category `EXCHANGE`. Receipt at [`sources/blocksec/labels-zonda-2026-05-12.json`](../../sources/blocksec/labels-zonda-2026-05-12.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
