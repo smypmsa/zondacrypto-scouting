@@ -21,6 +21,10 @@ The address has a zero outbound nonce at the time of recording — it has never 
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
 
+## Flow profile (Ethereum, Dune-aggregated 2026-05-13)
+
+No material flow above the $1,000 USD-equivalent threshold on Ethereum. This address moves tokens for which Dune `tokens_ethereum.transfers` has no liquid USD-equivalent price (ZND / TMPL), or its on-chain activity is below the $1k-per-event threshold used elsewhere in this inventory. On-chain activity is non-zero but USD-equivalent unmeasurable at the same threshold used for the other Stage-1 wallets. Receipt: `case/sources/dune/stage1-per-wallet-totals-2026-05-13.json`.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0x36ac695293d35bd90586b5353471c2004407ef6e

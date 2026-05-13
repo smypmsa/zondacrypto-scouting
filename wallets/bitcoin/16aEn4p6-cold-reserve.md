@@ -33,6 +33,40 @@ Neither funding cluster's full transaction history contains any wallet that Wall
 
 Receipts: per-address WalletExplorer HTML probes archived under `case/sources/walletexplorer-2026-05-13/` (not in this public inventory).
 
+## Flow profile (Bitcoin, mempool.space-aggregated 2026-05-13)
+
+Full-history aggregation built from the mempool.space `address/<addr>` summary and the paginated `address/<addr>/txs/chain` endpoint. Dune Analytics has no Bitcoin coverage; the BTC flow profile is built directly from a self-hostable mempool.space-style indexer over the address's UTXO set. See [methodology](../methodology.md#flow-profile-bitcoin) for the data sources.
+
+| Metric | Value |
+|--|--|
+| Gross IN (BTC) | 4,503.25949830 BTC |
+| Gross OUT (BTC) | 0 BTC |
+| Current balance | 4,503.25949830 BTC (every UTXO ever received is still unspent) |
+| Total transactions | 39 |
+| Funded UTXOs | 40 |
+| Spent UTXOs | 0 |
+| Distinct funding addresses (inputs to txs that funded this address) | 116 |
+| Distinct spending destinations | 0 (no outgoing spends — all UTXOs unspent) |
+| Active period | 2016-03-06 → 2026-05-08 |
+
+**Confidence:** CONFIRMED on totals (balance, tx count, UTXO state, active period). The "no outgoing spends" claim is reproducible from `mempool.space/api/address/<addr>` returning `spent_txo_count: 0` and `spent_txo_sum: 0` simultaneously, both today and historically. PARTIAL on per-funding-address classification — none of the 116 funding addresses has a Bitcoin-side public name tag on a major block explorer, and the WalletExplorer cluster-context observation in the section above is heuristic.
+
+### Counterparties — inflow side
+
+The 116 distinct funding addresses lie in two unnamed WalletExplorer co-spend clusters as documented in the section above. **No funding address carries a public name tag on mempool.space or a comparable Bitcoin block explorer as of 2026-05-13.** All 116 are classified Unidentified under the inventory's primary-citation standard.
+
+### Counterparties — outflow side
+
+None. Zero on-chain spends since the wallet's first deposit in 2016-03. Every UTXO ever received to this address is still UTXO-unspent as of 2026-05-08.
+
+### Unidentified counterparties
+
+**This section is a known incomplete part of the analysis.** All 116 of 116 funding addresses are unattributed under the inventory's primary-citation standard. The WalletExplorer cluster context above is a heuristic observation from a single tool and does not establish primary attribution on any individual funding address. Entity-attribution work on these counterparties is ongoing in the case's internal working notes.
+
+**Receipts (for reproduction)**:
+- mempool.space summary + paginated tx history: `case/sources/btc-16aEn4-2026-05-13/summary.json` + `txs-page-*.json` + combined `all-txs.json`.
+- Reproduce: `curl -s "https://mempool.space/api/address/16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n"` for the summary, then iterate `…/txs/chain[/<last_txid>]` for full tx history.
+
 ## Block-explorer link
 
 https://mempool.space/address/16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n
