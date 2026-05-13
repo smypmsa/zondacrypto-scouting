@@ -14,6 +14,13 @@ Reading `s_zndPlatform` on the ZNDStaking contract returns this address.[^1] The
 
 The address has a substantial outbound nonce at the time of recording — consistent with operational, recurring use rather than a single-purpose admin key. It is also among the top-100 holders of the ZND token.
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2024-10-18 (block 20992782); most recent 2026-03-20 (block 24699606); 206 events.
+- ERC-20 events: first 2024-10-24 (block 21035110); most recent 2026-03-28 (block 24752665); 193 events.
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0xae4f32dfa85b9e8c424a9604e7bf1d8128859943

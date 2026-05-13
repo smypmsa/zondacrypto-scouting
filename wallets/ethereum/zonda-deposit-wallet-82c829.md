@@ -19,6 +19,13 @@ In addition, Etherscan's address page shows this wallet transacts directly with 
 
 The address is currently a top-100 ZND holder (≈0.046% of supply).
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2022-11-28 (block 16068080); most recent 2026-04-03 (block 24796973); 262 events.
+- ERC-20 events: first 2022-12-02 (block 16100080); most recent 2026-04-03 (block 24796973); 351 events.
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0x82c829237159287dac6fc62eb139e6a89195900c

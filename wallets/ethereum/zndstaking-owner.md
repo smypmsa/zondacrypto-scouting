@@ -14,6 +14,13 @@ Reading `owner()` on the ZNDStaking contract returns this address.[^1] ZNDStakin
 
 The address has a low outbound nonce (3 transactions) at the time of recording — consistent with a purpose-built admin key rather than an operational hot wallet.
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2024-10-18 (block 20993348); most recent 2024-10-18 (block 20993396); 4 events.
+- ERC-20 events: none
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0x08d807a320d5986eb7c4f086bbab974c8db210da

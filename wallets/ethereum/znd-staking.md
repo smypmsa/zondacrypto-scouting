@@ -23,6 +23,13 @@ ZNDStaking exposes four address-typed state variables that record the operator-s
 
 Reading any of these is a single `eth_call` against the contract; the deterministic result is what links each EOA to the ZondaCrypto operator on chain.
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2024-10-18 (block 20993307); most recent 2026-03-31 (block 24779368); 430 events.
+- ERC-20 events: first 2024-10-18 (block 20993307); most recent 2026-04-05 (block 24813277); 369 events.
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0xcb3d2be5386a13c87944f9384214ead9a6dba792

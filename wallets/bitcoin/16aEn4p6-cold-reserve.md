@@ -14,6 +14,13 @@ A video posted on the X account of the ZondaCrypto CEO on 2026-04-16 displayed t
 
 This is the only Bitcoin address that ZondaCrypto has self-attested. No other primary source links this address to the company.
 
+## Activity (Bitcoin, probed 2026-05-13)
+
+- First on-chain tx: 2016-03-06 (block 401,390).
+- Most recent on-chain tx: 2026-05-08 (block 948,382).
+- Tx count: 39. Funded UTXOs: 40. Spent UTXOs: 0. Current balance: 4,503.26 BTC — every input ever received is still unspent.
+- Source: mempool.space `/api/address/<addr>` + paginated `/api/address/<addr>/txs/chain`.
+
 ## Block-explorer link
 
 https://mempool.space/address/16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n

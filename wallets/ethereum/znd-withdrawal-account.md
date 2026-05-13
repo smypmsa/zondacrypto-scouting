@@ -14,6 +14,13 @@ Reading `s_withdrawalAccount` on the ZNDStaking contract returns this address.[^
 
 The address has a zero outbound nonce at the time of recording — it has never sent a transaction itself.
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: none
+- ERC-20 events: none
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0x36ac695293d35bd90586b5353471c2004407ef6e

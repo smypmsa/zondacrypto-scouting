@@ -14,6 +14,13 @@ Bubblemaps' `addresses/token-top-holders` endpoint for the ZND token returns thi
 
 The address is currently active (latest activity within minutes of the snapshot), holds ~1.2 ETH and ~$22k across 142 tokens, and ranks as a top-100 ZND holder at 0.0055% of supply.
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2025-08-04 (block 23066436); most recent 2026-05-13 (block 25085262); ≥ 10,000 events.
+- ERC-20 events: first 2025-08-04 (block 23066882); most recent 2026-05-13 (block 25085262); ≥ 10,000 events.
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0x56d943aea92b099228b31f01cd12bd4aa39b4778

@@ -12,6 +12,13 @@
 
 Etherscan carries the public name tag "Zonda: Deposit Funder 2" on this address.[^1] The label is sourced from the hildobby compilation of known EVM centralised-exchange addresses on Dune Analytics (entry added 2024-10-06 as "Zonda Gas Supplier 2").[^2] The receipt of the Dune query result is preserved at [`sources/dune/hildobby-3237025-zonda-rows.json`](../../sources/dune/hildobby-3237025-zonda-rows.json).
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2021-04-12 (block 12223728); most recent 2023-11-06 (block 18515362); ≥ 10,000 events.
+- ERC-20 events: first 2021-09-11 (block 13205595); most recent 2023-10-19 (block 18383438); 15 events.
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/address/0x818ab3c61f66e975b8e6290c20999d6749f60d8d

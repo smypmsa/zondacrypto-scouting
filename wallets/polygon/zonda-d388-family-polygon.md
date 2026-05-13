@@ -23,6 +23,16 @@ Together — transaction relation tied to a confirmed Zonda wallet *plus* a non-
 
 **CONFIRMED.** Inclusion criteria per [methodology.md](../../methodology.md) (transaction relation + cluster heuristic combined, with one cluster member already independently confirmed) are satisfied. Cross-citation from a name-tag source on the new members is still pending; a future name-tag hit would upgrade the entry from "CONFIRMED via composite primary citation" to "CONFIRMED with two independent primary citations". A name-tag hit naming a different entity would reopen this attribution.
 
+## Activity (Polygon, probed 2026-05-13)
+
+| Address | Native txs (first → most-recent) | ERC-20 events (first → most-recent) |
+|---|---|---|
+| `0xd388009f…8046` (Zonda 6, same-key) | 2023-10-30 → 2026-03-25 (575) | 2023-10-31 → 2026-01-14 (3,123) |
+| `0xd388d1d8…8046` | 2025-08-05 → 2025-10-02 (310) | 2025-05-16 → 2025-10-04 (3,499) |
+| `0xd388c824…8046` | 2025-04-01 → 2026-01-07 (12) | 2025-04-01 → 2026-01-07 (965) |
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 137), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Sources
 
 - WalletExplorer-style cluster reasoning + Polygon Etherscan v2 `tokentx` (chainid 137) sampled 2026-05-12. Source: `https://api.etherscan.io/v2/api?chainid=137&module=account&action=tokentx&address=0x6edf968d…` (the 10,000 most-recent events).

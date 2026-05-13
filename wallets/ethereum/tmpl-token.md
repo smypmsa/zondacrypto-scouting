@@ -25,6 +25,13 @@ The Zonda link is also visible on-chain: the second-largest holder of TMPL is th
 - The vesting factory `0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4` deployed TMPL inside its constructor; its source is verified on Etherscan
 - TMPL is not listed on any visible DEX pool; the token trades on the ZondaCrypto centralised exchange (TMPL/PLN pair) per the sponsorship announcement
 
+## Activity (Ethereum, probed 2026-05-13)
+
+- Native txs: first 2026-01-29 (block 24340677); most recent 2026-05-10 (block 25063625); 126 events.
+- ERC-20 events: first 2026-04-05 (block 24813609); most recent 2026-04-05 (block 24813609); 1 events.
+
+Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
+
 ## Block-explorer link
 
 https://etherscan.io/token/0xc2FdA18D62C8688902741Da1e3c5BE65C86BAB07
