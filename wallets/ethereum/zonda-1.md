@@ -29,8 +29,8 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Net direction | +$24,293,444 |
 | Total events ≥$1k | 42,818 |
 | Distinct external counterparties (≥$1k cumulative) | 27,856 |
-| Identified counterparties in this section | 4 internal + 6 external (Etherscan-tagged) |
-| Counterparties without a public name tag | **27,850, aggregating ~$144,689,346 outbound and ~$13,595,114 inbound across the top-500 captured here** |
+| Identified counterparties in this section | 5 internal + 452 external (Etherscan-tagged) + 10 external (hildobby-tagged) |
+| Counterparties without a public name tag | **84,825 (full enumeration), aggregating ~$296,316,472 outbound and ~$21,680,143 inbound across `no-public-tag` + `below-cutoff` rows** |
 | Active period (≥$1k events) | 2017-12-11 → 2026-03-24 |
 
 **Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13 saved to `case/sources/etherscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
@@ -45,13 +45,57 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 
 ### External destinations — confirmed via Etherscan public name tags
 | Counterparty | Tag (Etherscan) | Outbound USD | Events |
-|--|--|--|--|
+|--|--|--:|--:|
 | `0x2f9378d5…2aa5` | Binance Deposit: 0x2F9378D573b20199105bCaF6D103Ac88d5442aA5 | $22,236,711 | 157 |
-| `0x22b8cc8c…3529` | Binance Deposit: 0x22b8cc8Cf448b7ED9f5ac1eE0446508461493529 | $15,977,154 | 1,507 |
-| `0x088ae43b…b519` | Binance Deposit: 0x088Ae43BE934bA729d8D841b41649c4d417bb519 | $3,861,830 | 146 |
+| `0x22b8cc8c…3529` | Binance Deposit: 0x22b8cc8Cf448b7ED9f5ac1eE0446508461493529 | $16,037,239 | 1,587 |
+| `0x088ae43b…b519` | Binance Deposit: 0x088Ae43BE934bA729d8D841b41649c4d417bb519 | $3,871,503 | 168 |
 | `0x8a63afd3…25b5` | Binance Deposit: 0x8a63AFd33e0d05274B3B6650486D9960785025B5 | $2,868,427 | 96 |
-| `0x6543be9d…0fec` | Binance Deposit: 0x6543be9D12b48b7d72E26D1C0595fB88C4840fEC | $2,646,116 | 42 |
+| `0x6543be9d…0fec` | Binance Deposit: 0x6543be9D12b48b7d72E26D1C0595fB88C4840fEC | $2,646,205 | 43 |
 | `0x64b4a124…e342` | Binance Deposit: 0x64B4a124032D48e4Fb1499da1FE1412AA771e342 | $2,069,514 | 43 |
+| `0x2a51c4f1…e9b9` | Binance Deposit: 0x2a51C4F1C7D50B86BB7df7837978E70d2e44E9b9 | $498,158 | 4 |
+| `0xb114a576…138d` | Binance Deposit: 0xb114a576dfee6e6bbF8bA386D8F89399E9bd138d | $379,443 | 7 |
+| `0x0555449e…99f6` | ByBit Deposit: 0x0555449e8aFa4Ee1a3eca8CF10034Ef4c09099f6 | $300,934 | 10 |
+| `0x95e6200f…6aab` | Binance Deposit: 0x95E6200F4AeF9D29af18cE1d2926c288a3866Aab | $286,804 | 2 |
+| `0xe5d3ba10…e1df` | Binance Deposit: 0xE5D3Ba1018D1A3A224c81D6a7CC531703627e1dF | $255,581 | 16 |
+| `0x56d19c03…e44e` | Binance Deposit: 0x56d19c0312824781acfbc34dfec7f15605abe44e | $243,050 | 10 |
+| `0x98683107…4ecb` | Binance Deposit: 0x98683107A88D2300C071e8fE34e9504872e74eCb | $231,011 | 42 |
+| `0x6384098c…e6ea` | Binance Deposit: 0x6384098C92B56ad4c6e7F28d098aca733644e6Ea | $227,961 | 20 |
+| `0x111933a9…424d` | Binance Deposit: 0x111933A9b524EeAC6F419A6D7c231a4aC2E3424d | $202,410 | 8 |
+| `0x7ed1eb12…14c6` | OKX Deposit: 0x7ed1eb1261df2f7b95d6d4c3D3a874b4E98B14C6 | $196,696 | 1 |
+| `0xe0d289fb…fd39` | Binance Deposit: 0xE0D289fb20762c6e12c23D520261EA7918CFFD39 | $177,580 | 1 |
+| `0x4511b3bb…c5ed` | Binance Deposit: 0x4511b3bb7dd23987e8B027D615d1102E55C4C5ED | $177,227 | 6 |
+| `0x160a946f…e4ee` | Binance Deposit: 0x160A946f4daA72E76C923A42deA703a430f1e4EE | $172,297 | 3 |
+| `0x4c811713…fa5f` | Binance Deposit: 0x4C8117138b821EA72b973dA96B613Fcb64f2fA5F | $163,817 | 31 |
+| `0xa57a5821…f90a` | Binance Deposit: 0xA57A58217b19dEBAa2ED5E16fF0baBdd6450F90A | $153,730 | 10 |
+| `0xeba7bb60…320c` | Binance Deposit: 0xEbA7BB60053f240eDB241f6540Db1F4D7972320C | $151,084 | 34 |
+| `0x233eb66a…a137` | Binance Deposit: 0x233eb66aecfbacfdd6e04705397eb4ea0039a137 | $128,576 | 1 |
+| `0x1f6adb1e…6159` | Binance Deposit: 0x1f6aDB1eb52E2d8f7116442998e6B4729CfF6159 | $124,930 | 142 |
+| `0x8c7f2bb4…181c` | Binance Deposit: 0x8c7F2BB42e485A186A34022317C26c33fa1D181C | $123,309 | 1 |
+| `0x2f1dfeee…0f8e` | Binance Deposit: 0x2F1dFEeE00b7E03375CC9b6dB2E13e7dCbed0f8E | $121,674 | 2 |
+| `0x4f670685…da5d` | Binance Deposit: 0x4f6706859B2171Cf05ffD56BC291C7ac252fDa5D | $112,769 | 3 |
+| `0x84dbdfd3…edad` | Binance Deposit: 0x84dBDfd3139D8E7a3a119Ee84B5f8d4E44CFedAD | $107,859 | 1 |
+| `0x80fe51c1…500a` | Binance Deposit: 0x80fe51C12BB230Bf8e139d25ff0C93189550500A | $107,555 | 1 |
+| `0x7460528d…d72b` | Binance Deposit: 0x7460528d4ABAf5502266B97Bd4F7B1D493dBd72b | $105,217 | 8 |
+| `0xd149237e…ba0c` | Binance Deposit: 0xd149237e0Ad81B61b661d0f5c59f422dC263Ba0C | $100,259 | 4 |
+| `0xcd8784da…928b` | Binance Deposit: 0xCD8784DA70D7B2bc347b27C12CBA351713B3928b | $99,459 | 7 |
+| `0xe267a2ef…ad71` | Binance Deposit: 0xE267a2EfBb34045223225757d23362b327ffAd71 | $96,092 | 10 |
+| `0xf2f0e5e6…932e` | Binance Deposit: 0xf2f0E5E662DFA45Dc3Cc7218CE523255C853932e | $95,612 | 14 |
+| `0x8b52ecab…1aa9` | Binance Deposit: 0x8B52ecAB07EC047434DbE1ddcDD1f06eE7Fa1aa9 | $93,576 | 2 |
+| `0xeaf24768…0591` | Binance Deposit: 0xEaf24768f43f5bd2fa939d811DD2233204420591 | $89,707 | 4 |
+| `0x9f7b7f32…bc12` | Binance Deposit: 0x9f7B7F327840630EA67D2fb0c01Cd51DF11BBC12 | $89,471 | 8 |
+| `0xb4ead6b2…e5bc` | Binance Deposit: 0xb4ead6b2531C5aB1BA4b8f6b28558d219c71E5bC | $88,081 | 6 |
+| `0x45e4096f…ed5f` | Binance Deposit: 0x45E4096fCeC61979BEA102D4669aF7969A61Ed5f | $85,719 | 6 |
+| `0xc8b71a9c…fb78` | Binance Deposit: 0xC8b71a9c2D69b107B566E690AF4e048F3B9EFb78 | $82,833 | 1 |
+| `0x44617a2f…11be` | Binance Deposit: 0x44617a2FC3776E7678754f56166F70e35E6811BE | $81,664 | 1 |
+| `0xaedb9392…b0ee` | Binance Deposit: 0xaEdb93926a151572F6DFa2E41c32cCb77722B0eE | $81,031 | 3 |
+| `0x20cf6fe7…37b6` | Binance Deposit: 0x20cf6fe73b0dd2f8fcd84cd04adf5f8ee78137b6 | $76,056 | 3 |
+| `0x42b44cc6…a6ac` | Binance Deposit: 0x42b44cC655d3E421A7DF78EDB5567Fd182C2a6Ac | $74,681 | 20 |
+| `0x8c6e10f3…b8ff` | Binance Deposit: 0x8C6E10f303C4B9545d31e5c3A897709A5bd5B8ff | $71,544 | 10 |
+| `0x83788341…f36c` | Binance Deposit: 0x837883419a3abe6d77dbc458242c04595376f36c | $69,060 | 1 |
+| `0x1f778e77…8aeb` | Binance Deposit: 0x1f778e77De71dC91532715085E1F376AB9f78Aeb | $67,350 | 5 |
+| `0x1e947b14…5cf5` | Binance Deposit: 0x1e947b142a19a430f479fd0f7eed96b72b735cf5 | $66,638 | 1 |
+| `0xa79aad71…13ac` | Binance Deposit: 0xA79aAD710199b16F1aa2845b2aE76d94aB4213AC | $64,917 | 20 |
+| `0x287e6d4d…95fa` | Binance Deposit: 0x287e6D4DD4d57ede08B9353e13D51d9F7F1f95fA | $61,650 | 4 |
 
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 
@@ -71,7 +115,7 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0xdc76cd25977e0a5ae17155770273ad58648900d3` | HTX 6 | $0 | $0 | 1 / 0 |
 
 ### Unidentified counterparties
-**This section is a known incomplete part of the analysis.** 27,850 of the 27,860 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$144,689,346 outbound** and **$13,595,114 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
+**This section is a known incomplete part of the analysis.** 84,825 of the 85,287 external counterparties in the full enumeration carry no public name tag on Etherscan as of 2026-05-14 (closure-pass) and do not appear in this inventory's roster. The unidentified rows aggregate **$296,316,472 outbound** and **$21,680,143 inbound** across `no-public-tag` + `below-cutoff` rows in the CSV. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
 ### Top 50 unattributed counterparties by gross USD
 
@@ -88,7 +132,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 7 | `0x7532e70ad7b53c27e2f5b569f671785a2e5efdc8` | $0 | $4,028,204 | 0 / 3 | 2021-01-09 → 2021-02-23 |
 | 8 | `0x0b4439bb98e4391c2ab2c6dd3e3ed5f056db1868` | $0 | $3,626,336 | 0 / 211 | 2018-03-26 → 2022-03-29 |
 | 9 | `0x660604c69fb23e7336ac0f5e5f992ece04c8353f` | $0 | $3,276,372 | 0 / 6 | 2022-02-25 → 2022-03-01 |
-| 10 | `0xeba129db608bf4f9a75b1127334b369efd1ae690` | $0 | $3,163,564 | 0 / 1006 | 2017-12-13 → 2022-02-13 |
+| 10 | `0xeba129db608bf4f9a75b1127334b369efd1ae690` | $0 | $3,163,564 | 0 / 1,006 | 2017-12-13 → 2022-02-13 |
 | 11 | `0x375b1d909a65a9f77431ed7e85910d50bdd5978f` | $0 | $2,502,047 | 0 / 197 | 2021-03-26 → 2022-07-20 |
 | 12 | `0xb7cc1a4c9a23329f0ee99442a5258f85c8bc0c24` | $2,442,716 | $0 | 6 / 0 | 2017-12-11 → 2017-12-11 |
 | 13 | `0xe0b2026e3db1606ef0beb764ccdf7b3cee30db4a` | $0 | $2,391,996 | 0 / 11 | 2018-02-04 → 2019-03-19 |
