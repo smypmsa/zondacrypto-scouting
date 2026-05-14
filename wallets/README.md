@@ -31,6 +31,7 @@ The **Activity** column is a compact summary of on-chain activity per chain. Pro
 | `0x66b12dcff9f466f2a771e264b6d145bdd00e1327` | Ethereum | Zonda (BitBay) 0x66b12d…1327 (PARTIAL) | ETH: 2025-02-21 → 2026-02-08, 11 native / 21 ERC-20 | [→](ethereum/zonda-bitbay-66b12d.md) |
 | `0x3f1eea8dcda2b5620643aca1987d4780cae80539` | Ethereum | Zonda (BitBay) 0x3f1eea…0539 (PARTIAL) | ETH: 2024-12-17 → 2026-03-29, 168 native / 3,329 ERC-20 | [→](ethereum/zonda-bitbay-3f1eea.md) |
 | `0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b` | Ethereum | Zonda (BitBay) 0x4ff97a…0e4b (PARTIAL) | ETH: 2025-08-14 → 2026-01-30, 29 native / 72 ERC-20 | [→](ethereum/zonda-bitbay-4ff97a.md) |
+| `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | Ethereum | Zonda (BitBay) 0xc7f05e…9305 (PARTIAL) | ETH: 2019-05-01 → 2026-03-18, 2,029 native / 8 ERC-20 | [→](ethereum/zonda-bitbay-c7f05e.md) |
 
 A wallet's inclusion in this inventory does **not** depend on having recent activity — every primary-citation labelled wallet is listed regardless of whether it is currently active, dormant, or has never moved. Empty wallets are tagged as such (e.g. ZNDStaking `s_withdrawalAccount`) so downstream aggregation work doesn't silently skip them.
 
