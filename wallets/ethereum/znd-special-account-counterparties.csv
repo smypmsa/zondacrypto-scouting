@@ -1,0 +1,7 @@
+counterparty_address,n_events_in,n_events_out,gross_usd_in,gross_usd_out,net_usd,symbols,native_amounts,first_seen,last_seen,label_source,label_value
+0xae4f32dfa85b9e8c424a9604e7bf1d8128859943,3,1,20.08,0.0,20.08,"ZND,ETH",ZND:7.634210135E3;ETH:5.0E-3;ZND:1.0E1,2024-12-17,2025-02-19,internal,ZND platform
+0x0000000000000000000000000000000000000000,0,3,0.0,0.0,0.0,ZND,ZND:4.7247E4,2024-12-18,2025-03-21,etherscan,Null: 0x000...000
+0x51c9a7324ced2d8c783c44eecafb00c1518ad849,1,0,0.0,0.0,0.0,kitties,kitties:2.7311094483057E7,2026-01-12,2026-01-12,below-cutoff,
+0x9a9fb1d7b263939ef7de83d5f69956b111f9a706,1,0,0.0,0.0,0.0,1,1:2.9884021195027E7,2026-01-03,2026-01-03,below-cutoff,
+0xc5d2d690d683c6f7bb654e91fed293caec2a26b5,1,0,0.0,0.0,0.0,ZND,ZND:5.263E3,2024-12-18,2024-12-18,below-cutoff,
+0xcb3d2be5386a13c87944f9384214ead9a6dba792,3,0,0.0,0.0,0.0,ZND,ZND:6.7765207486E4,2024-12-17,2025-03-21,internal,ZNDStaking

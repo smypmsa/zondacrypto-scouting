@@ -61,4 +61,4 @@ Per-wallet flow profiles cited above sit in the same directory tree:
 - [BitBay 3f1eea](../scouting/wallets/ethereum/bitbay-3f1eea.md)
 - [BitBay 56d943](../scouting/wallets/ethereum/bitbay-56d943.md)
 
-**Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: `case/sources/dune/stage1-L1-per-wallet-2026-05-13.json` (query 7482290) and `case/sources/etherscan-name-tags-2026-05-13/`.
+**Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: `case/sources/dune/inventory-L1-per-wallet-2026-05-13.json` (query 7482290) and `case/sources/etherscan-name-tags-2026-05-13/`.

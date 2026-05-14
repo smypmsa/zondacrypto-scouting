@@ -23,15 +23,15 @@ This is the only Bitcoin address that ZondaCrypto has self-attested. No other pr
 
 ## WalletExplorer cluster context (probed 2026-05-13)
 
-WalletExplorer's co-spend clustering assigns the 69 distinct foundational input addresses across this wallet's full transaction history to two unnamed clusters:
+WalletExplorer's co-spend clustering, applied per-address to all 69 distinct input addresses of this wallet's two foundational deposit transactions (TX1 `4d1a1058…`, TX2 `b86e1c73…`, both on 2016-03-06), assigns them to two unnamed clusters:
 
-- **65 inputs → cluster `[033a676d6f50f05c]`** — a short-lived 2016-Q1 aggregator (129 transactions, 116 distinct counterparty wallets, lifespan 2016-01-15 → 2016-03-06 08:03:46, terminating at the second-precision timestamp of this address's first incoming transaction).
-- **4 inputs → cluster `[89547e98ce46121f]`** — a separate unnamed cluster active 2015-09 → 2016-09. Its full transaction history (582 tx, 312 counterparty wallets) touches WalletExplorer-named clusters `BTC-e.com` (3), `Huobi.com-2` (2), `Xapo.com` (1), and `BitcoinWallet.com` (1).
+- **67 inputs → cluster `[033a676d6f50f05c]`** — a short-lived 2016-Q1 aggregator (129 transactions, 116 distinct counterparty wallets, lifespan 2016-01-15 → 2016-03-06 08:03:46, terminating at the second-precision timestamp of this address's first incoming transaction).
+- **2 inputs → cluster `[89547e98ce46121f]`** — a separate unnamed cluster active 2015-09 → 2016-09. Its full transaction history (582 tx, 312 counterparty wallets) touches WalletExplorer-named clusters `BTC-e.com` (3), `Huobi.com-2` (2), `Xapo.com` (1), and `BitcoinWallet.com` (1).
 - **0 inputs → WalletExplorer-named `BitBay.net` cluster** (the post-2019 operational hot-wallet cluster documented at `bitbay-net-cluster.md`).
 
 Neither funding cluster's full transaction history contains any wallet that WalletExplorer attributes to a BitBay-named cluster. The 2016 funding sources visible in WalletExplorer point to the 2015–16 OTC ecosystem rather than to BitBay operational infrastructure. This is a behavioural-heuristic observation from a single tool (WalletExplorer's co-spend clustering) and does not by itself confirm or deny the wallet's role as a corporate cold reserve — the company's own public statement remains the only primary attribution.
 
-Receipts: per-address WalletExplorer HTML probes archived under `case/sources/walletexplorer-2026-05-13/` (not in this public inventory).
+Receipts: per-address WalletExplorer HTML probes archived under `case/sources/walletexplorer-2026-05-13/addr-<addr>.html` (one file per foundational input; 69/69 byte-clean). Cluster IDs extracted via the `data-wallet-id` attribute in each page's "part of wallet" header.
 
 ## Flow profile (Bitcoin, mempool.space-aggregated 2026-05-13)
 
@@ -45,11 +45,24 @@ Full-history aggregation built from the mempool.space `address/<addr>` summary a
 | Total transactions | 39 |
 | Funded UTXOs | 40 |
 | Spent UTXOs | 0 |
-| Distinct funding addresses (inputs to txs that funded this address) | 116 |
+| Distinct funding addresses, all 39 lifetime transactions | 116 |
+| Distinct funding addresses, foundational 2016-03-06 deposits only (2 of the 39 txs) | 69 |
 | Distinct spending destinations | 0 (no outgoing spends — all UTXOs unspent) |
 | Active period | 2016-03-06 → 2026-05-08 |
 
 **Confidence:** CONFIRMED on totals (balance, tx count, UTXO state, active period). The "no outgoing spends" claim is reproducible from `mempool.space/api/address/<addr>` returning `spent_txo_count: 0` and `spent_txo_sum: 0` simultaneously, both today and historically. PARTIAL on per-funding-address classification — none of the 116 funding addresses has a Bitcoin-side public name tag on a major block explorer, and the WalletExplorer cluster-context observation in the section above is heuristic.
+
+## Counterparties (mempool.space-aggregated)
+
+Full counterparty enumeration is published as a CSV alongside this page: [`16aEn4p6-cold-reserve-counterparties.csv`](16aEn4p6-cold-reserve-counterparties.csv). The 116 rows cover every distinct address that funded an input to one of the 39 lifetime transactions that received value at `16aEn4p6…`. For each funding address the CSV records the attributed BTC inflow (pro-rata across inputs of each tx), the event count, the first/last-seen block-time dates, and the WalletExplorer co-spend cluster assignment where available.
+
+WalletExplorer cluster coverage by life-stage:
+
+| Stage | Funding addresses | WE cluster | Cluster named? |
+|---|---|---|---|
+| Foundational 2016-03-06 deposits (2 of 39 txs) | 67 of 69 | `[033a676d6f50f05c]` | no |
+| Foundational 2016-03-06 deposits (2 of 39 txs) | 2 of 69 | `[89547e98ce46121f]` | no |
+| Post-foundational top-up txs (37 of 39) | 47 of 47 | not probed | — |
 
 ### Counterparties — inflow side
 

@@ -1,0 +1,11 @@
+counterparty_address,n_events_in,n_events_out,gross_usd_in,gross_usd_out,net_usd,symbols,native_amounts,first_seen,last_seen,label_source,label_value
+0x6edf968da408a9640b8865826429a977a11c5048,5,0,278.06,0.0,278.06,"ZND,ETH",,2025-02-21,2025-09-01,internal,Zonda 5
+0xead6595703fa97174e67d86998ecab7994ae880d,0,2,0.0,270.41,-270.41,"ZND,ETH",,2026-01-30,2026-01-30,below-cutoff,
+0x0d0707963952f2fba59dd06f2b425ace40b492fe,1,0,0.0,0.0,0.0,ZND,,2025-06-30,2025-06-30,hildobby,Gate.io 1
+0x075bb12865d9470f0d0613a9fbe9e7b78ece8a73,0,4,0.0,0.0,0.0,ZND,,2025-09-02,2025-09-02,below-cutoff,
+0x075bac49cbf9390313367be1a199002566ff8a73,0,4,0.0,0.0,0.0,ZND,,2025-09-02,2025-09-02,below-cutoff,
+0xead6fd0a8ea83d26dc840ea565b4099b0926880d,1,0,0.0,0.0,0.0,ETH,,2026-02-03,2026-02-03,below-cutoff,
+0x075b798122a0c0030d992d3d76fe357a9e058a73,0,2,0.0,0.0,0.0,ZND,,2025-09-01,2025-09-01,below-cutoff,
+0xead68368448f60d9d97f18dd7c742e6b2e42880d,1,0,0.0,0.0,0.0,ETH,,2026-01-30,2026-01-30,below-cutoff,
+0xead6cd56c337bea5493cde72a3540b6ae476880d,0,1,0.0,0.0,0.0,ETH,,2026-02-08,2026-02-08,below-cutoff,
+0x6d7a3bfdc702d9d3ec0dce728d6796e0b44cb106,0,4,0.0,0.0,0.0,ZND,,2025-02-21,2025-06-30,below-cutoff,

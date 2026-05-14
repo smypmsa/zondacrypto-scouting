@@ -54,29 +54,62 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 ### Unidentified counterparties
 **This section is a known incomplete part of the analysis.** 2,537 of the 2,542 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$66,908,332 outbound** and **$76,014,542 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
-### Top 10 unattributed counterparties by gross USD
+### Top 50 unattributed counterparties by gross USD
 
-These are the largest counterparties in the top-500 slice that carry no public name tag on Etherscan and are not in this inventory's roster. Listed here so future verification and any reader's own attribution work can start from the addresses, not from filtered output.
+These are the largest counterparties (full enumeration, no truncation) that carry no public name tag on the chain's primary block explorer, are not in this inventory's roster, and are not in hildobby's CEX-address Dune query. They sit at `label_source ∈ {below-cutoff, deferred-above-cutoff}` in the CSV.
 
 | # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
 |---|---|---:|---:|---:|---|
-| 1 | `0xcae4e8c327647861ee4bb8e96041df53a7317dd9` | $17,135,129 | $42,618,988 | 2 / 8 | 2022-06-14 → 2024-05-08 |
-| 2 | `0x1d365ff0dac8837ae25e1c905db44fc71881aa4f` | $0 | $17,131,082 | 0 / 3 | 2024-03-25 → 2024-06-19 |
+| 1 | `0xcae4e8c327647861ee4bb8e96041df53a7317dd9` | $17,135,129 | $42,619,000 | 2 / 16 | 2022-06-14 → 2024-05-08 |
+| 2 | `0x1d365ff0dac8837ae25e1c905db44fc71881aa4f` | $0 | $17,131,086 | 0 / 4 | 2024-03-25 → 2024-06-19 |
 | 3 | `0x5e393568cd2f698c1884ba6870e387b8f140c937` | $13,759,033 | $0 | 73 / 0 | 2022-01-17 → 2022-08-27 |
-| 4 | `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | $4,651,423 | $0 | 33 / 0 | 2022-01-17 → 2022-08-03 |
+| 4 | `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | $4,652,681 | $0 | 48 / 0 | 2022-01-17 → 2022-08-03 |
 | 5 | `0xc280ee684fc751bd01fb4e7467808ea1392fade3` | $4,468,687 | $0 | 47 / 0 | 2022-01-17 → 2022-06-28 |
-| 6 | `0x29fbc8cbaa1de447ec0edc01b36fce0e5a24082b` | $4,058,982 | $0 | 7 / 0 | 2022-03-22 → 2022-03-30 |
+| 6 | `0x29fbc8cbaa1de447ec0edc01b36fce0e5a24082b` | $4,058,982 | $0 | 8 / 0 | 2022-03-22 → 2022-03-30 |
 | 7 | `0xa25b76424b676cbb48e1189926c1c8d8fc083f42` | $308,852 | $3,643,149 | 1 / 2 | 2023-10-06 → 2025-08-14 |
 | 8 | `0xfc982cab43c3694fd559fe006ff3c4d73794f55c` | $3,349,254 | $0 | 55 / 0 | 2022-01-17 → 2022-09-26 |
-| 9 | `0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51` | $0 | $3,127,594 | 0 / 16 | 2025-03-19 → 2025-11-05 |
+| 9 | `0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51` | $0 | $3,127,594 | 0 / 17 | 2025-03-19 → 2025-11-05 |
 | 10 | `0x854d0c53986974ed3cc0c2b1d0a87193ac6fadf7` | $2,743,644 | $0 | 12 / 0 | 2022-01-20 → 2022-06-18 |
-
-**Receipts (for reproduction)**:
-- Dune partitioned top-500-per-wallet aggregation: `case/sources/dune/stage1-L1-per-wallet-2026-05-13.json` (query 7482290, execution `01KRGHZZ2F15AC6PH4PQ2C8AMB`).
-- Dune per-wallet totals + distinct-counterparty count (≥$1k cumulative): `case/sources/dune/stage1-per-wallet-totals-2026-05-13.json` (query 7491746) and `case/sources/dune/stage1-distinct-cp-ge1k-2026-05-13.json` (query 7491752).
-- Etherscan HTML name-tag receipts: `case/sources/etherscan-name-tags-2026-05-13/<addr>.html` (fetched 2026-05-13 with browser-style User-Agent, ~0.8s pacing).
-
-
+| 11 | `0xa99d00ed83c98d1186b6daa307cf7f651ff7a021` | $2,064,082 | $0 | 62 / 0 | 2022-01-17 → 2022-07-29 |
+| 12 | `0xa6e2aba95638ee4728ac8a3c0273b10a24dcc593` | $1,750,010 | $0 | 12 / 0 | 2022-01-20 → 2022-11-11 |
+| 13 | `0x32e04e19a63eae6fe19051fc24898ae21444f9c4` | $1,283,456 | $0 | 64 / 0 | 2022-01-17 → 2022-07-20 |
+| 14 | `0xbb36fa0e822f7ab08ae8c39599af4157d75c5b73` | $1,044,585 | $0 | 32 / 0 | 2022-01-21 → 2022-07-18 |
+| 15 | `0x65467a249f00dcf1103c94eef7c51d3bd58dbef9` | $1,033,125 | $0 | 31 / 0 | 2022-01-17 → 2022-08-27 |
+| 16 | `0x25c2f0e18f8945f5395aa971c99e95f808e79dea` | $857,873 | $0 | 3 / 0 | 2022-03-31 → 2022-03-31 |
+| 17 | `0x1d894c2b7b9310cf31eaa636c083a84765e0a9c2` | $804,994 | $0 | 4 / 0 | 2022-01-17 → 2022-03-31 |
+| 18 | `0x5ce847d94c36e69b2ed20a680ab797d0b95297bc` | $753,054 | $0 | 4 / 0 | 2022-05-04 → 2022-07-13 |
+| 19 | `0x72d2db692826fb76053fb800988cc0ff125b4748` | $693,066 | $0 | 4 / 0 | 2022-05-06 → 2022-07-21 |
+| 20 | `0x86ff424b20a8199c169752b7f980b935f7a4fc81` | $675,417 | $0 | 85 / 0 | 2022-03-01 → 2022-08-04 |
+| 21 | `0xa9651b94bdf0abd9f9870c9a2f56bc2c6efb529f` | $590,595 | $0 | 20 / 0 | 2022-02-06 → 2022-10-08 |
+| 22 | `0x5c07d65f14e42a48e600338fcca54596e6097e75` | $398,250 | $0 | 6 / 0 | 2022-02-11 → 2022-05-12 |
+| 23 | `0x1990abd6e49218ab403f01aefeb9d22d07244181` | $0 | $387,529 | 0 / 4 | 2024-06-19 → 2025-12-03 |
+| 24 | `0x115aaab70238e26b3ec2eea6f7f53c34be5e60b8` | $381,361 | $0 | 3 / 0 | 2022-03-07 → 2022-07-19 |
+| 25 | `0xeeaa2e90e3f7c2653c4411285e8d2e5399993beb` | $365,181 | $0 | 3 / 0 | 2022-05-31 → 2022-05-31 |
+| 26 | `0xbb6d14c4befd49b1a59020d52688ef71c9cd5e1f` | $351,481 | $0 | 1 / 0 | 2022-01-20 → 2022-01-20 |
+| 27 | `0x097511b9af934c6acb44ba110c24783f57fb4cbb` | $307,222 | $0 | 16 / 0 | 2024-01-10 → 2024-01-12 |
+| 28 | `0x82dd71713e12387bb3d8685f37a021ef1cdd7a8d` | $292,303 | $0 | 5 / 0 | 2022-02-01 → 2022-03-05 |
+| 29 | `0xbcaa734b70441f8b78626962fb2b68d37ab85355` | $214,280 | $0 | 8 / 0 | 2022-01-17 → 2023-03-01 |
+| 30 | `0x213d3511ff8b85663fa66b0a122597adf4febe85` | $180,380 | $0 | 39 / 0 | 2022-01-17 → 2022-09-13 |
+| 31 | `0xeb258c0af51fd182e5ae23973679e789a68657a3` | $179,384 | $0 | 3 / 0 | 2022-03-07 → 2022-04-08 |
+| 32 | `0xf2e274950138ac07e29ebd877f3ddff0556abe64` | $167,771 | $0 | 5 / 0 | 2022-01-17 → 2022-03-19 |
+| 33 | `0x5e961d8bf87d3835d1af4bda4f521832e5b5c09a` | $145,323 | $0 | 2 / 0 | 2022-01-28 → 2022-04-15 |
+| 34 | `0x30a646300bc581a65cfcfd9939478807f5200600` | $130,700 | $0 | 3 / 0 | 2022-01-28 → 2022-03-09 |
+| 35 | `0xac0dcb804f341132e81d96af7278fdd6ce886e7f` | $130,250 | $0 | 1 / 0 | 2022-04-13 → 2022-04-13 |
+| 36 | `0xfe264c7f496d7d4bac60905ad03dc21400eade52` | $120,561 | $0 | 13 / 0 | 2022-02-02 → 2022-06-21 |
+| 37 | `0xb30ad58a09052e17427ba00c007c7a44402426b6` | $118,767 | $0 | 1 / 0 | 2022-05-27 → 2022-05-27 |
+| 38 | `0x5703b3cb982fa82efcfb64f0e2c9048640abad40` | $117,255 | $0 | 2 / 0 | 2022-03-02 → 2022-03-03 |
+| 39 | `0xde3119c73aed55623b537604cf3842dc35bb9ce3` | $116,357 | $0 | 4 / 0 | 2022-03-01 → 2022-07-21 |
+| 40 | `0xb3a6b7c22a9c4619e4baebc1a9682672160cc332` | $113,762 | $0 | 180 / 0 | 2022-01-17 → 2022-07-24 |
+| 41 | `0xc853da7590fceb7d098ad68f6359f1b75abfef47` | $111,606 | $0 | 10 / 0 | 2022-01-28 → 2022-05-03 |
+| 42 | `0x46a00e0a982c1c6168c2f0feca8c9760b1f9455f` | $108,167 | $0 | 5 / 0 | 2022-01-31 → 2022-04-29 |
+| 43 | `0xbfd8d26b0049cd62612168623a5173f862a2836f` | $104,119 | $0 | 1 / 0 | 2022-04-06 → 2022-04-06 |
+| 44 | `0x5705abf3017ae6698800a156eb8a696f064ba036` | $95,923 | $0 | 36 / 0 | 2022-01-17 → 2022-07-04 |
+| 45 | `0xe50eaa02477673565f0fa09367b4cf14008c53d0` | $93,233 | $0 | 4 / 0 | 2022-05-27 → 2022-07-20 |
+| 46 | `0xd5cbbf63203bddd4a44c98a7dcc7cda32a290aca` | $92,583 | $0 | 4 / 0 | 2022-01-20 → 2023-03-01 |
+| 47 | `0x9385aa6ce34647cf3532842b4e9565fd3431a68d` | $89,087 | $0 | 63 / 0 | 2022-01-17 → 2022-05-16 |
+| 48 | `0xe8a464e26fa8ba6de27a246024bc1a7d5bf997d7` | $88,420 | $0 | 101 / 0 | 2022-01-17 → 2022-05-06 |
+| 49 | `0x92e9f65c2b5738416773c1fb9070b07174aba63e` | $85,615 | $0 | 5 / 0 | 2022-03-18 → 2023-03-01 |
+| 50 | `0x227341e7b5aa1ba3aea0907a7c401e0b6c8c602c` | $85,059 | $0 | 3 / 0 | 2022-01-28 → 2022-04-28 |
 ## Flow profile (Polygon, Dune-aggregated 2026-05-13)
 
 Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 USD-equivalent per event). See [methodology](../methodology.md#flow-profile) for the SQL.
@@ -107,6 +140,12 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 
 **Receipts**: `case/sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `case/sources/dune/polygon-totals-2026-05-13.json` (query 7491829) + `case/sources/polygonscan-name-tags-2026-05-13/<addr>.html`.
 
+## Counterparty enumeration (full)
+
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-2-counterparties.csv`](zonda-2-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+
+Polygon counterparties are published separately: [`zonda-2-counterparties-polygon.csv`](zonda-2-counterparties-polygon.csv).
+
 ## Block-explorer links
 
 - Ethereum: https://etherscan.io/address/0x781229c7a798c33ec788520a6bbe12a79ed657fc
@@ -116,3 +155,14 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 [^2]: hildobby, "All Known EVM CEX Addresses", Dune query 3237025. https://dune.com/queries/3237025
 [^3]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-12 with `main_entity = "BitBay"`, category `EXCHANGE`. Receipt at [`sources/blocksec/labels-zonda-2026-05-12.json`](../../sources/blocksec/labels-zonda-2026-05-12.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
 [^4]: Polygonscan, public name tag on Zonda 2. Verified by HTML fetch 2026-05-13. https://polygonscan.com/address/0x781229c7a798c33ec788520a6bbe12a79ed657fc
+
+### External counterparties — confirmed via hildobby CEX Dune query 3237025
+
+Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/queries/3237025), "All Known EVM CEX Addresses". The hildobby label set is treated as primary alongside Etherscan public name tags.
+
+| Counterparty | Tag (hildobby) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|---|---|---:|---:|---:|
+| `0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0` | Kraken 4 | $18 | $0 | 1 / 0 |
+| `0x89e51fa8ca5d66cd220baed62ed01e8951aa7c40` | Kraken 7 | $7 | $0 | 1 / 0 |
+| `0x46340b20830761efd32832a74d7169b29feb9758` | Crypto.com 2 | $0 | $0 | 1 / 0 |
+

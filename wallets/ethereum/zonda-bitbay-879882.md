@@ -65,23 +65,65 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 ### Unidentified counterparties
 **This section is a known incomplete part of the analysis.** 3 of the 18 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$0 outbound** and **$31,500 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
-### Top 10 unattributed counterparties by gross USD
+### Top 50 unattributed counterparties by gross USD
 
-These are the largest counterparties in the top-500 slice that carry no public name tag on Etherscan and are not in this inventory's roster. Listed here so future verification and any reader's own attribution work can start from the addresses, not from filtered output.
+These are the largest counterparties (full enumeration, no truncation) that carry no public name tag on the chain's primary block explorer, are not in this inventory's roster, and are not in hildobby's CEX-address Dune query. They sit at `label_source ∈ {below-cutoff, deferred-above-cutoff}` in the CSV.
 
 | # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
 |---|---|---:|---:|---:|---|
-| 1 | `0xa7512a0d9cc166ff05eb79f3a52095eab114b856` | $29,813 | $0 | 4 / 0 | 2021-06-15 → 2021-07-01 |
+| 1 | `0xa7512a0d9cc166ff05eb79f3a52095eab114b856` | $29,845 | $0 | 5 / 0 | 2021-06-15 → 2021-07-01 |
 | 2 | `0x7bd8efab672250de65ba4ba3bc6c3aa08120a1c3` | $1,687 | $0 | 1 / 0 | 2021-06-16 → 2021-06-16 |
+| 3 | `0x5bffc3e304072d8d89335475b5201bd32ac69503` | $0 | $0 | 1 / 0 | 2026-01-14 → 2026-01-14 |
+| 4 | `0x6edffd3c53ce226b0b16fbe960e2d69af31c5048` | $0 | $0 | 2 / 0 | 2025-01-14 → 2025-02-05 |
+| 5 | `0x9e0d5185791ba456bd4bf32968afc3d805c13adc` | $0 | $0 | 1 / 0 | 2026-03-27 → 2026-03-27 |
+| 6 | `0x40f0181e48b8f81ce1a2968eb4573d15d42a3d13` | $0 | $0 | 1 / 0 | 2025-11-02 → 2025-11-02 |
+| 7 | `0xd152f549545093347a162dce210e7293f1452150` | $0 | $0 | 1 / 0 | 2024-03-16 → 2024-03-16 |
+| 8 | `0x8c8ee12c274d2372890f3ff03e3771cf25ae4327` | $0 | $0 | 1 / 0 | 2025-11-02 → 2025-11-02 |
+| 9 | `0x5a1195f555c487f044a777dd39938a1ea37b7aa3` | $0 | $0 | 1 / 0 | 2025-10-28 → 2025-10-28 |
+| 10 | `0xf7cede6cb21f73ca4a502a731daf3d2e41bd44cb` | $0 | $0 | 1 / 0 | 2024-04-25 → 2024-04-25 |
+| 11 | `0xd5050910347ecaf024421bc5e8f2b2e2e12ea8cb` | $0 | $0 | 1 / 0 | 2024-04-04 → 2024-04-04 |
+| 12 | `0x82dfdb2ec1aa6003ed4acba663403d7c2127ff67` | $0 | $0 | 1 / 0 | 2021-09-11 → 2021-09-11 |
+| 13 | `0x6ed0faa6fa60392119d5bef42a86bb3822b85048` | $0 | $0 | 0 / 1 | 2023-02-18 → 2023-02-18 |
+| 14 | `0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9` | $0 | $0 | 2 / 0 | 2024-01-12 → 2024-01-28 |
+| 15 | `0x6357d3843d715496257e338a878ab0b72040a918` | $0 | $0 | 1 / 0 | 2026-04-02 → 2026-04-02 |
+| 16 | `0xd55210bb6898c021a19de1f58d27b71f095921ee` | $0 | $0 | 1 / 0 | 2024-03-31 → 2024-03-31 |
+| 17 | `0x5bff47025d5c87c6b51d0cccfb3de2e1e2499503` | $0 | $0 | 1 / 0 | 2026-01-14 → 2026-01-14 |
+| 18 | `0xabc029ff1649b5e764dd28a9e48b1cf716ef225f` | $0 | $0 | 1 / 0 | 2024-06-29 → 2024-06-29 |
+| 19 | `0x967da4048cd07ab37855c090aaf366e4ce1b9f48` | $0 | $0 | 2 / 0 | 2023-12-24 → 2024-01-24 |
+| 20 | `0xbbcd44263236dfbf8e4705a4eb58226671d74c5e` | $0 | $0 | 1 / 0 | 2026-03-27 → 2026-03-27 |
+| 21 | `0xaea46a60368a7bd060eec7df8cba43b7ef41ad85` | $0 | $0 | 1 / 0 | 2024-01-24 → 2024-01-24 |
+| 22 | `0x6982508145454ce325ddbe47a25d4ec3d2311933` | $0 | $0 | 2 / 0 | 2024-03-06 → 2024-03-30 |
+## Counterparty enumeration (full)
 
-**Receipts (for reproduction)**:
-- Dune partitioned top-500-per-wallet aggregation: `case/sources/dune/stage1-L1-per-wallet-2026-05-13.json` (query 7482290, execution `01KRGHZZ2F15AC6PH4PQ2C8AMB`).
-- Dune per-wallet totals + distinct-counterparty count (≥$1k cumulative): `case/sources/dune/stage1-per-wallet-totals-2026-05-13.json` (query 7491746) and `case/sources/dune/stage1-distinct-cp-ge1k-2026-05-13.json` (query 7491752).
-- Etherscan HTML name-tag receipts: `case/sources/etherscan-name-tags-2026-05-13/<addr>.html` (fetched 2026-05-13 with browser-style User-Agent, ~0.8s pacing).
-
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-bitbay-879882-counterparties.csv`](zonda-bitbay-879882-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 
 https://etherscan.io/address/0x879882c59d9cc548d6c0e7d0238e8aa40858b54f
 
 [^1]: Bubblemaps token-holders API for ZND. Captured 2026-05-11. https://v2.bubblemaps.io/map?address=0x2d8eA194902Bc55431420BD26Be92b0782dCe91D&chain=eth
+
+### External counterparties — confirmed via hildobby CEX Dune query 3237025
+
+Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/queries/3237025), "All Known EVM CEX Addresses". The hildobby label set is treated as primary alongside Etherscan public name tags.
+
+| Counterparty | Tag (hildobby) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|---|---|---:|---:|---:|
+| `0x28c6c06298d514db089934071355e5743bf21d60` | Binance 14 | $1,750,353 | $0 | 279 / 0 |
+| `0xdfd5293d8e347dfe59e90efd55b2956a1343963d` | Binance 16 | $1,336,611 | $0 | 237 / 0 |
+| `0x21a31ee1afc51d94c2efccaa2092ad1028285549` | Binance 15 | $1,302,841 | $0 | 254 / 0 |
+| `0x9696f59e4d72e237be84ffd425dcad154bf96976` | Binance 18 | $312,919 | $0 | 15 / 0 |
+| `0x56eddb7aa87536c09ccc2793473599fd21a8b17f` | Binance 17 | $124,754 | $0 | 8 / 0 |
+| `0x85b931a32a0725be14285b66f1a22178c672d69b` | Binance 10 | $15,490 | $0 | 2 / 0 |
+| `0x564286362092d8e7936f0549571a803b203aaced` | Binance 3 | $15,395 | $0 | 1 / 0 |
+| `0x42d17b7f3532ec2f7c4e4e5e239baa476846e2cd` | Kanga Exchange 1 | $13,636 | $0 | 3 / 0 |
+| `0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be` | Binance 1 | $9,759 | $0 | 1 / 0 |
+| `0x0681d8db095565fe8a346fa0277bffde9c0edbbf` | Binance 4 | $9,587 | $0 | 1 / 0 |
+| `0x0d0707963952f2fba59dd06f2b425ace40b492fe` | Gate.io 1 | $7,483 | $0 | 392 / 0 |
+| `0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1` | Cobo 6 | $4,984 | $0 | 2 / 0 |
+| `0xc2ba04e89016f417e1219af7ef82a5b6a9214793` | Bidesk 14 | $3,976 | $0 | 1 / 0 |
+| `0x708396f17127c42383e3b9014072679b2f60b82f` | Binance 11 | $993 | $0 | 1 / 0 |
+| `0x2b3bf74b29f59fb8dda41cf3d6a8da28cf8e7921` | BingX 20 | $0 | $0 | 1 / 0 |
+| `0x9642b23ed1e01df1092b92641051881a322f5d4e` | MEXC 21 | $0 | $0 | 51 / 0 |
+| `0x6d0d19bdddc5ed1dd501430c9621dd37ebd9062d` | BitMart 13 | $0 | $0 | 6 / 0 |
+

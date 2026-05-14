@@ -1,0 +1,3 @@
+counterparty_address,n_events_in,n_events_out,gross_usd_in,gross_usd_out,net_usd,symbols,native_amounts,first_seen,last_seen,label_source,label_value
+0xae4f32dfa85b9e8c424a9604e7bf1d8128859943,1,0,26.47,0.0,26.47,ETH,ETH:1.0E-2,2024-10-18,2024-10-18,internal,ZND platform
+0x36fdb8800968fb8b38d53ebce3c86f909c796372,0,2,0.0,22.19,-22.19,ETH,ETH:8.384E-3,2024-10-18,2024-10-18,below-cutoff,

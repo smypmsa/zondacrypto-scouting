@@ -49,7 +49,15 @@ These addresses are the most useful entry points for flow analysis that lands on
 
 - **2019+ operational addresses only.** The cluster begins on **2019-05-13**, three years after the cold reserve `16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n` (see `bitcoin/16aEn4p6-cold-reserve.md`) was funded in 2016-03. WalletExplorer's `BitBay.net` name therefore does *not* retroactively cover the 2016-era infrastructure.
 - **The cold reserve is NOT in this cluster.** `16aEn4p6…` sits in WalletExplorer's unnamed cluster `[c66f0fa5dd193b1c]` (the cluster that contains the receiving cold-reserve address and its dust).
-- **The 2016-era cold-reserve funders are NOT in this cluster.** They sit in unnamed WalletExplorer clusters `[033a676d6f50f05c]` (the cluster containing 12 of 14 sampled 2016-03-06 inputs to the cold reserve) and `[89547e98ce46121f]` (touches BTC-e.com, Xapo.com, Huobi.com counterparties). These two unnamed clusters are *not* attributed publicly to BitBay and are not part of this inventory.
+- **The 2016-era cold-reserve funders are NOT in this cluster.** They sit in unnamed WalletExplorer clusters `[033a676d6f50f05c]` (67 of 69 distinct 2016-03-06 inputs to the cold reserve, per byte-clean per-address WE probes archived on 2026-05-13) and `[89547e98ce46121f]` (2 of 69 inputs; the cluster's full transaction history touches BTC-e.com, Xapo.com, Huobi.com counterparties). These two unnamed clusters are *not* attributed publicly to BitBay and are not part of this inventory.
+
+## Flow profile (cluster-level)
+
+The cluster is too large to enumerate per-address as an inventory deliverable. **26,014 addresses** in the cluster (point-in-time snapshot 2026-05-12). **321,245 transactions** at the cluster level. Active period **2019-05-13 → 2025-08-24**. WalletExplorer reports these aggregates on the cluster page directly.
+
+**Scope note — structural stats only.** Cluster-level BTC volume and per-counterparty named-cluster touches are deferred from this inventory entry. Reproducing them requires either WalletExplorer's CSV-export-all-pages affordance (which paginates over 26,014 addresses across many transaction-history pages) or a full local co-spend re-cluster against a Bitcoin full node. Both reproduction paths are documented in the [methodology](../methodology.md#inventory-profile-csv) under "Bitcoin cluster scope". Readers needing aggregate cluster flow numbers should consult the WalletExplorer cluster page directly: [walletexplorer.com/wallet/BitBay.net](https://www.walletexplorer.com/wallet/BitBay.net).
+
+Per-address enumeration of this cluster is out of scope for this inventory under the cluster-as-inventory-item convention documented in the "Why a single cluster file rather than 26,014 wallet files" section above.
 
 ## Verification
 

@@ -1,0 +1,2 @@
+counterparty_address,n_events_in,n_events_out,gross_usd_in,gross_usd_out,net_usd,symbols,native_amounts,first_seen,last_seen,label_source,label_value
+0x6edf968da408a9640b8865826429a977a11c5048,2,1,1052.31,520.33,531.98,ETH,ETH:4.0E-1;ETH:1.96577E-1,2024-10-18,2024-10-18,internal,Zonda 5
