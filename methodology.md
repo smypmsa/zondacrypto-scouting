@@ -118,8 +118,8 @@ In addition to the Flow profile section (a curated, threshold-filtered narrative
 | `symbols` | Comma-separated set of ERC-20 / native token symbols touched between this counterparty and the target. |
 | `native_amounts` | For ZND/TMPL ecosystem pages: per-symbol total native-token amount in the form `SYM:amount;SYM:amount`. Blank where the USD column already captures the magnitude. |
 | `first_seen` / `last_seen` | ISO 8601 dates (YYYY-MM-DD), earliest and latest transfer block-time observed between the counterparty and the target. |
-| `label_source` | One of `internal`, `hildobby`, `etherscan`, `below-cutoff`, `deferred-above-cutoff`. |
-| `label_value` | Human-readable tag where applicable; empty for `below-cutoff` and `deferred-above-cutoff`. |
+| `label_source` | One of `internal`, `hildobby`, `etherscan`, `no-public-tag`, `below-cutoff`, `deferred-above-cutoff`. |
+| `label_value` | Human-readable tag where applicable; empty for `no-public-tag`, `below-cutoff`, and `deferred-above-cutoff`. |
 
 ### Label-source precedence
 
@@ -128,8 +128,9 @@ When more than one source could classify a counterparty, the wallet pages and CS
 1. **`internal`** — the counterparty appears in this inventory's own roster of labelled Zonda / BitBay wallets.
 2. **`hildobby`** — the counterparty is listed in hildobby's Dune query 3237025 ("All Known EVM CEX Addresses"). The `label_value` is the `distinct_name` column (e.g. `Binance 14`, `Kraken 4`, `Gate.io 1`).
 3. **`etherscan`** — the counterparty page on the relevant block explorer (`etherscan.io`, `polygonscan.com`) carries a Public Name Tag, verified by a fresh HTML fetch with browser-style User-Agent at the cited date and grep-checked for the literal string `Public Name Tag` in the saved HTML.
-4. **`below-cutoff`** — the counterparty's cumulative gross USD flow across the entire inventory is below the $10,000 cutoff for fetching Etherscan name tags; no fetch is attempted, and no name-tag claim is made. Published as part of the full enumeration.
-5. **`deferred-above-cutoff`** — the counterparty's cumulative gross USD flow is at or above the $10,000 cutoff, but no Etherscan name-tag fetch has been completed in the most recent pass (e.g., the ≥$10k set was too large to fetch exhaustively in a single pass). This is a known, machine-discoverable gap. No name-tag claim is made until a fresh fetch is run on this subset.
+4. **`no-public-tag`** — a fresh HTML fetch of the counterparty's block-explorer page was completed and the saved HTML contains no `Public Name Tag` string. This is distinct from `below-cutoff` (intentionally not fetched per policy) and from `deferred-above-cutoff` (fetch outstanding): the explorer was checked and returned no tag at the cited date.
+5. **`below-cutoff`** — the counterparty's cumulative gross USD flow across the entire inventory is below the $10,000 cutoff for fetching Etherscan name tags; no fetch is attempted, and no name-tag claim is made. Published as part of the full enumeration.
+6. **`deferred-above-cutoff`** — the counterparty's cumulative gross USD flow is at or above the $10,000 cutoff, but no Etherscan name-tag fetch has been completed in the most recent pass (e.g., the ≥$10k set was too large to fetch exhaustively in a single pass). This is a known, machine-discoverable gap. No name-tag claim is made until a fresh fetch is run on this subset. This bucket is expected to be empty when an inventory profile has been fully closed; if non-empty, the residual count is reported in the inventory's manifest.
 
 ### Etherscan-fetch cutoff
 
