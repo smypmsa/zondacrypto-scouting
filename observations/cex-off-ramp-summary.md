@@ -55,10 +55,10 @@ Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto
 
 Per-wallet flow profiles cited above sit in the same directory tree:
 
-- [Zonda 5](../scouting/wallets/ethereum/zonda-5.md)
-- [Zonda 1](../scouting/wallets/ethereum/zonda-1.md)
-- [Zonda 4](../scouting/wallets/ethereum/zonda-4.md)
-- [BitBay 3f1eea](../scouting/wallets/ethereum/bitbay-3f1eea.md)
-- [BitBay 56d943](../scouting/wallets/ethereum/bitbay-56d943.md)
+- [Zonda 5](../wallets/ethereum/zonda-5.md)
+- [Zonda 1](../wallets/ethereum/zonda-1.md)
+- [Zonda 4](../wallets/ethereum/zonda-4.md)
+- [Zonda BitBay 3f1eea](../wallets/ethereum/zonda-bitbay-3f1eea.md)
+- [Zonda BitBay 56d943](../wallets/ethereum/zonda-bitbay-56d943.md)
 
 **Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: `case/sources/dune/inventory-L1-per-wallet-2026-05-13.json` (query 7482290) and `case/sources/etherscan-name-tags-2026-05-13/`.
