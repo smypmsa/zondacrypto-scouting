@@ -32,6 +32,7 @@ The **Activity** column is a compact summary of on-chain activity per chain. Pro
 | `0x3f1eea8dcda2b5620643aca1987d4780cae80539` | Ethereum | Zonda (BitBay) 0x3f1eea…0539 (PARTIAL) | ETH: 2024-12-17 → 2026-03-29, 168 native / 3,329 ERC-20 | [→](ethereum/zonda-bitbay-3f1eea.md) |
 | `0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b` | Ethereum | Zonda (BitBay) 0x4ff97a…0e4b (PARTIAL) | ETH: 2025-08-14 → 2026-01-30, 29 native / 72 ERC-20 | [→](ethereum/zonda-bitbay-4ff97a.md) |
 | `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | Ethereum | Zonda (BitBay) 0xc7f05e…9305 (PARTIAL) | ETH: 2019-05-01 → 2026-03-18, 2,029 native / 8 ERC-20 | [→](ethereum/zonda-bitbay-c7f05e.md) |
+| `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | Ethereum | Zonda (BitBay) 0xced004…2f06 (PARTIAL) | ETH: 2022-08-31 → 2026-03-29, 472 events (227 IN / 245 OUT); deposit-receipt hop — 18 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-ced004.md) |
 
 A wallet's inclusion in this inventory does **not** depend on having recent activity — every primary-citation labelled wallet is listed regardless of whether it is currently active, dormant, or has never moved. Empty wallets are tagged as such (e.g. ZNDStaking `s_withdrawalAccount`) so downstream aggregation work doesn't silently skip them.
 
