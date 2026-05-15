@@ -17,24 +17,20 @@ A small set of inventory-wide numbers a journalist or auditor can quote. Each is
 - **26,014 addresses, 321,245 transactions** in the WalletExplorer-named `BitBay.net` cluster, the post-2019 operational hot-wallet cluster. Active 2019-05-13 → 2025-08-24. See [`wallets/bitcoin/bitbay-net-cluster.md`](wallets/bitcoin/bitbay-net-cluster.md).
 - **$211.5 million** in cumulative outbound flow from ZondaCrypto-inventoried Ethereum wallets to Etherscan-tagged centralised-exchange deposit addresses (Binance $203.1M, Gate $8.4M, Bybit $3k). See [`observations/cex-off-ramp-summary.md`](observations/cex-off-ramp-summary.md) for the per-CEX × per-source-wallet breakdown and the inbound side.
 
-## How to read this repository
+## Repository layout
 
-1. **[`wallets/README.md`](wallets/README.md)** — the inventory index, one row per address or cluster.
-2. **[`wallets/<chain>/<slug>.md`](wallets/)** — the per-wallet page: attribution with citations, activity summary, full-history flow profile, counterparty tables, and a "Scope and negative space" section declaring what each page does not cover.
+A reading order, not an alphabetical map. Start at the top and descend as needed.
+
+1. **[`wallets/README.md`](wallets/README.md)** — the inventory index, one row per address or cluster, grouped by chain and role.
+2. **[`wallets/<chain>/<slug>.md`](wallets/)** — the per-wallet page: a plain-language summary, attribution with citations, activity, full-history flow profile, counterparty tables, and a "Scope and negative space" section declaring what the page does not cover. Each page links a companion CSV with the un-truncated, no-threshold view of the same on-chain data.
 3. **[`observations/`](observations/)** — cross-wallet math summaries (currently: the CEX off-ramp summary).
 4. **[`methodology.md`](methodology.md)** — confidence tiers, evidence types, the exact SQL behind every flow profile, the counterparty-CSV schema, and the receipts-mirroring policy.
 5. **[`glossary.md`](glossary.md)** — plain-language definitions of every term used across the repository.
 
-Each per-wallet counterparty enumeration is also published as a CSV alongside the wallet page; the CSV is the un-truncated, no-threshold view of the same on-chain data.
+Two supporting files for contributors and reviewers, not part of the reading order:
 
-## Contents
-
-- [`wallets/`](wallets/) — every inventoried address with its primary sources
-- [`observations/`](observations/) — cross-wallet math summaries
-- [`sources/`](sources/) — mirrored primary receipts (BlockSec label JSONs, Dune execution JSONs, WalletExplorer cluster HTML)
-- [`methodology.md`](methodology.md) — confidence tiers, evidence types, reproducibility
-- [`templates.md`](templates.md) — canonical structure for wallet, cluster, and observation files
-- [`glossary.md`](glossary.md) — plain-language definitions
+- **[`templates.md`](templates.md)** — canonical structure for wallet, cluster, and observation files (heading vocabulary is frozen here).
+- **[`sources/`](sources/)** — mirrored primary receipts cited by wallet pages (BlockSec label JSONs, Dune execution JSONs, WalletExplorer cluster HTML). Bulk HTML name-tag receipts are held in the working archive instead of the repo; see [methodology § Receipts](methodology.md#receipts-and-reproducibility).
 
 ## Contributions
 
