@@ -1,5 +1,7 @@
 # Zonda (BitBay) (0xc7f05e…9305)
 
+> **Plain-language summary.** An Ethereum deposit-address attributed to ZondaCrypto / BitBay by BlockSec MetaSleuth (`name_tag = "Zonda (BitBay): Deposit Address"`). Single primary source — recorded as PARTIAL tier pending a second independent labelling. Active since May 2019. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's PARTIAL tier.
+
 **Address:** `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto / BitBay-attributed deposit address per BlockSec MetaSleuth.
 
 **Confidence:** PARTIAL.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -21,7 +25,7 @@ Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-ev
 
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-14)
 
-Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan / hildobby carries a verified public attribution, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profile) for the SQL. Reproducible from Dune query `7482290` execution `01KRJWX2C88JW62MM144PAS1E5`.
+Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan / hildobby carries a verified public attribution, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profiles) for the SQL. Reproducible from Dune query `7482290` execution `01KRJWX2C88JW62MM144PAS1E5`.
 
 | Metric | Value |
 |--|--|
@@ -47,7 +51,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 
 This wallet is the inflow side of a sweep relationship: it receives from many external CEX-deposit-address counterparties and forwards (sweeps) to Zonda 3 in periodic large batches.
 
-### External destinations / sources — confirmed via Etherscan public name tags
+### External counterparties — confirmed via public name tag
 
 All 17 Etherscan-tagged external counterparties are on the **inbound** side. The outbound side concentrates almost entirely on Zonda 3 (above). Listed by descending inbound USD.
 

@@ -1,5 +1,7 @@
 # Zonda (BitBay) (0xced0046…2f06)
 
+> **Plain-language summary.** An Ethereum deposit-address attributed to ZondaCrypto / BitBay by BlockSec MetaSleuth (`name_tag = "Zonda (BitBay): Deposit Address"`). Single primary source — recorded as PARTIAL tier pending a second independent labelling. Operates as a deposit-receipt hop: 100% of outbound flow ($43.7 million, 245 events) lands on Zonda 5 alone, while the inbound side is dominated by 18 hildobby-tagged centralised-exchange hot wallets.
+
 **Address:** `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto / BitBay-attributed deposit address per BlockSec MetaSleuth. Acts as a deposit-receipt hop that funnels customer flow from 18+ centralised-exchange hot wallets to Zonda 5 (`0x6edf968d…5048`, the operator's multichain MM wallet).
 
 **Confidence:** PARTIAL.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -25,7 +29,7 @@ Source: Dune `tokens_ethereum.transfers` full-history aggregation, no truncation
 
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-15)
 
-Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if hildobby's CEX-address Dune compilation carries an attribution, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profile) for the SQL.
+Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if hildobby's CEX-address Dune compilation carries an attribution, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profiles) for the SQL.
 
 | Metric | Value |
 |--|--|

@@ -1,5 +1,7 @@
 # Zonda (BitBay) (0x66b12d…1327)
 
+> **Plain-language summary.** An Ethereum wallet attributed to ZondaCrypto / BitBay by Bubblemaps' `entity_id = "zonda"` label. Single primary source — recorded as PARTIAL tier pending a second independent labelling. Low-volume: no material flow above the $1,000 USD-equivalent threshold; the wallet moves ZND / TMPL tokens that have no liquid USD price on Dune.
+
 **Address:** `0x66b12dcff9f466f2a771e264b6d145bdd00e1327`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto / BitBay-attributed wallet per Bubblemaps.
 
 **Confidence:** PARTIAL.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 

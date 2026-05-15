@@ -1,0 +1,19 @@
+{
+  "0xcae4e8c327647861ee4bb8e96041df53a7317dd9": {"label":"A10","resp":{"request_id":"0538267501fd4820","code":200000,"message":"Success","data":{"chain_id":1,"address":"0xcae4e8c327647861ee4bb8e96041df53a7317dd9","main_entity":"Amina","main_entity_info":{"entity":"Amina","categories":[{"name":"EXCHANGE","code":3011}],"attributes":null,"description":{"website":"https://aminagroup.com/","twitter":"https://x.com/AMINABankGlobal","telegram":"","discord":""}},"comp_entities":null,"attributes":[{"name":"DEPOSIT ADDRESS","code":4007,"comp_info":["Amina Deposit Address"]}],"name_tag":"Amina: Deposit Address"}}}
+,
+  "0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51": {"label":"A13","resp":{"request_id":"26f7ee13034a458f","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+,
+  "0x5ee8ead266d33b459a8cea63550e520c2dcc016b": {"label":"A14","resp":{"request_id":"8962001232ad4ba5","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x5ee8ead266d33b459a8cea63550e520c2dcc016b","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+,
+  "0x5ee93e64e3c3e538430d655316878346ca26916b": {"label":"A15","resp":{"request_id":"035c691e9d4a4027","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x5ee93e64e3c3e538430d655316878346ca26916b","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+,
+  "0xb4e8212005e9c9989f0ad907c5b9eb84d1cc352a": {"label":"A16","resp":{"request_id":"bcd1b53a3fe14758","code":200000,"message":"Success","data":{"chain_id":1,"address":"0xb4e8212005e9c9989f0ad907c5b9eb84d1cc352a","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":"GnosisSafeProxy"}}}
+,
+  "0x20a426d335a04c913f1bc2b0296305327a567690": {"label":"A17","resp":{"request_id":"ef78452af81e4142","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x20a426d335a04c913f1bc2b0296305327a567690","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":"GnosisSafeProxy"}}}
+,
+  "0x1dc385c0594358886a1b21eda0ad4c053214c699": {"label":"A18","resp":{"request_id":"1aefcc33c3b441af","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x1dc385c0594358886a1b21eda0ad4c053214c699","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+,
+  "0x8535398860dc9542059a61c9529e44b4e6ed5cc3": {"label":"A19","resp":{"request_id":"da52b5c4f82e4dd5","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x8535398860dc9542059a61c9529e44b4e6ed5cc3","main_entity":"Ledn","main_entity_info":{"entity":"Ledn","categories":[{"name":"LENDING","code":3025}],"attributes":null,"description":{"website":"https://ledn.io/","twitter":"https://x.com/hodlwithLedn","telegram":"","discord":""}},"comp_entities":null,"attributes":[{"name":"DEPOSIT ADDRESS","code":4007,"comp_info":["Ledn Deposit Address"]}],"name_tag":"Ledn: Deposit Address"}}}
+,
+  "0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305": {"label":"A20","resp":{"request_id":"90fc62f3d9374391","code":200000,"message":"Success","data":{"chain_id":1,"address":"0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305","main_entity":"Zonda (BitBay)","main_entity_info":{"entity":"Zonda (BitBay)","categories":[{"name":"EXCHANGE","code":3011}],"attributes":null,"description":{"website":"https://zondacrypto.com","twitter":"","telegram":"","discord":""}},"comp_entities":null,"attributes":[{"name":"DEPOSIT ADDRESS","code":4007,"comp_info":["Zonda (BitBay) Deposit Address"]}],"name_tag":"Zonda (BitBay): Deposit Address"}}}
+}

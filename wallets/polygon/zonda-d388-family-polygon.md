@@ -1,5 +1,9 @@
 # Zonda `0xd388…8046` family (Polygon)
 
+> **Plain-language summary.** A cluster of three Polygon addresses sharing a 4-byte vanity pattern (`0xd388…8046`), including the previously-attributed Zonda 6 address. The two new members exchange traffic almost exclusively with Zonda 5 on Polygon. Recorded as a single inventory item for the cluster as a whole. Attribution combines transaction relation to confirmed Zonda 5 with the vanity-suffix cluster heuristic — see [methodology § Confidence tiers](../../methodology.md#confidence-tiers) for how composite primary citation is established.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
+
 A cluster of three Polygon Bitcoin-style cross-EVM addresses that share the vanity pattern `0xd388…8046` — including the previously-attributed Zonda 6 address (`0xd388009f…8046`) — and that exchange traffic almost exclusively with Zonda 5 on Polygon.
 
 ## Cluster members

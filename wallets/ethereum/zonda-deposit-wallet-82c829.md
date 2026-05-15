@@ -1,5 +1,7 @@
 # Zonda Deposit Wallet (0x82c829…900c)
 
+> **Plain-language summary.** A deposit-side ZondaCrypto wallet on Ethereum, attributed by two independent primary label sources (Bubblemaps' `entity_id = "zonda"` plus BlockSec MetaSleuth `main_entity = "Zonda (BitBay)"`). Also transacts directly with Zonda Deposit Funder 1, consistent with the deposit-wallet role. Active since November 2022; current top-100 ZND holder.
+
 **Address:** `0x82c829237159287dac6fc62eb139e6a89195900c`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** Deposit-side ZondaCrypto wallet.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 

@@ -1,5 +1,7 @@
 # Zonda Deposit Funder 1
 
+> **Plain-language summary.** A ZondaCrypto operational wallet that pre-funds user-deposit addresses with the ETH needed to pay forwarding gas. Attributed by Etherscan public name tag "Zonda: Deposit Funder 1" plus the hildobby CEX-address compilation. Active since October 2023.
+
 **Address:** `0x5bff49eec8f76c066f979a818187b9732ac69503`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto deposit-funder / gas-supplier wallet. Exchanges typically maintain a small set of EOAs that pre-fund user-deposit addresses with the ETH needed to pay forwarding gas. This is one of them.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 

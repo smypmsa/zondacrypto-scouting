@@ -39,7 +39,7 @@ Receipts: per-address WalletExplorer HTML probes (one file per foundational inpu
 
 ## Flow profile (Bitcoin, mempool.space-aggregated 2026-05-13)
 
-Full-history aggregation built from the mempool.space `address/<addr>` summary and the paginated `address/<addr>/txs/chain` endpoint. Dune Analytics has no Bitcoin coverage; the BTC flow profile is built directly from a self-hostable mempool.space-style indexer over the address's UTXO set. See [methodology](../../methodology.md#flow-profile-bitcoin) for the data sources.
+Full-history aggregation built from the mempool.space `address/<addr>` summary and the paginated `address/<addr>/txs/chain` endpoint. Dune Analytics has no Bitcoin coverage; the BTC flow profile is built directly from a self-hostable mempool.space-style indexer over the address's UTXO set. See [methodology](../../methodology.md#flow-profiles) for the data sources.
 
 | Metric | Value |
 |--|--|

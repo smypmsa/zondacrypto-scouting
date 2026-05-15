@@ -1,5 +1,7 @@
 # Zonda Deposit Funder 2
 
+> **Plain-language summary.** A second ZondaCrypto operational wallet that pre-funds user-deposit addresses with gas. Attributed by Etherscan public name tag "Zonda: Deposit Funder 2" plus the hildobby CEX-address compilation. Dormant after 2023-11-06.
+
 **Address:** `0x818ab3c61f66e975b8e6290c20999d6749f60d8d`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto deposit-funder / gas-supplier wallet.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 

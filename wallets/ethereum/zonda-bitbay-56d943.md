@@ -1,5 +1,7 @@
 # Zonda (BitBay) (0x56d943…4778)
 
+> **Plain-language summary.** An actively-trading Ethereum wallet attributed to ZondaCrypto / BitBay by Bubblemaps (`entity_id = "zonda"`, additionally marked CEX-related). Single primary source — recorded as PARTIAL tier pending a second independent labelling. Top-100 ZND holder at 0.0055% of supply. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's PARTIAL tier.
+
 **Address:** `0x56d943aea92b099228b31f01cd12bd4aa39b4778`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto / BitBay-attributed wallet per Bubblemaps. Bubblemaps further marks it as CEX-related (`is_cex = true`).
 
 **Confidence:** PARTIAL.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
