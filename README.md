@@ -2,15 +2,42 @@
 
 [Zondacrypto](https://zondacrypto.com), formerly BitBay, is a Polish cryptocurrency exchange. In April 2026, after [months of withdrawal failures](https://x.com/przemyslaw_kral/status/2041229323382804500), [its CEO publicly acknowledged](https://x.com/przemyslaw_kral/status/2044763900541854094) that the company's largest claimed bitcoin reserve was not under company control. [Polish prosecutors opened a criminal case](https://www.coindesk.com/business/2026/04/18/zondacrypto-under-fire-as-poland-s-prime-minister-links-exchange-to-legislative-interference) with damages estimated at no less than 350 million złoty. This repository collects publicly verifiable facts about the case and follows the money on-chain.
 
+## What this repository contains and does not contain
+
+It contains an **inventory** of on-chain addresses attributable to ZondaCrypto / BitBay by a primary public source, the **on-chain math** derived directly from those addresses (balances, transfers, counterparties, totals), and the **citations and receipts** that back each row. Every claim is reproducible from the wallet address alone against the named data source.
+
+It does not contain interpretations, accusations, named-person commentary beyond what a primary record itself states, or attribution that exceeds what the cited source says. Reader interpretation is deliberately left to the reader.
+
+## Headline figures
+
+A small set of inventory-wide numbers a journalist or auditor can quote. Each is reproducible from the linked artefact alone.
+
+- **28 inventoried wallets and clusters** across Bitcoin, Ethereum, and Polygon. See [`wallets/README.md`](wallets/README.md) for the per-row index.
+- **4,503.26 BTC** standing balance on the address ZondaCrypto's CEO disclosed as the company's largest claimed Bitcoin reserve, in its lifetime never spent. First funded 2016-03-06, last received deposit 2026-05-08. See [`wallets/bitcoin/16aEn4p6-cold-reserve.md`](wallets/bitcoin/16aEn4p6-cold-reserve.md).
+- **26,014 addresses, 321,245 transactions** in the WalletExplorer-named `BitBay.net` cluster, the post-2019 operational hot-wallet cluster. Active 2019-05-13 → 2025-08-24. See [`wallets/bitcoin/bitbay-net-cluster.md`](wallets/bitcoin/bitbay-net-cluster.md).
+- **$211.5 million** in cumulative outbound flow from ZondaCrypto-inventoried Ethereum wallets to Etherscan-tagged centralised-exchange deposit addresses (Binance $203.1M, Gate $8.4M, Bybit $3k). See [`observations/cex-off-ramp-summary.md`](observations/cex-off-ramp-summary.md) for the per-CEX × per-source-wallet breakdown and the inbound side.
+
+## How to read this repository
+
+1. **[`wallets/README.md`](wallets/README.md)** — the inventory index, one row per address or cluster.
+2. **[`wallets/<chain>/<slug>.md`](wallets/)** — the per-wallet page: attribution with citations, activity summary, full-history flow profile, counterparty tables, and a "Scope and negative space" section declaring what each page does not cover.
+3. **[`observations/`](observations/)** — cross-wallet math summaries (currently: the CEX off-ramp summary).
+4. **[`methodology.md`](methodology.md)** — confidence tiers, evidence types, the exact SQL behind every flow profile, the counterparty-CSV schema, and the receipts-mirroring policy.
+5. **[`glossary.md`](glossary.md)** — plain-language definitions of every term used across the repository.
+
+Each per-wallet counterparty enumeration is also published as a CSV alongside the wallet page; the CSV is the un-truncated, no-threshold view of the same on-chain data.
+
 ## Contents
 
-- [wallets/](wallets/) — every address attributed to ZondaCrypto or BitBay, one file per wallet with its primary sources
-- [methodology.md](methodology.md) — confidence tiers and the kinds of evidence that establish each one
-- [sources/](sources/) — primary receipts that wallet files cite (Dune query rows, BlockSec API responses)
+- [`wallets/`](wallets/) — every inventoried address with its primary sources
+- [`observations/`](observations/) — cross-wallet math summaries
+- [`sources/`](sources/) — mirrored primary receipts (BlockSec label JSONs, Dune execution JSONs, WalletExplorer cluster HTML)
+- [`methodology.md`](methodology.md) — confidence tiers, evidence types, reproducibility
+- [`glossary.md`](glossary.md) — plain-language definitions
 
-## Status
+## Contributions
 
-Work in progress. Contributions are welcome from anyone who can supply data verifiable against primary records or against public blockchain state. Submit pull requests with the source link, the retrieval date, and the exact query or document that backs the claim. News commentary and paraphrase are not used as evidence.
+Contributions are welcome from anyone who can supply data verifiable against primary records or against public blockchain state. Submit pull requests with the source link, the retrieval date, and the exact query or document that backs the claim. News commentary and paraphrase are not used as evidence.
 
 ## Disclaimer
 
