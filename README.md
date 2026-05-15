@@ -33,6 +33,7 @@ Each per-wallet counterparty enumeration is also published as a CSV alongside th
 - [`observations/`](observations/) — cross-wallet math summaries
 - [`sources/`](sources/) — mirrored primary receipts (BlockSec label JSONs, Dune execution JSONs, WalletExplorer cluster HTML)
 - [`methodology.md`](methodology.md) — confidence tiers, evidence types, reproducibility
+- [`templates.md`](templates.md) — canonical structure for wallet, cluster, and observation files
 - [`glossary.md`](glossary.md) — plain-language definitions
 
 ## Contributions
