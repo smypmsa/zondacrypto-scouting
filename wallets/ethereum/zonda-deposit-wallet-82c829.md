@@ -64,6 +64,11 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0x77134cbc…35ec` | Bitfinex: Hot Wallet | $15,696 | 11 |
 | `0x48ec5560…6b0c` | Bitstamp: Wallet | $13,674 | 6 |
 | `0xae2d4617…673f` | Kraken 10 | $12,585 | 5 |
+
+<details><summary>Show 7 more rows</summary>
+
+| Counterparty | Tag (Etherscan) | Inbound USD | Events |
+|--|--|--|--|
 | `0x05ff6964…f381` | Kraken: Hot Wallet 4 | $12,169 | 5 |
 | `0xa03400e0…7687` | HTX 48 | $10,932 | 7 |
 | `0xe7178ad7…d5c6` | Kraken 47 | $10,115 | 5 |
@@ -71,6 +76,8 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0xee7ae85f…4055` | Binance: Hot Wallet 34 | $6,772 | 1 |
 | `0xd91efec7…0747` | KuCoin: ERC-20 Batch Transfer | $1,742 | 1 |
 | `0x56eddb7a…b17f` | Binance 17 | $1,716 | 1 |
+
+</details>
 
 ### Unattributed counterparties
 **This section is a known incomplete part of the analysis.** 1 of the 19 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$0 outbound** and **$5,004 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
@@ -91,7 +98,14 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0x6ee9951bf99f25540caef3e2bc0c3f9ebe1c5048` | $0 | $0 | 2 / 0 | 2022-12-03 → 2022-12-03 |
 | 9 | `0xabc029ff1649b5e764dd28a9e48b1cf716ef225f` | $0 | $0 | 1 / 0 | 2024-06-29 → 2024-06-29 |
 | 10 | `0x6eb9ee74064f8e7b36f6f941c0b57a74a36c5048` | $0 | $0 | 0 / 2 | 2022-12-03 → 2022-12-03 |
+
+<details><summary>Show 1 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0xb7e27d218b687e5d9234d6e31fe1ac8d0cf329f6` | $0 | $0 | 1 / 0 | 2024-07-06 → 2024-07-06 |
+
+</details>
 ## Counterparty enumeration (full)
 
 Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-deposit-wallet-82c829-counterparties.csv`](zonda-deposit-wallet-82c829-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
@@ -119,6 +133,11 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea` | Bybit 40 | $17,055 | $0 | 2 / 0 |
 | `0xa03400e098f4421b34a3a44a1b4e571419517687` | HTX 52 | $15,905 | $0 | 15 / 0 |
 | `0x48ec5560bfd59b95859965cce48cc244cfdf6b0c` | Bitstamp 8 | $15,612 | $0 | 9 / 0 |
+
+<details><summary>Show 8 more rows</summary>
+
+| Counterparty | Tag (hildobby) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|---|---|---:|---:|---:|
 | `0xae2d4617c862309a3d75a0ffb358c7a5009c673f` | Kraken 10 | $12,585 | $0 | 5 / 0 |
 | `0xe7178ad747f2c12ab1f8332e61cf6e756815d5c6` | Kraken 28 | $10,423 | $0 | 7 / 0 |
 | `0x7f604d597c15b2e2f60dc645844f68b1d781b752` | Bitstamp 60 | $9,837 | $0 | 8 / 0 |
@@ -127,4 +146,6 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0xd91efec7e42f80156d1d9f660a69847188950747` | KuCoin 26 | $1,742 | $0 | 1 / 0 |
 | `0xccfa6f3b01c7bf07b033a9d496fdf22f0cdf5293` | CoinDCX 16 | $0 | $0 | 1 / 0 |
 | `0x58edf78281334335effa23101bbe3371b6a36a51` | KuCoin 32 | $0 | $0 | 8 / 0 |
+
+</details>
 

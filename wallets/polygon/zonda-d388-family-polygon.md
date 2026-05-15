@@ -113,6 +113,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0x0000d124ae5df5c35edffad0f5c74528ae3c0000` | $0 | $0 | 1 / 0 | 2024-10-06 → 2024-10-06 |
 | 9 | `0x0000f9b4e1b0336a65dcd0b8daef34ec2c6b0000` | $0 | $0 | 1 / 0 | 2024-10-06 → 2024-10-06 |
 | 10 | `0x000082fba4d7e96dc528fccda74d036995ca0000` | $0 | $0 | 1 / 0 | 2024-10-06 → 2024-10-06 |
+
+<details><summary>Show 40 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0x00007ea6a03504487a53b740e0cfe5ea8ef70000` | $0 | $0 | 1 / 0 | 2024-10-11 → 2024-10-11 |
 | 12 | `0xfa395a3cb794a5307b3de49cf9bc15f441f4ebce` | $0 | $0 | 1 / 0 | 2024-04-14 → 2024-04-14 |
 | 13 | `0x3c499c542cef5e3811e1192ce70d8cc03d5c3359` | $0 | $0 | 7 / 0 | 2024-08-02 → 2025-06-26 |
@@ -153,6 +158,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 48 | `0xf328b73b6c685831f238c30a23fc19140cb4d8fc` | $0 | $0 | 1 / 0 | 2024-04-15 → 2024-04-15 |
 | 49 | `0x7ceb23fd6bc0add59e62ac25578270cff1b9f619` | $0 | $0 | 5 / 0 | 2024-08-07 → 2025-03-14 |
 | 50 | `0x6edf591193ebb235b35344f1b82829dd2b055048` | $0 | $0 | 0 / 8 | 2024-04-15 → 2024-07-17 |
+
+</details>
 
 ## Counterparty enumeration (full)
 

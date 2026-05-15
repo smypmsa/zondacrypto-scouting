@@ -74,6 +74,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0xfc982cab43c3694fd559fe006ff3c4d73794f55c` | $3,349,254 | $0 | 55 / 0 | 2022-01-17 → 2022-09-26 |
 | 9 | `0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51` | $0 | $3,127,594 | 0 / 17 | 2025-03-19 → 2025-11-05 |
 | 10 | `0x854d0c53986974ed3cc0c2b1d0a87193ac6fadf7` | $2,743,644 | $0 | 12 / 0 | 2022-01-20 → 2022-06-18 |
+
+<details><summary>Show 40 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0xa99d00ed83c98d1186b6daa307cf7f651ff7a021` | $2,064,082 | $0 | 62 / 0 | 2022-01-17 → 2022-07-29 |
 | 12 | `0xa6e2aba95638ee4728ac8a3c0273b10a24dcc593` | $1,750,010 | $0 | 12 / 0 | 2022-01-20 → 2022-11-11 |
 | 13 | `0x32e04e19a63eae6fe19051fc24898ae21444f9c4` | $1,283,456 | $0 | 64 / 0 | 2022-01-17 → 2022-07-20 |
@@ -114,6 +119,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 48 | `0xe8a464e26fa8ba6de27a246024bc1a7d5bf997d7` | $88,420 | $0 | 101 / 0 | 2022-01-17 → 2022-05-06 |
 | 49 | `0x92e9f65c2b5738416773c1fb9070b07174aba63e` | $85,615 | $0 | 5 / 0 | 2022-03-18 → 2023-03-01 |
 | 50 | `0x227341e7b5aa1ba3aea0907a7c401e0b6c8c602c` | $85,059 | $0 | 3 / 0 | 2022-01-28 → 2022-04-28 |
+
+</details>
 ## Flow profile (Polygon, Dune-aggregated 2026-05-13)
 
 Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 USD-equivalent per event). See [methodology](../../methodology.md#flow-profiles) for the SQL.

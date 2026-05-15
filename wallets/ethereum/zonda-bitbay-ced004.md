@@ -66,6 +66,11 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0xde279a5c…bb12` | BTSE 4 | $337,144 | 7 |
 | `0xcad621da…8fdd` | KuCoin 10 | $317,872 | 5 |
 | `0x416299aa…eef5` | Luno 2 | $307,664 | 3 |
+
+<details><summary>Show 8 more rows</summary>
+
+| Counterparty | Tag (hildobby) | Inbound USD | Events |
+|---|---|---:|---:|
 | `0x46340b20…9758` | Crypto.com 2 | $268,749 | 3 |
 | `0x28c6c062…1d60` | Binance 14 | $239,521 | 7 |
 | `0x56eddb7a…b17f` | Binance 17 | $208,089 | 5 |
@@ -74,6 +79,8 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x079a8926…dc63` | Bitvavo 19 | $145,094 | 3 |
 | `0xb01cb49f…331c` | bitFlyer 2 | $113,802 | 3 |
 | `0x74dec05e…f9a1` | Bitpanda 1 | $79,810 | 2 |
+
+</details>
 
 (Aggregate hildobby-tagged IN: $39.0M / 18 distinct CEXes-of-record, ~90% of total inbound USD.)
 

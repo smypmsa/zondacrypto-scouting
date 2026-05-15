@@ -59,6 +59,11 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0x4c811713…fa5f` | Binance Deposit: 0x4C8117138b821EA72b973dA96B613Fcb64f2fA5F | $252,886 | 70 |
 | `0x98683107…4ecb` | Binance Deposit: 0x98683107A88D2300C071e8fE34e9504872e74eCb | $182,923 | 26 |
 | `0x0555449e…99f6` | ByBit Deposit: 0x0555449e8aFa4Ee1a3eca8CF10034Ef4c09099f6 | $168,304 | 10 |
+
+<details><summary>Show 40 more rows</summary>
+
+| Counterparty | Tag (Etherscan) | Outbound USD | Events |
+|--|--|--:|--:|
 | `0xb114a576…138d` | Binance Deposit: 0xb114a576dfee6e6bbF8bA386D8F89399E9bd138d | $129,252 | 1 |
 | `0x8ce3e4d3…7eea` | Fee Recipient: 0x8ce3...eea | $117,151 | 1 |
 | `0x3f38522e…cd93` | Binance Deposit: 0x3f38522e2c8953b18ebdb1169f9132ab3067cd93 | $105,863 | 1 |
@@ -100,6 +105,8 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0xa6c39395…2406` | Binance Deposit: 0xA6c39395d6F3C53486d52Cc75f530050cDd22406 | $36,693 | 2 |
 | `0x586ebf87…b5c8` | Binance Deposit: 0x586ebF87dE17f658F3CcEF92e1a561203c7Cb5C8 | $36,326 | 2 |
 
+</details>
+
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 
 Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/queries/3237025), "All Known EVM CEX Addresses". The hildobby label set is treated as primary alongside Etherscan public name tags.
@@ -128,6 +135,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0x3f6008d1a71bc064985289035e901ef52da481ee` | $0 | $2,199,794 | 0 / 19 | 2021-05-25 → 2022-05-10 |
 | 9 | `0xcbf91d30177dca1e71c2a9a29be1a1ba40b02dcf` | $0 | $1,930,384 | 0 / 44 | 2020-10-12 → 2022-05-12 |
 | 10 | `0xa1357baf545167a03e5ac599154397c971185b0a` | $0 | $1,842,348 | 0 / 3 | 2021-02-14 → 2021-02-14 |
+
+<details><summary>Show 40 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0x0b4439bb98e4391c2ab2c6dd3e3ed5f056db1868` | $0 | $1,769,475 | 0 / 31 | 2020-10-11 → 2021-12-03 |
 | 12 | `0x375b1d909a65a9f77431ed7e85910d50bdd5978f` | $0 | $1,769,292 | 0 / 159 | 2020-12-11 → 2022-07-16 |
 | 13 | `0x7532e70ad7b53c27e2f5b569f671785a2e5efdc8` | $0 | $1,593,827 | 0 / 1 | 2021-08-06 → 2021-08-06 |
@@ -168,6 +180,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 48 | `0x2ea024ae1338af5e48ee9179d54f52c90d7b3929` | $0 | $332,032 | 0 / 265 | 2020-10-02 → 2021-09-23 |
 | 49 | `0xe6615f7eeec4af5a4535ffbdca2e17d207cf1d81` | $0 | $328,724 | 0 / 4 | 2021-02-19 → 2021-03-04 |
 | 50 | `0x6824a2835017d6d01223a945ee6ffed15de433f9` | $0 | $313,518 | 0 / 1 | 2021-04-07 → 2021-04-07 |
+
+</details>
 ## Counterparty enumeration (full)
 
 Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-4-counterparties.csv`](zonda-4-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).

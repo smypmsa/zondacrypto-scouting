@@ -91,6 +91,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0xc6d6c7c7fea0977174d0f0e7ea89b4dc185d62c2` | $399 | $0 | 2 / 0 | 2024-07-02 → 2024-07-02 |
 | 9 | `0xa0c68c638235ee32657e8f720a23cec1bfc77c77` | $0 | $307 | 0 / 1 | 2025-01-27 → 2025-01-27 |
 | 10 | `0x2f1d2754393356aea6334180da04bab84412d580` | $0 | $23 | 0 / 1 | 2024-12-13 → 2024-12-13 |
+
+<details><summary>Show 40 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0x53071f6efcb2e88101c0d235a876492050c7bbad` | $0 | $0 | 1 / 5 | 2024-07-17 → 2024-07-20 |
 | 12 | `0x6edffd3c53ce226b0b16fbe960e2d69af31c5048` | $0 | $0 | 4 / 0 | 2024-08-24 → 2025-03-05 |
 | 13 | `0x53076912625517be665f27e49275a3a59529bbad` | $0 | $0 | 1 / 1 | 2024-09-18 → 2024-09-18 |
@@ -131,6 +136,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 48 | `0x67a396a170cd44c5c124c9cc4135abbd35e7080f` | $0 | $0 | 0 / 5 | 2025-09-16 → 2025-09-23 |
 | 49 | `0x692cd1cce74bfb88947a3e02f6993ce677d54638` | $0 | $0 | 1 / 0 | 2025-12-18 → 2025-12-18 |
 | 50 | `0xb9d514814c1780c235e4b973d16210d917e32926` | $0 | $0 | 1 / 0 | 2025-11-15 → 2025-11-15 |
+
+</details>
 ## Counterparty enumeration (full)
 
 Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-6-counterparties.csv`](zonda-6-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).

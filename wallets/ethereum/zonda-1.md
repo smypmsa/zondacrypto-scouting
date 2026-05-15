@@ -63,6 +63,11 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0xb114a576…138d` | Binance Deposit: 0xb114a576dfee6e6bbF8bA386D8F89399E9bd138d | $379,443 | 7 |
 | `0x0555449e…99f6` | ByBit Deposit: 0x0555449e8aFa4Ee1a3eca8CF10034Ef4c09099f6 | $300,934 | 10 |
 | `0x95e6200f…6aab` | Binance Deposit: 0x95E6200F4AeF9D29af18cE1d2926c288a3866Aab | $286,804 | 2 |
+
+<details><summary>Show 40 more rows</summary>
+
+| Counterparty | Tag (Etherscan) | Outbound USD | Events |
+|--|--|--:|--:|
 | `0xe5d3ba10…e1df` | Binance Deposit: 0xE5D3Ba1018D1A3A224c81D6a7CC531703627e1dF | $255,581 | 16 |
 | `0x56d19c03…e44e` | Binance Deposit: 0x56d19c0312824781acfbc34dfec7f15605abe44e | $243,050 | 10 |
 | `0x98683107…4ecb` | Binance Deposit: 0x98683107A88D2300C071e8fE34e9504872e74eCb | $231,011 | 42 |
@@ -104,6 +109,8 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0xa79aad71…13ac` | Binance Deposit: 0xA79aAD710199b16F1aa2845b2aE76d94aB4213AC | $64,917 | 20 |
 | `0x287e6d4d…95fa` | Binance Deposit: 0x287e6D4DD4d57ede08B9353e13D51d9F7F1f95fA | $61,650 | 4 |
 
+</details>
+
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 
 Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/queries/3237025), "All Known EVM CEX Addresses". The hildobby label set is treated as primary alongside Etherscan public name tags.
@@ -141,6 +148,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0x0b4439bb98e4391c2ab2c6dd3e3ed5f056db1868` | $0 | $3,626,336 | 0 / 211 | 2018-03-26 → 2022-03-29 |
 | 9 | `0x660604c69fb23e7336ac0f5e5f992ece04c8353f` | $0 | $3,276,372 | 0 / 6 | 2022-02-25 → 2022-03-01 |
 | 10 | `0xeba129db608bf4f9a75b1127334b369efd1ae690` | $0 | $3,163,564 | 0 / 1,006 | 2017-12-13 → 2022-02-13 |
+
+<details><summary>Show 40 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0x375b1d909a65a9f77431ed7e85910d50bdd5978f` | $0 | $2,502,047 | 0 / 197 | 2021-03-26 → 2022-07-20 |
 | 12 | `0xb7cc1a4c9a23329f0ee99442a5258f85c8bc0c24` | $2,442,716 | $0 | 6 / 0 | 2017-12-11 → 2017-12-11 |
 | 13 | `0xe0b2026e3db1606ef0beb764ccdf7b3cee30db4a` | $0 | $2,391,996 | 0 / 11 | 2018-02-04 → 2019-03-19 |
@@ -181,6 +193,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 48 | `0x52461c597ccf2aaf6f47560a520f178ed28a21e9` | $0 | $651,103 | 0 / 13 | 2017-12-12 → 2018-04-09 |
 | 49 | `0x5e393568cd2f698c1884ba6870e387b8f140c937` | $616,164 | $0 | 7 / 0 | 2020-07-17 → 2020-08-09 |
 | 50 | `0x7a34d5523e3b608cf12c7de1acbeab39a8ca1a46` | $0 | $597,734 | 0 / 62 | 2017-12-12 → 2019-04-02 |
+
+</details>
 
 ## Counterparty enumeration (full)
 

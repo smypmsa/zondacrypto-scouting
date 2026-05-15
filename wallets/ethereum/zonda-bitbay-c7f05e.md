@@ -67,6 +67,11 @@ All 17 Etherscan-tagged external counterparties are on the **inbound** side. The
 | `0x28c6c062…1d60` | Binance 14 | $2,377,956 | 27 |
 | `0xdfd5293d…963d` | Binance 16 | $2,252,322 | 26 |
 | `0x21a31ee1…5549` | Binance 15 | $2,173,279 | 28 |
+
+<details><summary>Show 7 more rows</summary>
+
+| Counterparty | Tag (Etherscan) | Inbound USD | Events |
+|--|--|--|--|
 | `0x9696f59e…6976` | Binance 18 | $2,032,880 | 26 |
 | `0x4976a4a0…2327` | Binance 20 | $1,798,927 | 22 |
 | `0x8f22f206…0c8f` | Binance 13 | $800,967 | 10 |
@@ -74,6 +79,8 @@ All 17 Etherscan-tagged external counterparties are on the **inbound** side. The
 | `0xc55edda…e7fa` | BTC Markets 2 | $219,083 | 2 |
 | `0xdf4b6fb7…145b` | Liquid 2 | $27,336 | 2 |
 | `0x0d070796…92fe` | Gate Deposit | $11,376 | 1 |
+
+</details>
 
 The flow shape: customer accounts at Binance (predominantly), BTC Turk (Turkey), BTC Markets (Australia), Liquid (Liquid Group / formerly Quoine, FTX-acquired 2022), and Gate.io withdrew to this address; this address swept the accumulated balance to Zonda 3 in periodic batches. The earliest inflow is 2019-05; the most recent is 2026-03.
 

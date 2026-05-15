@@ -68,6 +68,11 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0x71959d55…dcc0` | Binance Deposit: 0x71959d556b7a50287bb669990791f1EB09a4DCc0 | $6,884,074 | 504 |
 | `0x15359093…ddf6` | Binance Deposit: 0x1535909303174e7a235C33814d1B1a359b76ddf6 | $6,199,415 | 436 |
 | `0x1936d385…f057` | Binance Deposit: 0x1936d3853c9b7BCf4c3a4105B59D9eFb7984F057 | $6,163,590 | 500 |
+
+<details><summary>Show 40 more rows</summary>
+
+| Counterparty | Tag (Etherscan) | Outbound USD | Events |
+|--|--|--:|--:|
 | `0x8a63afd3…25b5` | Binance Deposit: 0x8a63AFd33e0d05274B3B6650486D9960785025B5 | $4,940,376 | 283 |
 | `0xfae79cff…a9ae` | Binance Deposit: 0xfAe79cFFdFF6893e772940ec4e0CAF36c037a9Ae | $4,142,002 | 57 |
 | `0xb8228778…a7e8` | Binance Deposit: 0xb8228778465623b00B3544E6ba8e4e620C21A7e8 | $3,109,794 | 91 |
@@ -109,6 +114,8 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0x7c957795…80b4` | Binance Deposit: 0x7c9577959E9B60117B9b9a9d6878A8B0b3c080b4 | $421,948 | 5 |
 | `0xd8ad068f…b23d` | Binance Deposit: 0xd8Ad068Fabede7f25Bcf138F86848295C22Eb23d | $411,511 | 79 |
 
+</details>
+
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 
 Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/queries/3237025), "All Known EVM CEX Addresses". The hildobby label set is treated as primary alongside Etherscan public name tags.
@@ -125,6 +132,11 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0xcbffcb2c38ecd19468d366d392ac0c1dc7f04bb6` | OKX 30 | $59 | $0 | 1 / 0 |
 | `0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43` | Coinbase 10 | $40 | $14 | 2 / 3 |
 | `0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511` | Coinbase 5 | $0 | $45 | 0 / 2 |
+
+<details><summary>Show 8 more rows</summary>
+
+| Counterparty | Tag (hildobby) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|---|---|---:|---:|---:|
 | `0x4976a4a02f38326660d17bf34b431dc6e2eb2327` | Binance 20 | $0 | $14 | 0 / 2 |
 | `0x21a31ee1afc51d94c2efccaa2092ad1028285549` | Binance 15 | $0 | $5 | 0 / 1 |
 | `0xf977814e90da44bfa03b6295a0616a897441acec` | Binance 8 | $0 | $0 | 1 / 0 |
@@ -133,6 +145,8 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0xf16e9b0d03470827a95cdfd0cb8a8a3b46969b91` | KuCoin 9 | $0 | $0 | 2 / 0 |
 | `0x4c9df57276dc17dee5635ded208c07b0be32afd0` | Crypto.com 30 | $0 | $0 | 2 / 0 |
 | `0x5754284f345afc66a98fbb0a0afe71e0f007b949` | Bitfinex Tether Treasury | $0 | $0 | 1 / 0 |
+
+</details>
 
 ### External sources — confirmed via Etherscan public name tags
 | Counterparty | Tag (Etherscan) | Inbound USD | Events |
@@ -158,6 +172,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0x70a9ffd5ccd90efd82b56e55ff7dc5511c809852` | $24,135,233 | $0 | 157 / 0 | 2022-05-10 → 2026-03-26 |
 | 9 | `0xd3b1ca9dfbb4acf1669c60bd8587122144295b73` | $19,563,746 | $0 | 524 / 0 | 2021-11-14 → 2026-03-30 |
 | 10 | `0xb7777ac291408554b0e3fedbe79d7675ac962af8` | $19,473,351 | $0 | 502 / 0 | 2025-12-18 → 2026-04-10 |
+
+<details><summary>Show 40 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0x47ef949598e02b90ae2a38624f07b77c18fabb8b` | $16,968,056 | $28 | 2,838 / 1 | 2021-04-13 → 2026-04-03 |
 | 12 | `0x7dd88a0f2f1599b89c560d9e6e5a77d342687d64` | $0 | $16,928,923 | 0 / 13 | 2025-07-25 → 2025-07-27 |
 | 13 | `0xcbc537685c04659d5bddb3d6e2c4149d0e5e4680` | $0 | $16,081,410 | 0 / 66 | 2025-05-29 → 2026-04-07 |
@@ -198,6 +217,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 48 | `0x69736878bcc150b58d683bf875cf67485f72a9b2` | $0 | $3,573,814 | 0 / 39 | 2024-10-18 → 2025-09-30 |
 | 49 | `0xa7588d1e0b12a41c1750dde919605e51a9443b23` | $0 | $3,561,208 | 0 / 28 | 2024-11-18 → 2025-08-14 |
 | 50 | `0x03a283e9293c399ec55239db794a12297529382f` | $0 | $3,385,103 | 0 / 25 | 2022-05-10 → 2022-10-27 |
+
+</details>
 ## Multichain footprint — probed-and-empty chains (2026-05-13)
 
 Beyond Ethereum and Polygon (both ACTIVE — see flow profiles in this file), Zonda 5's multichain footprint has been independently probed and found empty on every other EVM chain it carries an attribution claim on. The same EVM key (`0x6edf968d…5048`) is empty on:
@@ -259,6 +280,11 @@ Listed by descending outbound USD. Top 50 of 230 PolygonScan-tagged rows shown; 
 | `0x558b6d62…07c9` | Binance Deposit: 0x558b6d6258462E78907F14EA7402f52f1CD807C9 | $819,579 | 8 |
 | `0x41d6a1ce…31db` | ByBit Deposit: 0x41d6A1Ce50A1EC1365efeb98241B4892d10331Db | $579,927 | 23 |
 | `0xe70a98cb…44df` | Binance Deposit: 0xe70A98cbfD42125e4c940cDf328E67032d6044DF | $481,187 | 11 |
+
+<details><summary>Show 40 more rows</summary>
+
+| Counterparty | Tag (PolygonScan) | Outbound USD | Events |
+|--|--|--:|--:|
 | `0x57a484ea…0cb5` | Gate Deposit: 0x57a484ea925a1c4ccffd35d433bfa03985410cb5 | $261,888 | 213 |
 | `0x213000a6…8bec` | Binance Deposit: 0x213000A65dA8b1b64E31C63Ba39B9a8809f28beC | $201,899 | 2 |
 | `0xeba8cbae…68f1` | Gate Deposit: 0xeba8cbae20d25fbe1f992f45a90a5719df0d68f1 | $172,289 | 8 |
@@ -300,6 +326,8 @@ Listed by descending outbound USD. Top 50 of 230 PolygonScan-tagged rows shown; 
 | `0x413d6880…09ac` | Binance Deposit: 0x413D68800E09214fe897C56e14B6c6D3b56409Ac | $29,673 | 3 |
 | `0x1b604ece…0605` | Binance Deposit: 0x1b604ecEE329CfB99699c53E43a6dA73D2c50605 | $27,962 | 4 |
 
+</details>
+
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 
 15 hildobby-tagged Polygon counterparties — mostly poisoning-seed entries ($0 USD) where the seed transfer used a known CEX hot-wallet as the spoofed source. Real value flow only on Gate.io 1 ($168k inbound).
@@ -316,11 +344,18 @@ Listed by descending outbound USD. Top 50 of 230 PolygonScan-tagged rows shown; 
 | `0x51e3d441…75e0` | MEXC 8 | $0 | $0 | 1 / 0 |
 | `0x290275e3…cb88` | Binance 68 | $0 | $0 | 1 / 0 |
 | `0x20fe51a9…3b7a` | Coinbase 21 | $0 | $0 | 1 / 0 |
+
+<details><summary>Show 5 more rows</summary>
+
+| Counterparty | Tag (hildobby) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|--|--|--:|--:|--:|
 | `0x631fc1ea…a161` | Binance 44 | $0 | $0 | 1 / 0 |
 | `0xfe9e8709…51c8` | Binance 5 | $0 | $0 | 1 / 0 |
 | `0xd7025073…7e42` | HTX 48 | $0 | $0 | 1 / 0 |
 | `0x51528181…a621` | WhiteBIT 5 | $0 | $0 | 1 / 0 |
 | `0x3727cfcb…6be8` | Bitbank 2 | $0 | $0 | 1 / 0 |
+
+</details>
 
 ### Unattributed counterparties
 

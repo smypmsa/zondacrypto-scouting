@@ -2,7 +2,7 @@
 
 Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to Etherscan-tagged centralised-exchange addresses. The classification rule is mechanical: any external counterparty whose Etherscan Public Name Tag begins with a CEX brand (Binance, Kraken, KuCoin, Gate, Bitstamp, Bitfinex, Bybit, MEXC, HTX, Bidesk, Kanga, etc.) is bucketed under that brand. The CEX name tag was verified by a fresh HTML fetch on 2026-05-13 for every address listed; saved HTML is retained in the working archive (see [methodology § Receipts](../methodology.md#receipts-and-reproducibility)). The canonical primary source for each row remains the address's live Etherscan page.
 
-**Scope.** Etherscan-tagged CEX deposit / hot-wallet addresses only. Heuristic operator-network counterparties, OTC desks, or aggregator addresses not carrying a public name tag are out of scope of this summary by design — they belong in each wallet's Unidentified-counterparty row and remain unattributed under the inventory's primary-citation standard until cleared individually.
+**Scope.** Etherscan-tagged CEX deposit / hot-wallet addresses only. Heuristic operator-network counterparties, OTC desks, or aggregator addresses not carrying a public name tag are out of scope of this summary by design — they belong in each wallet's Unattributed-counterparty row and remain unattributed under the inventory's primary-citation standard until cleared individually.
 
 **Confidence.** CONFIRMED on totals: every cell is a Dune-aggregation sum filtered to addresses with a fresh-verified Etherscan public name tag. PARTIAL on rows where the source-wallet attribution itself is at PARTIAL tier (the BitBay-era wallets — flagged below).
 
@@ -42,6 +42,11 @@ Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto
 | Gate | (multiple, 1 addr) | Zonda Deposit Wallet `0x82c82923…900c` | $158,566 | 34 |
 | Gate | (multiple, 1 addr) | BitBay 879882 `0x879882c5…b54f`  **(PARTIAL source-wallet attribution)** | $7,483 | 1 |
 | HTX | (multiple, 1 addr) | Zonda Deposit Wallet `0x82c82923…900c` | $10,932 | 7 |
+
+<details><summary>Show 8 more rows</summary>
+
+| CEX brand | Source CEX address | Destination Zonda wallet | Inbound USD | Events |
+|--|--|--|--|--|
 | Kanga | (multiple, 1 addr) | BitBay 879882 `0x879882c5…b54f`  **(PARTIAL source-wallet attribution)** | $13,053 | 2 |
 | Kraken | (multiple, 8 addr) | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source-wallet attribution)** | $3,600,757 | 655 |
 | Kraken | (multiple, 1 addr) | Zonda 5 `0x6edf968d…5048` | $400,154 | 1 |
@@ -50,6 +55,8 @@ Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto
 | KuCoin | (multiple, 1 addr) | Zonda Deposit Wallet `0x82c82923…900c` | $1,742 | 1 |
 | MEXC | (multiple, 1 addr) | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source-wallet attribution)** | $30,016 | 3 |
 | MEXC | (multiple, 1 addr) | Zonda Deposit Wallet `0x82c82923…900c` | $19,095 | 3 |
+
+</details>
 
 ## Methodology cross-link
 

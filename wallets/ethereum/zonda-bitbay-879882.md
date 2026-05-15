@@ -61,10 +61,17 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | `0x56428636…aced` | Binance 3 | $15,395 | 1 |
 | `0x42d17b7f…e2cd` | Kanga Exchange 1 | $13,053 | 2 |
 | `0x3f5ce5fb…f0be` | Binance | $9,759 | 1 |
+
+<details><summary>Show 4 more rows</summary>
+
+| Counterparty | Tag (Etherscan) | Inbound USD | Events |
+|--|--|--|--|
 | `0x0681d8db…dbbf` | Binance 4 | $9,587 | 1 |
 | `0x0d070796…92fe` | Gate Deposit: 0x0d0707963952f2fba59dd06f2b425ace40b492fe | $7,483 | 1 |
 | `0xb8001c3e…1ec1` | Cobo: Custody 1 | $4,984 | 2 |
 | `0xc2ba04e8…4793` | Bidesk 14 | $3,976 | 1 |
+
+</details>
 
 ### Unattributed counterparties
 **This section is a known incomplete part of the analysis.** 3 of the 18 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$0 outbound** and **$31,500 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
@@ -85,6 +92,11 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 8 | `0x8c8ee12c274d2372890f3ff03e3771cf25ae4327` | $0 | $0 | 1 / 0 | 2025-11-02 → 2025-11-02 |
 | 9 | `0x5a1195f555c487f044a777dd39938a1ea37b7aa3` | $0 | $0 | 1 / 0 | 2025-10-28 → 2025-10-28 |
 | 10 | `0xf7cede6cb21f73ca4a502a731daf3d2e41bd44cb` | $0 | $0 | 1 / 0 | 2024-04-25 → 2024-04-25 |
+
+<details><summary>Show 12 more rows</summary>
+
+| # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
+|---|---|---:|---:|---:|---|
 | 11 | `0xd5050910347ecaf024421bc5e8f2b2e2e12ea8cb` | $0 | $0 | 1 / 0 | 2024-04-04 → 2024-04-04 |
 | 12 | `0x82dfdb2ec1aa6003ed4acba663403d7c2127ff67` | $0 | $0 | 1 / 0 | 2021-09-11 → 2021-09-11 |
 | 13 | `0x6ed0faa6fa60392119d5bef42a86bb3822b85048` | $0 | $0 | 0 / 1 | 2023-02-18 → 2023-02-18 |
@@ -97,6 +109,8 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 20 | `0xbbcd44263236dfbf8e4705a4eb58226671d74c5e` | $0 | $0 | 1 / 0 | 2026-03-27 → 2026-03-27 |
 | 21 | `0xaea46a60368a7bd060eec7df8cba43b7ef41ad85` | $0 | $0 | 1 / 0 | 2024-01-24 → 2024-01-24 |
 | 22 | `0x6982508145454ce325ddbe47a25d4ec3d2311933` | $0 | $0 | 2 / 0 | 2024-03-06 → 2024-03-30 |
+
+</details>
 ## Counterparty enumeration (full)
 
 Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-bitbay-879882-counterparties.csv`](zonda-bitbay-879882-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
@@ -123,6 +137,11 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x42d17b7f3532ec2f7c4e4e5e239baa476846e2cd` | Kanga Exchange 1 | $13,636 | $0 | 3 / 0 |
 | `0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be` | Binance 1 | $9,759 | $0 | 1 / 0 |
 | `0x0681d8db095565fe8a346fa0277bffde9c0edbbf` | Binance 4 | $9,587 | $0 | 1 / 0 |
+
+<details><summary>Show 7 more rows</summary>
+
+| Counterparty | Tag (hildobby) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|---|---|---:|---:|---:|
 | `0x0d0707963952f2fba59dd06f2b425ace40b492fe` | Gate.io 1 | $7,483 | $0 | 392 / 0 |
 | `0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1` | Cobo 6 | $4,984 | $0 | 2 / 0 |
 | `0xc2ba04e89016f417e1219af7ef82a5b6a9214793` | Bidesk 14 | $3,976 | $0 | 1 / 0 |
@@ -130,4 +149,6 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x2b3bf74b29f59fb8dda41cf3d6a8da28cf8e7921` | BingX 20 | $0 | $0 | 1 / 0 |
 | `0x9642b23ed1e01df1092b92641051881a322f5d4e` | MEXC 21 | $0 | $0 | 51 / 0 |
 | `0x6d0d19bdddc5ed1dd501430c9621dd37ebd9062d` | BitMart 13 | $0 | $0 | 6 / 0 |
+
+</details>
 

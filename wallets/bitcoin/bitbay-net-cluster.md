@@ -36,6 +36,11 @@ Top 20 by current balance, snapshot 2026-05-12 (source: `/wallet/BitBay.net/addr
 | `1J1EzH4LEfrxAaNwqhdkmkfixZq7tWZEjG` | 0.00161000 | 20 | Hot wallet |
 | `1PzCYzPkBhXUwcnqQf9vqgbJjzc1DghBe7` | 0.00130997 | 13 | Hot wallet |
 | `1GAqEKYmR8XxE9bgcCeMwdFBm19TV57Pz3` | 0.00113700 | 8 | Hot wallet |
+
+<details><summary>Show 10 more rows</summary>
+
+| Address | Balance (BTC) | Txs | Inferred role |
+|---|---|---|---|
 | `16vzY8McaCbLfyCTpK7GtUA4aZ5KEhi9cw` | 0.00113138 | 19 | Hot wallet |
 | `19YF2rm3LnvM6HtyQvZWC5wwaT3HzJ9WzT` | 0.00105430 | 4 | Likely deposit address |
 | `1G7eupKrc4wXZSY13iVY6PZv9qwnNFZfyu` | 0.00101245 | 4 | Likely deposit address |
@@ -46,6 +51,8 @@ Top 20 by current balance, snapshot 2026-05-12 (source: `/wallet/BitBay.net/addr
 | `1LXHAzj9RjZuZeLHJwHp21ZFHAeJKG5ea`  | 0.00097935 | 12 | Hot wallet |
 | `18NTq51gShpDRvnPx6DXE23qjnexrnZ5DW` | 0.00097801 | 3 | Likely deposit address |
 | `1BK996rZ9oBBNEA71jKTAXeyD9cEMiPh98` | 0.00097201 | 15 | Hot wallet |
+
+</details>
 
 These addresses are the most useful entry points for flow analysis that lands on this cluster — checking whether a Bitcoin counterparty in some other investigation is BitBay-related is a question of whether the counterparty's address (or any co-spend partner) sits inside the WalletExplorer `BitBay.net` cluster, not whether it matches one of the 20 representatives above. The 20 are *examples*, not *the inventory*.
 
