@@ -6,7 +6,7 @@
 
 It contains an **inventory** of on-chain addresses attributable to ZondaCrypto / BitBay by a primary public source, the **on-chain math** derived directly from those addresses (balances, transfers, counterparties, totals), and the **citations and receipts** that back each row. Every claim is reproducible from the wallet address alone against the named data source.
 
-It does not contain interpretations, accusations, named-person commentary beyond what a primary record itself states, or attribution that exceeds what the cited source says. Reader interpretation is deliberately left to the reader.
+It does not contain interpretations, accusations, named-person commentary beyond what a primary record itself states, or attribution that exceeds what the cited source says.
 
 ## Headline figures
 
