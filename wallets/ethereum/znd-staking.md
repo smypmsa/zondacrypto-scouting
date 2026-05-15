@@ -1,5 +1,7 @@
 # ZNDStaking
 
+> **Plain-language summary.** The smart contract that manages ZondaCrypto's ZND-token staking and reward distribution. The ZND token contract's `owner()` returns this contract, meaning supply authority over ZND lives inside the contract rather than in an EOA. ZNDStaking holds 74.27% of the total ZND supply. Source is verified on Etherscan.
+
 **Address:** `0xcb3d2be5386a13c87944f9384214ead9a6dba792`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** Smart contract that manages ZondaCrypto's ZND-token staking and reward distribution. It is also the on-chain owner of the ZND token contract — supply control sits inside this contract, not in an EOA. Holds 74.27% of total ZND supply.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -71,7 +75,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-staking-counterparties.csv`](znd-staking-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-staking-counterparties.csv`](znd-staking-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

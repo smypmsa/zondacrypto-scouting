@@ -1,5 +1,7 @@
 # ZND `s_zndPlatform`
 
+> **Plain-language summary.** The platform-side operator account recorded in the `s_zndPlatform` state variable of the ZNDStaking contract. Attribution is on-chain: reading the contract returns this address. Substantial outbound nonce — consistent with operational recurring use. Among the top-100 holders of the ZND token.
+
 **Address:** `0xae4f32dfa85b9e8c424a9604e7bf1d8128859943`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** Platform-side operator recorded in the `s_zndPlatform` state variable of the ZNDStaking contract.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -94,7 +98,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-platform-counterparties.csv`](znd-platform-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-platform-counterparties.csv`](znd-platform-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

@@ -1,5 +1,7 @@
 # TMPL token (TeamPL Token)
 
+> **Plain-language summary.** An ERC-20 token (`TeamPL Token`, symbol `TMPL`) that ZondaCrypto uses to pay the Polish Olympic Committee and Polish Olympic Team sponsorship in a 50/50 split with Polish złoty. Attributed by Etherscan source verification, ZondaCrypto's own announcement, and the CoinGecko listing for the same contract. The second-largest TMPL holder (13.96% of supply) is Zonda 5.
+
 **Address:** `0xc2FdA18D62C8688902741Da1e3c5BE65C86BAB07`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ERC-20 token used by ZondaCrypto to pay the Polish Olympic Committee (PKOl) and Polish Olympic Team sponsorship in 50/50 split with Polish złoty.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -56,7 +60,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`tmpl-token-counterparties.csv`](tmpl-token-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`tmpl-token-counterparties.csv`](tmpl-token-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

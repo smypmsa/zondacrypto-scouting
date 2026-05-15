@@ -1,5 +1,7 @@
 # Disclosed BTC cold reserve
 
+> **Plain-language summary.** The single Bitcoin address ZondaCrypto's CEO publicly disclosed on 2026-04-16 as the company's cold reserve. It holds 4,503.26 BTC and has never had an outgoing spend in its ten-year lifetime. Attribution is at PARTIAL tier — one primary source (the CEO's own video) — because no second public label set names this address. The 116 funding addresses that built the balance over 39 inbound transactions lie in two unnamed WalletExplorer co-spend clusters; none are public-tagged.
+
 **Address:** `16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n`
 
 **Chain:** Bitcoin.
@@ -7,6 +9,8 @@
 **Role:** Cold-storage bitcoin reserve, publicly disclosed by the ZondaCrypto CEO on 2026-04-16.
 
 **Confidence:** PARTIAL.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -35,7 +39,7 @@ Receipts: per-address WalletExplorer HTML probes (one file per foundational inpu
 
 ## Flow profile (Bitcoin, mempool.space-aggregated 2026-05-13)
 
-Full-history aggregation built from the mempool.space `address/<addr>` summary and the paginated `address/<addr>/txs/chain` endpoint. Dune Analytics has no Bitcoin coverage; the BTC flow profile is built directly from a self-hostable mempool.space-style indexer over the address's UTXO set. See [methodology](../methodology.md#flow-profile-bitcoin) for the data sources.
+Full-history aggregation built from the mempool.space `address/<addr>` summary and the paginated `address/<addr>/txs/chain` endpoint. Dune Analytics has no Bitcoin coverage; the BTC flow profile is built directly from a self-hostable mempool.space-style indexer over the address's UTXO set. See [methodology](../../methodology.md#flow-profile-bitcoin) for the data sources.
 
 | Metric | Value |
 |--|--|
@@ -66,13 +70,13 @@ WalletExplorer cluster coverage by funding window:
 
 ### Counterparties — inflow side
 
-The 116 distinct funding addresses lie in two unnamed WalletExplorer co-spend clusters as documented in the section above. **No funding address carries a public name tag on mempool.space or a comparable Bitcoin block explorer as of 2026-05-13.** All 116 are classified Unidentified under the inventory's primary-citation standard.
+The 116 distinct funding addresses lie in two unnamed WalletExplorer co-spend clusters as documented in the section above. **No funding address carries a public name tag on mempool.space or a comparable Bitcoin block explorer as of 2026-05-13.** All 116 are classified Unattributed under the inventory's primary-citation standard.
 
 ### Counterparties — outflow side
 
 None. Zero on-chain spends since the wallet's first deposit in 2016-03. Every UTXO ever received to this address is still UTXO-unspent as of 2026-05-08.
 
-### Unidentified counterparties
+### Unattributed counterparties
 
 **This section is a known incomplete part of the analysis.** All 116 of 116 funding addresses are unattributed under the inventory's primary-citation standard. The WalletExplorer cluster context above is a heuristic observation from a single tool and does not establish primary attribution on any individual funding address. Entity-attribution work on these counterparties is ongoing in the case's internal working notes.
 

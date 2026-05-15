@@ -43,7 +43,7 @@ Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 137), 10,000-
 
 **Scope note.** The d388 vanity-suffix sibling addresses (`0xd388d1d8…8046`, `0xd388c824…8046`) moved tokens for which Dune `tokens_polygon.transfers` has no liquid USD-equivalent price (predominantly ZND / TMPL). Both addresses return zero rows from the canonical ≥$1k Dune aggregation and so do not appear in the tables below. The flow profile here therefore covers only the Zonda 6 multichain address `0xd388009f…8046` on Polygon.
 
-Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 USD-equivalent per event). See [methodology](../methodology.md#flow-profile) for the SQL.
+Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 USD-equivalent per event). See [methodology](../../methodology.md#flow-profiles) for the SQL.
 
 | Metric | Value |
 |--|--|
@@ -57,9 +57,9 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 | Counterparties without a public name tag | **1, aggregating ~$152,571 outbound and ~$0 inbound across captured rows** |
 | Active period | 2023-11-22 → 2026-01-14 |
 
-**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unattributed counterparties row — entity attribution work is ongoing.
 
-### Counterparties also in this inventory   [internal flows]
+### Counterparties also in this inventory
 
 | Counterparty | Inbound USD | Outbound USD | Events |
 |--|--|--|--|
@@ -73,7 +73,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 | `0x00000000…0000` | Null: 0x000…000 | $13,474,833 | 113 |
 | `0x00000000…1010` | Polygon: POL Token | $389,002 | 2 |
 
-### Unidentified counterparties
+### Unattributed counterparties
 
 **This section is a known incomplete part of the analysis.** 1 of the 5 Polygon counterparties with ≥$1k cumulative flow carry no PolygonScan public name tag as of 2026-05-13 and do not appear in this inventory's roster. The unidentified rows captured here aggregate **$152,571 outbound** and **$0 inbound**. Entity-attribution work on these counterparties is ongoing.
 
@@ -152,5 +152,5 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-d388-family-polygon-counterparties.csv`](zonda-d388-family-polygon-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Polygon; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-d388-family-polygon-counterparties.csv`](zonda-d388-family-polygon-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Polygon; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 

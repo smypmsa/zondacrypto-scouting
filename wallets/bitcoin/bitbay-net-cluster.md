@@ -1,6 +1,10 @@
 # BitBay.net cluster (WalletExplorer)
 
-A clustered set of operational Bitcoin addresses that WalletExplorer attributes — under a single named cluster — to the BitBay.net brand (the predecessor identity of zondacrypto). This entry is a single inventory item for the cluster as a whole. The cluster's canonical address list lives upstream; this file documents the cluster's identity, the basis for attribution, representative addresses, and what the cluster does *not* cover.
+> **Plain-language summary.** A WalletExplorer-named cluster of 26,014 Bitcoin addresses attributed to the BitBay.net brand — the predecessor identity of ZondaCrypto. Active 2019-05-13 → 2025-08-24 across 321,245 cluster-level transactions. Recorded as a single inventory item for the cluster as a whole. Attribution is at PARTIAL tier because WalletExplorer is the only public label set naming this cluster.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
+
+A clustered set of operational Bitcoin addresses that WalletExplorer attributes — under a single named cluster — to the BitBay.net brand. This entry is a single inventory item for the cluster as a whole. The cluster's canonical address list lives upstream; this file documents the cluster's identity, the basis for attribution, representative addresses, and what the cluster does *not* cover.
 
 ## Cluster identity
 
@@ -55,7 +59,7 @@ These addresses are the most useful entry points for flow analysis that lands on
 
 The cluster is too large to enumerate per-address as an inventory deliverable. **26,014 addresses** in the cluster (point-in-time snapshot 2026-05-12). **321,245 transactions** at the cluster level. Active period **2019-05-13 → 2025-08-24**. WalletExplorer reports these aggregates on the cluster page directly.
 
-**Scope note — structural stats only.** Cluster-level BTC volume and per-counterparty named-cluster touches are deferred from this inventory entry. Reproducing them requires either WalletExplorer's CSV-export-all-pages affordance (which paginates over 26,014 addresses across many transaction-history pages) or a full local co-spend re-cluster against a Bitcoin full node. Both reproduction paths are documented in the [methodology](../methodology.md#inventory-profile-csv) under "Bitcoin cluster scope". Readers needing aggregate cluster flow numbers should consult the WalletExplorer cluster page directly: [walletexplorer.com/wallet/BitBay.net](https://www.walletexplorer.com/wallet/BitBay.net).
+**Scope note — structural stats only.** Cluster-level BTC volume and per-counterparty named-cluster touches are deferred from this inventory entry. Reproducing them requires either WalletExplorer's CSV-export-all-pages affordance (which paginates over 26,014 addresses across many transaction-history pages) or a full local co-spend re-cluster against a Bitcoin full node. Both reproduction paths are documented in the [methodology](../../methodology.md#inventory-profile-csv) under "Bitcoin cluster scope". Readers needing aggregate cluster flow numbers should consult the WalletExplorer cluster page directly: [walletexplorer.com/wallet/BitBay.net](https://www.walletexplorer.com/wallet/BitBay.net).
 
 Per-address enumeration of this cluster is out of scope for this inventory under the cluster-as-inventory-item convention documented in the "Why a single cluster file rather than 26,014 wallet files" section above.
 

@@ -1,5 +1,7 @@
 # ZNDStaking owner
 
+> **Plain-language summary.** The EOA at the top of ZondaCrypto's on-chain authority chain over the ZND token. ZNDStaking's `owner()` returns this address, and ZNDStaking in turn owns the ZND token contract. Low outbound nonce (3 transactions) — consistent with a purpose-built admin key rather than an operational hot wallet.
+
 **Address:** `0x08d807a320d5986eb7c4f086bbab974c8db210da`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** Externally-owned account that is the Ownable2Step owner of the ZNDStaking contract. Because ZNDStaking is in turn the owner of the ZND token contract, this EOA holds the top of ZondaCrypto's on-chain authority chain over the ZND token system.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -45,7 +49,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zndstaking-owner-counterparties.csv`](zndstaking-owner-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zndstaking-owner-counterparties.csv`](zndstaking-owner-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

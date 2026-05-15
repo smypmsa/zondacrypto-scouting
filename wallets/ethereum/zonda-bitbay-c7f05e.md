@@ -36,7 +36,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 
 **Confidence:** CONFIRMED on totals (Gross IN/OUT, throughput, distinct-counterparty count). CONFIRMED on per-counterparty Internal + Etherscan-tagged rows below.
 
-### Counterparties also in this inventory   [internal flows]
+### Counterparties also in this inventory
 
 | Counterparty | Inbound USD | Outbound USD | Events |
 |--|--|--|--|

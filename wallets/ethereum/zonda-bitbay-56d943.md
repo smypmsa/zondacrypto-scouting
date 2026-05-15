@@ -24,7 +24,7 @@ Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-ev
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-13)
 
 **PARTIAL — wallet attribution itself is at PARTIAL tier;** flow data below is CONFIRMED from on-chain transfers, but the link of these flows to ZondaCrypto operations rests on the wallet's PARTIAL attribution.
-Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unidentified** otherwise. See [methodology](../methodology.md#flow-profile) for the SQL.
+Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profiles) for the SQL.
 | Metric | Value |
 |--|--|
 | Gross IN (USD-equivalent at tx time) | $3,806,066 |
@@ -37,9 +37,9 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **445, aggregating ~$203,129 outbound and ~$205,309 inbound across the top-500 captured here** |
 | Active period (≥$1k events) | 2025-08-04 → 2026-05-12 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unattributed counterparties row — entity attribution work is ongoing.
 
-### External destinations — confirmed via Etherscan public name tags
+### External counterparties — confirmed via public name tag
 | Counterparty | Tag (Etherscan) | Outbound USD | Events |
 |--|--|--|--|
 | `0x674e7b96…7b35` | ByBit Deposit: 0x674E7B96a0f5FB81dAda4A6F9e7B07A7E2067B35 | $3,096 | 3 |
@@ -72,7 +72,7 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x16b2b042…c415` | Kraken 33 | $1,160 | 1 |
 | `0x735fd3c5…0a1c` | Kraken 18 | $1,158 | 1 |
 
-### Unidentified counterparties
+### Unattributed counterparties
 **This section is a known incomplete part of the analysis.** 445 of the 455 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$203,129 outbound** and **$205,309 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
 ### Top 50 unattributed counterparties by gross USD
@@ -133,7 +133,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 50 | `0xb27ce726630caaceaaf93a1597770b3e39ea2969` | $0 | $7,380 | 0 / 92 | 2025-11-27 → 2026-01-31 |
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-bitbay-56d943-counterparties.csv`](zonda-bitbay-56d943-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-bitbay-56d943-counterparties.csv`](zonda-bitbay-56d943-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

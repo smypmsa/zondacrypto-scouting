@@ -40,7 +40,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 
 **Confidence:** CONFIRMED on totals. CONFIRMED on per-counterparty Internal + hildobby-tagged rows (each verified against hildobby `query_3237025`). PARTIAL on the Unattributed rows — entity attribution work is ongoing in the case's internal working notes.
 
-### Counterparties also in this inventory   [internal flows]
+### Counterparties also in this inventory
 
 | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) |
 |--|--|--|--|

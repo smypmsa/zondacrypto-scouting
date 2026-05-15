@@ -1,5 +1,7 @@
 # ZND token
 
+> **Plain-language summary.** The ERC-20 token contract issued by ZondaCrypto on 2024-10-18. Attributed by the Etherscan public token tag plus ZondaCrypto's own announcement post. The contract was deployed by the EOA documented at [`znd-deployer.md`](znd-deployer.md) and is owned on-chain by the ZNDStaking contract.
+
 **Address:** `0x2d8eA194902Bc55431420BD26Be92b0782dCe91D`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ERC-20 token contract issued by ZondaCrypto.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -53,7 +57,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-token-counterparties.csv`](znd-token-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-token-counterparties.csv`](znd-token-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

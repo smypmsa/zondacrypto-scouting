@@ -1,5 +1,7 @@
 # ZND `s_withdrawalAccount`
 
+> **Plain-language summary.** The withdrawal-recipient account recorded in the `s_withdrawalAccount` state variable of the ZNDStaking contract. Attribution is on-chain: reading the contract returns this address. Zero outbound nonce — the address has never sent a transaction itself.
+
 **Address:** `0x36ac695293d35bd90586b5353471c2004407ef6e`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** Withdrawal-recipient account recorded in the `s_withdrawalAccount` state variable of the ZNDStaking contract.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -37,7 +41,7 @@ Counterparty classification follows the same `internal` / `hildobby` / `ethersca
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-withdrawal-account-counterparties.csv`](znd-withdrawal-account-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-withdrawal-account-counterparties.csv`](znd-withdrawal-account-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

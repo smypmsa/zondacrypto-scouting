@@ -1,5 +1,7 @@
 # Zonda 2
 
+> **Plain-language summary.** A ZondaCrypto exchange wallet using the same key on Ethereum and Polygon, attributed by four independent primary sources (Etherscan, PolygonScan, hildobby, BlockSec). Active since 2021. Observed Ethereum throughput is $663.0 million across 4,090 events above $1,000 USD with $96.1 million net inflow; Polygon activity is materially smaller (see the Polygon flow profile section below).
+
 **Address:** `0x781229c7a798c33ec788520a6bbe12a79ed657fc`
 
 **Chain:** Ethereum, Polygon.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto exchange wallet.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -27,7 +31,7 @@ Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-ev
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 137), 10,000-event page each.
 
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-13)
-Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unidentified** otherwise. See [methodology](../methodology.md#flow-profile) for the SQL.
+Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profiles) for the SQL.
 | Metric | Value |
 |--|--|
 | Gross IN (USD-equivalent at tx time) | $379,572,159 |
@@ -40,9 +44,9 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **2,537, aggregating ~$66,908,332 outbound and ~$76,014,542 inbound across the top-500 captured here** |
 | Active period (≥$1k events) | 2021-08-31 → 2026-04-02 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unattributed counterparties row — entity attribution work is ongoing.
 
-### Counterparties also in this inventory   [internal flows]
+### Counterparties also in this inventory
 | Counterparty | Inbound USD | Outbound USD | Events |
 |--|--|--|--|
 | Zonda 5 `0x6edf968d…5048` | $160,314,937 | $163,474,760 | 555 |
@@ -51,7 +55,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Zonda 4 `0x2b645268…763a` | $2,228,043 | $22,219,874 | 10 |
 | Zonda 6 `0xd388009f…8046` | $0 | $1,207,505 | 1 |
 
-### Unidentified counterparties
+### Unattributed counterparties
 **This section is a known incomplete part of the analysis.** 2,537 of the 2,542 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$66,908,332 outbound** and **$76,014,542 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
 ### Top 50 unattributed counterparties by gross USD
@@ -112,7 +116,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 50 | `0x227341e7b5aa1ba3aea0907a7c401e0b6c8c602c` | $85,059 | $0 | 3 / 0 | 2022-01-28 → 2022-04-28 |
 ## Flow profile (Polygon, Dune-aggregated 2026-05-13)
 
-Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 USD-equivalent per event). See [methodology](../methodology.md#flow-profile) for the SQL.
+Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 USD-equivalent per event). See [methodology](../../methodology.md#flow-profiles) for the SQL.
 
 | Metric | Value |
 |--|--|
@@ -126,15 +130,15 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 | Counterparties without a public name tag | **1, aggregating ~$16,681 outbound and ~$0 inbound across captured rows** |
 | Active period | 2024-04-25 → 2026-01-05 |
 
-**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unattributed counterparties row — entity attribution work is ongoing.
 
-### Counterparties also in this inventory   [internal flows]
+### Counterparties also in this inventory
 
 | Counterparty | Inbound USD | Outbound USD | Events |
 |--|--|--|--|
 | Zonda 5 `0x6edf968d…5048` | $11,723,827 | $10,812,322 | 49 |
 
-### Unidentified counterparties
+### Unattributed counterparties
 
 **This section is a known incomplete part of the analysis.** 1 of the 2 Polygon counterparties with ≥$1k cumulative flow carry no PolygonScan public name tag as of 2026-05-13 and do not appear in this inventory's roster. The unidentified rows captured here aggregate **$16,681 outbound** and **$0 inbound**. Entity-attribution work on these counterparties is ongoing.
 
@@ -142,7 +146,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-2-counterparties.csv`](zonda-2-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-2-counterparties.csv`](zonda-2-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 Polygon counterparties are published separately: [`zonda-2-counterparties-polygon.csv`](zonda-2-counterparties-polygon.csv).
 

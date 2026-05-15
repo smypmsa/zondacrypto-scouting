@@ -1,5 +1,7 @@
 # ZND deployer
 
+> **Plain-language summary.** The externally-owned account (EOA) that deployed the ZND token contract on 2024-10-18. Attributed by the Etherscan public name tag "ZND: Deployer" plus the on-chain contract-creation transaction itself. Active on a single day only — five native-transaction events recorded, no ERC-20 events.
+
 **Address:** `0x43a8a5b11b2f82866ad7dcef2c0a18e78e77399b`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** Externally-owned account that deployed the ZND token contract on 2024-10-18.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -35,7 +39,7 @@ Counterparty classification follows the same `internal` / `hildobby` / `ethersca
 
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-deployer-counterparties.csv`](znd-deployer-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`znd-deployer-counterparties.csv`](znd-deployer-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 

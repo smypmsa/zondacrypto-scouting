@@ -1,5 +1,7 @@
 # Zonda 3
 
+> **Plain-language summary.** A ZondaCrypto exchange wallet on Ethereum, attributed by three independent primary sources (Etherscan, hildobby, BlockSec). Active 2016-04 → 2022-02 (effectively dormant after early 2022). Observed throughput is $1.13 billion across 31,091 events above $1,000 USD; the wallet has a $177.7 million net outflow over its lifetime, with $309.8 million of that outflow landing on Zonda 1 alone.
+
 **Address:** `0x0ff24158220a14398f047a80a513617ddc4f5289`
 
 **Chain:** Ethereum.
@@ -7,6 +9,8 @@
 **Role:** ZondaCrypto exchange wallet.
 
 **Confidence:** CONFIRMED.
+
+> *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
@@ -20,7 +24,7 @@ Etherscan carries the public name tag "Zonda 3 (Exchange)" on this address.[^1] 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
 
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-13)
-Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unidentified** otherwise. See [methodology](../methodology.md#flow-profile) for the SQL.
+Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profiles) for the SQL.
 | Metric | Value |
 |--|--|
 | Gross IN (USD-equivalent at tx time) | $478,308,976 |
@@ -33,16 +37,16 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **16,346, aggregating ~$21,329,698 outbound and ~$360,248,631 inbound across the top-500 captured here** |
 | Active period (≥$1k events) | 2016-04-02 → 2022-02-28 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unattributed counterparties row — entity attribution work is ongoing.
 
-### Counterparties also in this inventory   [internal flows]
+### Counterparties also in this inventory
 | Counterparty | Inbound USD | Outbound USD | Events |
 |--|--|--|--|
 | Zonda 1 `0xf646cbe3…b95e` | $837,541 | $309,795,646 | 535 |
 | Zonda 4 `0x2b645268…763a` | $0 | $189,202,109 | 93 |
 | Zonda 2 `0x781229c7…57fc` | $0 | $134,944,128 | 21 |
 
-### External destinations — confirmed via Etherscan public name tags
+### External counterparties — confirmed via public name tag
 | Counterparty | Tag (Etherscan) | Outbound USD | Events |
 |--|--|--|--|
 | `0xaa1a6e3e…6444` | ReplaySafeSplit | $86,238 | 4 |
@@ -55,7 +59,7 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 |---|---|---:|---:|---:|
 | `0xdc76cd25977e0a5ae17155770273ad58648900d3` | HTX 6 | $0 | $0 | 2 / 0 |
 
-### Unidentified counterparties
+### Unattributed counterparties
 **This section is a known incomplete part of the analysis.** 16,346 of the 16,350 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$21,329,698 outbound** and **$360,248,631 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
 ### Top 50 unattributed counterparties by gross USD
@@ -116,7 +120,7 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 50 | `0x1e1d6bc2afe39a5ecd3ce675c32d26604f78e912` | $1,027,352 | $0 | 2 / 0 | 2018-04-06 → 2021-10-14 |
 ## Counterparty enumeration (full)
 
-Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-3-counterparties.csv`](zonda-3-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../methodology.md#inventory-profile-csv).
+Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-3-counterparties.csv`](zonda-3-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).
 
 ## Block-explorer link
 
