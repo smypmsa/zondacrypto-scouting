@@ -207,7 +207,7 @@ Beyond Ethereum and Polygon (both ACTIVE — see flow profiles in this file), Zo
 | zkSync Era | UNPROBED for this key (only the F-005 institutional address was zkSync-probed; deferred) | — | — |
 | Tron (native + TRX_EVM_RPC) | EMPTY (zero balance + zero txs) | Tronscan API + TRX_EVM_RPC | `case/sources/zonda5-multichain/tron-*` |
 
-The "BSC / Optimism / Base" annotation that appears on this page above for Zonda 5 reflects same-key cross-chain availability of the EOA, not active flow on those chains: the most-recent-window probes return zero events. Historical pre-2024 BSC activity has not been ruled in or out by these recent-window probes; a deeper backward chunked scan is queued in the case's `STAGE-2-QUEUE.md` but has not been run.
+The "BSC / Optimism / Base" annotation that appears on this page above for Zonda 5 reflects same-key cross-chain availability of the EOA, not active flow on those chains: the most-recent-window probes return zero events. Historical pre-2024 BSC activity has not been ruled in or out by these recent-window probes; a deeper backward chunked scan is queued in the case's `queue.md` but has not been run.
 
 **Confidence:** CONFIRMED-empty on the recent-window probes shown above. The longer-history BSC question remains UNPROBED.
 
