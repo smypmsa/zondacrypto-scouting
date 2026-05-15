@@ -16,7 +16,7 @@
 
 The contract is an OpenZeppelin-based ERC-20 with permit (Solidity 0.8.28), source-verified on Etherscan with `name() = "TeamPL Token"` and `symbol() = "TMPL"`.[^1] ZondaCrypto's official news post announcing the PKOl sponsorship names TMPL as the payment token alongside PLN cash.[^2] CoinGecko's listing identifies the same contract as the TeamPL Token issued for the ZondaCrypto–PKOl partnership.[^3] The whitepaper is hosted at `assets.znd.co/tmpl-token/en/whitepaper.pdf`, the same `znd.co` domain that hosts the ZND token whitepaper.
 
-The Zonda link is also visible on-chain: the second-largest holder of TMPL is the Etherscan-tagged Zonda 5 exchange wallet ([`zonda-5.md`](zonda-5.md)), which holds 139,637,857 TMPL — 13.96% of the total supply. The largest holder is the contract that deployed TMPL, a vesting factory at `0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4`, which holds 860,325,400 TMPL (86.03%).
+The Zonda link is also visible on-chain: the second-largest holder of TMPL is the Etherscan-tagged Zonda 5 exchange wallet ([`zonda-5.md`](zonda-5.md)), which holds 139,637,857 TMPL — 13.96% of the total supply. The largest holder is the contract that deployed TMPL — the `TMPLPools` vesting contract at `0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4` ([`tmpl-pools.md`](tmpl-pools.md)) — which holds 860,325,400 TMPL (86.03%).
 
 ## On-chain facts
 
