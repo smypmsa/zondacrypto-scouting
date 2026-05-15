@@ -21,7 +21,7 @@ Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-ev
 
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-13)
 
-No material flow above the $1,000 USD-equivalent threshold on Ethereum. This address moves tokens for which Dune `tokens_ethereum.transfers` has no liquid USD-equivalent price (ZND / TMPL), or its on-chain activity is below the $1k-per-event threshold used elsewhere in this inventory. On-chain activity is non-zero but USD-equivalent unmeasurable at the same threshold used for the other wallets in this inventory. Receipt: `case/sources/dune/inventory-per-wallet-totals-2026-05-13.json`.
+No material flow above the $1,000 USD-equivalent threshold on Ethereum. This address moves tokens for which Dune `tokens_ethereum.transfers` has no liquid USD-equivalent price (ZND / TMPL), or its on-chain activity is below the $1k-per-event threshold used elsewhere in this inventory. On-chain activity is non-zero but USD-equivalent unmeasurable at the same threshold used for the other wallets in this inventory. Receipt: `../../sources/dune/inventory-per-wallet-totals-2026-05-13.json`.
 
 ### Top 50 unattributed counterparties by gross USD
 

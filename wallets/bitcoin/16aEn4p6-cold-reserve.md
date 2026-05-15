@@ -31,7 +31,7 @@ WalletExplorer's co-spend clustering, applied per-address to all 69 distinct inp
 
 Neither funding cluster's full transaction history contains any wallet that WalletExplorer attributes to a BitBay-named cluster. The 2016 funding sources visible in WalletExplorer point to the 2015–16 OTC ecosystem rather than to BitBay operational infrastructure. This is a behavioural-heuristic observation from a single tool (WalletExplorer's co-spend clustering) and does not by itself confirm or deny the wallet's role as a corporate cold reserve — the company's own public statement remains the only primary attribution.
 
-Receipts: per-address WalletExplorer HTML probes archived under `case/sources/walletexplorer-2026-05-13/addr-<addr>.html` (one file per foundational input; 69/69 byte-clean). Cluster IDs extracted via the `data-wallet-id` attribute in each page's "part of wallet" header.
+Receipts: per-address WalletExplorer HTML probes (one file per foundational input; 69/69 byte-clean) are retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility). Cluster IDs were extracted via the `data-wallet-id` attribute in each page's "part of wallet" header. The canonical primary source for any cluster claim is the live WalletExplorer page (`https://www.walletexplorer.com/address/<addr>`).
 
 ## Flow profile (Bitcoin, mempool.space-aggregated 2026-05-13)
 
@@ -77,7 +77,7 @@ None. Zero on-chain spends since the wallet's first deposit in 2016-03. Every UT
 **This section is a known incomplete part of the analysis.** All 116 of 116 funding addresses are unattributed under the inventory's primary-citation standard. The WalletExplorer cluster context above is a heuristic observation from a single tool and does not establish primary attribution on any individual funding address. Entity-attribution work on these counterparties is ongoing in the case's internal working notes.
 
 **Receipts (for reproduction)**:
-- mempool.space summary + paginated tx history: `case/sources/btc-16aEn4-2026-05-13/summary.json` + `txs-page-*.json` + combined `all-txs.json`.
+- mempool.space summary + paginated tx history snapshotted 2026-05-13 (`summary.json` + per-page `txs-page-*.json` + combined `all-txs.json`) retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility).
 - Reproduce: `curl -s "https://mempool.space/api/address/16aEn4p6hK4FMpLtJGpoQZMZ946sDg1Z6n"` for the summary, then iterate `…/txs/chain[/<last_txid>]` for full tx history.
 
 ## Block-explorer link

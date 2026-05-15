@@ -57,7 +57,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 | Counterparties without a public name tag | **1, aggregating ~$152,571 outbound and ~$0 inbound across captured rows** |
 | Active period | 2023-11-22 → 2026-01-14 |
 
-**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13 saved to `case/sources/polygonscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 
@@ -77,7 +77,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 
 **This section is a known incomplete part of the analysis.** 1 of the 5 Polygon counterparties with ≥$1k cumulative flow carry no PolygonScan public name tag as of 2026-05-13 and do not appear in this inventory's roster. The unidentified rows captured here aggregate **$152,571 outbound** and **$0 inbound**. Entity-attribution work on these counterparties is ongoing.
 
-**Receipts**: `case/sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `case/sources/dune/polygon-totals-2026-05-13.json` (query 7491829) + `case/sources/polygonscan-name-tags-2026-05-13/<addr>.html`.
+**Receipts**: `../../sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `../../sources/dune/polygon-totals-2026-05-13.json` (query 7491829) (PolygonScan public-name-tag HTML batch retained in the working archive; see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)).
 
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 

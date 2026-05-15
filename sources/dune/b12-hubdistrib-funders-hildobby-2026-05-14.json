@@ -1,0 +1,90 @@
+{
+  "execution_id": "01KRM7AW72D28V5KHKDCN1SP8T",
+  "rows": [
+    {
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "cex_name": "Binance",
+      "distinct_name": "Binance 14"
+    },
+    {
+      "address": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "cex_name": "Binance",
+      "distinct_name": "Binance 17"
+    },
+    {
+      "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "cex_name": "Bybit",
+      "distinct_name": "Bybit 5"
+    },
+    {
+      "address": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "cex_name": "FTX",
+      "distinct_name": "FTX 2"
+    },
+    {
+      "address": "0x9aa65464b4cfbe3dc2bdb3df412aee2b3de86687",
+      "cex_name": "Blockchain.com",
+      "distinct_name": "Blockchain.com 6"
+    },
+    {
+      "address": "0xd7efcbb86efdd9e8de014dafa5944aae36e817e4",
+      "cex_name": "OKX",
+      "distinct_name": "OKX 34"
+    },
+    {
+      "address": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+      "cex_name": "Kraken",
+      "distinct_name": "Kraken 4"
+    },
+    {
+      "address": "0xcad621da75a66c7a8f4ff86d30a2bf981bfc8fdd",
+      "cex_name": "KuCoin",
+      "distinct_name": "KuCoin 10"
+    },
+    {
+      "address": "0x46340b20830761efd32832a74d7169b29feb9758",
+      "cex_name": "Crypto.com",
+      "distinct_name": "Crypto.com 2"
+    },
+    {
+      "address": "0x1522900b6dafac587d499a862861c0869be6e428",
+      "cex_name": "Bitstamp",
+      "distinct_name": "Bitstamp 2"
+    },
+    {
+      "address": "0xbb4d1dc5c1abec4ea11166ec97e714862863ad1d",
+      "cex_name": "BTSE",
+      "distinct_name": "BTSE 1"
+    },
+    {
+      "address": "0xde279a5cd86860cd3d039aa1b74bc29e74cabb12",
+      "cex_name": "BTSE",
+      "distinct_name": "BTSE 4"
+    },
+    {
+      "address": "0x416299aade6443e6f6e8ab67126e65a7f606eef5",
+      "cex_name": "Luno",
+      "distinct_name": "Luno 2"
+    },
+    {
+      "address": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+      "cex_name": "Paxos",
+      "distinct_name": "Paxos 4"
+    },
+    {
+      "address": "0x079a892628ebf28d0ed8f00151cff225a093dc63",
+      "cex_name": "Bitvavo",
+      "distinct_name": "Bitvavo 19"
+    },
+    {
+      "address": "0xb01cb49fe0d6d6e47edf3a072d15dfe73155331c",
+      "cex_name": "bitFlyer",
+      "distinct_name": "bitFlyer 2"
+    },
+    {
+      "address": "0x74dec05e5b894b0efec69cdf6316971802a2f9a1",
+      "cex_name": "Bitpanda",
+      "distinct_name": "Bitpanda 1"
+    }
+  ]
+}

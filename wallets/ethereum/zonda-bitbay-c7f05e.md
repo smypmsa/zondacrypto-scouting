@@ -86,8 +86,8 @@ These addresses are listed in the CSV at `label_source ∈ {deferred-above-cutof
 A complete enumeration of every counterparty in this wallet's full transaction history is available as a CSV at [zonda-bitbay-c7f05e-counterparties.csv](zonda-bitbay-c7f05e-counterparties.csv). Columns documented in [methodology.md § Inventory profile CSV](../../methodology.md#inventory-profile-csv). Loadable into Jupyter / spreadsheet for any reader.
 
 **Receipts (for reproduction)**:
-- Dune full-history per-counterparty aggregation: `case/sources/dune/a20-counterparties-2026-05-14.json` (query 7482290, execution `01KRJWX2C88JW62MM144PAS1E5`).
-- Etherscan HTML name-tag receipts: `case/sources/etherscan-name-tags-closure-2026-05-14/<addr>.html` (fetched 2026-05-14 with browser-style User-Agent, ~0.85s pacing).
+- Dune full-history per-counterparty aggregation: `../../sources/dune/a20-counterparties-2026-05-14.json` (query 7482290, execution `01KRJWX2C88JW62MM144PAS1E5`).
+- Etherscan HTML name-tag fetches (2026-05-14 closure pass, browser-style User-Agent, ~0.85s pacing) retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility).
 
 ## Block-explorer link
 

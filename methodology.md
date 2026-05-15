@@ -7,9 +7,10 @@ How attributions in this repository are established, what each confidence tier m
 1. [Confidence tiers](#confidence-tiers)
 2. [Evidence types](#evidence-types)
 3. [Verification](#verification)
-4. [Natural persons](#natural-persons)
-5. [Flow profiles](#flow-profiles)
-6. [Inventory profile CSV](#inventory-profile-csv)
+4. [Receipts and reproducibility](#receipts-and-reproducibility)
+5. [Natural persons](#natural-persons)
+6. [Flow profiles](#flow-profiles)
+7. [Inventory profile CSV](#inventory-profile-csv)
 
 ## Confidence tiers
 
@@ -36,6 +37,17 @@ How attributions in this repository are established, what each confidence tier m
 ## Verification
 
 Every factual claim in this repository carries a citation. Block-explorer URLs are considered durable; for other external sources we prefer mirroring to an `archive.today` or `web.archive.org` snapshot so the citation keeps resolving after the live URL dies.
+
+## Receipts and reproducibility
+
+A "receipt" is the saved response from a primary source at the moment it was queried — the JSON returned by an API, the HTML rendered by a block-explorer page at a given URL, the snapshot of a third-party dataset row. Receipts let a reader re-verify a claim even if the live source later changes or disappears.
+
+This repository handles receipts in two tiers:
+
+1. **Mirrored receipts** are committed under [`sources/`](sources/) and cited by wallet pages via relative path. These are the small-and-singular artefacts that establish a specific attribution: BlockSec MetaSleuth label JSON responses, Dune-query execution JSONs, the WalletExplorer cluster HTML for the BitBay.net cluster. Citing them from this repo makes the underlying byte string immediately re-checkable.
+2. **Working-archive receipts** are bulk HTML fetches retained outside the public repo because of size — most notably the Etherscan and PolygonScan public-name-tag HTML pages (tens of thousands of files per closure pass). The public-verifiable artefact in these cases is the **upstream block-explorer URL itself**, cited inline with the retrieval date. The saved HTML proves the tag was visible at that date; the URL proves it is (still) visible now. A reader who wants the saved HTML for a specific address can request it; the canonical primary source remains the block-explorer page.
+
+A citation that uses a `sources/<path>` reference resolves inside this repository. A citation that uses an upstream URL + retrieval date resolves against the live source. Citations to `case/sources/...` are an internal-archive artefact and should not appear in this repository's published pages; if you see one, treat it as a bug.
 
 ## Natural persons
 
@@ -83,7 +95,7 @@ For a multi-wallet aggregation (used in the cross-wallet CEX off-ramp summary an
 Each counterparty surfaced by the aggregation is classified into one of three buckets:
 
 - **Internal** — appears in this inventory's roster (the per-chain wallet pages indexed from `scouting/wallets/README.md`).
-- **External — confirmed via public name tag** — the major block explorer for that chain carries a Public Name Tag on the address, verified by a fresh HTML fetch saved alongside the analysis as a receipt (`case/sources/etherscan-name-tags-<date>/<addr>.html` / `case/sources/polygonscan-name-tags-<date>/<addr>.html`). The tag string must be visible in the saved HTML when re-grepped — no tag claim is published without a re-greppable receipt.
+- **External — confirmed via public name tag** — the major block explorer for that chain carries a Public Name Tag on the address, verified by a fresh HTML fetch retained in the working archive (see [Receipts and reproducibility](#receipts-and-reproducibility) for the policy on bulk HTML name-tag receipts). The tag string must be visible in the saved HTML when re-grepped — no tag claim is published without a re-greppable receipt.
 - **Unidentified** — neither internal nor carrying a public name tag.
 
 Sections naming Unidentified counterparties carry an explicit "incomplete / ongoing" flag. They represent the open part of the analysis and are not to be read as completed work.
@@ -139,7 +151,7 @@ When more than one source could classify a counterparty, the wallet pages and CS
 
 Public-name-tag fetches at the `etherscan` source tier are run against the union of counterparties with **cumulative gross USD flow ≥ $10,000 across the entire inventory** (a counterparty appearing at $3k against Zonda 1 and $8k against Zonda 5 has $11k cumulative and clears the cutoff). Counterparties below the cutoff are labelled `below-cutoff` and not fetched. Counterparties at or above the cutoff that have not yet had a fetch completed are labelled `deferred-above-cutoff` so the deferred set is machine-discoverable for a follow-up fetch pass. This makes both the cutoff and the deferred-but-not-yet-completed set explicit; readers can run the fetch themselves at a lower cutoff or against the deferred-above-cutoff subset for broader / completed coverage.
 
-Within the ≥$10k set, fetches are dedup'd against existing HTML receipts on disk (under `case/sources/etherscan-name-tags-<YYYY-MM-DD>/` per dated batch). Fetches are prioritised by descending cumulative gross flow; the per-pass cutoff at which the fetch was stopped is recorded in `case/inventory-profile-<date>/index.md`.
+Within the ≥$10k set, fetches are dedup'd against existing HTML receipts retained in the working archive (one batch per fetch date). Fetches are prioritised by descending cumulative gross flow; the per-pass cutoff at which the fetch was stopped is tracked in the working archive's per-pass index.
 
 ### Reproducibility — Dune SQL template (no-truncation)
 

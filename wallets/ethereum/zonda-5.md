@@ -40,7 +40,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **156,719 (full enumeration), aggregating ~$569,950,742 outbound and ~$779,744,841 inbound across `no-public-tag` + `below-cutoff` rows** |
 | Active period (≥$1k events) | 2021-04-09 → 2026-04-19 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13 saved to `case/sources/etherscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 | Counterparty | Inbound USD | Outbound USD | Events |
@@ -200,12 +200,14 @@ Beyond Ethereum and Polygon (both ACTIVE — see flow profiles in this file), Zo
 
 | Chain | Result | Method | Receipt |
 |--|--|--|--|
-| Optimism | EMPTY (0 events in the most recent 100,000 blocks scanned) | Archive RPC `eth_getLogs` over rolling 100k-block window | `case/sources/zonda5-multichain/op-base/optimism-{in,out}-100k.json` |
-| Base | EMPTY (0 events in the most recent 100,000 blocks scanned) | Archive RPC `eth_getLogs` | `case/sources/zonda5-multichain/op-base/base-{in,out}-100k.json` |
-| Avalanche C-chain | EMPTY (0 events in 100,000 blocks) | Archive RPC `eth_getLogs` | `case/sources/zonda5-multichain/avax-c-*` (see cross-chain probe matrix) |
-| BSC | EMPTY (0 events / 10×10k chunks) | Archive RPC `eth_getLogs` | `case/sources/zonda5-multichain/bsc-*` |
+| Optimism | EMPTY (0 events in the most recent 100,000 blocks scanned) | Archive RPC `eth_getLogs` over rolling 100k-block window | working archive |
+| Base | EMPTY (0 events in the most recent 100,000 blocks scanned) | Archive RPC `eth_getLogs` | working archive |
+| Avalanche C-chain | EMPTY (0 events in 100,000 blocks) | Archive RPC `eth_getLogs` | working archive |
+| BSC | EMPTY (0 events / 10×10k chunks) | Archive RPC `eth_getLogs` | working archive |
 | zkSync Era | UNPROBED for this key (only the F-005 institutional address was zkSync-probed; deferred) | — | — |
-| Tron (native + TRX_EVM_RPC) | EMPTY (zero balance + zero txs) | Tronscan API + TRX_EVM_RPC | `case/sources/zonda5-multichain/tron-*` |
+| Tron (native + TRX_EVM_RPC) | EMPTY (zero balance + zero txs) | Tronscan API + TRX_EVM_RPC | working archive |
+
+Receipt JSONs from the `eth_getLogs` probes are retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility). Each probe is reproducible from the address alone against any archive RPC endpoint for the named chain.
 
 The "BSC / Optimism / Base" annotation that appears on this page above for Zonda 5 reflects same-key cross-chain availability of the EOA, not active flow on those chains: the most-recent-window probes return zero events. Historical pre-2024 BSC activity has not been ruled in or out by these recent-window probes; a deeper backward chunked scan is queued in the case's `queue.md` but has not been run.
 
@@ -227,7 +229,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 | Counterparties without a public name tag | **16,838 (full enumeration), aggregating ~$29,373,207 outbound and ~$102,656,866 inbound across `no-public-tag` + `below-cutoff` rows** |
 | Active period | 2023-11-22 → 2026-04-09 |
 
-**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13 + 2026-05-14 PolygonScan closure pass saved to `case/sources/polygonscan-name-tags-2026-05-13/` + `case/sources/polygonscan-name-tags-2026-05-14/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13 + 2026-05-14 PolygonScan closure pass; HTML retained in the working archive; see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 
@@ -320,7 +322,7 @@ Listed by descending outbound USD. Top 50 of 230 PolygonScan-tagged rows shown; 
 
 **This section is a known incomplete part of the analysis.** 16,838 of the 17,083 Polygon external counterparties in the full enumeration carry no PolygonScan public name tag as of 2026-05-14 and do not appear in this inventory's roster. The unidentified rows aggregate **$29,373,207 outbound** and **$102,656,866 inbound** across `no-public-tag` + `below-cutoff` rows. Entity-attribution work on these counterparties is ongoing.
 
-**Receipts**: `case/sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `case/sources/dune/polygon-totals-2026-05-13.json` (query 7491829) + `case/sources/polygonscan-name-tags-2026-05-13/<addr>.html`.
+**Receipts**: `../../sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `../../sources/dune/polygon-totals-2026-05-13.json` (query 7491829) (PolygonScan public-name-tag HTML batch retained in the working archive; see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)).
 
 ## Counterparty enumeration (full)
 

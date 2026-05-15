@@ -1,6 +1,6 @@
 # Cross-wallet CEX off-ramp summary (Ethereum, Dune-aggregated 2026-05-13)
 
-Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to Etherscan-tagged centralised-exchange addresses. The classification rule is mechanical: any external counterparty whose Etherscan Public Name Tag begins with a CEX brand (Binance, Kraken, KuCoin, Gate, Bitstamp, Bitfinex, Bybit, MEXC, HTX, Bidesk, Kanga, etc.) is bucketed under that brand. The CEX name tag was verified by a fresh HTML fetch on 2026-05-13 for every address listed; receipts at `case/sources/etherscan-name-tags-2026-05-13/<addr>.html`.
+Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to Etherscan-tagged centralised-exchange addresses. The classification rule is mechanical: any external counterparty whose Etherscan Public Name Tag begins with a CEX brand (Binance, Kraken, KuCoin, Gate, Bitstamp, Bitfinex, Bybit, MEXC, HTX, Bidesk, Kanga, etc.) is bucketed under that brand. The CEX name tag was verified by a fresh HTML fetch on 2026-05-13 for every address listed; saved HTML is retained in the working archive (see [methodology § Receipts](../methodology.md#receipts-and-reproducibility)). The canonical primary source for each row remains the address's live Etherscan page.
 
 **Scope.** Etherscan-tagged CEX deposit / hot-wallet addresses only. Heuristic operator-network counterparties, OTC desks, or aggregator addresses not carrying a public name tag are out of scope of this summary by design — they belong in each wallet's Unidentified-counterparty row and remain unattributed under the inventory's primary-citation standard until cleared individually.
 
@@ -61,4 +61,4 @@ Per-wallet flow profiles cited above sit in the same directory tree:
 - [Zonda BitBay 3f1eea](../wallets/ethereum/zonda-bitbay-3f1eea.md)
 - [Zonda BitBay 56d943](../wallets/ethereum/zonda-bitbay-56d943.md)
 
-**Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: `case/sources/dune/inventory-L1-per-wallet-2026-05-13.json` (query 7482290) and `case/sources/etherscan-name-tags-2026-05-13/`.
+**Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: [`../sources/dune/inventory-L1-per-wallet-2026-05-13.json`](../sources/dune/inventory-L1-per-wallet-2026-05-13.json) (query 7482290). The Etherscan public-name-tag HTML batch is retained in the working archive; the live Etherscan page for each address is the canonical primary source.

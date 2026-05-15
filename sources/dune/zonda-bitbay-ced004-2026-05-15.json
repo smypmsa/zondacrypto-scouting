@@ -1,0 +1,485 @@
+{
+  "execution_id": "01KRN6VMSTPTJ0DRTFG49PS11J",
+  "rows": [
+    {
+      "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+      "direction": "OUT",
+      "first_seen": "2022-08-31 01:40:39.000 UTC",
+      "last_seen": "2026-03-26 15:59:47.000 UTC",
+      "n_events": 213,
+      "native_amount": 22860.890969,
+      "symbol": "ETH",
+      "total_usd": 43668293.38
+    },
+    {
+      "counterparty": "0x8fe5733445bf1217053a82636da58ece94eb31d3",
+      "direction": "IN",
+      "first_seen": "2022-12-08 19:32:11.000 UTC",
+      "last_seen": "2024-10-15 13:59:35.000 UTC",
+      "n_events": 63,
+      "native_amount": 6364.938,
+      "symbol": "ETH",
+      "total_usd": 13598041.01
+    },
+    {
+      "counterparty": "0x6c14b8ca49b1d48b0475a4108de9b12846a03d35",
+      "direction": "IN",
+      "first_seen": "2022-11-10 02:40:35.000 UTC",
+      "last_seen": "2024-08-01 20:46:11.000 UTC",
+      "n_events": 35,
+      "native_amount": 3580.955,
+      "symbol": "ETH",
+      "total_usd": 6846423.74
+    },
+    {
+      "counterparty": "0x53f2bfd8d2abff298edfa424de7ad10818900f1e",
+      "direction": "IN",
+      "first_seen": "2022-11-10 12:38:59.000 UTC",
+      "last_seen": "2024-11-04 10:40:59.000 UTC",
+      "n_events": 28,
+      "native_amount": 2647.969,
+      "symbol": "ETH",
+      "total_usd": 6001307.34
+    },
+    {
+      "counterparty": "0x1202ba9d7fd8d03d74318ae86b0bea2d938d7507",
+      "direction": "IN",
+      "first_seen": "2022-11-08 21:38:47.000 UTC",
+      "last_seen": "2024-01-03 23:48:35.000 UTC",
+      "n_events": 22,
+      "native_amount": 2299.717,
+      "symbol": "ETH",
+      "total_usd": 4226958.7
+    },
+    {
+      "counterparty": "0x8bcb94948289f911485b671161fe99a762d3e450",
+      "direction": "IN",
+      "first_seen": "2022-11-29 21:59:35.000 UTC",
+      "last_seen": "2024-11-14 10:55:11.000 UTC",
+      "n_events": 9,
+      "native_amount": 826.977,
+      "symbol": "ETH",
+      "total_usd": 1538260.94
+    },
+    {
+      "counterparty": "0xc098b2a3aa256d2140208c3de6543aaef5cd3a94",
+      "direction": "IN",
+      "first_seen": "2022-09-16 22:21:59.000 UTC",
+      "last_seen": "2022-11-05 22:59:47.000 UTC",
+      "n_events": 9,
+      "native_amount": 1040,
+      "symbol": "ETH",
+      "total_usd": 1398607.68
+    },
+    {
+      "counterparty": "0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0",
+      "direction": "IN",
+      "first_seen": "2022-12-22 01:09:47.000 UTC",
+      "last_seen": "2023-12-16 02:35:11.000 UTC",
+      "n_events": 5,
+      "native_amount": 794.9935,
+      "symbol": "ETH",
+      "total_usd": 1230638.67
+    },
+    {
+      "counterparty": "0xbb4d1dc5c1abec4ea11166ec97e714862863ad1d",
+      "direction": "IN",
+      "first_seen": "2023-04-24 07:20:11.000 UTC",
+      "last_seen": "2024-01-26 21:46:23.000 UTC",
+      "n_events": 4,
+      "native_amount": 579.998897,
+      "symbol": "ETH",
+      "total_usd": 1163340.93
+    },
+    {
+      "counterparty": "0x7334bf0f2bb84f16a432a4e4501e9e15ee4bab7c",
+      "direction": "IN",
+      "first_seen": "2022-12-11 11:34:59.000 UTC",
+      "last_seen": "2024-04-13 21:27:11.000 UTC",
+      "n_events": 5,
+      "native_amount": 459.99,
+      "symbol": "ETH",
+      "total_usd": 809584.22
+    },
+    {
+      "counterparty": "0x9e42ae7b5e868b7d347a0b76b5c44f4f21955687",
+      "direction": "IN",
+      "first_seen": "2023-01-03 21:04:59.000 UTC",
+      "last_seen": "2024-03-15 08:19:35.000 UTC",
+      "n_events": 5,
+      "native_amount": 404.991,
+      "symbol": "ETH",
+      "total_usd": 794153.58
+    },
+    {
+      "counterparty": "0x9aa65464b4cfbe3dc2bdb3df412aee2b3de86687",
+      "direction": "IN",
+      "first_seen": "2022-11-22 23:00:59.000 UTC",
+      "last_seen": "2023-06-16 10:12:11.000 UTC",
+      "n_events": 2,
+      "native_amount": 415,
+      "symbol": "ETH",
+      "total_usd": 581005.12
+    },
+    {
+      "counterparty": "0xb01cb49fe0d6d6e47edf3a072d15dfe73155331c",
+      "direction": "IN",
+      "first_seen": "2022-10-25 06:23:59.000 UTC",
+      "last_seen": "2023-04-25 00:29:59.000 UTC",
+      "n_events": 3,
+      "native_amount": 360,
+      "symbol": "ETH",
+      "total_usd": 541833.63
+    },
+    {
+      "counterparty": "0x079a892628ebf28d0ed8f00151cff225a093dc63",
+      "direction": "IN",
+      "first_seen": "2023-08-23 00:33:35.000 UTC",
+      "last_seen": "2023-10-05 08:53:11.000 UTC",
+      "n_events": 3,
+      "native_amount": 325,
+      "symbol": "ETH",
+      "total_usd": 526120.84
+    },
+    {
+      "counterparty": "0x66577404849d6ff79a7435456cc98b44916da7b5",
+      "direction": "IN",
+      "first_seen": "2022-12-14 20:55:23.000 UTC",
+      "last_seen": "2022-12-28 19:36:59.000 UTC",
+      "n_events": 4,
+      "native_amount": 420,
+      "symbol": "ETH",
+      "total_usd": 511052.58
+    },
+    {
+      "counterparty": "0x74dec05e5b894b0efec69cdf6316971802a2f9a1",
+      "direction": "IN",
+      "first_seen": "2023-04-26 18:28:35.000 UTC",
+      "last_seen": "2023-04-26 18:28:35.000 UTC",
+      "n_events": 1,
+      "native_amount": 229.997048,
+      "symbol": "ETH",
+      "total_usd": 448137.75
+    },
+    {
+      "counterparty": "0xcad621da75a66c7a8f4ff86d30a2bf981bfc8fdd",
+      "direction": "IN",
+      "first_seen": "2022-09-05 00:02:48.000 UTC",
+      "last_seen": "2023-03-11 12:05:35.000 UTC",
+      "n_events": 2,
+      "native_amount": 264.995,
+      "symbol": "ETH",
+      "total_usd": 402117.93
+    },
+    {
+      "counterparty": "0xd7efcbb86efdd9e8de014dafa5944aae36e817e4",
+      "direction": "IN",
+      "first_seen": "2022-12-30 15:52:59.000 UTC",
+      "last_seen": "2023-04-20 13:48:11.000 UTC",
+      "n_events": 2,
+      "native_amount": 240,
+      "symbol": "ETH",
+      "total_usd": 387369.23
+    },
+    {
+      "counterparty": "0x68ed0dcde71fc3b45d7f8cb84946328b49ee1746",
+      "direction": "IN",
+      "first_seen": "2022-11-15 02:44:47.000 UTC",
+      "last_seen": "2023-01-20 07:37:11.000 UTC",
+      "n_events": 2,
+      "native_amount": 225,
+      "symbol": "ETH",
+      "total_usd": 318217.99
+    },
+    {
+      "counterparty": "0x65cbc8aa675e7e339e374568746b6d40e87ba084",
+      "direction": "IN",
+      "first_seen": "2024-01-30 11:37:11.000 UTC",
+      "last_seen": "2024-01-30 11:37:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 133.489376,
+      "symbol": "ETH",
+      "total_usd": 309004.54
+    },
+    {
+      "counterparty": "0x1522900b6dafac587d499a862861c0869be6e428",
+      "direction": "IN",
+      "first_seen": "2022-09-17 11:51:47.000 UTC",
+      "last_seen": "2022-09-17 11:51:47.000 UTC",
+      "n_events": 1,
+      "native_amount": 195,
+      "symbol": "ETH",
+      "total_usd": 277865.41
+    },
+    {
+      "counterparty": "0x264bd8291fae1d75db2c5f573b07faa6715997b5",
+      "direction": "IN",
+      "first_seen": "2023-11-16 02:21:47.000 UTC",
+      "last_seen": "2023-11-16 02:21:47.000 UTC",
+      "n_events": 1,
+      "native_amount": 129.999423,
+      "symbol": "ETH",
+      "total_usd": 267731.21
+    },
+    {
+      "counterparty": "0x46340b20830761efd32832a74d7169b29feb9758",
+      "direction": "IN",
+      "first_seen": "2023-08-17 23:41:11.000 UTC",
+      "last_seen": "2023-08-17 23:41:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 149.995,
+      "symbol": "ETH",
+      "total_usd": 254213.53
+    },
+    {
+      "counterparty": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "direction": "IN",
+      "first_seen": "2023-08-21 22:17:35.000 UTC",
+      "last_seen": "2023-08-21 22:17:35.000 UTC",
+      "n_events": 1,
+      "native_amount": 122,
+      "symbol": "ETH",
+      "total_usd": 204096.75
+    },
+    {
+      "counterparty": "0xde279a5cd86860cd3d039aa1b74bc29e74cabb12",
+      "direction": "IN",
+      "first_seen": "2022-08-31 01:30:02.000 UTC",
+      "last_seen": "2022-08-31 01:30:02.000 UTC",
+      "n_events": 1,
+      "native_amount": 119.998635,
+      "symbol": "ETH",
+      "total_usd": 188072.36
+    },
+    {
+      "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "direction": "IN",
+      "first_seen": "2023-10-12 01:23:11.000 UTC",
+      "last_seen": "2023-10-12 01:23:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 120,
+      "symbol": "ETH",
+      "total_usd": 187231.5
+    },
+    {
+      "counterparty": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+      "direction": "IN",
+      "first_seen": "2023-01-13 07:39:59.000 UTC",
+      "last_seen": "2023-01-13 07:39:59.000 UTC",
+      "n_events": 1,
+      "native_amount": 125,
+      "symbol": "ETH",
+      "total_usd": 176132.19
+    },
+    {
+      "counterparty": "0x5c600d31bdbb27bd5b2665b92f44fc872bf12e1a",
+      "direction": "IN",
+      "first_seen": "2023-08-01 07:42:59.000 UTC",
+      "last_seen": "2023-08-01 07:42:59.000 UTC",
+      "n_events": 1,
+      "native_amount": 95,
+      "symbol": "ETH",
+      "total_usd": 174098.98
+    },
+    {
+      "counterparty": "0x416299aade6443e6f6e8ab67126e65a7f606eef5",
+      "direction": "IN",
+      "first_seen": "2022-12-29 16:19:11.000 UTC",
+      "last_seen": "2022-12-29 16:19:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 100,
+      "symbol": "ETH",
+      "total_usd": 120111.75
+    },
+    {
+      "counterparty": "0xb464e034644cb3de7879cb8320816366d90c85ba",
+      "direction": "IN",
+      "first_seen": "2022-10-12 14:14:11.000 UTC",
+      "last_seen": "2022-10-12 14:14:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 90,
+      "symbol": "ETH",
+      "total_usd": 116759.85
+    },
+    {
+      "counterparty": "0x6edfc39331b986b6381e8ce411e8cb43abe15048",
+      "direction": "IN",
+      "first_seen": "2024-07-05 08:28:35.000 UTC",
+      "last_seen": "2024-07-05 08:28:35.000 UTC",
+      "n_events": 1,
+      "native_amount": 0.0001,
+      "symbol": "ETH",
+      "total_usd": 0.29
+    },
+    {
+      "counterparty": "0x6edf7d6a3d9eb2ed68388f1cd92a976068b75048",
+      "direction": "IN",
+      "first_seen": "2024-09-03 13:22:11.000 UTC",
+      "last_seen": "2024-09-03 13:22:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 0.0001,
+      "symbol": "ETH",
+      "total_usd": 0.25
+    },
+    {
+      "counterparty": "0x6edffd3c53ce226b0b16fbe960e2d69af31c5048",
+      "direction": "IN",
+      "first_seen": "2024-08-28 07:32:23.000 UTC",
+      "last_seen": "2024-10-03 10:58:11.000 UTC",
+      "n_events": 6,
+      "native_amount": 6e-06,
+      "symbol": "ETH",
+      "total_usd": 0.01
+    },
+    {
+      "counterparty": "0x6edf2527128b94b0c93ec23123772dd4fcf95048",
+      "direction": "OUT",
+      "first_seen": "2024-09-14 00:05:59.000 UTC",
+      "last_seen": "2024-09-14 00:05:59.000 UTC",
+      "n_events": 1,
+      "native_amount": 59.999956,
+      "symbol": "\u200aE\u0422H \u200a",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0xd152f549545093347a162dce210e7293f1452150",
+      "direction": "IN",
+      "first_seen": "2026-03-29 15:52:23.000 UTC",
+      "last_seen": "2026-03-29 15:52:23.000 UTC",
+      "n_events": 1,
+      "native_amount": 1,
+      "symbol": "HEX",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edf7d6a3d9eb2ed68388f1cd92a976068b75048",
+      "direction": "OUT",
+      "first_seen": "2024-08-21 10:49:11.000 UTC",
+      "last_seen": "2024-10-07 03:02:59.000 UTC",
+      "n_events": 12,
+      "native_amount": 976.998841,
+      "symbol": "\u0415\u0422\u041d...",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0xd7efcbbfdb99e2c64a87146c1bbb534d36e817e4",
+      "direction": "IN",
+      "first_seen": "2023-04-20 13:49:47.000 UTC",
+      "last_seen": "2023-04-20 13:49:47.000 UTC",
+      "n_events": 1,
+      "native_amount": 130,
+      "symbol": "ETH",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edf7d6a3d9eb2ed68388f1cd92a976068b75048",
+      "direction": "OUT",
+      "first_seen": "2024-09-03 19:35:23.000 UTC",
+      "last_seen": "2024-09-03 19:35:23.000 UTC",
+      "n_events": 1,
+      "native_amount": 1700000.011,
+      "symbol": "USD\u0422",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6db6eb7e327918fe8d2e1dab15ae102c231c5048",
+      "direction": "OUT",
+      "first_seen": "2022-12-31 09:14:23.000 UTC",
+      "last_seen": "2022-12-31 09:14:23.000 UTC",
+      "n_events": 1,
+      "native_amount": 0,
+      "symbol": "USDT",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6bee472f18e69be457a5d46601e6fe38fabc5048",
+      "direction": "OUT",
+      "first_seen": "2022-12-29 16:35:23.000 UTC",
+      "last_seen": "2022-12-29 16:35:23.000 UTC",
+      "n_events": 1,
+      "native_amount": 0,
+      "symbol": "USDT",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edfaa68f06e75e01a1d72f7af22160b43675048",
+      "direction": "OUT",
+      "first_seen": "2023-11-14 19:43:35.000 UTC",
+      "last_seen": "2023-11-22 01:29:23.000 UTC",
+      "n_events": 7,
+      "native_amount": 1060.007729,
+      "symbol": "E\u200aTH",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "direction": "IN",
+      "first_seen": "2023-08-20 21:23:11.000 UTC",
+      "last_seen": "2023-08-20 21:23:11.000 UTC",
+      "n_events": 1,
+      "native_amount": 3999.99,
+      "symbol": "Visit https://usdswap.org to cl",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edfc39331b986b6381e8ce411e8cb43abe15048",
+      "direction": "OUT",
+      "first_seen": "2024-07-05 07:32:59.000 UTC",
+      "last_seen": "2024-07-08 14:10:23.000 UTC",
+      "n_events": 2,
+      "native_amount": 139.999706,
+      "symbol": "ETH",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "direction": "IN",
+      "first_seen": "2023-09-04 03:45:35.000 UTC",
+      "last_seen": "2023-09-04 03:45:35.000 UTC",
+      "n_events": 1,
+      "native_amount": 3999.99,
+      "symbol": "Visit https://usd-coin.net to c",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edf7d6a3d9eb2ed68388f1cd92a976068b75048",
+      "direction": "OUT",
+      "first_seen": "2024-09-03 13:22:23.000 UTC",
+      "last_seen": "2024-09-08 00:54:23.000 UTC",
+      "n_events": 3,
+      "native_amount": 305.999901,
+      "symbol": "ETH",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edf2527128b94b0c93ec23123772dd4fcf95048",
+      "direction": "OUT",
+      "first_seen": "2024-08-07 08:01:59.000 UTC",
+      "last_seen": "2024-08-07 08:01:59.000 UTC",
+      "n_events": 1,
+      "native_amount": 119.999832,
+      "symbol": "\u200aE\u0422H\u200a",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edf70c251be29528ffc38f18cf9e8d8b2c75048",
+      "direction": "OUT",
+      "first_seen": "2024-08-07 07:53:47.000 UTC",
+      "last_seen": "2024-08-07 08:05:59.000 UTC",
+      "n_events": 2,
+      "native_amount": 239.999664,
+      "symbol": "ETH",
+      "total_usd": 0
+    },
+    {
+      "counterparty": "0x6edf2527128b94b0c93ec23123772dd4fcf95048",
+      "direction": "OUT",
+      "first_seen": "2024-09-11 16:36:47.000 UTC",
+      "last_seen": "2024-09-11 16:36:47.000 UTC",
+      "n_events": 1,
+      "native_amount": 79.99997,
+      "symbol": "ETH",
+      "total_usd": 0
+    }
+  ]
+}

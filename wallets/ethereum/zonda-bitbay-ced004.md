@@ -82,12 +82,12 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 A complete enumeration of every counterparty in this wallet's full transaction history is available as a CSV at [zonda-bitbay-ced004-counterparties.csv](zonda-bitbay-ced004-counterparties.csv). Columns documented in [methodology.md § Inventory profile CSV](../../methodology.md#inventory-profile-csv).
 
 **Receipts (for reproduction)**:
-- Dune full-history per-counterparty aggregation: `case/sources/dune/zonda-bitbay-ced004-2026-05-15.json` (query 7500518, execution `01KRN6VMSTPTJ0DRTFG49PS11J`).
-- hildobby intersect: query 3237025 results embedded in `case/sources/dune/b12-hubdistrib-funders-hildobby-2026-05-14.json` (17 hits) + `zonda-bitbay-ced004-2026-05-15.json` rolling re-intersect (18 hits at finer-grained event aggregation).
-- BlockSec MetaSleuth API v3 response: `case/sources/blocksec/labels-2026-05-15.json` (key `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06`).
+- Dune full-history per-counterparty aggregation: `../../sources/dune/zonda-bitbay-ced004-2026-05-15.json` (query 7500518, execution `01KRN6VMSTPTJ0DRTFG49PS11J`).
+- hildobby intersect: query 3237025 results embedded in `../../sources/dune/b12-hubdistrib-funders-hildobby-2026-05-14.json` (17 hits) + `zonda-bitbay-ced004-2026-05-15.json` rolling re-intersect (18 hits at finer-grained event aggregation).
+- BlockSec MetaSleuth API v3 response: `../../sources/blocksec/labels-2026-05-15.json` (key `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06`).
 
 ## Block-explorer link
 
 https://etherscan.io/address/0xced004645e40f1bd5d11e6562e8fdbe9f4862f06
 
-[^1]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-15 with `main_entity = "Zonda (BitBay)"`, category `EXCHANGE`. Receipt at `case/sources/blocksec/labels-2026-05-15.json`. Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
+[^1]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-15 with `main_entity = "Zonda (BitBay)"`, category `EXCHANGE`. Receipt at `../../sources/blocksec/labels-2026-05-15.json`. Endpoint: https://aml.blocksec.com/address-label/api/v3/labels

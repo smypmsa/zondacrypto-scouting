@@ -65,5 +65,5 @@ The cluster is verifiable at any time by visiting the cited WalletExplorer URL â
 
 ## Footnotes
 
-- Cluster fetched and snapshotted on 2026-05-12. Source HTML preserved in the local case at `case/sources/external-press/walletexplorer-bitbay-cluster-2026-05-12.html`.
+- Cluster fetched and snapshotted on 2026-05-12. Source HTML preserved in the local case at `../../sources/walletexplorer/bitbay-cluster-2026-05-12.html`.
 - WalletExplorer applies clustering retroactively as new on-chain data accrues; the cluster size and address roster will grow with operational usage and may, on rare occasions, shrink if a clustering correction is applied. The figures above are point-in-time.

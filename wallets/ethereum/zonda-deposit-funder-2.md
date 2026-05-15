@@ -33,7 +33,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **11, aggregating ~$0 outbound and ~$0 inbound across the top-500 captured here** |
 | Active period (≥$1k events) | 2021-04-12 → 2023-10-19 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13 saved to `case/sources/etherscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 | Counterparty | Inbound USD | Outbound USD | Events |
@@ -46,9 +46,9 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 **This section is a known incomplete part of the analysis.** 11 of the 14 counterparties with ≥$1k cumulative flow carry no public name tag on Etherscan as of 2026-05-13 and do not appear in this inventory's roster. Within the top-500-by-USD slice captured here, the unidentified rows aggregate **$0 outbound** and **$0 inbound**. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
 **Receipts (for reproduction)**:
-- Dune partitioned top-500-per-wallet aggregation: `case/sources/dune/inventory-L1-per-wallet-2026-05-13.json` (query 7482290, execution `01KRGHZZ2F15AC6PH4PQ2C8AMB`).
-- Dune per-wallet totals + distinct-counterparty count (≥$1k cumulative): `case/sources/dune/inventory-per-wallet-totals-2026-05-13.json` (query 7491746) and `case/sources/dune/inventory-distinct-cp-ge1k-2026-05-13.json` (query 7491752).
-- Etherscan HTML name-tag receipts: `case/sources/etherscan-name-tags-2026-05-13/<addr>.html` (fetched 2026-05-13 with browser-style User-Agent, ~0.8s pacing).
+- Dune partitioned top-500-per-wallet aggregation: `../../sources/dune/inventory-L1-per-wallet-2026-05-13.json` (query 7482290, execution `01KRGHZZ2F15AC6PH4PQ2C8AMB`).
+- Dune per-wallet totals + distinct-counterparty count (≥$1k cumulative): `../../sources/dune/inventory-per-wallet-totals-2026-05-13.json` (query 7491746) and `../../sources/dune/inventory-distinct-cp-ge1k-2026-05-13.json` (query 7491752).
+- Etherscan HTML name-tag fetches (2026-05-13, browser-style User-Agent, ~0.8s pacing) retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility).
 
 
 ### Top 50 unattributed counterparties by gross USD

@@ -33,7 +33,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **16,346, aggregating ~$21,329,698 outbound and ~$360,248,631 inbound across the top-500 captured here** |
 | Active period (≥$1k events) | 2016-04-02 → 2022-02-28 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13 saved to `case/sources/etherscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 | Counterparty | Inbound USD | Outbound USD | Events |

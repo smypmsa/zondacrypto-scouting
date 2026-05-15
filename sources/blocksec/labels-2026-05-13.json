@@ -1,0 +1,55 @@
+{
+  "0x1990abd6e49218ab403f01aefeb9d22d07244181": {"label":"A1-F005-relay", "resp": {"request_id":"0380193bcc074c38","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x1990abd6e49218ab403f01aefeb9d22d07244181","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0x5ee84d30c7ee57f63f71c92247ff31f95e26916b": {"label":"A2-F005-institutional", "resp": {"request_id":"507c578e72dd4e5b","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x5ee84d30c7ee57f63f71c92247ff31f95e26916b","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0x33bcaf5026f1ebada6c92a9dec63b5846aa8b472": {"label":"A3", "resp": {"request_id":"296525b136794cd3","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x33bcaf5026f1ebada6c92a9dec63b5846aa8b472","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0xa29e963992597b21bcdcaa969d571984869c4ff5": {"label":"A4", "resp": {"request_id":"1900d6f7078b4474","code":200000,"message":"Success","data":{"chain_id":1,"address":"0xa29e963992597b21bcdcaa969d571984869c4ff5","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0x33bbb392da6c4d46a589947df06397b139a8b472": {"label":"A5", "resp": {"request_id":"520fd597941b4284","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x33bbb392da6c4d46a589947df06397b139a8b472","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0x33bcefa34289ad7f710cbe7460e9c11af277b472": {"label":"A6", "resp": {"request_id":"2f7a7956109546ef","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x33bcefa34289ad7f710cbe7460e9c11af277b472","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0x25b6de1a9074a7cd32588d2d7f427c26db127f73": {"label":"A7", "resp": {"request_id":"81f175a7d12b4355","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x25b6de1a9074a7cd32588d2d7f427c26db127f73","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0x07ab235ce34b64f2058de104a48592bc5ad30d46": {"label":"A8", "resp": {"request_id":"8831fa98314f4f2e","code":200000,"message":"Success","data":{"chain_id":1,"address":"0x07ab235ce34b64f2058de104a48592bc5ad30d46","main_entity":"Galaxy Digital","main_entity_info":{"entity":"Galaxy Digital","categories":[{"name":"OTC DESK","code":3021}],"attributes":null,"description":null},"comp_entities":null,"attributes":[{"name":"DEPOSIT ADDRESS","code":4007,"comp_info":["Galaxy Digital Deposit Address"]}],"name_tag":"Galaxy Digital: Deposit Address"}}}
+  ,
+  "0xadccb275a05d2e0249cb47ff7df0aa0e69c6dacd": {"label":"A9", "resp": {"request_id":"249cd757c80446df","code":200000,"message":"Success","data":{"chain_id":1,"address":"0xadccb275a05d2e0249cb47ff7df0aa0e69c6dacd","main_entity":"","main_entity_info":null,"comp_entities":null,"attributes":null,"name_tag":""}}}
+  ,
+  "0xcae4e8c327647861ee4bb8e96041df53a7317dd9": {"label":"A10-OTC-op2", "resp": {"request_id":"f824737f44df4ebf","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x18e24850fdeceee577da1e08c63b260cff69b962": {"label":"A11-OTC-op2-b962", "resp": {"request_id":"274c8d357fda4f1a","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x1d365ff0dac8837ae25e1c905db44fc71881aa4f": {"label":"A12", "resp": {"request_id":"a94ac71b06da4890","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51": {"label":"A13-crosslink", "resp": {"request_id":"590baf3af0b34945","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x5ee8ead266d33b459a8cea63550e520c2dcc016b": {"label":"A14-cc016b", "resp": {"request_id":"3e336a796bdf4a0b","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x5ee93e64e3c3e538430d655316878346ca26916b": {"label":"A15-6916b", "resp": {"request_id":"2a2500d75cd24651","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0xb4e8212005e9c9989f0ad907c5b9eb84d1cc352a": {"label":"A16-OTC-op3", "resp": {"request_id":"eef95105fdbe4ba1","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x20a426d335a04c913f1bc2b0296305327a567690": {"label":"A17-OTC-op4", "resp": {"request_id":"0e904a640e7b4c60","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x1dc385c0594358886a1b21eda0ad4c053214c699": {"label":"A18-1dc3-c699", "resp": {"request_id":"a4521242e0ac4adc","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x8535398860dc9542059a61c9529e44b4e6ed5cc3": {"label":"A19-5cc3", "resp": {"request_id":"e895d96846f643cf","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305": {"label":"A20-57M", "resp": {"request_id":"637103d969eb465c","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x5e393568cd2f698c1884ba6870e387b8f140c937": {"label":"A21-31M", "resp": {"request_id":"cba5906bddf04434","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x32e04e19a63eae6fe19051fc24898ae21444f9c4": {"label":"A22-26M", "resp": {"request_id":"7826fe6da7244d2e","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0xc280ee684fc751bd01fb4e7467808ea1392fade3": {"label":"A23-24M", "resp": {"request_id":"7e3d5b11567f4a3a","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0xb7cc1a4c9a23329f0ee99442a5258f85c8bc0c24": {"label":"A24-22M", "resp": {"request_id":"832d6b573f424ee4","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x98334f075c9ac54f9236ef078fb43e24f2fc9221": {"label":"A25-21M", "resp": {"request_id":"68306dbb9d2149f5","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0xa6e2aba95638ee4728ac8a3c0273b10a24dcc593": {"label":"A26-15M", "resp": {"request_id":"9d9736677a034067","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+  ,
+  "0x896088463f9660410f10c52e002ac1e274920b0d": {"label":"A27-15M", "resp": {"request_id":"852c84f3ffde4e3c","code":400012,"message":"Daily request limit exceeded. Please try again tomorrow."}}
+}

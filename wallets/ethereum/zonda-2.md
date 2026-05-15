@@ -40,7 +40,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparties without a public name tag | **2,537, aggregating ~$66,908,332 outbound and ~$76,014,542 inbound across the top-500 captured here** |
 | Active period (≥$1k events) | 2021-08-31 → 2026-04-02 |
 
-**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13 saved to `case/sources/etherscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 | Counterparty | Inbound USD | Outbound USD | Events |
@@ -126,7 +126,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 | Counterparties without a public name tag | **1, aggregating ~$16,681 outbound and ~$0 inbound across captured rows** |
 | Active period | 2024-04-25 → 2026-01-05 |
 
-**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13 saved to `case/sources/polygonscan-name-tags-2026-05-13/`). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
+**Confidence:** CONFIRMED on totals. CONFIRMED on Internal and External-tagged rows below (each PolygonScan tag verified by fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unidentified counterparties row — entity attribution work is ongoing.
 
 ### Counterparties also in this inventory   [internal flows]
 
@@ -138,7 +138,7 @@ Full-history aggregation built from Dune `tokens_polygon.transfers` (≥$1,000 U
 
 **This section is a known incomplete part of the analysis.** 1 of the 2 Polygon counterparties with ≥$1k cumulative flow carry no PolygonScan public name tag as of 2026-05-13 and do not appear in this inventory's roster. The unidentified rows captured here aggregate **$16,681 outbound** and **$0 inbound**. Entity-attribution work on these counterparties is ongoing.
 
-**Receipts**: `case/sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `case/sources/dune/polygon-totals-2026-05-13.json` (query 7491829) + `case/sources/polygonscan-name-tags-2026-05-13/<addr>.html`.
+**Receipts**: `../../sources/dune/polygon-per-wallet-2026-05-13.json` (query 7491823) + `../../sources/dune/polygon-totals-2026-05-13.json` (query 7491829) (PolygonScan public-name-tag HTML batch retained in the working archive; see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)).
 
 ## Counterparty enumeration (full)
 

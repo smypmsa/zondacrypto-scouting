@@ -1,0 +1,241 @@
+{
+  "0xc333e80ef2dec2805f239e3f1e810612d294f771": {
+    "label": "X3 \u2014 Circle-paired $134B MM hub",
+    "resp": {
+      "request_id": "0b64a2728cbe46c9",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xc333e80ef2dec2805f239e3f1e810612d294f771",
+        "main_entity": "Alameda Research",
+        "main_entity_info": {
+          "entity": "Alameda Research",
+          "categories": [
+            {
+              "name": "ASSET MANAGEMENT",
+              "code": 3001
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://alameda-research.com/",
+            "twitter": "https://x.com/AlamedaResearch",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Alameda Research:f771(related_level_1)"
+      }
+    }
+  },
+  "0x66e092fd00c4e4eb5bd20f5392c1902d738ae7bc": {
+    "label": "Y2 \u2014 X3's $20B paired counterparty",
+    "resp": {
+      "request_id": "2a51e259b5254711",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x66e092fd00c4e4eb5bd20f5392c1902d738ae7bc",
+        "main_entity": "B2C2 Group",
+        "main_entity_info": {
+          "entity": "B2C2 Group",
+          "categories": null,
+          "attributes": null,
+          "description": {
+            "website": "https://www.b2c2.com",
+            "twitter": "https://twitter.com/B2C2Group",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "B2C2 Group (0x66e0)"
+      }
+    }
+  },
+  "0x25c2f0e18f8945f5395aa971c99e95f808e79dea": {
+    "label": "HUB-sweep ($11M\u2192Z5)",
+    "resp": {
+      "request_id": "bdb2f86d022641f1",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x25c2f0e18f8945f5395aa971c99e95f808e79dea",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "MultiSig (BitGo)"
+      }
+    }
+  },
+  "0xced004645e40f1bd5d11e6562e8fdbe9f4862f06": {
+    "label": "HUB-distrib ($43.7M\u2192Z5)",
+    "resp": {
+      "request_id": "902143b8bc0347af",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xced004645e40f1bd5d11e6562e8fdbe9f4862f06",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x18e24850fdeceee577da1e08c63b260cff69b962": {
+    "label": "A11 \u2014 F-010 \u2026b962 family",
+    "resp": {
+      "request_id": "9dd3a17b25034871",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x18e24850fdeceee577da1e08c63b260cff69b962",
+        "main_entity": "Amina",
+        "main_entity_info": {
+          "entity": "Amina",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://aminagroup.com/",
+            "twitter": "https://x.com/AMINABankGlobal",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "Amina Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "Amina: Hot Wallet"
+      }
+    }
+  },
+  "0x1d365ff0dac8837ae25e1c905db44fc71881aa4f": {
+    "label": "A12 \u2014 F-010 5,222 ETH",
+    "resp": {
+      "request_id": "acc4b083727e4429",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x1d365ff0dac8837ae25e1c905db44fc71881aa4f",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xa9d69f2f56df2cb8b66d0f2c6c867407a1296c5f": {
+    "label": "A4 top CP #1 ($579M)",
+    "resp": {
+      "request_id": "3f813450d4c7424f",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xa9d69f2f56df2cb8b66d0f2c6c867407a1296c5f",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xa995910658808c859623c0fe2ff53e432a236739": {
+    "label": "A4 top CP #2 ($549M)",
+    "resp": {
+      "request_id": "429bcd4e3772460f",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xa995910658808c859623c0fe2ff53e432a236739",
+        "main_entity": "Amber Group",
+        "main_entity_info": {
+          "entity": "Amber Group",
+          "categories": [
+            {
+              "name": "ASSET MANAGEMENT",
+              "code": 3001
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.ambergroup.io/",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Amber:6739(related_level_1)"
+      }
+    }
+  },
+  "0xc2814d15210efbf1e0f6a89a7b3b48355a1440e6": {
+    "label": "A4 top CP #3 ($275M)",
+    "resp": {
+      "request_id": "00d6512da4db40cb",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xc2814d15210efbf1e0f6a89a7b3b48355a1440e6",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  }
+}
