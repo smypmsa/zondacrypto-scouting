@@ -1,6 +1,15 @@
 # Methodology
 
-How attributions in this repository are established and what each confidence tier means.
+How attributions in this repository are established, what each confidence tier means, and how the per-wallet flow profiles and counterparty CSVs are produced.
+
+## Contents
+
+1. [Confidence tiers](#confidence-tiers)
+2. [Evidence types](#evidence-types)
+3. [Verification](#verification)
+4. [Natural persons](#natural-persons)
+5. [Flow profiles](#flow-profiles)
+6. [Inventory profile CSV](#inventory-profile-csv)
 
 ## Confidence tiers
 
@@ -31,12 +40,6 @@ Every factual claim in this repository carries a citation. Block-explorer URLs a
 ## Natural persons
 
 Natural persons are referenced by role where possible. Where naming is unavoidable because the person's name is part of the primary record itself (for example a tweet posted from their own handle), the URL is given as-is and no further commentary is added.
-
-# Methodology — append to scouting/methodology.md
-
-The following section is intended to be appended verbatim (after the existing "Natural persons" section, or merged into a new "Flow profiles" top-level section).
-
----
 
 ## Flow profiles
 
