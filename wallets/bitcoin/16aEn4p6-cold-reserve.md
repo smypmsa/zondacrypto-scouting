@@ -56,9 +56,9 @@ Full-history aggregation built from the mempool.space `address/<addr>` summary a
 
 Full counterparty enumeration is published as a CSV alongside this page: [`16aEn4p6-cold-reserve-counterparties.csv`](16aEn4p6-cold-reserve-counterparties.csv). The 116 rows cover every distinct address that funded an input to one of the 39 lifetime transactions that received value at `16aEn4p6…`. For each funding address the CSV records the attributed BTC inflow (pro-rata across inputs of each tx), the event count, the first/last-seen block-time dates, and the WalletExplorer co-spend cluster assignment where available.
 
-WalletExplorer cluster coverage by life-stage:
+WalletExplorer cluster coverage by funding window:
 
-| Stage | Funding addresses | WE cluster | Cluster named? |
+| Funding window | Funding addresses | WE cluster | Cluster named? |
 |---|---|---|---|
 | Foundational 2016-03-06 deposits (2 of 39 txs) | 67 of 69 | `[033a676d6f50f05c]` | no |
 | Foundational 2016-03-06 deposits (2 of 39 txs) | 2 of 69 | `[89547e98ce46121f]` | no |
