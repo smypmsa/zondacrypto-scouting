@@ -18,6 +18,18 @@ Etherscan shows this address as the **Contract Creator** of the TMPL token contr
 
 Per [methodology § Evidence types](../../methodology.md#evidence-types), the deployer-of-an-already-attributed-contract relation is a **smart-contract relation** primary citation. It is the only primary citation recorded for this address; no public name tag is displayed on Etherscan as of 2026-05-15, and no second independent label set names this address against ZondaCrypto. Recorded as **PARTIAL** pending a second independent labelling.
 
+### Sources checked and what came back
+
+To make the PARTIAL tier concrete, this address has been probed against every free attribution source this inventory uses. Negative results recorded so the gap is machine-discoverable and the reader does not have to re-run them:
+
+| Source | Result | Date |
+|---|---|---|
+| Etherscan public name tag | No public name tag displayed on the address page | 2026-05-15 |
+| hildobby's Dune query 3237025 ("All Known EVM CEX Addresses") | Not present (8 Zonda-tagged rows checked; no match) | 2026-05-11 |
+| Bubblemaps v2 `tokens/details` + `/holders` | `404 — No transfer data` / `404 — No holder found`; no `entity_id = "zonda"` label returned | 2026-05-12 |
+| OFAC SDN ETH-address list | Not present (88 sanctioned ETH addresses on list) | 2026-05-14 |
+| BlockSec MetaSleuth API v3 | Pending a clean re-query (the 2026-05-12 local probe row returned an empty response but its `address` field does not match this query — log integrity is being re-verified on the next quota cycle) | 2026-05-16 (queued) |
+
 ## Activity (Ethereum, probed 2026-05-15)
 
 - This is a smart contract, not an externally-owned account.
