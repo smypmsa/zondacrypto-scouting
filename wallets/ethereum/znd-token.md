@@ -18,7 +18,7 @@ Etherscan carries the public token tag "ZND: ZND Token" on this contract.[^1] Zo
 
 ## Activity (Ethereum, probed 2026-05-13)
 
-- Native txs: first 2024-10-21 (block 21012460); most recent 2026-05-13 (block 25085168); ≥ 10,000 events.
+- Native txs: first 2024-10-21 (block 21012460); most recent 2026-05-13 (block 25085168); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
 - ERC-20 events: first 2024-10-29 (block 21069997); most recent 2026-04-02 (block 24791147); 19 events.
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.

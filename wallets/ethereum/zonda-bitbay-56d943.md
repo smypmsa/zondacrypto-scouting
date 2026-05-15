@@ -20,8 +20,8 @@ The address is currently active (latest activity within minutes of the snapshot)
 
 ## Activity (Ethereum, probed 2026-05-13)
 
-- Native txs: first 2025-08-04 (block 23066436); most recent 2026-05-13 (block 25085262); ≥ 10,000 events.
-- ERC-20 events: first 2025-08-04 (block 23066882); most recent 2026-05-13 (block 25085262); ≥ 10,000 events.
+- Native txs: first 2025-08-04 (block 23066436); most recent 2026-05-13 (block 25085262); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
+- ERC-20 events: first 2025-08-04 (block 23066882); most recent 2026-05-13 (block 25085262); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
 

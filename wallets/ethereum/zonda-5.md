@@ -18,15 +18,15 @@ Each of the five major EVM block explorers — Etherscan, PolygonScan, OP Ethers
 
 ## Activity (Ethereum, probed 2026-05-13)
 
-- Native txs: first 2021-04-09 (block 12204789); most recent 2026-04-19 (block 24916463); ≥ 10,000 events.
-- ERC-20 events: first 2021-04-13 (block 12231426); most recent 2026-05-12 (block 25075921); ≥ 10,000 events.
+- Native txs: first 2021-04-09 (block 12204789); most recent 2026-04-19 (block 24916463); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
+- ERC-20 events: first 2021-04-13 (block 12231426); most recent 2026-05-12 (block 25075921); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
 
 ## Activity (Polygon, probed 2026-05-13)
 
-- Native txs: first 2023-08-02 (block 45812984); most recent 2026-04-12 (block 85448141); ≥ 10,000 events.
-- ERC-20 events: first 2021-08-08 (block 17763572); most recent 2026-04-10 (block 85349476); ≥ 10,000 events.
+- Native txs: first 2023-08-02 (block 45812984); most recent 2026-04-12 (block 85448141); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
+- ERC-20 events: first 2021-08-08 (block 17763572); most recent 2026-04-10 (block 85349476); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 137), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
 

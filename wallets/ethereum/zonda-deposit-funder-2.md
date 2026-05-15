@@ -18,7 +18,7 @@ Etherscan carries the public name tag "Zonda: Deposit Funder 2" on this address.
 
 ## Activity (Ethereum, probed 2026-05-13)
 
-- Native txs: first 2021-04-12 (block 12223728); most recent 2023-11-06 (block 18515362); ≥ 10,000 events.
+- Native txs: first 2021-04-12 (block 12223728); most recent 2023-11-06 (block 18515362); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
 - ERC-20 events: first 2021-09-11 (block 13205595); most recent 2023-10-19 (block 18383438); 15 events.
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.

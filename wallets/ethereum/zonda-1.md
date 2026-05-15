@@ -18,7 +18,7 @@ Etherscan carries the public name tag "Zonda 1 (Exchange)" on this address.[^1] 
 
 ## Activity (Ethereum, probed 2026-05-13)
 
-- Native txs: first 2017-12-11 (block 4714328); most recent 2026-03-24 (block 24727471); ≥ 10,000 events.
+- Native txs: first 2017-12-11 (block 4714328); most recent 2026-03-24 (block 24727471); ≥ 10,000 events (the indexer’s per-page cap — the true count is at least that; the full count is recovered from Dune in the Flow profile section below).
 - ERC-20 events: first 2017-12-20 (block 4766539); most recent 2026-04-04 (block 24807555); 176 events.
 
 Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-event page each, sort=asc for first / sort=desc for most-recent.
