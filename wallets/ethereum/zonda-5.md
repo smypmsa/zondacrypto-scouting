@@ -40,8 +40,8 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Net direction | +$1,920,741 |
 | Total events ≥$1k | 98,811 |
 | Distinct external counterparties (≥$1k cumulative) | 37,490 |
-| Identified counterparties in this section | 16 internal + 1,477 external (Etherscan-tagged) + 18 external (hildobby-tagged) |
-| Counterparties without a public name tag | **156,719 (full enumeration), aggregating ~$569,950,742 outbound and ~$779,744,841 inbound across `no-public-tag` + `below-cutoff` rows** |
+| Identified counterparties in this section | 17 internal + 1,477 external (Etherscan-tagged) + 18 external (hildobby-tagged) + 2 external (BlockSec MetaSleuth) |
+| Counterparties without a public name tag | **156,716 (full enumeration), aggregating ~$513,077,072 outbound and ~$659,604,569 inbound across `no-public-tag` + `below-cutoff` rows** (three former entries reclassified 2026-05-18 — see *Counterparties also in this inventory* + *External counterparties — confirmed via BlockSec MetaSleuth*) |
 | Active period (≥$1k events) | 2021-04-09 → 2026-04-19 |
 
 **Confidence:** CONFIRMED on totals (Gross IN, Gross OUT, throughput, active period, distinct-counterparty count). CONFIRMED on per-counterparty classification for the Internal and External-tagged rows below (each Etherscan tag was verified by a fresh HTML fetch on 2026-05-13; the HTML is retained in the working archive — see [methodology § Receipts](../../methodology.md#receipts-and-reproducibility)). PARTIAL on the Unattributed counterparties row — entity attribution work is ongoing.
@@ -50,6 +50,7 @@ Full-history aggregation of native ETH and ERC-20 token transfers where this wal
 | Counterparty | Inbound USD | Outbound USD | Events |
 |--|--|--|--|
 | Zonda 2 `0x781229c7…57fc` | $161,301,730 | $158,659,179 | 488 |
+| BitBay 3ef668 `0x3ef6683f…2eda` | $120,140,272 | $0 | 793 |
 | Zonda 6 `0xd388009f…8046` | $60,769,348 | $46,187,357 | 213 |
 | BitBay 879882 `0x879882c5…b54f` | $4,299,650 | $0 | 278 |
 | BitBay 3f1eea `0x3f1eea8d…0539` | $0 | $995,620 | 11 |
@@ -153,8 +154,17 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 |--|--|--|--|
 | `0xae2d4617…673f` | Kraken 10 | $400,154 | 1 |
 
+### External counterparties — confirmed via BlockSec MetaSleuth
+
+BlockSec MetaSleuth's address-label API v3 carries attributions for two of the largest formerly-unattributed Zonda 5 counterparties. Both are Kraken customer-deposit addresses (single-customer accounts that aggregate Zonda customer withdrawals before forwarding to Kraken's hot-wallet infrastructure). Receipt: [`../../sources/blocksec/labels-2026-05-18.json`](../../sources/blocksec/labels-2026-05-18.json).
+
+| Counterparty | Tag (BlockSec) | Inbound USD | Outbound USD | Events (IN / OUT) |
+|---|---|---:|---:|---:|
+| `0xf9793f37…a72d` | Kraken: Deposit Address | $0 | $48,243,283 | 0 / 337 |
+| `0x8d73769a…696c` | Kraken: Deposit Address | $0 | $8,630,387 | 0 / 298 |
+
 ### Unattributed counterparties
-**This section is a known incomplete part of the analysis.** 156,719 of the 158,214 external counterparties in the full enumeration carry no public name tag on Etherscan as of 2026-05-14 (closure-pass) and do not appear in this inventory's roster. The unidentified rows aggregate **$569,950,742 outbound** and **$779,744,841 inbound** across `no-public-tag` + `below-cutoff` rows. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
+**This section is a known incomplete part of the analysis.** 156,716 of the 158,211 external counterparties in the full enumeration carry no public name tag on Etherscan as of 2026-05-18 and do not appear in this inventory's roster. The unidentified rows aggregate **$513,077,072 outbound** and **$659,604,569 inbound** across `no-public-tag` + `below-cutoff` rows. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
 ### Top 50 unattributed counterparties by gross USD
 
@@ -162,61 +172,61 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 
 | # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
 |---|---|---:|---:|---:|---|
-| 1 | `0x3ef6683f2553af861f91194d23bdf8522d1f2eda` | $120,140,272 | $0 | 793 / 0 | 2023-05-31 → 2026-01-20 |
-| 2 | `0xf9793f372c9aa841f8916f0d3c480d18a9cda72d` | $0 | $48,243,283 | 0 / 337 | 2024-02-27 → 2025-12-15 |
-| 3 | `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | $43,668,293 | $0 | 213 / 0 | 2022-08-31 → 2026-03-26 |
-| 4 | `0xead6595703fa97174e67d86998ecab7994ae880d` | $0 | $43,003,709 | 0 / 124 | 2024-03-28 → 2026-01-13 |
-| 5 | `0xa370d3a30a125bb025501bf256eb6eab23d54c98` | $42,591,639 | $0 | 919 / 0 | 2022-12-15 → 2026-03-30 |
-| 6 | `0xaad6825c2e63363adebbb79203d45b4ed0ac1862` | $27,273,920 | $0 | 720 / 0 | 2022-12-07 → 2026-02-23 |
-| 7 | `0x73bfc8b17296cb284b7b116e519c7b84df4e4020` | $24,181,500 | $0 | 2,511 / 0 | 2021-04-15 → 2026-04-02 |
-| 8 | `0x70a9ffd5ccd90efd82b56e55ff7dc5511c809852` | $24,135,233 | $0 | 157 / 0 | 2022-05-10 → 2026-03-26 |
-| 9 | `0xd3b1ca9dfbb4acf1669c60bd8587122144295b73` | $19,563,746 | $0 | 524 / 0 | 2021-11-14 → 2026-03-30 |
-| 10 | `0xb7777ac291408554b0e3fedbe79d7675ac962af8` | $19,473,351 | $0 | 502 / 0 | 2025-12-18 → 2026-04-10 |
+| 1 | `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | $43,668,293 | $0 | 213 / 0 | 2022-08-31 → 2026-03-26 |
+| 2 | `0xead6595703fa97174e67d86998ecab7994ae880d` | $0 | $43,003,709 | 0 / 124 | 2024-03-28 → 2026-01-13 |
+| 3 | `0xa370d3a30a125bb025501bf256eb6eab23d54c98` | $42,591,639 | $0 | 919 / 0 | 2022-12-15 → 2026-03-30 |
+| 4 | `0xaad6825c2e63363adebbb79203d45b4ed0ac1862` | $27,273,920 | $0 | 720 / 0 | 2022-12-07 → 2026-02-23 |
+| 5 | `0x73bfc8b17296cb284b7b116e519c7b84df4e4020` | $24,181,500 | $0 | 2,511 / 0 | 2021-04-15 → 2026-04-02 |
+| 6 | `0x70a9ffd5ccd90efd82b56e55ff7dc5511c809852` | $24,135,233 | $0 | 157 / 0 | 2022-05-10 → 2026-03-26 |
+| 7 | `0xd3b1ca9dfbb4acf1669c60bd8587122144295b73` | $19,563,746 | $0 | 524 / 0 | 2021-11-14 → 2026-03-30 |
+| 8 | `0xb7777ac291408554b0e3fedbe79d7675ac962af8` | $19,473,351 | $0 | 502 / 0 | 2025-12-18 → 2026-04-10 |
+| 9 | `0x47ef949598e02b90ae2a38624f07b77c18fabb8b` | $16,968,056 | $28 | 2,838 / 1 | 2021-04-13 → 2026-04-03 |
+| 10 | `0x7dd88a0f2f1599b89c560d9e6e5a77d342687d64` | $0 | $16,928,923 | 0 / 13 | 2025-07-25 → 2025-07-27 |
 
 <details><summary>Show 40 more rows</summary>
 
 | # | Counterparty | Inbound USD | Outbound USD | Events (IN / OUT) | First → last seen |
 |---|---|---:|---:|---:|---|
-| 11 | `0x47ef949598e02b90ae2a38624f07b77c18fabb8b` | $16,968,056 | $28 | 2,838 / 1 | 2021-04-13 → 2026-04-03 |
-| 12 | `0x7dd88a0f2f1599b89c560d9e6e5a77d342687d64` | $0 | $16,928,923 | 0 / 13 | 2025-07-25 → 2025-07-27 |
-| 13 | `0xcbc537685c04659d5bddb3d6e2c4149d0e5e4680` | $0 | $16,081,410 | 0 / 66 | 2025-05-29 → 2026-04-07 |
-| 14 | `0x1990abd6e49218ab403f01aefeb9d22d07244181` | $0 | $14,754,327 | 0 / 104 | 2025-11-28 → 2026-04-01 |
-| 15 | `0x896088463f9660410f10c52e002ac1e274920b0d` | $14,609,119 | $2 | 255 / 1 | 2023-12-08 → 2026-04-10 |
-| 16 | `0x25c2f0e18f8945f5395aa971c99e95f808e79dea` | $14,328,650 | $0 | 21 / 0 | 2022-03-30 → 2024-10-28 |
-| 17 | `0xf910450ee0d86bd4e3ee4425de0b435edd8543a7` | $13,267,535 | $0 | 411 / 0 | 2022-09-15 → 2026-03-26 |
-| 18 | `0xcee4dfde1ce0260afb87f8c917726ab0502fd457` | $12,448,868 | $59 | 327 / 1 | 2021-04-23 → 2025-11-20 |
-| 19 | `0x413f54b9308f35e1ae954a111acd059b9083d6b8` | $11,295,199 | $0 | 186 / 0 | 2022-11-02 → 2026-03-26 |
-| 20 | `0x097511b9af934c6acb44ba110c24783f57fb4cbb` | $10,926,549 | $0 | 33 / 0 | 2021-06-29 → 2022-01-07 |
-| 21 | `0xaabbe35b7dfc5c1f669b4f6558ba7d998c11039b` | $0 | $10,662,176 | 0 / 156 | 2022-10-31 → 2024-12-02 |
-| 22 | `0x42b6de749dc4bf0e9f9a0e13a94986587d42498b` | $0 | $10,221,309 | 0 / 9 | 2024-08-28 → 2025-07-25 |
-| 23 | `0xeed3b5bb18c81d0dcbc9404b60b016c77e61b555` | $10,180,750 | $0 | 291 / 0 | 2022-03-30 → 2026-04-06 |
-| 24 | `0x5ee84d30c7ee57f63f71c92247ff31f95e26916b` | $9,893,084 | $0 | 16 / 0 | 2025-09-22 → 2025-12-15 |
-| 25 | `0xda4793ecb8f785837a61864e0b454063d94bfe60` | $9,517,244 | $0 | 40 / 0 | 2025-08-05 → 2025-12-16 |
-| 26 | `0x19f0d946c85ed649cf82250f5a07140323e71cc7` | $0 | $9,497,053 | 0 / 16 | 2023-02-15 → 2024-03-07 |
-| 27 | `0x43b603d4cdaed3dfa30855c9e354e300094a0a2d` | $0 | $9,197,023 | 0 / 888 | 2023-08-18 → 2026-03-16 |
-| 28 | `0xf9d6b16bbf23cedc08846482d8cc5901b6b5d50c` | $9,091,008 | $0 | 1,742 / 0 | 2021-04-13 → 2026-04-03 |
-| 29 | `0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51` | $1,789,983 | $7,276,007 | 4 / 23 | 2024-08-13 → 2025-11-25 |
-| 30 | `0x8d73769a2422f55a9a270fe08b00264ff564696c` | $0 | $8,630,387 | 0 / 298 | 2025-12-22 → 2026-04-13 |
-| 31 | `0x05ec9b5421ec93df501054c0a15152da5bb12708` | $8,620,748 | $19 | 80 / 1 | 2022-04-26 → 2025-11-20 |
-| 32 | `0x8e96a3e70530f013f4d92f0076d833fdcaa47df4` | $0 | $7,161,653 | 0 / 266 | 2022-09-08 → 2025-11-27 |
-| 33 | `0x65c349fa4e1c64115c30e731e5e1c29b7c822690` | $0 | $6,969,419 | 0 / 70 | 2022-01-09 → 2023-12-28 |
-| 34 | `0x3372e8c4222c7165c1007fd5d8aefdb720e0a7a1` | $0 | $6,912,875 | 0 / 7 | 2024-03-08 → 2024-08-29 |
-| 35 | `0x057d2890018e5cb7efdde1c9c6c042d19b67a4f4` | $6,586,809 | $0 | 80 / 0 | 2022-09-13 → 2026-03-26 |
-| 36 | `0x308f672cd0e6111e738262fb65fdf20b811f8b01` | $6,309,144 | $0 | 20 / 0 | 2023-12-13 → 2026-03-30 |
-| 37 | `0xf27dc973a47555612d55f0aa5ab021778be7244b` | $0 | $5,984,883 | 0 / 11 | 2024-03-01 → 2024-11-04 |
-| 38 | `0xd5e6ad0fce9d6a2fd945284f3bf1cc3a0c78c632` | $5,836,589 | $0 | 20 / 0 | 2025-03-20 → 2026-03-30 |
-| 39 | `0x827417b3f50a9927a6055b97a71f36ad3fc23713` | $0 | $5,742,913 | 0 / 192 | 2023-01-12 → 2023-10-17 |
-| 40 | `0xec019b1130b869f728f9b496f145bc0e76d8a6cb` | $4,904,960 | $0 | 3 / 0 | 2024-02-18 → 2026-03-26 |
-| 41 | `0x36f217d70c84c7362b82d8ef866cc8ffbd020fd1` | $4,825,094 | $0 | 639 / 0 | 2022-02-16 → 2026-03-30 |
-| 42 | `0x4b039efd60f4aa2106c6fe4e718b346111ac5cd4` | $4,497,385 | $70 | 458 / 1 | 2021-04-13 → 2026-03-30 |
-| 43 | `0x7b464929a7c7c9f59335211a0f699667322b4f14` | $4,393,196 | $17 | 164 / 1 | 2022-04-11 → 2026-03-30 |
-| 44 | `0x30ccc62fd085d3dbe11d9fb716dc76ecd67f0ef5` | $0 | $4,311,005 | 0 / 5 | 2022-04-01 → 2022-10-03 |
-| 45 | `0x0036934a937dff8fbee41bbed50ed1829067e34e` | $4,306,664 | $0 | 170 / 0 | 2022-08-29 → 2026-03-30 |
-| 46 | `0x5fc9611bf4ae9b44201c80f0b27df43e55a57b55` | $3,711,416 | $0 | 10 / 0 | 2024-10-07 → 2026-03-30 |
-| 47 | `0x4fc05911251b5bc1dbddb4788c92c19ccf67c8d2` | $3,680,128 | $0 | 596 / 0 | 2021-09-11 → 2026-03-30 |
-| 48 | `0x69736878bcc150b58d683bf875cf67485f72a9b2` | $0 | $3,573,814 | 0 / 39 | 2024-10-18 → 2025-09-30 |
-| 49 | `0xa7588d1e0b12a41c1750dde919605e51a9443b23` | $0 | $3,561,208 | 0 / 28 | 2024-11-18 → 2025-08-14 |
-| 50 | `0x03a283e9293c399ec55239db794a12297529382f` | $0 | $3,385,103 | 0 / 25 | 2022-05-10 → 2022-10-27 |
+| 11 | `0xcbc537685c04659d5bddb3d6e2c4149d0e5e4680` | $0 | $16,081,410 | 0 / 66 | 2025-05-29 → 2026-04-07 |
+| 12 | `0x1990abd6e49218ab403f01aefeb9d22d07244181` | $0 | $14,754,327 | 0 / 104 | 2025-11-28 → 2026-04-01 |
+| 13 | `0x896088463f9660410f10c52e002ac1e274920b0d` | $14,609,119 | $2 | 255 / 1 | 2023-12-08 → 2026-04-10 |
+| 14 | `0x25c2f0e18f8945f5395aa971c99e95f808e79dea` | $14,328,650 | $0 | 21 / 0 | 2022-03-30 → 2024-10-28 |
+| 15 | `0xf910450ee0d86bd4e3ee4425de0b435edd8543a7` | $13,267,535 | $0 | 411 / 0 | 2022-09-15 → 2026-03-26 |
+| 16 | `0xcee4dfde1ce0260afb87f8c917726ab0502fd457` | $12,448,868 | $59 | 327 / 1 | 2021-04-23 → 2025-11-20 |
+| 17 | `0x413f54b9308f35e1ae954a111acd059b9083d6b8` | $11,295,199 | $0 | 186 / 0 | 2022-11-02 → 2026-03-26 |
+| 18 | `0x097511b9af934c6acb44ba110c24783f57fb4cbb` | $10,926,549 | $0 | 33 / 0 | 2021-06-29 → 2022-01-07 |
+| 19 | `0xaabbe35b7dfc5c1f669b4f6558ba7d998c11039b` | $0 | $10,662,176 | 0 / 156 | 2022-10-31 → 2024-12-02 |
+| 20 | `0x42b6de749dc4bf0e9f9a0e13a94986587d42498b` | $0 | $10,221,309 | 0 / 9 | 2024-08-28 → 2025-07-25 |
+| 21 | `0xeed3b5bb18c81d0dcbc9404b60b016c77e61b555` | $10,180,750 | $0 | 291 / 0 | 2022-03-30 → 2026-04-06 |
+| 22 | `0x5ee84d30c7ee57f63f71c92247ff31f95e26916b` | $9,893,084 | $0 | 16 / 0 | 2025-09-22 → 2025-12-15 |
+| 23 | `0xda4793ecb8f785837a61864e0b454063d94bfe60` | $9,517,244 | $0 | 40 / 0 | 2025-08-05 → 2025-12-16 |
+| 24 | `0x19f0d946c85ed649cf82250f5a07140323e71cc7` | $0 | $9,497,053 | 0 / 16 | 2023-02-15 → 2024-03-07 |
+| 25 | `0x43b603d4cdaed3dfa30855c9e354e300094a0a2d` | $0 | $9,197,023 | 0 / 888 | 2023-08-18 → 2026-03-16 |
+| 26 | `0xf9d6b16bbf23cedc08846482d8cc5901b6b5d50c` | $9,091,008 | $0 | 1,742 / 0 | 2021-04-13 → 2026-04-03 |
+| 27 | `0x8c55e56cf813ce34b50dfbcc86762d0fc909aa51` | $1,789,983 | $7,276,007 | 4 / 23 | 2024-08-13 → 2025-11-25 |
+| 28 | `0x05ec9b5421ec93df501054c0a15152da5bb12708` | $8,620,748 | $19 | 80 / 1 | 2022-04-26 → 2025-11-20 |
+| 29 | `0x8e96a3e70530f013f4d92f0076d833fdcaa47df4` | $0 | $7,161,653 | 0 / 266 | 2022-09-08 → 2025-11-27 |
+| 30 | `0x65c349fa4e1c64115c30e731e5e1c29b7c822690` | $0 | $6,969,419 | 0 / 70 | 2022-01-09 → 2023-12-28 |
+| 31 | `0x3372e8c4222c7165c1007fd5d8aefdb720e0a7a1` | $0 | $6,912,875 | 0 / 7 | 2024-03-08 → 2024-08-29 |
+| 32 | `0x057d2890018e5cb7efdde1c9c6c042d19b67a4f4` | $6,586,809 | $0 | 80 / 0 | 2022-09-13 → 2026-03-26 |
+| 33 | `0x308f672cd0e6111e738262fb65fdf20b811f8b01` | $6,309,144 | $0 | 20 / 0 | 2023-12-13 → 2026-03-30 |
+| 34 | `0xf27dc973a47555612d55f0aa5ab021778be7244b` | $0 | $5,984,883 | 0 / 11 | 2024-03-01 → 2024-11-04 |
+| 35 | `0xd5e6ad0fce9d6a2fd945284f3bf1cc3a0c78c632` | $5,836,589 | $0 | 20 / 0 | 2025-03-20 → 2026-03-30 |
+| 36 | `0x827417b3f50a9927a6055b97a71f36ad3fc23713` | $0 | $5,742,913 | 0 / 192 | 2023-01-12 → 2023-10-17 |
+| 37 | `0xec019b1130b869f728f9b496f145bc0e76d8a6cb` | $4,904,960 | $0 | 3 / 0 | 2024-02-18 → 2026-03-26 |
+| 38 | `0x36f217d70c84c7362b82d8ef866cc8ffbd020fd1` | $4,825,094 | $0 | 639 / 0 | 2022-02-16 → 2026-03-30 |
+| 39 | `0x4b039efd60f4aa2106c6fe4e718b346111ac5cd4` | $4,497,385 | $70 | 458 / 1 | 2021-04-13 → 2026-03-30 |
+| 40 | `0x7b464929a7c7c9f59335211a0f699667322b4f14` | $4,393,196 | $17 | 164 / 1 | 2022-04-11 → 2026-03-30 |
+| 41 | `0x30ccc62fd085d3dbe11d9fb716dc76ecd67f0ef5` | $0 | $4,311,005 | 0 / 5 | 2022-04-01 → 2022-10-03 |
+| 42 | `0x0036934a937dff8fbee41bbed50ed1829067e34e` | $4,306,664 | $0 | 170 / 0 | 2022-08-29 → 2026-03-30 |
+| 43 | `0x5fc9611bf4ae9b44201c80f0b27df43e55a57b55` | $3,711,416 | $0 | 10 / 0 | 2024-10-07 → 2026-03-30 |
+| 44 | `0x4fc05911251b5bc1dbddb4788c92c19ccf67c8d2` | $3,680,128 | $0 | 596 / 0 | 2021-09-11 → 2026-03-30 |
+| 45 | `0x69736878bcc150b58d683bf875cf67485f72a9b2` | $0 | $3,573,814 | 0 / 39 | 2024-10-18 → 2025-09-30 |
+| 46 | `0xa7588d1e0b12a41c1750dde919605e51a9443b23` | $0 | $3,561,208 | 0 / 28 | 2024-11-18 → 2025-08-14 |
+| 47 | `0x03a283e9293c399ec55239db794a12297529382f` | $0 | $3,385,103 | 0 / 25 | 2022-05-10 → 2022-10-27 |
+| 48 | `0x34a34dcf0c3f127737937ad607f70a34c61ef0f2` | $3,375,973 | $0 | 74 / 0 | 2022-08-22 → 2026-03-26 |
+| 49 | `0xcf68022ebfd4f565a9e8cacfec4ecf93524b0fd6` | $3,374,216 | $0 | 33 / 0 | 2023-11-15 → 2026-03-26 |
+| 50 | `0x533671f6a2e1c20e77af941691790bad3cd3fb9c` | $0 | $3,359,388 | 0 / 9 | 2025-05-06 → 2025-12-03 |
 
 </details>
 ## Multichain footprint — probed-and-empty chains (2026-05-13)
