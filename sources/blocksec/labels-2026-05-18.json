@@ -1,0 +1,230 @@
+{
+  "0x3ef6683f2553af861f91194d23bdf8522d1f2eda": {
+    "label": "Z6 \u2014 Zonda Deposit Address prediction (F-047)",
+    "resp": {
+      "request_id": "b7de74112872430d",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x3ef6683f2553af861f91194d23bdf8522d1f2eda",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0xf9793f372c9aa841f8916f0d3c480d18a9cda72d": {
+    "label": "Z7 \u2014 Zonda Withdrawal prediction (F-047)",
+    "resp": {
+      "request_id": "1e3ba413f0414412",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xf9793f372c9aa841f8916f0d3c480d18a9cda72d",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Kraken Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Deposit Address"
+      }
+    }
+  },
+  "0x8d73769a2422f55a9a270fe08b00264ff564696c": {
+    "label": "F-048 forwarder \u2014 Z5 -> forwarder -> Kraken HW 4",
+    "resp": {
+      "request_id": "dfac6e379a2e4fe5",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x8d73769a2422f55a9a270fe08b00264ff564696c",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Kraken Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Deposit Address"
+      }
+    }
+  },
+  "0xa9d69f2f56df2cb8b66d0f2c6c867407a1296c5f": {
+    "label": "Z1 \u2014 $19B USDC-MM, Circle-paired (F-047)",
+    "resp": {
+      "request_id": "7b401e2a47fe48df",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xa9d69f2f56df2cb8b66d0f2c6c867407a1296c5f",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0x9d3084d0fdabce20f1bd3271d86b0e4f630c64c7": {
+    "label": "Z2's $287M unattributed bilateral pair (F-047)",
+    "resp": {
+      "request_id": "7ef613674fea4b2a",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x9d3084d0fdabce20f1bd3271d86b0e4f630c64c7",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xead6595703fa97174e67d86998ecab7994ae880d": {
+    "label": "Z6's $43M largest unattributed funder (F-047)",
+    "resp": {
+      "request_id": "9583caa63ca448ae",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xead6595703fa97174e67d86998ecab7994ae880d",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xae2d4617c862309a3d75a0ffb358c7a5009c673f": {
+    "label": "Z7's $23.9M top OUT destination (F-047)",
+    "resp": {
+      "request_id": "3e9d447a92834be0",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xae2d4617c862309a3d75a0ffb358c7a5009c673f",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "Kraken Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Hot Wallet"
+      }
+    }
+  },
+  "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4": {
+    "label": "TMPLPools \u2014 log-integrity re-query of 2026-05-12 corrupt row",
+    "resp": {
+      "request_id": "09cde7068e044288",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  }
+}

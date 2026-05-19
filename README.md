@@ -12,7 +12,7 @@ It does not contain interpretations, accusations, named-person commentary beyond
 
 A small set of inventory-wide numbers a journalist or auditor can quote. Each is reproducible from the linked artefact alone.
 
-- **29 inventoried wallets and clusters** across Bitcoin, Ethereum, and Polygon. See [`wallets/README.md`](wallets/README.md) for the per-row index.
+- **30 inventoried wallets and clusters** across Bitcoin, Ethereum, and Polygon. See [`wallets/README.md`](wallets/README.md) for the per-row index.
 - **4,503.26 BTC** standing balance on the address ZondaCrypto's CEO disclosed as the company's largest claimed Bitcoin reserve, in its lifetime never spent. First funded 2016-03-06, last received deposit 2026-05-08. See [`wallets/bitcoin/16aEn4p6-cold-reserve.md`](wallets/bitcoin/16aEn4p6-cold-reserve.md).
 - **26,014 addresses, 321,245 transactions** in the WalletExplorer-named `BitBay.net` cluster, the post-2019 operational hot-wallet cluster. Active 2019-05-13 → 2025-08-24. See [`wallets/bitcoin/bitbay-net-cluster.md`](wallets/bitcoin/bitbay-net-cluster.md).
 - **$211.5 million** in cumulative outbound flow from ZondaCrypto-inventoried Ethereum wallets to Etherscan-tagged centralised-exchange deposit addresses (Binance $203.1M, Gate $8.4M, Bybit $3k). See [`observations/cex-off-ramp-summary.md`](observations/cex-off-ramp-summary.md) for the per-CEX × per-source-wallet breakdown and the inbound side.

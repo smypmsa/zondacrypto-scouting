@@ -65,6 +65,7 @@ Wallets attributed to ZondaCrypto / BitBay by a single primary source (Bubblemap
 | `0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b` | Zonda (BitBay) 0x4ff97a…0e4b | 2025-08-14 → 2026-01-30, 29 native / 72 ERC-20 | [→](ethereum/zonda-bitbay-4ff97a.md) |
 | `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | Zonda (BitBay) 0xc7f05e…9305 | 2019-05-01 → 2026-03-18, 2,029 native / 8 ERC-20 | [→](ethereum/zonda-bitbay-c7f05e.md) |
 | `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | Zonda (BitBay) 0xced004…2f06 | 2022-08-31 → 2026-03-29, 472 events (227 IN / 245 OUT); deposit-receipt hop — 18 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-ced004.md) |
+| `0x3ef6683f2553af861f91194d23bdf8522d1f2eda` | Zonda (BitBay) 0x3ef668…2eda | 2023-05-31 → 2026-03-29, 2,465 events (1,322 IN / 1,143 OUT); deposit-receipt hop — 17 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 (~2.8× the throughput of the ced004 instance) | [→](ethereum/zonda-bitbay-3ef668.md) |
 
 ## Polygon — Zonda vanity-suffix cluster
 
