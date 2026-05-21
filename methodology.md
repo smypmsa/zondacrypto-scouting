@@ -11,6 +11,8 @@ How attributions in this repository are established, what each confidence tier m
 5. [Natural persons](#natural-persons)
 6. [Flow profiles](#flow-profiles)
 7. [Inventory profile CSV](#inventory-profile-csv)
+8. [Multichain EVM-key-reuse customer-aggregator detection](#multichain-evm-key-reuse-customer-aggregator-detection)
+9. [Per-address phishing classification — Etherscan v2 free-tier method](#per-address-phishing-classification--etherscan-v2-free-tier-method)
 
 ## Confidence tiers
 
@@ -183,4 +185,98 @@ The hildobby join is `LEFT JOIN query_3237025 h ON CAST(h.address AS varchar) = 
 ### Bitcoin cluster scope
 
 For Bitcoin clusters that exceed a practical per-address enumeration size (BitBay.net cluster's 26,014 addresses being the case in this inventory), the wallet page records a **cluster-level summary** rather than a per-address CSV: cluster size, transaction count, active period, and named-cluster counterparties as recorded by WalletExplorer. Full per-address enumeration is the upstream WalletExplorer page's responsibility; the inventory does not duplicate that content.
+
+## Multichain EVM-key-reuse customer-aggregator detection
+
+A method for distinguishing a *centralised exchange's own deposit-address infrastructure* from a *single customer of that exchange who aggregates deposits across multiple EVM chains on one self-owned address*. Both surfaces produce CEX-deposit-shaped flow profiles; the multichain dimension separates them.
+
+### Signal
+
+The same externally-owned address (the same 20-byte EVM key — see [glossary § multichain EVM key reuse](glossary.md#multichain-evm-key-reuse)) returns the **same** CEX-deposit-address label on BlockSec MetaSleuth across two or more EVM chains. For example, BlockSec returns `Kraken: Deposit Address` for the same EOA on both `chain_id=1` (Ethereum) and `chain_id=137` (Polygon).
+
+### Inference
+
+A CEX assigns each customer one deposit address per chain — addresses across chains are independent. When the same EVM key is labelled as a deposit address on multiple chains, the address is *not* part of the exchange's own infrastructure (which would receive distinct labels per chain). It is a **customer-controlled** EOA that the customer is using as their own multichain deposit-aggregation point, and which the exchange has tagged as a deposit address on each chain because the customer registered the same EVM key on each. The term for this is a [customer aggregator](glossary.md#customer-aggregator).
+
+### Working examples (Zonda inventory, BlockSec receipts 2026-05-18 + 2026-05-20)
+
+| Address | BlockSec `name_tag`, ETH | BlockSec `name_tag`, POL |
+|---|---|---|
+| `0xf9793f37…a72d` | `Kraken: Deposit Address` | `Kraken: Deposit Address` |
+| `0x8d73769a…696c` | `Kraken: Deposit Address` | `Kraken: Deposit Address` |
+
+Both addresses are downstream of Zonda's primary operational wallet. The multichain match resolves them as **one Kraken customer** aggregating Zonda withdrawals across chains, not Zonda-owned withdrawal-routing infrastructure.
+
+### Caveat — necessary but not sufficient
+
+A **1-counterparty-per-chain** outbound shape (single recipient on each chain the source wallet operates on) by itself is *not* diagnostic of a customer aggregator. The same shape arises when the per-chain recipient is a Zonda-internal address — i.e. multichain intra-inventory rotation. Observed case: a BitBay-era wallet's 1-CP-per-chain OUT recipient on POL / ARB / OP resolves to canonical Zonda 5 itself (Zonda-internal feeder), not an external CEX-customer aggregator. Disambiguate via one of:
+
+- **BlockSec attribution on the per-chain counterparty.** If the recipient carries a `<Exchange>: Deposit Address` label on multiple chains, the customer-aggregator reading holds. If the recipient is BlockSec-empty or labelled differently, look harder.
+- **Hex-match against existing inventory.** If the per-chain recipient is byte-identical to a known inventory wallet, the flow is intra-inventory routing rather than customer-side aggregation.
+
+### Reproducible procedure
+
+1. Run a per-chain Dune SQL aggregation (the [Flow-profiles template](#reproducibility--dune-sql-template) extended with `tokens_polygon.transfers`, `tokens_arbitrum.transfers`, `tokens_optimism.transfers`, etc.) to enumerate top OUT counterparties per chain for each candidate wallet.
+2. Intersect counterparty sets across chains: identify EVM keys that appear as the top OUT recipient on two or more chains from the same source wallet.
+3. Submit each intersecting EVM key to BlockSec MetaSleuth (`POST aml.blocksec.com/address-label/api/v3/labels`) once per chain ID. Mirror the JSON responses under `sources/blocksec/`.
+4. Compare the returned `name_tag` strings. Two or more chains returning the **same CEX-deposit label** for the same EVM key = customer-aggregator CONFIRMED.
+
+## Per-address phishing classification — Etherscan v2 free-tier method
+
+A method for resolving whether an address carrying an Etherscan `Fake_Phishing*` public name tag is the **perpetrator** of address-poisoning activity or one of its **victims**. Etherscan's crowd-sourced phishing flags are reported against addresses that *appear* in suspicious transactions; both the dust-poisoning operator and the legitimate address whose transaction history was seasoned with lookalike entries can end up tagged. The behavioural pattern on-chain separates them.
+
+### Why Etherscan v2 (not Dune) is the correct primitive
+
+A Dune table scan over `tokens_ethereum.transfers UNION ALL tokens_bnb.transfers …` filtered to single-address membership burns credits without filter selectivity: the engine must scan every transfer row on every chain before applying the address predicate. For a single-EOA forensic the right primitive is the Etherscan v2 API's per-address endpoints, which are indexed by address on the server side:
+
+- `module=account&action=tokentx` — every ERC-20 transfer.
+- `module=account&action=txlist` — every native-ETH transaction (including value=0).
+- `module=account&action=txlistinternal` — every internal-call transfer (including gas top-ups from contract drip-feeders).
+
+All three are free-tier on `chainid=1` (Ethereum). One chain at a time. Receipts mirror the raw JSON responses with their query URLs.
+
+### Classification rule
+
+Compute the outbound-direction signature first, then the inbound-direction signature; the perpetrator-vs-victim disposition follows from the OUT side, with the IN side as cross-check.
+
+**OUT side — perpetrator signature.**
+
+- Dust-USDC / dust-USDT pattern: outbound ERC-20 transfers on the canonical USDC (`0xa0b8…eb48`) or canonical USDT (`0xdac1…1ec7`) contracts with raw value `= 10` (≈ $0.00001 at six decimals). The modern dust-transfer variant of address-poisoning uses real token contracts with sub-cent amounts rather than fake-token contracts.
+- Dust-native pattern: outbound native-ETH transactions of 1–100 gwei (modal values).
+- Combined with **zero substantive (≥ $0.01) outbound ever** — the address has never sent a non-dust value transfer of any kind.
+
+Either dust pattern with zero substantive outbound = **PERPETRATOR**.
+
+**OUT side — victim signature.**
+
+- Ordinary value-bearing outbound transfers (real magnitude, real recipients).
+- Combined with an inbound side dominated by lookalike-symbol spam: forged ERC-20 Transfer events on bogus contracts whose `symbol()` is a Cyrillic / Greek substitution (`UЅDС`, `UЅDТ`, `ЕТН`, `ꓴꓢꓓС`) or an ASCII spoof (`U5DT`, `U5DC`, `DAl`).
+
+Real outbound activity + inbound dominated by lookalike spam = **VICTIM**. The Etherscan tag is then a crowd-sourced-report artefact reflecting that the address was a target of poisoning, not its source.
+
+### Gas-funder fingerprint — the cluster boundary
+
+Where a perpetrator EOA is identified, the small set of internal-call funders that top it up with exact gas-cost amounts (typically 0.000004 – 0.000040 ETH per call) is the operational fingerprint of the poisoning infrastructure behind it. **Same funder set across multiple flagged addresses = same operation; distinct funder set = separate operations**, even when the addresses look like a surface-level vanity-suffix family.
+
+Worked example (Zonda case, 2026-05-21 forensic on four `Fake_Phishing*`-tagged EOAs that surface-resembled a single F-005 institutional-operator vanity family):
+
+| Address | Etherscan tag | Variant | Funder ring |
+|---|---|---|---|
+| `0x5ee8ead2…cc016b` | Fake_Phishing1833213 | dust-USDC/USDT, contract drip-feeders | 8 contracts (`0x9105…4f3f`, `0xfd84…e2de`, `0x8cca…f3be`, `0x4ac5…7e5e` + 4) |
+| `0x33bcefa3…77b472` | Fake_Phishing3085852 | dust-USDC/USDT, contract drip-feeders | **same 8-funder core as cc016b — same operator** |
+| `0x33bc2249…f6b472` | Fake_Phishing3085530 | sub-cent canonical USDC + DAI/LINK lookalikes | distinct 2-funder ring (`0x8d8210a0…afc19`, `0x455bf23ea…272c`) |
+| `0x5ee89526…3916b` | Fake_Phishing411667 | zero-value native-tx, EOA-funded | EOA top-ups, no contract drip-feeders |
+
+Four surface-similar vanity-suffix EOAs resolved to **three distinct operator infrastructures** by funder-set divergence — none of the four are siblings of the underlying institutional operator network that their vanity prefixes mimic.
+
+### BSC cross-check
+
+Etherscan v2's `chainid=56` endpoint is paid-gated; the free-tier per-address routes work only on `chainid=1`. Where a BscScan `Fake_Phishing*` tag also appears for the same EOA, fall back to a free BSC JSON-RPC `eth_getTransactionCount` to determine whether the EOA has ever signed a BSC transaction:
+
+- Nonce `0x0` on a BscScan-tagged address = the EOA has never signed a BSC transaction. The tag is **cross-explorer Etherscan-family propagation**, not evidence of BSC-side perpetration.
+- Nonce `> 0x0` = BSC-side activity exists; pursue the full forensic on BSC (paid-gated on Etherscan v2; alternative indexer required).
+
+### Working example
+
+Each of the four addresses in the gas-funder table above is recorded as PERPETRATOR by the OUT-side test (dust patterns + zero substantive outbound + matching funder rings). The BSC propagation cross-check applies to `0x5ee8ead2…cc016b` specifically: BSC nonce = `0x0`, so the BscScan Fake_Phishing1833213 tag for that EOA is a propagation artefact, not BSC-side activity.
 
