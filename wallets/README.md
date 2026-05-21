@@ -61,6 +61,7 @@ Wallets attributed to ZondaCrypto / BitBay by a single primary source (Bubblemap
 | Address | What it is | Activity | Detail |
 |---|---|---|---|
 | `0x56d943aea92b099228b31f01cd12bd4aa39b4778` | Zonda (BitBay) 0x56d943…4778 | 2025-08-04 → 2026-05-13, ≥10k native / ≥10k ERC-20 | [→](ethereum/zonda-bitbay-56d943.md) |
+| `0xb6be26445f21e41bc69197fe68f697fc1a862f19` | Zonda (BitBay) 0x56d943…4778 disbursement contract — native-ETH-only payout contract deployed and operated by `0x56d943…4778` | 2025-08-04 → 2025-10-08, 806 normal / 1,701 internal / 0 ERC-20; deployer-only IN, fans out to 594 distinct recipients | [→](ethereum/zonda-bitbay-56d943-disbursement.md) |
 | `0x879882c59d9cc548d6c0e7d0238e8aa40858b54f` | Zonda (BitBay) 0x879882…b54f | 2021-03-31 → 2026-04-02, 1,259 native / 2,112 ERC-20 | [→](ethereum/zonda-bitbay-879882.md) |
 | `0x66b12dcff9f466f2a771e264b6d145bdd00e1327` | Zonda (BitBay) 0x66b12d…1327 | 2025-02-21 → 2026-02-08, 11 native / 21 ERC-20 | [→](ethereum/zonda-bitbay-66b12d.md) |
 | `0x3f1eea8dcda2b5620643aca1987d4780cae80539` | Zonda (BitBay) 0x3f1eea…0539 | 2024-12-17 → 2026-03-29, 168 native / 3,329 ERC-20 | [→](ethereum/zonda-bitbay-3f1eea.md) |

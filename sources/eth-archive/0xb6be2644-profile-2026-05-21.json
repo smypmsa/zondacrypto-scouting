@@ -1,0 +1,90 @@
+{
+  "address": "0xb6be26445f21e41bc69197fe68f697fc1a862f19",
+  "deployer": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+  "probed_at_utc": "2026-05-21T14:16:59Z",
+  "source": "Etherscan v2 chainid=1 (account.txlist + txlistinternal + tokentx + tokennfttx + contract.getsourcecode + balance)",
+  "verified": false,
+  "contract_name": "",
+  "balance_wei": "0",
+  "balance_eth": 0.0,
+  "totals": {
+    "normal_tx_count": 806,
+    "internal_tx_count": 1701,
+    "erc20_transfer_count": 0,
+    "erc721_transfer_count": 0,
+    "total_events": 2507,
+    "distinct_counterparties": 595
+  },
+  "normal_tx_flow": {
+    "in_count": 805,
+    "out_count": 0,
+    "in_value_eth": 39.10332519,
+    "out_value_eth": 0.0,
+    "distinct_cps_in": 1,
+    "distinct_cps_out": 0,
+    "top_cps_in": [
+      ["0x56d943aea92b099228b31f01cd12bd4aa39b4778", 805]
+    ],
+    "top_cps_out": []
+  },
+  "internal_tx_flow": {
+    "in_count": 0,
+    "out_count": 1701,
+    "in_value_eth": 0.0,
+    "out_value_eth": 39.10332519000002,
+    "distinct_cps_in": 0,
+    "distinct_cps_out": 594,
+    "top_cps_in": [],
+    "top_cps_out": [
+      ["0x490169645d6e6227485ea6176df5a4a33d40de1c", 66],
+      ["0x78b0a4b2b67abae805c8fbb0c343b0edc1821b3f", 58],
+      ["0x6e181f8c20888c2db09e5830ca4c639740f07324", 52],
+      ["0x172469ee83ed655e8a2379caace84f37b7d3f51c", 42],
+      ["0x9c9f0a6f51f48f151a84789ffca0f3a859a69a61", 27],
+      ["0xb19cbacca77ec8dc3d2430d73a36a18b3a82e7d2", 26],
+      ["0x30a395f4e4b34b4b30ddedb6ce60a022fe5621b3", 25],
+      ["0xd076145f4fbf35cb519f5e55a44a974181bfc1b4", 25],
+      ["0xc5b9bf04f37fbb7377cfb50f7d0c9a35d4a249a9", 22],
+      ["0xfb5ad286b56a454801c73de4bc149e31cd39fd40", 20]
+    ]
+  },
+  "erc20_summary": {
+    "count": 0,
+    "direction": {"in": 0, "out": 0},
+    "top_symbols": [],
+    "distinct_token_contracts": 0
+  },
+  "erc721_summary": {"count": 0},
+  "timestamp_range_normal": {
+    "first_unix": 1754296367,
+    "first_utc": "2025-08-04T08:32:47Z",
+    "last_unix": 1759896071,
+    "last_utc": "2025-10-08T04:01:11Z"
+  },
+  "timestamp_range_internal": {
+    "first_unix": 1754302823,
+    "last_unix": 1759896071
+  },
+  "deployer_relationship": {
+    "deployer_to_contract_normal_tx": 805,
+    "deployer_to_contract_internal_tx": 0,
+    "contract_to_deployer_normal_tx": 0,
+    "contract_to_deployer_internal_tx": 0
+  },
+  "access_pattern": {
+    "deployer_only_normal_calls": true
+  },
+  "deployment_tx": {
+    "blockNumber": "23066530",
+    "timeStamp": "1754296367",
+    "hash": "0xb3ccd233d44ddd880a3362af2da630c98c56d5d2600cd145391ec461224374fc",
+    "from": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+    "contractAddress": "0xb6be26445f21e41bc69197fe68f697fc1a862f19"
+  },
+  "method_signature_observed": {
+    "selector": "0xab883d28",
+    "signature": "multisendEther(address[] _contributors, uint256[] _balances)",
+    "notes": "Every observed non-deployment call from the deployer to the contract uses this selector. The contract fans the value sent in the same transaction out to the array of recipient addresses, in native ETH."
+  },
+  "notes_for_scouting_mirror": "This file mirrors the case-side receipt `case/sources/eth-archive/0xb6be2644-profile-2026-05-21.json` produced 2026-05-21. The mirror omits the verbose `sample_normal_txs_first5` / `sample_normal_txs_last5` / `sample_internal_txs_first5` / `sample_internal_txs_last5` arrays present in the case-side receipt (constructor bytecode + raw calldata samples), keeping only the structural totals and the deployment-tx pointer needed to reproduce the wallet-page claims. Full case-side receipt is reproducible from the address alone via Etherscan v2 endpoints listed in `source`."
+}
