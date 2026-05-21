@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "date": "2026-05-21",
+    "purpose": "Public slice of the multichain re-enumeration query covering BB-879882's full multichain footprint. Mirrored from the case-side working receipt; restricted to the BB-879882 aggregate per-chain magnitudes cited by the scouting page.",
+    "execution_id": "01KS5BM533AE90KTX19SAWJATB",
+    "query_id": 7500518,
+    "source_address": "0x879882c59d9cc548d6c0e7d0238e8aa40858b54f",
+    "method": "Dune SQL aggregation over tokens_<chain>.transfers for chains POL/ARB/OP/AVAX/BSC/Base with amount_usd >= 1 hygiene filter (kills zero-USD address-poisoner spam)."
+  },
+  "bb_879882_per_chain_aggregates": [
+    {"chain": "Polygon",  "aggregate_usd": 14000000, "shape": "single CP per chain handles both legs"},
+    {"chain": "Arbitrum", "aggregate_usd":  3100000, "shape": "single CP per chain handles both legs"},
+    {"chain": "Optimism", "aggregate_usd":  2800000, "shape": "single CP per chain handles both legs"}
+  ]
+}

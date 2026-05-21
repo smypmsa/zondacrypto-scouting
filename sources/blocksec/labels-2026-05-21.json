@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "date": "2026-05-21",
+    "purpose": "Public slice of the 2026-05-21 BlockSec MetaSleuth batch. Mirrored from the case-side working receipt; restricted to the four records cited by scouting pages: (a) 0x77580951…fbbc = Binance: Deposit Address (Z2 OUT $174M now CEX-attributed); (b) 0xde7adbb3…0add = WhiteBIT: Hot Wallet (Z4 sub-network C sink); (c) 0x6edf968d…5048 on chain_id=137 (Polygon) = Zonda (BitBay) — primary multichain citation for Zonda 5 on Polygon; (d) 0x6edf968d…5048 on chain_id=42161 (Arbitrum) = Zonda (BitBay) — primary multichain citation for Zonda 5 on Arbitrum.",
+    "endpoint": "https://aml.blocksec.com/address-label/api/v3/labels",
+    "method": "POST {\"chain_id\":<id>,\"address\":<addr>}",
+    "records_in_slice": 4
+  },
+  "0x775809513017464b4c3576e60e4186151605fbbc": {
+    "label": "Z2 OUT counterparty $174M aggregate (Ethereum)",
+    "resp": {
+      "request_id": "f29ca37cb60a4afc",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x775809513017464b4c3576e60e4186151605fbbc",
+        "main_entity": "Binance",
+        "main_entity_info": {
+          "entity": "Binance",
+          "categories": [
+            {"name": "EXCHANGE", "code": 3011},
+            {"name": "OTC DESK", "code": 3021}
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.binance.com/",
+            "twitter": "https://twitter.com/binance",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": ["Binance Deposit Address"]
+          }
+        ],
+        "name_tag": "Binance: Deposit Address"
+      }
+    }
+  },
+  "0xde7adbb368c2616df8c5c0e986933bee8f660add": {
+    "label": "Z4 sub-network C sink (Ethereum)",
+    "resp": {
+      "request_id": "097b248eb8604f7a",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xde7adbb368c2616df8c5c0e986933bee8f660add",
+        "main_entity": "WhiteBIT",
+        "main_entity_info": {
+          "entity": "WhiteBIT",
+          "categories": [
+            {"name": "EXCHANGE", "code": 3011}
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://whitebit.com",
+            "twitter": "https://twitter.com/whitebit",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": ["WhiteBIT Hot Wallet"]
+          }
+        ],
+        "name_tag": "WhiteBIT: Hot Wallet"
+      }
+    }
+  },
+  "0x6edf968da408a9640b8865826429a977a11c5048@137": {
+    "label": "Zonda 5 multichain key — Polygon (chain_id=137)",
+    "resp": {
+      "request_id": "ae7c98ff9e934314",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 137,
+        "address": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {"name": "EXCHANGE", "code": 3011}
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Zonda (BitBay) (0x6edf)"
+      }
+    }
+  },
+  "0x6edf968da408a9640b8865826429a977a11c5048@42161": {
+    "label": "Zonda 5 multichain key — Arbitrum (chain_id=42161)",
+    "resp": {
+      "request_id": "7747c88b621045aa",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 42161,
+        "address": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {"name": "EXCHANGE", "code": 3011}
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Zonda (BitBay) (0x6edf)"
+      }
+    }
+  }
+}

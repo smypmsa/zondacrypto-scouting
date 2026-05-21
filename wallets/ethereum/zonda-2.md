@@ -1,6 +1,6 @@
 # Zonda 2
 
-> **Plain-language summary.** A ZondaCrypto exchange wallet using the same key on Ethereum and Polygon, attributed by four independent primary sources (Etherscan, PolygonScan, hildobby, BlockSec). Active since 2021. Observed Ethereum throughput is $663.0 million across 4,090 events above $1,000 USD with $96.1 million net inflow; Polygon activity is materially smaller (see the Polygon flow profile section below).
+> **Plain-language summary.** A ZondaCrypto exchange wallet using the same key on Ethereum and Polygon, attributed by four independent primary sources (Etherscan, PolygonScan, hildobby, BlockSec). Active since 2021. Observed Ethereum throughput is $663.0 million across 4,090 events above $1,000 USD with $96.1 million net inflow; Polygon activity is materially smaller (see the Polygon flow profile section below). As of 2026-05-21, the largest single Ethereum OUT counterparty — `0x77580951…fbbc`, approximately $174 million cumulative — is attributed by BlockSec MetaSleuth as a `Binance: Deposit Address` (see the BlockSec section below).
 
 **Address:** `0x781229c7a798c33ec788520a6bbe12a79ed657fc`
 
@@ -166,6 +166,7 @@ Polygon counterparties are published separately: [`zonda-2-counterparties-polygo
 [^2]: hildobby, "All Known EVM CEX Addresses", Dune query 3237025. https://dune.com/queries/3237025
 [^3]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-12 with `main_entity = "BitBay"`, category `EXCHANGE`. Receipt at [`sources/blocksec/labels-zonda-2026-05-12.json`](../../sources/blocksec/labels-zonda-2026-05-12.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
 [^4]: Polygonscan, public name tag on Zonda 2. Verified by HTML fetch 2026-05-13. https://polygonscan.com/address/0x781229c7a798c33ec788520a6bbe12a79ed657fc
+[^5]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-21 against `chain_id=1`, `address=0x775809513017464b4c3576e60e4186151605fbbc`; `main_entity = "Binance"`, `name_tag = "Binance: Deposit Address"`. Receipt at [`sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
 
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 
@@ -176,4 +177,14 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x267be1c1d684f78cb4f6a176c4911b741e4ffdc0` | Kraken 4 | $18 | $0 | 1 / 0 |
 | `0x89e51fa8ca5d66cd220baed62ed01e8951aa7c40` | Kraken 7 | $7 | $0 | 1 / 0 |
 | `0x46340b20830761efd32832a74d7169b29feb9758` | Crypto.com 2 | $0 | $0 | 1 / 0 |
+
+### External counterparties — confirmed via BlockSec MetaSleuth
+
+BlockSec MetaSleuth's address-label API v3 (queried 2026-05-21) attributes Z2's largest single Ethereum OUT counterparty to a Binance customer-deposit address. The receipt is mirrored at [`../../sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json) (key `0x775809513017464b4c3576e60e4186151605fbbc`); the response carries `main_entity = "Binance"` with categories EXCHANGE + OTC DESK and attribute DEPOSIT ADDRESS.[^5]
+
+| Counterparty | Tag (BlockSec) | Inbound USD | Outbound USD |
+|---|---|---:|---:|
+| `0x77580951…fbbc` | Binance: Deposit Address | $0 | ~$174,000,000 |
+
+By cumulative outbound USD, this row now displaces every previously-published Z2 external counterparty: the largest Etherscan-tagged outbound on Z2 was a $0 figure (Z2 had no Etherscan-tagged CEX OUT rows prior to this attribution); the largest hildobby-tagged outbound was $0; the largest Internal outbound was $163,474,760 to Zonda 5. The Binance customer-deposit address is now the single largest counterparty of any kind on this wallet's Ethereum outbound side.
 

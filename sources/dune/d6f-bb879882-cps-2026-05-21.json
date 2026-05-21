@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "date": "2026-05-21",
+    "purpose": "Public slice of the BB-879882 per-chain OUT-counterparty Dune enumeration. Mirrored from the case-side working receipt; restricted to the three OUT rows on POL/ARB/OP that establish the 1-CP-per-chain pattern and identify the single recipient as Zonda 5 (`0x6edf968d…5048`).",
+    "execution_id": "01KS5HRXC8Y0KTSE561S7PEH1Q",
+    "query_id": 7500518,
+    "source_address": "0x879882c59d9cc548d6c0e7d0238e8aa40858b54f",
+    "method": "Dune SQL aggregation over tokens_<chain>.transfers with amount_usd >= 1 hygiene filter; grouped by (chain, direction, counterparty)."
+  },
+  "rows_out_to_zonda_5": [
+    {
+      "chain": "pol",
+      "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+      "direction": "OUT",
+      "n_events": 668,
+      "total_usd": 6975973.61
+    },
+    {
+      "chain": "arb",
+      "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+      "direction": "OUT",
+      "n_events": 189,
+      "total_usd": 1567385.88
+    },
+    {
+      "chain": "op",
+      "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+      "direction": "OUT",
+      "n_events": 132,
+      "total_usd": 1399938.21
+    }
+  ]
+}

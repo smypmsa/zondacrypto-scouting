@@ -14,7 +14,7 @@
 
 ## Attribution
 
-Each of the five major EVM block explorers — Etherscan, PolygonScan, OP Etherscan, BscScan, BaseScan — carries the public name tag "Zonda 5 (Exchange)" on this address.[^1][^2][^3][^4][^5] The label set is sourced from the hildobby compilation of known EVM centralised-exchange addresses maintained on Dune Analytics.[^6] BlockSec's MetaSleuth address-label database independently attributes this address to the entity "Zonda (BitBay)" under the EXCHANGE category.[^7]
+Each of the five major EVM block explorers — Etherscan, PolygonScan, OP Etherscan, BscScan, BaseScan — carries the public name tag "Zonda 5 (Exchange)" on this address.[^1][^2][^3][^4][^5] The label set is sourced from the hildobby compilation of known EVM centralised-exchange addresses maintained on Dune Analytics.[^6] BlockSec's MetaSleuth address-label database independently attributes this address to the entity "Zonda (BitBay)" under the EXCHANGE category on Ethereum (chain_id 1)[^7], on Polygon (chain_id 137)[^8], and on Arbitrum (chain_id 42161)[^9]. The Polygon and Arbitrum BlockSec attributions (captured 2026-05-21) provide a primary multichain citation on those two chains independent of the same-key public-name-tag propagation used by the block-explorer family.
 
 ## Activity (Ethereum, probed 2026-05-13)
 
@@ -394,3 +394,5 @@ Polygon counterparties are published separately: [`zonda-5-counterparties-polygo
 [^5]: BaseScan, public name tag on Zonda 5. https://basescan.org/address/0x6edf968da408a9640b8865826429a977a11c5048
 [^6]: hildobby, "All Known EVM CEX Addresses", Dune query 3237025. https://dune.com/queries/3237025
 [^7]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-12 with `main_entity = "Zonda (BitBay)"`, category `EXCHANGE`. Receipt at [`sources/blocksec/labels-zonda-2026-05-12.json`](../../sources/blocksec/labels-zonda-2026-05-12.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
+[^8]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-21 against `chain_id=137` (Polygon), `address=0x6edf968da408a9640b8865826429a977a11c5048`; `main_entity = "Zonda (BitBay)"`, `name_tag = "Zonda (BitBay) (0x6edf)"`. Receipt at [`sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json) (key `0x6edf968da408a9640b8865826429a977a11c5048@137`). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
+[^9]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-21 against `chain_id=42161` (Arbitrum), `address=0x6edf968da408a9640b8865826429a977a11c5048`; `main_entity = "Zonda (BitBay)"`, `name_tag = "Zonda (BitBay) (0x6edf)"`. Receipt at [`sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json) (key `0x6edf968da408a9640b8865826429a977a11c5048@42161`). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels

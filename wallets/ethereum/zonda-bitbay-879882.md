@@ -1,6 +1,6 @@
 # Zonda (BitBay) (0x879882…b54f)
 
-> **Plain-language summary.** An Ethereum wallet attributed to ZondaCrypto / BitBay by Bubblemaps' `entity_id = "zonda"` label. Single primary source — recorded as PARTIAL tier pending a second independent labelling. Active since March 2021. Top-100 ZND holder at 0.0119% of supply. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's PARTIAL tier.
+> **Plain-language summary.** An Ethereum wallet attributed to ZondaCrypto / BitBay by Bubblemaps' `entity_id = "zonda"` label. Single primary source — recorded as PARTIAL tier pending a second independent labelling. Active since March 2021. Top-100 ZND holder at 0.0119% of supply. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's PARTIAL tier. On Polygon, Arbitrum, and Optimism this address shows a distinctive single-counterparty-per-chain outbound pattern: in each of the three L2s, the single recipient is the same EVM address, `0x6edf968d…5048` — the canonical Zonda 5 multichain key, BlockSec-confirmed on POL and ARB on 2026-05-21 (see [Multichain section](#multichain-pattern--single-recipient-per-chain-is-zonda-5)). Read literally on the on-chain graph, the L2 OUT activity from this address is an intra-inventory rotation feeder into Zonda 5, not an external CEX-customer aggregator.
 
 **Address:** `0x879882c59d9cc548d6c0e7d0238e8aa40858b54f`
 
@@ -111,6 +111,22 @@ These are the largest counterparties (full enumeration, no truncation) that carr
 | 22 | `0x6982508145454ce325ddbe47a25d4ec3d2311933` | $0 | $0 | 2 / 0 | 2024-03-06 → 2024-03-30 |
 
 </details>
+## Multichain pattern — single recipient per chain is Zonda 5
+
+Beyond Ethereum, this address transacts on Polygon, Arbitrum, and Optimism. Per a 2026-05-21 Dune re-enumeration over `tokens_<chain>.transfers` (≥$1 USD-equivalent hygiene filter to exclude zero-USD address-poisoner artefacts), the OUT side on each of the three L2s reduces to a single counterparty, and that counterparty is the same EVM address on all three chains:
+
+| Chain | OUT counterparty | Events | Total USD |
+|---|---|---:|---:|
+| Polygon | `0x6edf968da408a9640b8865826429a977a11c5048` (Zonda 5) | 668 | $6,975,974 |
+| Arbitrum | `0x6edf968da408a9640b8865826429a977a11c5048` (Zonda 5) | 189 | $1,567,386 |
+| Optimism | `0x6edf968da408a9640b8865826429a977a11c5048` (Zonda 5) | 132 | $1,399,938 |
+
+The recipient address `0x6edf968d…5048` is the canonical Zonda 5 EVM key. It carries primary attribution as `Zonda 5 (Exchange)` on Etherscan / PolygonScan / OP Etherscan / BscScan / BaseScan (see [`zonda-5`](zonda-5.md)) and a primary BlockSec MetaSleuth attribution as `Zonda (BitBay)` on Ethereum (2026-05-12), Polygon (2026-05-21), and Arbitrum (2026-05-21). On the on-chain graph, the L2 OUT side of this address therefore points exclusively at another address in this inventory.
+
+**Confidence.** CONFIRMED on the per-chain magnitudes (direct Dune aggregation; receipt mirrored at [`../../sources/dune/d6f-bb879882-cps-2026-05-21.json`](../../sources/dune/d6f-bb879882-cps-2026-05-21.json)). CONFIRMED on the recipient identity (recipient is an already-attributed inventory address, primary-cited on POL + ARB by BlockSec 2026-05-21; receipt [`../../sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json)). The Ethereum-side aggregate magnitudes for this address (POL $14.0M / ARB $3.1M / OP $2.8M) are mirrored at [`../../sources/dune/d6-multichain-reenum-2026-05-21.json`](../../sources/dune/d6-multichain-reenum-2026-05-21.json).
+
+**Pattern note.** A one-counterparty-per-chain OUT shape, in isolation, is consistent with multiple structural readings (single CEX-customer-deposit aggregator; single MM/OTC settlement counterparty; intra-operator multichain rotation hop). Hex-matching the recipient against the existing inventory disambiguates: the recipient is Zonda 5, already in this inventory, primary-cited as a Zonda-operated exchange wallet — therefore an external-customer-aggregator reading is not supported by the address itself.
+
 ## Counterparty enumeration (full)
 
 Full per-counterparty enumeration with no truncation and a $0 USD floor is published as a CSV alongside this page: [`zonda-bitbay-879882-counterparties.csv`](zonda-bitbay-879882-counterparties.csv). The CSV covers every distinct counterparty that ever transferred to or from this wallet across its full history on Ethereum; rows are sorted by gross USD flow descending. Schema and label-source precedence are documented in [`methodology.md`](../../methodology.md#inventory-profile-csv).

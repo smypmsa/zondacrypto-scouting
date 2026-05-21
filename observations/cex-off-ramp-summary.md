@@ -1,32 +1,41 @@
-# Cross-wallet CEX off-ramp summary (Ethereum, Dune-aggregated 2026-05-13)
+# Cross-wallet CEX off-ramp summary (Ethereum, Dune-aggregated 2026-05-13; BlockSec extension 2026-05-21)
 
-Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to Etherscan-tagged centralised-exchange addresses. The classification rule is mechanical: any external counterparty whose Etherscan Public Name Tag begins with a CEX brand (Binance, Kraken, KuCoin, Gate, Bitstamp, Bitfinex, Bybit, MEXC, HTX, Bidesk, Kanga, etc.) is bucketed under that brand. The CEX name tag was verified by a fresh HTML fetch on 2026-05-13 for every address listed; saved HTML is retained in the working archive (see [methodology § Receipts](../methodology.md#receipts-and-reproducibility)). The canonical primary source for each row remains the address's live Etherscan page.
+Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to centralised-exchange addresses carrying a primary public attribution. Two attribution sources are used in this summary: (1) Etherscan Public Name Tags verified by fresh HTML fetch on 2026-05-13 for every row in the Etherscan-tagged tables below; and (2) BlockSec MetaSleuth address-label API v3 responses captured 2026-05-21 for two further addresses that carry no Etherscan public name tag (`0x77580951…fbbc` = `Binance: Deposit Address`; `0xde7adbb3…0add` = `WhiteBIT: Hot Wallet`). Each row remains directly re-checkable: the Etherscan-tagged rows against the live block-explorer page, the BlockSec-resolved rows against the mirrored JSON receipt.
 
-**Scope.** Etherscan-tagged CEX deposit / hot-wallet addresses only. Heuristic operator-network counterparties, OTC desks, or aggregator addresses not carrying a public name tag are out of scope of this summary by design — they belong in each wallet's Unattributed-counterparty row and remain unattributed under the inventory's primary-citation standard until cleared individually.
+Across the union of both attribution sources, **$211,477,461 in Etherscan-tagged outbound** plus **$184,400,000 in additional BlockSec-resolved outbound** ($174.0M Binance + $10.4M WhiteBIT) is now CEX-attributable from the inventoried Ethereum wallets — a combined **~$395,877,461** of outbound flow lands on addresses with a primary CEX attribution.
 
-**Confidence.** CONFIRMED on totals: every cell is a Dune-aggregation sum filtered to addresses with a fresh-verified Etherscan public name tag. PARTIAL on rows where the source-wallet attribution itself is at PARTIAL tier (the BitBay-era wallets — flagged below).
+**Scope.** Outbound from ZondaCrypto-inventoried Ethereum wallets to addresses with one of the two primary CEX attributions named above. Operator-network counterparties, OTC desks, or aggregator addresses that carry neither an Etherscan public name tag nor a BlockSec entity label remain out of scope of this summary by design — they belong in each wallet's Unattributed-counterparty row and remain unattributed under the inventory's primary-citation standard until cleared individually.
+
+**Confidence.** CONFIRMED on totals: every cell is a Dune-aggregation sum filtered to addresses with a primary CEX attribution (Etherscan public name tag verified by fresh HTML fetch 2026-05-13, or BlockSec MetaSleuth `main_entity` returned 2026-05-21). PARTIAL on rows where the source-wallet attribution itself is at PARTIAL tier (the BitBay-era wallets — flagged below).
 
 ## Per-CEX × per-source-wallet outbound (USD)
 
-| CEX brand (Etherscan tag prefix) | Source Zonda wallet | Outbound USD | Events | Distinct tagged addresses |
-|--|--|--|--|--|
-| Binance | Zonda 5 `0x6edf968d…5048` | $121,971,089 | 4,222 | 12 |
-| Binance | Zonda 1 `0xf646cbe3…b95e` | $49,659,754 | 1,991 | 6 |
-| Binance | Zonda 4 `0x2b645268…763a` | $31,433,084 | 697 | 4 |
-| Binance | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source)** | $8,399 | 1 | 1 |
-| Binance | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source)** | $1,099 | 1 | 1 |
-| Bybit | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source)** | $3,096 | 3 | 1 |
-| Gate | Zonda 5 `0x6edf968d…5048` | $8,049,973 | 85 | 1 |
-| Gate | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source)** | $350,968 | 11 | 1 |
+Rows tagged **(BlockSec 2026-05-21)** are attributed by BlockSec MetaSleuth API v3 against an address that carries no Etherscan public name tag; receipt mirrored at [`../sources/blocksec/labels-2026-05-21.json`](../sources/blocksec/labels-2026-05-21.json). All other rows are Etherscan-tagged (HTML fetch 2026-05-13).
+
+| CEX brand | Attribution source | Source Zonda wallet | Counterparty address | Outbound USD | Events | Distinct addresses |
+|--|--|--|--|--|--|--|
+| Binance | Etherscan public name tag | Zonda 5 `0x6edf968d…5048` | (12 addresses) | $121,971,089 | 4,222 | 12 |
+| Binance | Etherscan public name tag | Zonda 1 `0xf646cbe3…b95e` | (6 addresses) | $49,659,754 | 1,991 | 6 |
+| Binance | Etherscan public name tag | Zonda 4 `0x2b645268…763a` | (4 addresses) | $31,433,084 | 697 | 4 |
+| Binance | Etherscan public name tag | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source)** | (1 address) | $8,399 | 1 | 1 |
+| Binance | Etherscan public name tag | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source)** | (1 address) | $1,099 | 1 | 1 |
+| **Binance** | **BlockSec MetaSleuth 2026-05-21** | **Zonda 2 `0x781229c7…57fc`** | **`0x77580951…fbbc`** (`Binance: Deposit Address`) | **$174,000,000** | — | **1** |
+| Bybit | Etherscan public name tag | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source)** | (1 address) | $3,096 | 3 | 1 |
+| Gate | Etherscan public name tag | Zonda 5 `0x6edf968d…5048` | (1 address) | $8,049,973 | 85 | 1 |
+| Gate | Etherscan public name tag | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source)** | (1 address) | $350,968 | 11 | 1 |
+| **WhiteBIT** | **BlockSec MetaSleuth 2026-05-21** | **Zonda 4 `0x2b645268…763a`** (via sub-network C forwarder `0x29606f60…e0ab`) | **`0xde7adbb3…0add`** (`WhiteBIT: Hot Wallet`) | **$10,400,000** | **128** | **1** |
+
+The Binance Z2 row aggregates the cumulative OUT from Z2 (`0x781229c7…57fc`) to the single Binance customer-deposit address `0x77580951…fbbc`. The WhiteBIT Z4 row aggregates 128 forwarding events that pass through the sub-network C connector `0x29606f60…e0ab` and sink at the WhiteBIT hot wallet; the connector itself remains unattributed under the primary-citation standard and is recorded in the Z4 Unattributed-counterparties section.
 
 ## Per-CEX totals (across all source wallets)
 
-| CEX brand | Total outbound USD | Total events | Distinct tagged deposit addresses | Source wallets |
-|--|--|--|--|--|
-| **Binance** | $203,073,425 | 6,912 | 16 | 5 |
-| **Gate** | $8,400,941 | 96 | 2 | 2 |
-| **Bybit** | $3,096 | 3 | 1 | 1 |
-| **All CEX brands combined** | **$211,477,461** | — | — | — |
+| CEX brand | Etherscan-tagged outbound USD | BlockSec-resolved outbound USD (2026-05-21) | Combined outbound USD |
+|--|--|--|--|
+| Binance | $203,073,425 | $174,000,000 | $377,073,425 |
+| Gate | $8,400,941 | — | $8,400,941 |
+| Bybit | $3,096 | — | $3,096 |
+| WhiteBIT | — | $10,400,000 | $10,400,000 |
+| **All CEX brands combined** | **$211,477,461** | **$184,400,000** | **$395,877,461** |
 
 ## Inbound side (CEX → Zonda wallet)
 
@@ -68,4 +77,4 @@ Per-wallet flow profiles cited above sit in the same directory tree:
 - [Zonda BitBay 3f1eea](../wallets/ethereum/zonda-bitbay-3f1eea.md)
 - [Zonda BitBay 56d943](../wallets/ethereum/zonda-bitbay-56d943.md)
 
-**Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: [`../sources/dune/inventory-L1-per-wallet-2026-05-13.json`](../sources/dune/inventory-L1-per-wallet-2026-05-13.json) (query 7482290). The Etherscan public-name-tag HTML batch is retained in the working archive; the live Etherscan page for each address is the canonical primary source.
+**Receipts.** Same Dune executions and Etherscan HTML fetches used by the per-wallet flow profiles: [`../sources/dune/inventory-L1-per-wallet-2026-05-13.json`](../sources/dune/inventory-L1-per-wallet-2026-05-13.json) (query 7482290). The Etherscan public-name-tag HTML batch is retained in the working archive; the live Etherscan page for each address is the canonical primary source. BlockSec MetaSleuth API v3 receipts for the two 2026-05-21 attributions are mirrored at [`../sources/blocksec/labels-2026-05-21.json`](../sources/blocksec/labels-2026-05-21.json).

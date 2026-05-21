@@ -1,6 +1,6 @@
 # Zonda 4
 
-> **Plain-language summary.** A ZondaCrypto exchange wallet on Ethereum, attributed by Etherscan public name tag plus the hildobby CEX-address compilation. Active 2020-08 → 2022-08, dormant since approximately 2023-Q3. Observed throughput is $415.9 million across 20,144 events above $1,000 USD; $31.4 million of outbound flow lands on Binance-tagged deposit addresses.
+> **Plain-language summary.** A ZondaCrypto exchange wallet on Ethereum, attributed by Etherscan public name tag plus the hildobby CEX-address compilation. Active 2020-08 → 2022-08, dormant since approximately 2023-Q3. Observed throughput is $415.9 million across 20,144 events above $1,000 USD; $31.4 million of outbound flow lands on Binance-tagged deposit addresses. A further $10.4 million of outbound (128 events) is attributable to WhiteBIT as of 2026-05-21: it flows through a one-hop forwarder (`0x29606f60…e0ab`, itself unattributed under the primary-citation standard) and sinks at `0xde7adbb3…0add` = `WhiteBIT: Hot Wallet` per BlockSec MetaSleuth (see the BlockSec section below).
 
 **Address:** `0x2b645268e2fbb384b423e50089657395f749763a`
 
@@ -116,6 +116,16 @@ Each row here is sourced from [hildobby's Dune query 3237025](https://dune.com/q
 | `0x21a31ee1afc51d94c2efccaa2092ad1028285549` | Binance 15 | $3,230 | $0 | 1 / 0 |
 | `0x564286362092d8e7936f0549571a803b203aaced` | Binance 3 | $43 | $0 | 1 / 0 |
 
+### External counterparties — confirmed via BlockSec MetaSleuth
+
+BlockSec MetaSleuth's address-label API v3 (queried 2026-05-21) attributes the sink address of a Z4 forwarding sub-network to a WhiteBIT hot wallet. Receipt: [`../../sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json) (key `0xde7adbb368c2616df8c5c0e986933bee8f660add`); the response carries `main_entity = "WhiteBIT"`, category EXCHANGE, attribute HOT WALLET.[^3]
+
+| Sink counterparty | Tag (BlockSec) | Routing | Cumulative USD into sink | Events |
+|---|---|---|---:|---:|
+| `0xde7adbb3…0add` | WhiteBIT: Hot Wallet | Z4 → connector `0x29606f60…e0ab` → sink | ~$10,400,000 | 128 |
+
+Routing note: the WhiteBIT attribution applies to the sink address `0xde7adbb3…0add`. The intermediate connector wallet `0x29606f60…e0ab` was independently queried 2026-05-21 against the same BlockSec API and returned no entity label; it remains unattributed under the primary-citation standard and is recorded in Z4's Unattributed-counterparties enumeration. The $10.4M figure aggregates the 128 events that traverse the connector and land at the WhiteBIT hot-wallet sink.
+
 ### Unattributed counterparties
 **This section is a known incomplete part of the analysis.** 27,180 of the 27,486 external counterparties in the full enumeration carry no public name tag on Etherscan as of 2026-05-14 (closure-pass) and do not appear in this inventory's roster. The unidentified rows aggregate **$170,375,177 outbound** and **$2,937 inbound** across `no-public-tag` + `below-cutoff` rows. These addresses remain unattributed in this public inventory until each clears the same primary-citation standard used for the inventory itself (Etherscan/PolygonScan name tag, BlockSec MetaSleuth label, hildobby CEX-address Dune compilation, or an equivalent independent primary source). Entity-attribution work on these counterparties is ongoing in the case's internal working notes and will be added back to this section as individual addresses clear the primary-citation gate.
 
@@ -192,3 +202,4 @@ https://etherscan.io/address/0x2b645268e2fbb384b423e50089657395f749763a
 
 [^1]: Etherscan, public name tag on Zonda 4. https://etherscan.io/address/0x2b645268e2fbb384b423e50089657395f749763a
 [^2]: hildobby, "All Known EVM CEX Addresses", Dune query 3237025. Row: `cex_name="Zonda"`, `distinct_name="Zonda 4"`, `added_date="2023-11-23"`. https://dune.com/queries/3237025
+[^3]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-21 against `chain_id=1`, `address=0xde7adbb368c2616df8c5c0e986933bee8f660add`; `main_entity = "WhiteBIT"`, `name_tag = "WhiteBIT: Hot Wallet"`. Receipt at [`sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
