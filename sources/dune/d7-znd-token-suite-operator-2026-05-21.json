@@ -1,0 +1,123 @@
+{
+  "execution_id": "01KS5BTVNXMD3G7SR9EZ3QRFVN",
+  "query_id": 7500518,
+  "is_execution_finished": true,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-05-21T13:33:09.182589Z",
+  "expires_at": "2026-08-19T13:34:07.548694Z",
+  "execution_started_at": "2026-05-21T13:33:10.594474Z",
+  "execution_ended_at": "2026-05-21T13:34:07.548683Z",
+  "result": {
+    "rows": [
+      {
+        "account_a": "0x0000000000000000000000000000000000000000",
+        "account_b": "0xCB3D2BE5386A13C87944F9384214EAD9A6DBA792",
+        "block_time": "2024-10-18 15:20:23.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0x2d8ea194902bc55431420bd26be92b0782dce91d",
+        "kind": "OwnershipTransferred",
+        "role_hash": null,
+        "tx_hash": "0xa200bfe88a341e69cd12744da545ffb2f0da9b1808c6a536d897a039efe88e30"
+      },
+      {
+        "account_a": "0xcb3d2be5386a13c87944f9384214ead9a6dba792",
+        "account_b": null,
+        "block_time": "2024-10-18 15:20:23.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0x2d8ea194902bc55431420bd26be92b0782dce91d",
+        "kind": "creation",
+        "role_hash": null,
+        "tx_hash": "0xa200bfe88a341e69cd12744da545ffb2f0da9b1808c6a536d897a039efe88e30"
+      },
+      {
+        "account_a": "0x0000000000000000000000000000000000000000",
+        "account_b": "0xEFA67CBF1378F174C8C49B645433561103488A43",
+        "block_time": "2026-01-27 11:56:11.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4",
+        "kind": "OwnershipTransferred",
+        "role_hash": null,
+        "tx_hash": "0x29e73bb21485bd659ad9bf3c8bfdcefbec8b84d5fb6a4f272ee37d249fe0157f"
+      },
+      {
+        "account_a": "0xd3d11158cb21a852bffdabc5f2887bd06144ed71",
+        "account_b": null,
+        "block_time": "2026-01-27 11:56:11.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4",
+        "kind": "creation",
+        "role_hash": null,
+        "tx_hash": "0x29e73bb21485bd659ad9bf3c8bfdcefbec8b84d5fb6a4f272ee37d249fe0157f"
+      },
+      {
+        "account_a": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4",
+        "account_b": null,
+        "block_time": "2026-01-27 11:56:11.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0xc2fda18d62c8688902741da1e3c5be65c86bab07",
+        "kind": "creation",
+        "role_hash": null,
+        "tx_hash": "0x29e73bb21485bd659ad9bf3c8bfdcefbec8b84d5fb6a4f272ee37d249fe0157f"
+      },
+      {
+        "account_a": "0x43a8a5b11b2f82866ad7dcef2c0a18e78e77399b",
+        "account_b": null,
+        "block_time": "2024-10-18 15:20:23.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0xcb3d2be5386a13c87944f9384214ead9a6dba792",
+        "kind": "creation",
+        "role_hash": null,
+        "tx_hash": "0xa200bfe88a341e69cd12744da545ffb2f0da9b1808c6a536d897a039efe88e30"
+      },
+      {
+        "account_a": "0x0000000000000000000000000000000000000000",
+        "account_b": "0x43A8A5B11B2F82866AD7DCEF2C0A18E78E77399B",
+        "block_time": "2024-10-18 15:20:23.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0xcb3d2be5386a13c87944f9384214ead9a6dba792",
+        "kind": "OwnershipTransferred",
+        "role_hash": null,
+        "tx_hash": "0xa200bfe88a341e69cd12744da545ffb2f0da9b1808c6a536d897a039efe88e30"
+      },
+      {
+        "account_a": "0x43A8A5B11B2F82866AD7DCEF2C0A18E78E77399B",
+        "account_b": "0x08D807A320D5986EB7C4F086BBAB974C8DB210DA",
+        "block_time": "2024-10-18 15:33:11.000 UTC",
+        "chain": "eth",
+        "contract_addr": "0xcb3d2be5386a13c87944f9384214ead9a6dba792",
+        "kind": "OwnershipTransferred",
+        "role_hash": null,
+        "tx_hash": "0x547408ef53f3254b414a064d4e6f7203f809b856b5ca78ac95101985f035a2f0"
+      }
+    ],
+    "metadata": {
+      "column_names": [
+        "kind",
+        "chain",
+        "contract_addr",
+        "account_a",
+        "account_b",
+        "role_hash",
+        "block_time",
+        "tx_hash"
+      ],
+      "column_types": [
+        "varchar(20)",
+        "varchar(3)",
+        "varchar",
+        "varchar",
+        "varchar",
+        "varchar",
+        "timestamp(3) with time zone",
+        "varchar"
+      ],
+      "row_count": 8,
+      "result_set_bytes": 2032,
+      "total_row_count": 8,
+      "total_result_set_bytes": 1580,
+      "datapoint_count": 64,
+      "pending_time_millis": 1411,
+      "execution_time_millis": 56954
+    }
+  }
+}

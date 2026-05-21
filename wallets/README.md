@@ -51,6 +51,8 @@ The ZND token contract, its deployer EOA, the ZNDStaking contract that owns the 
 | `0xae4f32dfa85b9e8c424a9604e7bf1d8128859943` | ZNDStaking `s_zndPlatform` | 2024-10-18 → 2026-03-28, 206 native / 193 ERC-20 | [→](ethereum/znd-platform.md) |
 | `0xc2FdA18D62C8688902741Da1e3c5BE65C86BAB07` | TMPL token contract (PKOl sponsorship vehicle) | 2026-01-29 → 2026-05-10, 126 native / 1 ERC-20 | [→](ethereum/tmpl-token.md) |
 | `0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4` | TMPLPools — deployer of TMPL; holds 86.03% of TMPL supply across 17 vesting pools (PARTIAL) | smart contract; deployed ~2026-01-28; 860,325,400 TMPL held | [→](ethereum/tmpl-pools.md) |
+| `0xd3d11158cb21a852bffdabc5f2887bd06144ed71` | TMPLPools deployer EOA (PARTIAL) | 2026-01-27 (single day), 5 native / 0 ERC-20 | [→](ethereum/tmpl-pools-deployer.md) |
+| `0xefa67cbf1378f174c8c49b645433561103488a43` | TMPLPools owner EOA (PARTIAL) | initial owner per `OwnershipTransferred` at deployment block 24326010 (2026-01-27); no subsequent ownership transfer observed | [→](ethereum/tmpl-pools-owner.md) |
 
 ## Ethereum — BitBay-era wallets (PARTIAL tier)
 

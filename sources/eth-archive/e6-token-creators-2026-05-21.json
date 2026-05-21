@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "date": "2026-05-21",
+    "method": "Etherscan v2 module=account action=txlist + action=txlistinternal; multi-page asc+desc with rate-limit retries.",
+    "chains_probed": {
+      "1": "ethereum",
+      "137": "polygon",
+      "42161": "arbitrum"
+    },
+    "chains_skipped_free_tier_gated": [8453, 10, 324, 56, 43114],
+    "note": "Slice of the full E6 receipt at case/sources/eth-archive/e6-token-creators-2026-05-21.json. Only the rows relevant to the two ZND-token-suite operator EOAs published here (tmpl-pools contract; tmpl-token contract; znd-deployer EOA) are retained; the remaining 23 inventory-wallet rows in the full receipt returned no contract-creation events on the probed chains and are not duplicated here. The slice preserves the original Etherscan response fields verbatim."
+  },
+  "results": {
+    "tmpl-pools": {
+      "address": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4",
+      "chains": {
+        "ethereum": {
+          "txlist_status": "1",
+          "txlist_message": "OK",
+          "txlist_scanned": 35,
+          "txlistinternal_status": "1",
+          "txlistinternal_message": "OK",
+          "txlistinternal_scanned": 1,
+          "creations_normal": [
+            {
+              "block": "24326010",
+              "timeStamp": "1769514971",
+              "hash": "0x29e73bb21485bd659ad9bf3c8bfdcefbec8b84d5fb6a4f272ee37d249fe0157f",
+              "contractAddress": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4",
+              "isError": "0"
+            }
+          ],
+          "creations_internal": [
+            {
+              "block": "24326010",
+              "timeStamp": "1769514971",
+              "hash": "0x29e73bb21485bd659ad9bf3c8bfdcefbec8b84d5fb6a4f272ee37d249fe0157f",
+              "contractAddress": "0xc2fda18d62c8688902741da1e3c5be65c86bab07",
+              "isError": "0",
+              "type": "create",
+              "from": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4"
+            }
+          ]
+        }
+      }
+    },
+    "tmpl-token": {
+      "address": "0xc2FdA18D62C8688902741Da1e3c5BE65C86BAB07",
+      "chains": {
+        "ethereum": {
+          "txlist_status": "1",
+          "txlist_message": "OK",
+          "txlist_scanned": 126,
+          "txlistinternal_status": "1",
+          "txlistinternal_message": "OK",
+          "txlistinternal_scanned": 1,
+          "creations_normal": [],
+          "creations_internal": [
+            {
+              "block": "24326010",
+              "timeStamp": "1769514971",
+              "hash": "0x29e73bb21485bd659ad9bf3c8bfdcefbec8b84d5fb6a4f272ee37d249fe0157f",
+              "contractAddress": "0xc2fda18d62c8688902741da1e3c5be65c86bab07",
+              "isError": "0",
+              "type": "create",
+              "from": "0x80140b93f81d9e4e519b8168a15289bcfc0f3bf4"
+            }
+          ]
+        }
+      }
+    },
+    "znd-deployer": {
+      "address": "0x43a8a5b11b2f82866ad7dcef2c0a18e78e77399b",
+      "chains": {
+        "ethereum": {
+          "txlist_status": "1",
+          "txlist_message": "OK",
+          "txlist_scanned": 5,
+          "txlistinternal_status": "0",
+          "txlistinternal_message": "No transactions found",
+          "txlistinternal_scanned": 0,
+          "creations_normal": [
+            {
+              "block": "20993307",
+              "timeStamp": "1729264823",
+              "hash": "0xa200bfe88a341e69cd12744da545ffb2f0da9b1808c6a536d897a039efe88e30",
+              "contractAddress": "0xcb3d2be5386a13c87944f9384214ead9a6dba792",
+              "isError": "0"
+            }
+          ],
+          "creations_internal": []
+        }
+      }
+    }
+  }
+}
