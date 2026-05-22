@@ -1,22 +1,22 @@
 # Zonda (BitBay) (0x879882…b54f)
 
-> **Plain-language summary.** An Ethereum wallet attributed to ZondaCrypto / BitBay by Bubblemaps' `entity_id = "zonda"` label. Single primary source — recorded as PARTIAL tier pending a second independent labelling. Active since March 2021. Top-100 ZND holder at 0.0119% of supply. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's PARTIAL tier. On Polygon, Arbitrum, and Optimism this address shows a distinctive single-counterparty-per-chain outbound pattern: in each of the three L2s, the single recipient is the same EVM address, `0x6edf968d…5048` — the canonical Zonda 5 multichain key, BlockSec-confirmed on POL and ARB on 2026-05-21 (see [Multichain section](#multichain-pattern--single-recipient-per-chain-is-zonda-5)). Read literally on the on-chain graph, the L2 OUT activity from this address is an intra-inventory rotation feeder into Zonda 5, not an external CEX-customer aggregator.
+> **Plain-language summary.** An Ethereum deposit address attributed to ZondaCrypto / BitBay by two independent primary sources: BlockSec MetaSleuth (`name_tag = "Zonda (BitBay): Deposit Address"`, category `EXCHANGE` + attribute `DEPOSIT ADDRESS`, captured 2026-05-22) and Bubblemaps' `entity_id = "zonda"` label. Active since March 2021. Top-100 ZND holder at 0.0119% of supply. On Polygon, Arbitrum, and Optimism this address shows a single-counterparty-per-chain outbound pattern; in each of the three L2s the single recipient is the same EVM address, `0x6edf968d…5048` (Zonda 5), itself BlockSec-confirmed on POL and ARB on 2026-05-21. The multichain L2 attribution to ZondaCrypto / BitBay propagates from the Ethereum BlockSec label to the same EVM address on Polygon, Arbitrum, and Optimism via the EVM-key-reuse rule; on-chain the L2 OUT activity is an intra-inventory rotation feeder into Zonda 5.
 
 **Address:** `0x879882c59d9cc548d6c0e7d0238e8aa40858b54f`
 
-**Chain:** Ethereum.
+**Chain:** Ethereum (multichain operational appearances on Polygon, Arbitrum, Optimism — see [Multichain section](#multichain-pattern--single-recipient-per-chain-is-zonda-5)).
 
-**Role:** ZondaCrypto / BitBay-attributed wallet per Bubblemaps.
+**Role:** ZondaCrypto / BitBay deposit address per BlockSec MetaSleuth, secondarily attributed by Bubblemaps' `entity_id = "zonda"`.
 
-**Confidence:** PARTIAL.
+**Confidence:** CONFIRMED.
 
 > *CONFIRMED = two independent primary sources. PARTIAL = single primary source. HEURISTIC = on-chain pattern only, working hypothesis. See [glossary](../../glossary.md).*
 
 ## Attribution
 
-Bubblemaps' `addresses/token-top-holders` endpoint for the ZND token returns this address with `label = "Zonda (BitBay) (0x87…B54F)"` and `entity_id = "zonda"`.[^1] No matching row in hildobby's Dune compilation; no public name tag on Etherscan. Bubblemaps is the sole primary source at this time.
+BlockSec MetaSleuth's address-label API v3 returns this address with `main_entity = "Zonda (BitBay)"`, category `EXCHANGE` (code 3011), attribute `DEPOSIT ADDRESS` (code 4007), and `name_tag = "Zonda (BitBay): Deposit Address"`, captured 2026-05-22 against chain_id=1.[^1] Bubblemaps' `addresses/token-top-holders` endpoint for the ZND token returns this address with `label = "Zonda (BitBay) (0x87…B54F)"` and `entity_id = "zonda"`.[^2] These are two independent primary sources naming the same operator; the page is therefore promoted to CONFIRMED tier on 2026-05-22.
 
-The address is a top-100 ZND holder at 0.0119% of supply.
+No matching row in hildobby's Dune compilation (query 3237025); no public name tag on Etherscan. The address is a top-100 ZND holder at 0.0119% of supply.
 
 ## Activity (Ethereum, probed 2026-05-13)
 
@@ -27,7 +27,7 @@ Source: Etherscan v2 `account/txlist` + `account/tokentx` (chainid 1), 10,000-ev
 
 ## Flow profile (Ethereum, Dune-aggregated 2026-05-13)
 
-**PARTIAL — wallet attribution itself is at PARTIAL tier;** flow data below is CONFIRMED from on-chain transfers, but the link of these flows to ZondaCrypto operations rests on the wallet's PARTIAL attribution.
+Flow data below is CONFIRMED from on-chain transfers; the link of these flows to ZondaCrypto operations rests on the two primary-source attribution above.
 Full-history aggregation of native ETH and ERC-20 token transfers where this wallet appears as `from` or `to`, USD-valued at transaction time using Dune `tokens_ethereum.transfers`. Counterparties are flagged **Internal** if they appear in this inventory's roster, **External-tagged** if Etherscan carries a Public Name Tag verified by fresh HTML fetch on 2026-05-13, or **Unattributed** otherwise. See [methodology](../../methodology.md#flow-profiles) for the SQL.
 | Metric | Value |
 |--|--|
@@ -123,7 +123,7 @@ Beyond Ethereum, this address transacts on Polygon, Arbitrum, and Optimism. Per 
 
 The recipient address `0x6edf968d…5048` is the canonical Zonda 5 EVM key. It carries primary attribution as `Zonda 5 (Exchange)` on Etherscan / PolygonScan / OP Etherscan / BscScan / BaseScan (see [`zonda-5`](zonda-5.md)) and a primary BlockSec MetaSleuth attribution as `Zonda (BitBay)` on Ethereum (2026-05-12), Polygon (2026-05-21), and Arbitrum (2026-05-21). On the on-chain graph, the L2 OUT side of this address therefore points exclusively at another address in this inventory.
 
-**Confidence.** CONFIRMED on the per-chain magnitudes (direct Dune aggregation; receipt mirrored at [`../../sources/dune/d6f-bb879882-cps-2026-05-21.json`](../../sources/dune/d6f-bb879882-cps-2026-05-21.json)). CONFIRMED on the recipient identity (recipient is an already-attributed inventory address, primary-cited on POL + ARB by BlockSec 2026-05-21; receipt [`../../sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json)). The Ethereum-side aggregate magnitudes for this address (POL $14.0M / ARB $3.1M / OP $2.8M) are mirrored at [`../../sources/dune/d6-multichain-reenum-2026-05-21.json`](../../sources/dune/d6-multichain-reenum-2026-05-21.json).
+**Confidence.** CONFIRMED on the per-chain magnitudes (direct Dune aggregation; receipt mirrored at [`../../sources/dune/d6f-bb879882-cps-2026-05-21.json`](../../sources/dune/d6f-bb879882-cps-2026-05-21.json)). CONFIRMED on the recipient identity (recipient is an already-attributed inventory address, primary-cited on POL + ARB by BlockSec 2026-05-21; receipt [`../../sources/blocksec/labels-2026-05-21.json`](../../sources/blocksec/labels-2026-05-21.json)). CONFIRMED on the ZondaCrypto / BitBay attribution of this address itself on Ethereum via the BlockSec MetaSleuth direct probe 2026-05-22 (receipt [`../../sources/blocksec/labels-2026-05-22.json`](../../sources/blocksec/labels-2026-05-22.json)); per the BlockSec EVM-key-reuse rule the same address-byte-form on Polygon, Arbitrum, and Optimism is read as the same controlling entity, propagating the Zonda (BitBay) attribution to all three L2s without requiring further BlockSec slots. The Ethereum-side aggregate magnitudes for this address (POL $14.0M / ARB $3.1M / OP $2.8M) are mirrored at [`../../sources/dune/d6-multichain-reenum-2026-05-21.json`](../../sources/dune/d6-multichain-reenum-2026-05-21.json).
 
 **Pattern note.** A one-counterparty-per-chain OUT shape, in isolation, is consistent with multiple structural readings (single CEX-customer-deposit aggregator; single MM/OTC settlement counterparty; intra-operator multichain rotation hop). Hex-matching the recipient against the existing inventory disambiguates: the recipient is Zonda 5, already in this inventory, primary-cited as a Zonda-operated exchange wallet — therefore an external-customer-aggregator reading is not supported by the address itself.
 
@@ -135,7 +135,9 @@ Full per-counterparty enumeration with no truncation and a $0 USD floor is publi
 
 https://etherscan.io/address/0x879882c59d9cc548d6c0e7d0238e8aa40858b54f
 
-[^1]: Bubblemaps token-holders API for ZND. Captured 2026-05-11. https://v2.bubblemaps.io/map?address=0x2d8eA194902Bc55431420BD26Be92b0782dCe91D&chain=eth
+[^1]: BlockSec MetaSleuth, address-label API v3. Response captured 2026-05-22 with `main_entity = "Zonda (BitBay)"`, category `EXCHANGE`, attribute `DEPOSIT ADDRESS`, `name_tag = "Zonda (BitBay): Deposit Address"`. Receipt at [`../../sources/blocksec/labels-2026-05-22.json`](../../sources/blocksec/labels-2026-05-22.json). Endpoint: https://aml.blocksec.com/address-label/api/v3/labels
+
+[^2]: Bubblemaps token-holders API for ZND. Captured 2026-05-11. https://v2.bubblemaps.io/map?address=0x2d8eA194902Bc55431420BD26Be92b0782dCe91D&chain=eth
 
 ### External counterparties — confirmed via hildobby CEX Dune query 3237025
 

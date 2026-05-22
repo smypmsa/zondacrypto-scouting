@@ -1,0 +1,332 @@
+{
+  "_meta": {
+    "date": "2026-05-22",
+    "chain_id": 1,
+    "chain_name": "Ethereum",
+    "purpose": "Q3 batch (9 of 9 slots, chain_id=1). Slot 0: BB-879882 direct probe (F-053 follow-up, Q3 top-priority \u2014 settles inventory-promotion question for 0x879882c5\u2026b54f). Slots 1-6: Z5 NON-CEX OUT positive test \u2014 6 top-volume D2 targets ($5M+ aggregate, \u22654 events) to test deposit/withdrawal asymmetry empirically. Slots 7-8: F-054 mega-bilateral top-2 \u2014 $552M and $521M USDC-only counterparties of F-005 institutional. Results: 7 hits / 2 empties. BB-879882 = Zonda (BitBay): Deposit Address (CONFIRMED inventory-promotion candidate, gated per [[scouting-publication-gate]]); 4 CEX-customer-aggregator hits on Z5 OUT side (Binance\u00d73: cbc5\u20264680, 558b\u202607c9, 7ff4\u20264c76; Kraken\u00d72: 19f0\u20261cc7, 3372\u2026a7a1) \u2014 CONFIRMS withdrawal-asymmetry \u2192 CEX-customer-aggregator pattern; F-054 #1 c3acf3b9\u2026e774 = Maker: Rwa007 A Coinbase Custody (institutional RWA \u2014 Coinbase Custody for MakerDAO Real-World Asset vault 007). F-054 #2 3e7fd2b8\u20267f28 empty. 7dd88a0f\u20267d64 empty. Empties \u2192 Q6c +30d (2026-06-21).",
+    "slots_used": 9,
+    "daily_quota_remaining": 0
+  },
+  "0x879882c59d9cc548d6c0e7d0238e8aa40858b54f": {
+    "label": "BB-879882 direct probe (F-053 follow-up; Q3 top-priority)",
+    "resp": {
+      "request_id": "b6903e350b5a45ef",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x879882c59d9cc548d6c0e7d0238e8aa40858b54f",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x7dd88a0f2f1599b89c560d9e6e5a77d342687d64": {
+    "label": "Z5 NON-CEX OUT $16.9M 8 ev (D2)",
+    "resp": {
+      "request_id": "bd7149a66fac4861",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x7dd88a0f2f1599b89c560d9e6e5a77d342687d64",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xcbc537685c04659d5bddb3d6e2c4149d0e5e4680": {
+    "label": "Z5 NON-CEX OUT $15.8M 61 ev (D2; multichain ARB+OP per F-052 Q-EXT-A)",
+    "resp": {
+      "request_id": "b9c9bfc678bc426d",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xcbc537685c04659d5bddb3d6e2c4149d0e5e4680",
+        "main_entity": "Binance",
+        "main_entity_info": {
+          "entity": "Binance",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            },
+            {
+              "name": "OTC DESK",
+              "code": 3021
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.binance.com/",
+            "twitter": "https://twitter.com/binance",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Binance Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Binance: Deposit Address"
+      }
+    }
+  },
+  "0x558b6d6258462e78907f14ea7402f52f1cd807c9": {
+    "label": "Z5 NON-CEX OUT $10.9M 64 ev (D2)",
+    "resp": {
+      "request_id": "3460f33571c04c8d",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x558b6d6258462e78907f14ea7402f52f1cd807c9",
+        "main_entity": "Binance",
+        "main_entity_info": {
+          "entity": "Binance",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            },
+            {
+              "name": "OTC DESK",
+              "code": 3021
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.binance.com/",
+            "twitter": "https://twitter.com/binance",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Binance Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Binance: Deposit Address"
+      }
+    }
+  },
+  "0x19f0d946c85ed649cf82250f5a07140323e71cc7": {
+    "label": "Z5 NON-CEX OUT $9.2M 9 ev (D2)",
+    "resp": {
+      "request_id": "6b1ab73d66264071",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x19f0d946c85ed649cf82250f5a07140323e71cc7",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Kraken Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Deposit Address"
+      }
+    }
+  },
+  "0x7ff423f83622434edc4eb3ea8212394a115e4c76": {
+    "label": "Z5 NON-CEX OUT $7.9M 54 ev (D2)",
+    "resp": {
+      "request_id": "ef8f2eb776d64505",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x7ff423f83622434edc4eb3ea8212394a115e4c76",
+        "main_entity": "Binance",
+        "main_entity_info": {
+          "entity": "Binance",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            },
+            {
+              "name": "OTC DESK",
+              "code": 3021
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.binance.com/",
+            "twitter": "https://twitter.com/binance",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Binance Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Binance: Deposit Address"
+      }
+    }
+  },
+  "0x3372e8c4222c7165c1007fd5d8aefdb720e0a7a1": {
+    "label": "Z5 NON-CEX OUT $6.8M 4 ev (D2)",
+    "resp": {
+      "request_id": "f0b0550a7b2d4973",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x3372e8c4222c7165c1007fd5d8aefdb720e0a7a1",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Kraken Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Deposit Address"
+      }
+    }
+  },
+  "0xc3acf3b96e46aa35dbd2aa3bd12d23c11295e774": {
+    "label": "F-054 #1 \u2014 F-005 institutional mega-bilateral $552M USDC OUT 12 ev",
+    "resp": {
+      "request_id": "32f941d39c5e475f",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xc3acf3b96e46aa35dbd2aa3bd12d23c11295e774",
+        "main_entity": "Maker",
+        "main_entity_info": {
+          "entity": "Maker",
+          "categories": [
+            {
+              "name": "STABLE COIN",
+              "code": 3024
+            },
+            {
+              "name": "RWA",
+              "code": 3045
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://sky.money/",
+            "twitter": "https://twitter.com/SkyEcosystem",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Maker: Rwa007 A Coinbase Custody"
+      }
+    }
+  },
+  "0x3e7fd2b8f2a8d8e4653690adf8a4e6294a787f28": {
+    "label": "F-054 #2 \u2014 F-005 institutional mega-bilateral $521M USDC OUT 10 ev",
+    "resp": {
+      "request_id": "ca11adca01554ce3",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x3e7fd2b8f2a8d8e4653690adf8a4e6294a787f28",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  }
+}

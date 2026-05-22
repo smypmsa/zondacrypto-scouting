@@ -54,21 +54,21 @@ The ZND token contract, its deployer EOA, the ZNDStaking contract that owns the 
 | `0xd3d11158cb21a852bffdabc5f2887bd06144ed71` | TMPLPools deployer EOA (PARTIAL) | 2026-01-27 (single day), 5 native / 0 ERC-20 | [→](ethereum/tmpl-pools-deployer.md) |
 | `0xefa67cbf1378f174c8c49b645433561103488a43` | TMPLPools owner EOA (PARTIAL) | initial owner per `OwnershipTransferred` at deployment block 24326010 (2026-01-27); no subsequent ownership transfer observed | [→](ethereum/tmpl-pools-owner.md) |
 
-## Ethereum — BitBay-era wallets (PARTIAL tier)
+## Ethereum — BitBay-era wallets
 
-Wallets attributed to ZondaCrypto / BitBay by a single primary source (Bubblemaps `entity_id = "zonda"` or BlockSec MetaSleuth label). Recorded as PARTIAL tier pending a second independent labelling. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's PARTIAL tier.
+Wallets attributed to ZondaCrypto / BitBay by one or more primary sources (Bubblemaps `entity_id = "zonda"`; BlockSec MetaSleuth label). Rows attributed by a single primary source are PARTIAL tier; the BB-879882 row carries two independent primary sources (BlockSec MetaSleuth 2026-05-22 + Bubblemaps) and is CONFIRMED. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's tier.
 
-| Address | What it is | Activity | Detail |
-|---|---|---|---|
-| `0x56d943aea92b099228b31f01cd12bd4aa39b4778` | Zonda (BitBay) 0x56d943…4778 | 2025-08-04 → 2026-05-13, ≥10k native / ≥10k ERC-20 | [→](ethereum/zonda-bitbay-56d943.md) |
-| `0xb6be26445f21e41bc69197fe68f697fc1a862f19` | Zonda (BitBay) 0x56d943…4778 disbursement contract — native-ETH-only payout contract deployed and operated by `0x56d943…4778` | 2025-08-04 → 2025-10-08, 806 normal / 1,701 internal / 0 ERC-20; deployer-only IN, fans out to 594 distinct recipients | [→](ethereum/zonda-bitbay-56d943-disbursement.md) |
-| `0x879882c59d9cc548d6c0e7d0238e8aa40858b54f` | Zonda (BitBay) 0x879882…b54f | 2021-03-31 → 2026-04-02, 1,259 native / 2,112 ERC-20 | [→](ethereum/zonda-bitbay-879882.md) |
-| `0x66b12dcff9f466f2a771e264b6d145bdd00e1327` | Zonda (BitBay) 0x66b12d…1327 | 2025-02-21 → 2026-02-08, 11 native / 21 ERC-20 | [→](ethereum/zonda-bitbay-66b12d.md) |
-| `0x3f1eea8dcda2b5620643aca1987d4780cae80539` | Zonda (BitBay) 0x3f1eea…0539 | 2024-12-17 → 2026-03-29, 168 native / 3,329 ERC-20 | [→](ethereum/zonda-bitbay-3f1eea.md) |
-| `0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b` | Zonda (BitBay) 0x4ff97a…0e4b | 2025-08-14 → 2026-01-30, 29 native / 72 ERC-20 | [→](ethereum/zonda-bitbay-4ff97a.md) |
-| `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | Zonda (BitBay) 0xc7f05e…9305 | 2019-05-01 → 2026-03-18, 2,029 native / 8 ERC-20 | [→](ethereum/zonda-bitbay-c7f05e.md) |
-| `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | Zonda (BitBay) 0xced004…2f06 | 2022-08-31 → 2026-03-29, 472 events (227 IN / 245 OUT); deposit-receipt hop — 18 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-ced004.md) |
-| `0x3ef6683f2553af861f91194d23bdf8522d1f2eda` | Zonda (BitBay) 0x3ef668…2eda | 2023-05-31 → 2026-03-29, 2,465 events (1,322 IN / 1,143 OUT); deposit-receipt hop — 17 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 (~2.8× the throughput of the ced004 instance) | [→](ethereum/zonda-bitbay-3ef668.md) |
+| Address | What it is | Tier | Activity | Detail |
+|---|---|---|---|---|
+| `0x56d943aea92b099228b31f01cd12bd4aa39b4778` | Zonda (BitBay) 0x56d943…4778 | PARTIAL | 2025-08-04 → 2026-05-13, ≥10k native / ≥10k ERC-20 | [→](ethereum/zonda-bitbay-56d943.md) |
+| `0xb6be26445f21e41bc69197fe68f697fc1a862f19` | Zonda (BitBay) 0x56d943…4778 disbursement contract — native-ETH-only payout contract deployed and operated by `0x56d943…4778` | PARTIAL | 2025-08-04 → 2025-10-08, 806 normal / 1,701 internal / 0 ERC-20; deployer-only IN, fans out to 594 distinct recipients | [→](ethereum/zonda-bitbay-56d943-disbursement.md) |
+| `0x879882c59d9cc548d6c0e7d0238e8aa40858b54f` | Zonda (BitBay) 0x879882…b54f — multichain deposit address (ETH + POL + ARB + OP via EVM-key-reuse propagation from the 2026-05-22 BlockSec attribution) | CONFIRMED | 2021-03-31 → 2026-04-02, 1,259 native / 2,112 ERC-20 | [→](ethereum/zonda-bitbay-879882.md) |
+| `0x66b12dcff9f466f2a771e264b6d145bdd00e1327` | Zonda (BitBay) 0x66b12d…1327 | PARTIAL | 2025-02-21 → 2026-02-08, 11 native / 21 ERC-20 | [→](ethereum/zonda-bitbay-66b12d.md) |
+| `0x3f1eea8dcda2b5620643aca1987d4780cae80539` | Zonda (BitBay) 0x3f1eea…0539 | PARTIAL | 2024-12-17 → 2026-03-29, 168 native / 3,329 ERC-20 | [→](ethereum/zonda-bitbay-3f1eea.md) |
+| `0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b` | Zonda (BitBay) 0x4ff97a…0e4b | PARTIAL | 2025-08-14 → 2026-01-30, 29 native / 72 ERC-20 | [→](ethereum/zonda-bitbay-4ff97a.md) |
+| `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | Zonda (BitBay) 0xc7f05e…9305 | PARTIAL | 2019-05-01 → 2026-03-18, 2,029 native / 8 ERC-20 | [→](ethereum/zonda-bitbay-c7f05e.md) |
+| `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | Zonda (BitBay) 0xced004…2f06 | PARTIAL | 2022-08-31 → 2026-03-29, 472 events (227 IN / 245 OUT); deposit-receipt hop — 18 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-ced004.md) |
+| `0x3ef6683f2553af861f91194d23bdf8522d1f2eda` | Zonda (BitBay) 0x3ef668…2eda | PARTIAL | 2023-05-31 → 2026-03-29, 2,465 events (1,322 IN / 1,143 OUT); deposit-receipt hop — 17 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 (~2.8× the throughput of the ced004 instance) | [→](ethereum/zonda-bitbay-3ef668.md) |
 
 ## Polygon — Zonda vanity-suffix cluster
 
