@@ -1,0 +1,3047 @@
+{
+  "execution_id": "01KS62AM2BRH8PQPH2V4Q7CPMA",
+  "query_id": 7500518,
+  "is_execution_finished": true,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-05-21T20:06:14.348679Z",
+  "expires_at": "2026-08-19T20:08:24.427881Z",
+  "execution_started_at": "2026-05-21T20:06:16.173558Z",
+  "execution_ended_at": "2026-05-21T20:08:24.42787Z",
+  "result": {
+    "rows": [
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2017-11-01 00:00:00.000 UTC",
+        "n_events": 9,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 7875000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 5448,
+        "entity": "",
+        "month": "2017-12-01 00:00:00.000 UTC",
+        "n_events": 8293,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 44877930.79534998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2017-12-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 7750000
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Poloniex",
+        "month": "2017-12-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 250
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 9554,
+        "entity": "",
+        "month": "2018-01-01 00:00:00.000 UTC",
+        "n_events": 14799,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 55363176.583275
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "EXMO",
+        "month": "2018-01-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 7500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 5084,
+        "entity": "",
+        "month": "2018-02-01 00:00:00.000 UTC",
+        "n_events": 7101,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 40396844.140025005
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3362,
+        "entity": "",
+        "month": "2018-03-01 00:00:00.000 UTC",
+        "n_events": 4736,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 17502022.220349986
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2018-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 2500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1946,
+        "entity": "",
+        "month": "2018-04-01 00:00:00.000 UTC",
+        "n_events": 2618,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 19078353.153025005
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2117,
+        "entity": "",
+        "month": "2018-05-01 00:00:00.000 UTC",
+        "n_events": 2988,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 16702452.02885
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1536,
+        "entity": "",
+        "month": "2018-06-01 00:00:00.000 UTC",
+        "n_events": 2101,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 10517470.46564999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1589,
+        "entity": "",
+        "month": "2018-07-01 00:00:00.000 UTC",
+        "n_events": 2241,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 10116011.42110001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2018-07-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 50000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1489,
+        "entity": "",
+        "month": "2018-08-01 00:00:00.000 UTC",
+        "n_events": 2196,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 11436657.372899998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1405,
+        "entity": "",
+        "month": "2018-09-01 00:00:00.000 UTC",
+        "n_events": 1997,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 13369624.905424992
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2018-09-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 412500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1565,
+        "entity": "",
+        "month": "2018-10-01 00:00:00.000 UTC",
+        "n_events": 2213,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 14788978.986325001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1488,
+        "entity": "",
+        "month": "2018-11-01 00:00:00.000 UTC",
+        "n_events": 2304,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 16057278.263449999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1394,
+        "entity": "",
+        "month": "2018-12-01 00:00:00.000 UTC",
+        "n_events": 2309,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 24541185.122475017
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1444,
+        "entity": "",
+        "month": "2019-01-01 00:00:00.000 UTC",
+        "n_events": 1992,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 21288746.626025
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1231,
+        "entity": "",
+        "month": "2019-02-01 00:00:00.000 UTC",
+        "n_events": 1685,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 28279617.51765001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1614,
+        "entity": "",
+        "month": "2019-03-01 00:00:00.000 UTC",
+        "n_events": 2466,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 30158323.93702499
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2016,
+        "entity": "",
+        "month": "2019-04-01 00:00:00.000 UTC",
+        "n_events": 2879,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 34025313.27335
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2019-04-01 00:00:00.000 UTC",
+        "n_events": 7,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 4252
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3532,
+        "entity": "",
+        "month": "2019-05-01 00:00:00.000 UTC",
+        "n_events": 5067,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 65630146.89604999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2019-05-01 00:00:00.000 UTC",
+        "n_events": 9,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 78700
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3283,
+        "entity": "",
+        "month": "2019-06-01 00:00:00.000 UTC",
+        "n_events": 4635,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 46272773.442099996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2019-06-01 00:00:00.000 UTC",
+        "n_events": 13,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 63997.75
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3106,
+        "entity": "",
+        "month": "2019-07-01 00:00:00.000 UTC",
+        "n_events": 4506,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 39787764.76292499
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2019-07-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 40500
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Blockchain.com",
+        "month": "2019-07-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 2612.939525
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2299,
+        "entity": "",
+        "month": "2019-08-01 00:00:00.000 UTC",
+        "n_events": 3331,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 33813163.59197501
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2019-08-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 71500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2464,
+        "entity": "",
+        "month": "2019-09-01 00:00:00.000 UTC",
+        "n_events": 3632,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 31882484.522225022
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2019-09-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 25100
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2504,
+        "entity": "",
+        "month": "2019-10-01 00:00:00.000 UTC",
+        "n_events": 3372,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 33066725.220799997
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2019-10-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 37832.258125
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1898,
+        "entity": "",
+        "month": "2019-11-01 00:00:00.000 UTC",
+        "n_events": 2717,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 22956819.77197502
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1662,
+        "entity": "",
+        "month": "2019-12-01 00:00:00.000 UTC",
+        "n_events": 2339,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 20430754.357799992
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Bitfinex",
+        "month": "2019-12-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 355.147575
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1642,
+        "entity": "",
+        "month": "2020-01-01 00:00:00.000 UTC",
+        "n_events": 2523,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 26109975.49794999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2020-01-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 16250
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2306,
+        "entity": "",
+        "month": "2020-02-01 00:00:00.000 UTC",
+        "n_events": 3549,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 36644125.31136999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3218,
+        "entity": "",
+        "month": "2020-03-01 00:00:00.000 UTC",
+        "n_events": 4898,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 52742994.18774999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2020-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 2500000
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Ramp Network",
+        "month": "2020-03-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 19500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2198,
+        "entity": "",
+        "month": "2020-04-01 00:00:00.000 UTC",
+        "n_events": 3479,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 46995078.679425016
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2020-04-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 20000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2517,
+        "entity": "",
+        "month": "2020-05-01 00:00:00.000 UTC",
+        "n_events": 3996,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 54938508.33917498
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2020-05-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 37500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2394,
+        "entity": "",
+        "month": "2020-06-01 00:00:00.000 UTC",
+        "n_events": 3665,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 38339717.570199974
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 4,
+        "entity": "",
+        "month": "2020-06-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 40255
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2449,
+        "entity": "",
+        "month": "2020-07-01 00:00:00.000 UTC",
+        "n_events": 3942,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 44294176.462175034
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2520,
+        "entity": "",
+        "month": "2020-08-01 00:00:00.000 UTC",
+        "n_events": 3720,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 39072579.187075004
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 712,
+        "entity": "",
+        "month": "2020-08-01 00:00:00.000 UTC",
+        "n_events": 852,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 7916030.354225001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2020-08-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 60000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2416,
+        "entity": "",
+        "month": "2020-09-01 00:00:00.000 UTC",
+        "n_events": 3417,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 34095505.69825001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 257,
+        "entity": "",
+        "month": "2020-09-01 00:00:00.000 UTC",
+        "n_events": 320,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 3354895.2126000007
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1897,
+        "entity": "",
+        "month": "2020-10-01 00:00:00.000 UTC",
+        "n_events": 2820,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 44956401.32115
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 112,
+        "entity": "",
+        "month": "2020-10-01 00:00:00.000 UTC",
+        "n_events": 119,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 977423.1418000003
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2670,
+        "entity": "",
+        "month": "2020-11-01 00:00:00.000 UTC",
+        "n_events": 3819,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 35513171.736375004
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 535,
+        "entity": "",
+        "month": "2020-11-01 00:00:00.000 UTC",
+        "n_events": 618,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 4891828.257025
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2976,
+        "entity": "",
+        "month": "2020-12-01 00:00:00.000 UTC",
+        "n_events": 4308,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 34245590.995974995
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1304,
+        "entity": "",
+        "month": "2020-12-01 00:00:00.000 UTC",
+        "n_events": 1613,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 13329218.15242499
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3383,
+        "entity": "",
+        "month": "2021-01-01 00:00:00.000 UTC",
+        "n_events": 4407,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 38329399.3233
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 4342,
+        "entity": "",
+        "month": "2021-01-01 00:00:00.000 UTC",
+        "n_events": 5920,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 34736949.42682501
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3852,
+        "entity": "",
+        "month": "2021-02-01 00:00:00.000 UTC",
+        "n_events": 4931,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 41676774.640849985
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2392,
+        "entity": "",
+        "month": "2021-02-01 00:00:00.000 UTC",
+        "n_events": 2897,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 19165615.14320001
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Blockchain.com",
+        "month": "2021-02-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 30.797124999999998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2514,
+        "entity": "",
+        "month": "2021-03-01 00:00:00.000 UTC",
+        "n_events": 3231,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 23062580.25315001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2041,
+        "entity": "",
+        "month": "2021-03-01 00:00:00.000 UTC",
+        "n_events": 2531,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 18271255.75395
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2527,
+        "entity": "",
+        "month": "2021-04-01 00:00:00.000 UTC",
+        "n_events": 3287,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 24570774.319849987
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1328,
+        "entity": "",
+        "month": "2021-04-01 00:00:00.000 UTC",
+        "n_events": 1708,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 23315269.572525006
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 132,
+        "entity": "",
+        "month": "2021-04-01 00:00:00.000 UTC",
+        "n_events": 181,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 12274.1667051925
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2564,
+        "entity": "",
+        "month": "2021-05-01 00:00:00.000 UTC",
+        "n_events": 3248,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 23218347.50045
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1584,
+        "entity": "",
+        "month": "2021-05-01 00:00:00.000 UTC",
+        "n_events": 2006,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 17056870.699474998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 42,
+        "entity": "",
+        "month": "2021-05-01 00:00:00.000 UTC",
+        "n_events": 86,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 5543.6708070449995
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 802,
+        "entity": "",
+        "month": "2021-06-01 00:00:00.000 UTC",
+        "n_events": 1003,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 4659600.871175
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 788,
+        "entity": "",
+        "month": "2021-06-01 00:00:00.000 UTC",
+        "n_events": 980,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 4485032.83305
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 293,
+        "entity": "",
+        "month": "2021-06-01 00:00:00.000 UTC",
+        "n_events": 334,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 12318.871357941787
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1188,
+        "entity": "",
+        "month": "2021-07-01 00:00:00.000 UTC",
+        "n_events": 1563,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 7905205.51775
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 920,
+        "entity": "",
+        "month": "2021-07-01 00:00:00.000 UTC",
+        "n_events": 1216,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 6047664.93975
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 101,
+        "entity": "",
+        "month": "2021-07-01 00:00:00.000 UTC",
+        "n_events": 121,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 3862.206902323899
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1319,
+        "entity": "",
+        "month": "2021-08-01 00:00:00.000 UTC",
+        "n_events": 1688,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 9415971.358449996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1128,
+        "entity": "",
+        "month": "2021-08-01 00:00:00.000 UTC",
+        "n_events": 1447,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 5939554.477124998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 82,
+        "entity": "",
+        "month": "2021-08-01 00:00:00.000 UTC",
+        "n_events": 158,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 4075.6775377924996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1270,
+        "entity": "",
+        "month": "2021-09-01 00:00:00.000 UTC",
+        "n_events": 1568,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 6695436.898374999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 668,
+        "entity": "",
+        "month": "2021-09-01 00:00:00.000 UTC",
+        "n_events": 800,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 4049440.0711
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 73,
+        "entity": "",
+        "month": "2021-09-01 00:00:00.000 UTC",
+        "n_events": 191,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 4589.601371878438
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2021-09-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 45
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1015,
+        "entity": "",
+        "month": "2021-10-01 00:00:00.000 UTC",
+        "n_events": 1314,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 11532288.672925007
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1082,
+        "entity": "",
+        "month": "2021-10-01 00:00:00.000 UTC",
+        "n_events": 1407,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 11402970.142325006
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 63,
+        "entity": "",
+        "month": "2021-10-01 00:00:00.000 UTC",
+        "n_events": 192,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 4395.667597156646
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2021-10-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 45
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1001,
+        "entity": "",
+        "month": "2021-11-01 00:00:00.000 UTC",
+        "n_events": 1316,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 7551507.130749996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 833,
+        "entity": "",
+        "month": "2021-11-01 00:00:00.000 UTC",
+        "n_events": 1112,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 6739655.324975002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 132,
+        "entity": "",
+        "month": "2021-11-01 00:00:00.000 UTC",
+        "n_events": 248,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 6887.28529760226
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2021-11-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 45
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 862,
+        "entity": "",
+        "month": "2021-12-01 00:00:00.000 UTC",
+        "n_events": 1136,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 5433580.601075002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 577,
+        "entity": "",
+        "month": "2021-12-01 00:00:00.000 UTC",
+        "n_events": 718,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 3423135.52925
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 70,
+        "entity": "",
+        "month": "2021-12-01 00:00:00.000 UTC",
+        "n_events": 189,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 4298.459683726805
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2021-12-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 13.5
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1334,
+        "entity": "",
+        "month": "2022-01-01 00:00:00.000 UTC",
+        "n_events": 1664,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 5914546.435825
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 808,
+        "entity": "",
+        "month": "2022-01-01 00:00:00.000 UTC",
+        "n_events": 959,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 3909763.1918249987
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 38,
+        "entity": "",
+        "month": "2022-01-01 00:00:00.000 UTC",
+        "n_events": 62,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1082656.794566
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 133,
+        "entity": "",
+        "month": "2022-01-01 00:00:00.000 UTC",
+        "n_events": 200,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 5948.487363370603
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 650,
+        "entity": "",
+        "month": "2022-02-01 00:00:00.000 UTC",
+        "n_events": 752,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 4938060.10435
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 752,
+        "entity": "",
+        "month": "2022-02-01 00:00:00.000 UTC",
+        "n_events": 893,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 4892003.516299998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 82,
+        "entity": "",
+        "month": "2022-02-01 00:00:00.000 UTC",
+        "n_events": 103,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 840348.0899609998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 105,
+        "entity": "",
+        "month": "2022-02-01 00:00:00.000 UTC",
+        "n_events": 156,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 4475.24356762575
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 818,
+        "entity": "",
+        "month": "2022-03-01 00:00:00.000 UTC",
+        "n_events": 996,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 10209352.966574997
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 957,
+        "entity": "",
+        "month": "2022-03-01 00:00:00.000 UTC",
+        "n_events": 1156,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 5443643.161425001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 100,
+        "entity": "",
+        "month": "2022-03-01 00:00:00.000 UTC",
+        "n_events": 136,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1005308.1408270003
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 237,
+        "entity": "",
+        "month": "2022-03-01 00:00:00.000 UTC",
+        "n_events": 281,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 9135.504231497394
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 488,
+        "entity": "",
+        "month": "2022-04-01 00:00:00.000 UTC",
+        "n_events": 731,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 8314458.750229005
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 796,
+        "entity": "",
+        "month": "2022-04-01 00:00:00.000 UTC",
+        "n_events": 985,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 4501892.10075
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 243,
+        "entity": "",
+        "month": "2022-04-01 00:00:00.000 UTC",
+        "n_events": 274,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 2885333.508699999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 450,
+        "entity": "",
+        "month": "2022-04-01 00:00:00.000 UTC",
+        "n_events": 655,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 21388.379030113618
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2022-04-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 25
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 592,
+        "entity": "",
+        "month": "2022-05-01 00:00:00.000 UTC",
+        "n_events": 1058,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 11831240.212214999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 892,
+        "entity": "",
+        "month": "2022-05-01 00:00:00.000 UTC",
+        "n_events": 1122,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 5153184.463850001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 593,
+        "entity": "",
+        "month": "2022-05-01 00:00:00.000 UTC",
+        "n_events": 711,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 2995117.9083000002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 524,
+        "entity": "",
+        "month": "2022-05-01 00:00:00.000 UTC",
+        "n_events": 654,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 23667.199389960315
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2022-05-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 25
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 414,
+        "entity": "",
+        "month": "2022-06-01 00:00:00.000 UTC",
+        "n_events": 706,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 7839182.743967998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 853,
+        "entity": "",
+        "month": "2022-06-01 00:00:00.000 UTC",
+        "n_events": 1013,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 6108036.225574996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 813,
+        "entity": "",
+        "month": "2022-06-01 00:00:00.000 UTC",
+        "n_events": 1006,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 5140138.413225001
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2022-06-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 5000001.6275
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 253,
+        "entity": "",
+        "month": "2022-06-01 00:00:00.000 UTC",
+        "n_events": 272,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 10058.1781038032
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 566,
+        "entity": "",
+        "month": "2022-07-01 00:00:00.000 UTC",
+        "n_events": 793,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 7828441.5092670005
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 665,
+        "entity": "",
+        "month": "2022-07-01 00:00:00.000 UTC",
+        "n_events": 804,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 5145347.811899999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 211,
+        "entity": "",
+        "month": "2022-07-01 00:00:00.000 UTC",
+        "n_events": 256,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 2513683.3759249984
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 215,
+        "entity": "",
+        "month": "2022-07-01 00:00:00.000 UTC",
+        "n_events": 220,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 8208.87775507915
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1484,
+        "entity": "",
+        "month": "2022-08-01 00:00:00.000 UTC",
+        "n_events": 2092,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 11422364.16555799
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 41,
+        "entity": "",
+        "month": "2022-08-01 00:00:00.000 UTC",
+        "n_events": 44,
+        "sender": "0xf646cbe3b030fb6c2569215f0117dba58badb95e",
+        "usd_total": 132240.26340000003
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 184,
+        "entity": "",
+        "month": "2022-08-01 00:00:00.000 UTC",
+        "n_events": 184,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 6859.796945586815
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1762,
+        "entity": "",
+        "month": "2022-09-01 00:00:00.000 UTC",
+        "n_events": 2435,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 12555139.012756998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 170,
+        "entity": "",
+        "month": "2022-09-01 00:00:00.000 UTC",
+        "n_events": 172,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 6115.945202853988
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2170,
+        "entity": "",
+        "month": "2022-10-01 00:00:00.000 UTC",
+        "n_events": 2921,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 11320834.332906
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 300,
+        "entity": "",
+        "month": "2022-10-01 00:00:00.000 UTC",
+        "n_events": 336,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 9291.644222507763
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2022-10-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x0ff24158220a14398f047a80a513617ddc4f5289",
+        "usd_total": 21.25
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2022-10-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x2b645268e2fbb384b423e50089657395f749763a",
+        "usd_total": 21.25
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3848,
+        "entity": "",
+        "month": "2022-11-01 00:00:00.000 UTC",
+        "n_events": 5622,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 32416691.743175
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2022-11-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 5000006.675
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 432,
+        "entity": "",
+        "month": "2022-11-01 00:00:00.000 UTC",
+        "n_events": 446,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 16543.721279291447
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2022-12-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 18500000.9275
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1870,
+        "entity": "",
+        "month": "2022-12-01 00:00:00.000 UTC",
+        "n_events": 2655,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 10226190.676922996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 445,
+        "entity": "",
+        "month": "2022-12-01 00:00:00.000 UTC",
+        "n_events": 448,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 16672.955665091697
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1650,
+        "entity": "",
+        "month": "2023-01-01 00:00:00.000 UTC",
+        "n_events": 2602,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 12273543.157232007
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 526,
+        "entity": "",
+        "month": "2023-01-01 00:00:00.000 UTC",
+        "n_events": 528,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 19737.51171504033
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1497,
+        "entity": "",
+        "month": "2023-02-01 00:00:00.000 UTC",
+        "n_events": 2279,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 10308672.00088701
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 646,
+        "entity": "",
+        "month": "2023-02-01 00:00:00.000 UTC",
+        "n_events": 654,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 24384.32182647027
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1765,
+        "entity": "",
+        "month": "2023-03-01 00:00:00.000 UTC",
+        "n_events": 2777,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 15186562.376490002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 708,
+        "entity": "",
+        "month": "2023-03-01 00:00:00.000 UTC",
+        "n_events": 729,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 27064.23479312716
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1714,
+        "entity": "",
+        "month": "2023-04-01 00:00:00.000 UTC",
+        "n_events": 2629,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 11389325.148271997
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 595,
+        "entity": "",
+        "month": "2023-04-01 00:00:00.000 UTC",
+        "n_events": 611,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 22726.95915179732
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2023-05-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 22500001.5425
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1416,
+        "entity": "",
+        "month": "2023-05-01 00:00:00.000 UTC",
+        "n_events": 2425,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 11977225.736583287
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 587,
+        "entity": "",
+        "month": "2023-05-01 00:00:00.000 UTC",
+        "n_events": 601,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 22364.577409910893
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1178,
+        "entity": "",
+        "month": "2023-06-01 00:00:00.000 UTC",
+        "n_events": 2042,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 13194178.118547997
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 654,
+        "entity": "",
+        "month": "2023-06-01 00:00:00.000 UTC",
+        "n_events": 782,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 29218.279667916275
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 957,
+        "entity": "",
+        "month": "2023-07-01 00:00:00.000 UTC",
+        "n_events": 1699,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 10987530.102039998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 914,
+        "entity": "",
+        "month": "2023-07-01 00:00:00.000 UTC",
+        "n_events": 936,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 34949.913666360044
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1098,
+        "entity": "",
+        "month": "2023-08-01 00:00:00.000 UTC",
+        "n_events": 2149,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 13748278.25133799
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 876,
+        "entity": "",
+        "month": "2023-08-01 00:00:00.000 UTC",
+        "n_events": 885,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 32995.375392484115
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 924,
+        "entity": "",
+        "month": "2023-09-01 00:00:00.000 UTC",
+        "n_events": 1830,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 12285219.871425005
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 954,
+        "entity": "",
+        "month": "2023-09-01 00:00:00.000 UTC",
+        "n_events": 957,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 35781.953711947775
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1354,
+        "entity": "",
+        "month": "2023-10-01 00:00:00.000 UTC",
+        "n_events": 2422,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 11743073.681157004
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2023-10-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 10000002.2
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2023-10-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 678,
+        "entity": "",
+        "month": "2023-10-01 00:00:00.000 UTC",
+        "n_events": 681,
+        "sender": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "usd_total": 25470.690424209915
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 33,
+        "entity": "",
+        "month": "2023-10-01 00:00:00.000 UTC",
+        "n_events": 33,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 12375
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1662,
+        "entity": "",
+        "month": "2023-11-01 00:00:00.000 UTC",
+        "n_events": 2830,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 15918416.144460002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 306,
+        "entity": "",
+        "month": "2023-11-01 00:00:00.000 UTC",
+        "n_events": 650,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 13015.652259922608
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1942,
+        "entity": "",
+        "month": "2023-12-01 00:00:00.000 UTC",
+        "n_events": 3292,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 18487665.660512
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2023-12-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 6250000.4325
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 331,
+        "entity": "",
+        "month": "2023-12-01 00:00:00.000 UTC",
+        "n_events": 2696,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 16409.622444349472
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2012,
+        "entity": "",
+        "month": "2024-01-01 00:00:00.000 UTC",
+        "n_events": 3422,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 17290802.006533
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 304,
+        "entity": "",
+        "month": "2024-01-01 00:00:00.000 UTC",
+        "n_events": 1263,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 11748.10983039151
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-01-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 0.5055000000000001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2120,
+        "entity": "",
+        "month": "2024-02-01 00:00:00.000 UTC",
+        "n_events": 3592,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 19833182.34763299
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-02-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1407500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 80,
+        "entity": "",
+        "month": "2024-02-01 00:00:00.000 UTC",
+        "n_events": 191,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 1192.609492357412
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2643,
+        "entity": "",
+        "month": "2024-03-01 00:00:00.000 UTC",
+        "n_events": 4506,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 23647237.552631
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-03-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 7499999.999999999
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 125000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2314,
+        "entity": "",
+        "month": "2024-03-01 00:00:00.000 UTC",
+        "n_events": 2913,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 34832.87019739907
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2024-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 1.6024999999999998
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2024-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1.4325
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1630,
+        "entity": "",
+        "month": "2024-04-01 00:00:00.000 UTC",
+        "n_events": 3003,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 18114014.26200299
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2024-04-01 00:00:00.000 UTC",
+        "n_events": 8,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 2000500
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-04-01 00:00:00.000 UTC",
+        "n_events": 15,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1790000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 687,
+        "entity": "",
+        "month": "2024-04-01 00:00:00.000 UTC",
+        "n_events": 899,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 3716.24222521036
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2024-04-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 0.9825
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1049,
+        "entity": "",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 1677,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 9027978.209593002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 5430975
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 6,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 552500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 806,
+        "entity": "",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 959,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 5315.225553209604
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 3.1319999999999997
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Amina: Deposit Address",
+        "month": "2024-05-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 1.8415000000000001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 798,
+        "entity": "",
+        "month": "2024-06-01 00:00:00.000 UTC",
+        "n_events": 1264,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 8006042.398371001
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-06-01 00:00:00.000 UTC",
+        "n_events": 8,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1700000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2024-06-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 325000
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-06-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 200000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2299,
+        "entity": "",
+        "month": "2024-06-01 00:00:00.000 UTC",
+        "n_events": 2604,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 5010.163281480688
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1388,
+        "entity": "",
+        "month": "2024-07-01 00:00:00.000 UTC",
+        "n_events": 3002,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 6896901.203066994
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2024-07-01 00:00:00.000 UTC",
+        "n_events": 10,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1600100
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-07-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 350000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 922,
+        "entity": "",
+        "month": "2024-07-01 00:00:00.000 UTC",
+        "n_events": 1058,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 1441.5364691201721
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1643,
+        "entity": "",
+        "month": "2024-08-01 00:00:00.000 UTC",
+        "n_events": 3894,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 25732151.969029985
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2024-08-01 00:00:00.000 UTC",
+        "n_events": 10,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1850000
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2024-08-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 150000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1126,
+        "entity": "",
+        "month": "2024-08-01 00:00:00.000 UTC",
+        "n_events": 1435,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 1706.0296373083404
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1430,
+        "entity": "",
+        "month": "2024-09-01 00:00:00.000 UTC",
+        "n_events": 3568,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 24880096.709519006
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2024-09-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 500025
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1910,
+        "entity": "",
+        "month": "2024-09-01 00:00:00.000 UTC",
+        "n_events": 2032,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 2359.169432167545
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1444,
+        "entity": "",
+        "month": "2024-10-01 00:00:00.000 UTC",
+        "n_events": 3771,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 19463378.965298004
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-10-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 3500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 994,
+        "entity": "",
+        "month": "2024-10-01 00:00:00.000 UTC",
+        "n_events": 1223,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 2363.45502272145
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 13,
+        "entity": "",
+        "month": "2024-10-01 00:00:00.000 UTC",
+        "n_events": 18,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 515.7227119582519
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-10-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x08d807a320d5986eb7c4f086bbab974c8db210da",
+        "usd_total": 20.95943696615602
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2153,
+        "entity": "",
+        "month": "2024-11-01 00:00:00.000 UTC",
+        "n_events": 4869,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 19618958.385557003
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1430,
+        "entity": "",
+        "month": "2024-11-01 00:00:00.000 UTC",
+        "n_events": 1884,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 3482.772010214242
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 4,
+        "entity": "",
+        "month": "2024-11-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 50
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2176,
+        "entity": "",
+        "month": "2024-12-01 00:00:00.000 UTC",
+        "n_events": 4816,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 22033164.250805
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2024-12-01 00:00:00.000 UTC",
+        "n_events": 11,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1000223.4137998443
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 452,
+        "entity": "",
+        "month": "2024-12-01 00:00:00.000 UTC",
+        "n_events": 854,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 2085.869044051735
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-12-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 125
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2024-12-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 12.5
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 781,
+        "entity": "",
+        "month": "2025-01-01 00:00:00.000 UTC",
+        "n_events": 1259,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 6528668.7207229985
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-01-01 00:00:00.000 UTC",
+        "n_events": 10,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1500250
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-01-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 80000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-01-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 14600
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 151,
+        "entity": "",
+        "month": "2025-01-01 00:00:00.000 UTC",
+        "n_events": 395,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 825.7280338752225
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 6,
+        "entity": "",
+        "month": "2025-01-01 00:00:00.000 UTC",
+        "n_events": 6,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 75
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 515,
+        "entity": "",
+        "month": "2025-02-01 00:00:00.000 UTC",
+        "n_events": 804,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 13063229.442391003
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-02-01 00:00:00.000 UTC",
+        "n_events": 7,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 4800000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-02-01 00:00:00.000 UTC",
+        "n_events": 7,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 6,
+        "entity": "",
+        "month": "2025-02-01 00:00:00.000 UTC",
+        "n_events": 9,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 47000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 121,
+        "entity": "",
+        "month": "2025-02-01 00:00:00.000 UTC",
+        "n_events": 336,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 695.9377778889475
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Coinbase",
+        "month": "2025-02-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 14.577774999999999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 478,
+        "entity": "",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 790,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 12709848.013700007
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1010000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 6,
+        "entity": "",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 20,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 850750.0838527945
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 700000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 625000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 295,
+        "entity": "",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 627,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 994.072458083186
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Binance",
+        "month": "2025-03-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 399.39
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 498,
+        "entity": "",
+        "month": "2025-04-01 00:00:00.000 UTC",
+        "n_events": 893,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 15750399.695398007
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 4,
+        "entity": "",
+        "month": "2025-04-01 00:00:00.000 UTC",
+        "n_events": 12,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 1206026
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-04-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 400000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-04-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 161250.0155
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 146,
+        "entity": "",
+        "month": "2025-04-01 00:00:00.000 UTC",
+        "n_events": 468,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 653.0380504296281
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-04-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 20
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 410,
+        "entity": "",
+        "month": "2025-05-01 00:00:00.000 UTC",
+        "n_events": 661,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 8149021.894226
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-05-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-05-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 292500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2025-05-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 51240
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 182,
+        "entity": "",
+        "month": "2025-05-01 00:00:00.000 UTC",
+        "n_events": 409,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 689.8186278356012
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 590,
+        "entity": "",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 919,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 14513881.253768003
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 2370000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 9,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 250000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 44921.542155999996
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 201,
+        "entity": "",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 473,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 879.4305401935807
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Coinbase",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 28.007875000000002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-06-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 12.5
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 727,
+        "entity": "",
+        "month": "2025-07-01 00:00:00.000 UTC",
+        "n_events": 1226,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 29624338.69220601
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-07-01 00:00:00.000 UTC",
+        "n_events": 18,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 8407490
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-07-01 00:00:00.000 UTC",
+        "n_events": 22,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 2450000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-07-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 10250
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 796,
+        "entity": "",
+        "month": "2025-07-01 00:00:00.000 UTC",
+        "n_events": 1386,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 2834.969558769642
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "BitMart",
+        "month": "2025-07-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 147.976461
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 832,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 1585,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 21042154.431537
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 4,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 71,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 10607405.131391343
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 2500000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x781229c7a798c33ec788520a6bbe12a79ed657fc",
+        "usd_total": 2250000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 246,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 1507,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 120160.13458599999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 2,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 25200
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 284,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 772,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 1177.8182352690958
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 5,
+        "entity": "",
+        "month": "2025-08-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 250
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 586,
+        "entity": "",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 1113,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 14570308.594746003
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 8,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 3678750
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 3,
+        "entity": "",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 42,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 2682789.193278911
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b",
+        "usd_total": 300000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 283,
+        "entity": "",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 1704,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 144476.80348499995
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 5,
+        "entity": "",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 6,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 72000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 248,
+        "entity": "",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 647,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 979.098818356528
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Coinbase",
+        "month": "2025-09-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 6.02235
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 766,
+        "entity": "",
+        "month": "2025-10-01 00:00:00.000 UTC",
+        "n_events": 1554,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 22410232.011465997
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-10-01 00:00:00.000 UTC",
+        "n_events": 9,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 3512500
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 455,
+        "entity": "",
+        "month": "2025-10-01 00:00:00.000 UTC",
+        "n_events": 3060,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 292509.610761
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-10-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 28198.396875
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 245,
+        "entity": "",
+        "month": "2025-10-01 00:00:00.000 UTC",
+        "n_events": 835,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 1063.4182157146706
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 685,
+        "entity": "",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 1356,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 16916120.222446
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1900000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 500401.1015054516
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 609,
+        "entity": "",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 3662,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 376213.0469339999
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 4,
+        "entity": "",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 6,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 36210.755006
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 591,
+        "entity": "",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 1241,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 2497.8045906539505
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Coinbase",
+        "month": "2025-11-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1.894175
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 752,
+        "entity": "",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 1579,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 22467182.650085993
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 968,
+        "entity": "",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 4760,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 439732.65568700025
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (F-048-fwdr)",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 4,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 400000
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (Z7)",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 5,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 333599.5575
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x3f1eea8dcda2b5620643aca1987d4780cae80539",
+        "usd_total": 10000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 158,
+        "entity": "",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 213,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 225.37262585396454
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 2,
+        "entity": "Binance",
+        "month": "2025-12-01 00:00:00.000 UTC",
+        "n_events": 2,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 13.38325
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 695,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 1765,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 17417213.336016994
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (F-048-fwdr)",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 26,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1945770
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1029,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 5908,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 495208.345941
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x66b12dcff9f466f2a771e264b6d145bdd00e1327",
+        "usd_total": 246.94648324089178
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 139,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 214,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 228.992050455876
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x4ff97a1bd55f7edb7f0da364d5a8ea2148ab0e4b",
+        "usd_total": 148.23162347735564
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 19,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 19,
+        "sender": "0xae4f32dfa85b9e8c424a9604e7bf1d8128859943",
+        "usd_total": 47.675515444637846
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2026-01-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xd3d11158cb21a852bffdabc5f2887bd06144ed71",
+        "usd_total": 23.775
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 664,
+        "entity": "",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 1220,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 10701308.292008998
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1104,
+        "entity": "",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 6043,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 476445.20710800024
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (F-048-fwdr)",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 3,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 95000
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1,
+        "entity": "",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0xd388009f01bbe5e6d2cb6ba8525ca50b56308046",
+        "usd_total": 1050
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 127,
+        "entity": "",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 203,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 215.4830399029331
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Binance",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 43.27561
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Coinbase",
+        "month": "2026-02-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1.595075
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 597,
+        "entity": "",
+        "month": "2026-03-01 00:00:00.000 UTC",
+        "n_events": 1210,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 5509602.558417994
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (F-048-fwdr)",
+        "month": "2026-03-01 00:00:00.000 UTC",
+        "n_events": 46,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 2180850
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1357,
+        "entity": "",
+        "month": "2026-03-01 00:00:00.000 UTC",
+        "n_events": 7586,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 555819.3804370002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 360,
+        "entity": "",
+        "month": "2026-03-01 00:00:00.000 UTC",
+        "n_events": 560,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 895.1152117401188
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 351,
+        "entity": "",
+        "month": "2026-04-01 00:00:00.000 UTC",
+        "n_events": 528,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1943443.299532
+      },
+      {
+        "bucket": "cex_attributed",
+        "distinct_recipients": 1,
+        "entity": "Kraken: Deposit Address (F-048-fwdr)",
+        "month": "2026-04-01 00:00:00.000 UTC",
+        "n_events": 44,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 1930280
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 1057,
+        "entity": "",
+        "month": "2026-04-01 00:00:00.000 UTC",
+        "n_events": 6299,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 479488.1136500002
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 189,
+        "entity": "",
+        "month": "2026-04-01 00:00:00.000 UTC",
+        "n_events": 295,
+        "sender": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "usd_total": 335.0375
+      },
+      {
+        "bucket": "hildobby_cex",
+        "distinct_recipients": 1,
+        "entity": "Binance",
+        "month": "2026-04-01 00:00:00.000 UTC",
+        "n_events": 1,
+        "sender": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "usd_total": 5
+      },
+      {
+        "bucket": "unattributed",
+        "distinct_recipients": 731,
+        "entity": "",
+        "month": "2026-05-01 00:00:00.000 UTC",
+        "n_events": 3058,
+        "sender": "0x56d943aea92b099228b31f01cd12bd4aa39b4778",
+        "usd_total": 310425.28793999995
+      }
+    ],
+    "metadata": {
+      "column_names": [
+        "month",
+        "sender",
+        "bucket",
+        "entity",
+        "n_events",
+        "distinct_recipients",
+        "usd_total"
+      ],
+      "column_types": [
+        "timestamp(3) with time zone",
+        "varbinary",
+        "varchar(14)",
+        "varchar",
+        "bigint",
+        "bigint",
+        "double"
+      ],
+      "row_count": 334,
+      "result_set_bytes": 39790,
+      "total_row_count": 334,
+      "total_result_set_bytes": 29853,
+      "datapoint_count": 2338,
+      "pending_time_millis": 1824,
+      "execution_time_millis": 128254
+    }
+  }
+}

@@ -16,6 +16,7 @@ A small set of inventory-wide numbers a journalist or auditor can quote. Each is
 - **4,503.26 BTC** standing balance on the address ZondaCrypto's CEO disclosed as the company's largest claimed Bitcoin reserve, in its lifetime never spent. First funded 2016-03-06, last received deposit 2026-05-08. See [`wallets/bitcoin/16aEn4p6-cold-reserve.md`](wallets/bitcoin/16aEn4p6-cold-reserve.md).
 - **26,014 addresses, 321,245 transactions** in the WalletExplorer-named `BitBay.net` cluster, the post-2019 operational hot-wallet cluster. Active 2019-05-13 → 2025-08-24. See [`wallets/bitcoin/bitbay-net-cluster.md`](wallets/bitcoin/bitbay-net-cluster.md).
 - **$211.5 million** in cumulative outbound flow from ZondaCrypto-inventoried Ethereum wallets to Etherscan-tagged centralised-exchange deposit addresses (Binance $203.1M, Gate $8.4M, Bybit $3k), plus an additional **~$10.4 million** resolved by BlockSec MetaSleuth on 2026-05-21 (Z4 sub-network C → `WhiteBIT: Hot Wallet`) — combined CEX-attributable outbound **~$221.9 million**. See [`observations/cex-off-ramp-summary.md`](observations/cex-off-ramp-summary.md) for the per-CEX × per-source-wallet breakdown and the inbound side.
+- **≈98% decline** in Ethereum inventory outbound USD-equivalent volume from $19.86M (January 2026) to $0.31M (May 2026, partial through May 21), monotone across five consecutive months with no recovery month. See [`observations/inventory-outbound-volume-collapse.md`](observations/inventory-outbound-volume-collapse.md) for the per-month table and historical context.
 
 ## Repository layout
 
@@ -23,7 +24,7 @@ A reading order, not an alphabetical map. Start at the top and descend as needed
 
 1. **[`wallets/README.md`](wallets/README.md)** — the inventory index, one row per address or cluster, grouped by chain and role.
 2. **[`wallets/<chain>/<slug>.md`](wallets/)** — the per-wallet page: a plain-language summary, attribution with citations, activity, full-history flow profile, counterparty tables, and a "Scope and negative space" section declaring what the page does not cover. Each page links a companion CSV with the un-truncated, no-threshold view of the same on-chain data.
-3. **[`observations/`](observations/)** — cross-wallet math summaries (currently: the CEX off-ramp summary).
+3. **[`observations/`](observations/)** — cross-wallet math summaries: the [CEX off-ramp summary](observations/cex-off-ramp-summary.md) and the [inventory outbound-volume collapse](observations/inventory-outbound-volume-collapse.md).
 4. **[`methodology.md`](methodology.md)** — confidence tiers, evidence types, the exact SQL behind every flow profile, the counterparty-CSV schema, and the receipts-mirroring policy.
 5. **[`glossary.md`](glossary.md)** — plain-language definitions of every term used across the repository.
 
