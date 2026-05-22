@@ -1,8 +1,8 @@
 # Cross-wallet CEX off-ramp summary (Ethereum, Dune-aggregated 2026-05-13; BlockSec extension 2026-05-21)
 
-Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to centralised-exchange addresses carrying a primary public attribution. Two attribution sources are used in this summary: (1) Etherscan Public Name Tags verified by fresh HTML fetch on 2026-05-13 for every row in the Etherscan-tagged tables below; and (2) BlockSec MetaSleuth address-label API v3 responses captured 2026-05-21 for two further addresses that carry no Etherscan public name tag (`0x77580951…fbbc` = `Binance: Deposit Address`; `0xde7adbb3…0add` = `WhiteBIT: Hot Wallet`). Each row remains directly re-checkable: the Etherscan-tagged rows against the live block-explorer page, the BlockSec-resolved rows against the mirrored JSON receipt.
+Sum of outbound USD-equivalent value (at transaction time) from each ZondaCrypto inventory wallet to centralised-exchange addresses carrying a primary public attribution. Two attribution sources are used in this summary: (1) Etherscan Public Name Tags verified by fresh HTML fetch on 2026-05-13 for every row in the Etherscan-tagged tables below; and (2) BlockSec MetaSleuth address-label API v3 responses captured 2026-05-21 for one further address that carries no Etherscan public name tag (`0xde7adbb3…0add` = `WhiteBIT: Hot Wallet`). Each row remains directly re-checkable: the Etherscan-tagged rows against the live block-explorer page, the BlockSec-resolved row against the mirrored JSON receipt.
 
-Across the union of both attribution sources, **$211,477,461 in Etherscan-tagged outbound** plus **$184,400,000 in additional BlockSec-resolved outbound** ($174.0M Binance + $10.4M WhiteBIT) is now CEX-attributable from the inventoried Ethereum wallets — a combined **~$395,877,461** of outbound flow lands on addresses with a primary CEX attribution.
+Across the union of both attribution sources, **$211,477,461 in Etherscan-tagged outbound** plus **$10,400,000 in additional BlockSec-resolved outbound** (WhiteBIT only) is now CEX-attributable from the inventoried Ethereum wallets — a combined **~$221,877,461** of outbound flow lands on addresses with a primary CEX attribution.
 
 **Scope.** Outbound from ZondaCrypto-inventoried Ethereum wallets to addresses with one of the two primary CEX attributions named above. Operator-network counterparties, OTC desks, or aggregator addresses that carry neither an Etherscan public name tag nor a BlockSec entity label remain out of scope of this summary by design — they belong in each wallet's Unattributed-counterparty row and remain unattributed under the inventory's primary-citation standard until cleared individually.
 
@@ -19,23 +19,22 @@ Rows tagged **(BlockSec 2026-05-21)** are attributed by BlockSec MetaSleuth API 
 | Binance | Etherscan public name tag | Zonda 4 `0x2b645268…763a` | (4 addresses) | $31,433,084 | 697 | 4 |
 | Binance | Etherscan public name tag | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source)** | (1 address) | $8,399 | 1 | 1 |
 | Binance | Etherscan public name tag | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source)** | (1 address) | $1,099 | 1 | 1 |
-| **Binance** | **BlockSec MetaSleuth 2026-05-21** | **Zonda 2 `0x781229c7…57fc`** | **`0x77580951…fbbc`** (`Binance: Deposit Address`) | **$174,000,000** | — | **1** |
 | Bybit | Etherscan public name tag | BitBay 56d943 `0x56d943ae…4778`  **(PARTIAL source)** | (1 address) | $3,096 | 3 | 1 |
 | Gate | Etherscan public name tag | Zonda 5 `0x6edf968d…5048` | (1 address) | $8,049,973 | 85 | 1 |
 | Gate | Etherscan public name tag | BitBay 3f1eea `0x3f1eea8d…0539`  **(PARTIAL source)** | (1 address) | $350,968 | 11 | 1 |
 | **WhiteBIT** | **BlockSec MetaSleuth 2026-05-21** | **Zonda 4 `0x2b645268…763a`** (via sub-network C forwarder `0x29606f60…e0ab`) | **`0xde7adbb3…0add`** (`WhiteBIT: Hot Wallet`) | **$10,400,000** | **128** | **1** |
 
-The Binance Z2 row aggregates the cumulative OUT from Z2 (`0x781229c7…57fc`) to the single Binance customer-deposit address `0x77580951…fbbc`. The WhiteBIT Z4 row aggregates 128 forwarding events that pass through the sub-network C connector `0x29606f60…e0ab` and sink at the WhiteBIT hot wallet; the connector itself remains unattributed under the primary-citation standard and is recorded in the Z4 Unattributed-counterparties section.
+The WhiteBIT Z4 row aggregates 128 forwarding events that pass through the sub-network C connector `0x29606f60…e0ab` and sink at the WhiteBIT hot wallet; the connector itself remains unattributed under the primary-citation standard and is recorded in the Z4 Unattributed-counterparties section.
 
 ## Per-CEX totals (across all source wallets)
 
 | CEX brand | Etherscan-tagged outbound USD | BlockSec-resolved outbound USD (2026-05-21) | Combined outbound USD |
 |--|--|--|--|
-| Binance | $203,073,425 | $174,000,000 | $377,073,425 |
+| Binance | $203,073,425 | — | $203,073,425 |
 | Gate | $8,400,941 | — | $8,400,941 |
 | Bybit | $3,096 | — | $3,096 |
 | WhiteBIT | — | $10,400,000 | $10,400,000 |
-| **All CEX brands combined** | **$211,477,461** | **$184,400,000** | **$395,877,461** |
+| **All CEX brands combined** | **$211,477,461** | **$10,400,000** | **$221,877,461** |
 
 ## Inbound side (CEX → Zonda wallet)
 

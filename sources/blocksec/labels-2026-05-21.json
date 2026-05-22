@@ -1,13 +1,13 @@
 {
   "_meta": {
     "date": "2026-05-21",
-    "purpose": "Public slice of the 2026-05-21 BlockSec MetaSleuth batch. Mirrored from the case-side working receipt; restricted to the four records cited by scouting pages: (a) 0x77580951…fbbc = Binance: Deposit Address (Z2 OUT $174M now CEX-attributed); (b) 0xde7adbb3…0add = WhiteBIT: Hot Wallet (Z4 sub-network C sink); (c) 0x6edf968d…5048 on chain_id=137 (Polygon) = Zonda (BitBay) — primary multichain citation for Zonda 5 on Polygon; (d) 0x6edf968d…5048 on chain_id=42161 (Arbitrum) = Zonda (BitBay) — primary multichain citation for Zonda 5 on Arbitrum.",
+    "purpose": "Public slice of the 2026-05-21 BlockSec MetaSleuth batch. Mirrored from the case-side working receipt; restricted to the four records cited by scouting pages: (a) 0x77580951…fbbc = Binance: Deposit Address (label-only mirror; the address sits beyond canonical Zonda inventory and is not cited by any scouting wallet page as an inventory-OUT flow); (b) 0xde7adbb3…0add = WhiteBIT: Hot Wallet (Z4 sub-network C sink); (c) 0x6edf968d…5048 on chain_id=137 (Polygon) = Zonda (BitBay) — primary multichain citation for Zonda 5 on Polygon; (d) 0x6edf968d…5048 on chain_id=42161 (Arbitrum) = Zonda (BitBay) — primary multichain citation for Zonda 5 on Arbitrum.",
     "endpoint": "https://aml.blocksec.com/address-label/api/v3/labels",
     "method": "POST {\"chain_id\":<id>,\"address\":<addr>}",
     "records_in_slice": 4
   },
   "0x775809513017464b4c3576e60e4186151605fbbc": {
-    "label": "Z2 OUT counterparty $174M aggregate (Ethereum)",
+    "label": "Binance Deposit Address (Ethereum) — primary entity attribution; not on any Zonda inventory wallet's outbound side",
     "resp": {
       "request_id": "f29ca37cb60a4afc",
       "code": 200000,
