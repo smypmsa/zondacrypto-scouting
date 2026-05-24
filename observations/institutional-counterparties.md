@@ -25,6 +25,31 @@ A roster of non-CEX institutional counterparties that BlockSec MetaSleuth's addr
 
 **Out of scope for this page.** Which RWA originator managed RWA-007 at the cited capture date, what governance arrangement was in force, and which specific RWA-007 vault operations correspond to the 12 observed events. Those are real-world-entity attribution questions that go beyond what the BlockSec primary attribution itself states. Public MakerDAO governance forum threads (forum.makerdao.com) carry historical RWA-007 origination context for readers who want to pursue it.
 
+## Wintermute — three institutional-MM bilateral addresses with the MM/OTC hub two hops downstream of Zonda 1
+
+The MM/OTC hub `0x5ee84d30…6916b` (the same hub that holds the MakerDAO RWA-007 bilateral above; it sits two hops downstream of [Zonda 1](../wallets/ethereum/zonda-1.md) via the unattributed relay `0x1990abd6…244181`) has three counterparty addresses that BlockSec MetaSleuth attributes to Wintermute on 2026-05-24. Combined lifetime bilateral magnitude: **~$994 million** across the three addresses.
+
+| Field | Hot Wallet (inbound to MM/OTC hub) | Hot Wallet (inbound to MM/OTC hub) | Trading wallet (outbound from MM/OTC hub) |
+|---|---|---|---|
+| Counterparty address | `0xdbf5e9c5206d0db70a90108bf936da60221dc080` | `0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa` | `0xdbefb887662ca19cd485381f3386fe5f8537b910` |
+| BlockSec `name_tag` | `Wintermute: Hot Wallet` | `Wintermute: Hot Wallet` | `Wintermute trading:b910(related_level_1)` |
+| BlockSec `main_entity` | `Wintermute` | `Wintermute` | `Wintermute` |
+| BlockSec categories | `EXCHANGE` (3011) + `OTC DESK` (3021) | `EXCHANGE` (3011) + `OTC DESK` (3021) | `EXCHANGE` (3011) + `OTC DESK` (3021) |
+| Capture date | 2026-05-24, chain_id=1 | 2026-05-24, chain_id=1 | 2026-05-24, chain_id=1 |
+| Receipt | [`../sources/blocksec/labels-2026-05-24.json`](../sources/blocksec/labels-2026-05-24.json) | [`../sources/blocksec/labels-2026-05-24.json`](../sources/blocksec/labels-2026-05-24.json) | [`../sources/blocksec/labels-2026-05-24.json`](../sources/blocksec/labels-2026-05-24.json) |
+| Nearest inventory wallet | [Zonda 1](../wallets/ethereum/zonda-1.md) `0xf646cbe3…b95e` | [Zonda 1](../wallets/ethereum/zonda-1.md) `0xf646cbe3…b95e` | [Zonda 1](../wallets/ethereum/zonda-1.md) `0xf646cbe3…b95e` |
+| Hops from inventory | Two (Zonda 1 → relay `0x1990abd6…244181` → MM/OTC hub `0x5ee84d30…6916b` → this Wintermute address) | Two (same path) | Two (same path) |
+| Bilateral with MM/OTC hub | $590 million IN to the hub across 476 events (lifetime) | $206 million IN to the hub across 262 events (lifetime) | $198 million OUT from the hub across 42 events (lifetime) |
+| Source receipt for bilateral magnitude | [`../sources/dune/d9-f005-institutional-10k-reprofile-2026-05-21.json`](../sources/dune/d9-f005-institutional-10k-reprofile-2026-05-21.json) | (same Dune receipt) | (same Dune receipt) |
+
+**Plain-language reading.** Wintermute is a global institutional crypto market maker and OTC desk (Wintermute Trading, headquartered in London with offices in Amsterdam). BlockSec resolves three distinct Wintermute-controlled Ethereum addresses on direct bilateral paths with the MM/OTC hub two hops downstream of Zonda 1: two `Hot Wallet`-class addresses that send capital to the hub (~$796M combined lifetime) and one `trading` class address that receives capital from the hub (~$198M lifetime). The third address's BlockSec name tag includes the suffix `(related_level_1)`, which is BlockSec's marker for an address attributed by on-chain proximity to a labelled core Wintermute trading wallet (one degree of separation in BlockSec's clustering graph) rather than by direct labelling — still a Wintermute-controlled address for the purposes of this entity attribution, but the clustering-relationship origin is noted in the receipt.
+
+The two-hop structural path is identical to the MakerDAO RWA-007 row above (Zonda 1 → relay → MM/OTC hub → external address). The on-chain graph establishes that the MM/OTC hub one degree downstream of Zonda's institutional-side relay has very large bilateral magnitudes with both MakerDAO's RWA-007 settlement address and Wintermute's hot + trading wallets. As with the MakerDAO row, the path does not establish that any specific Zonda customer dollar reached Wintermute — the relay and the hub are not themselves carrying a BlockSec primary attribution at the 2026-05-24 capture date and may serve other counterparties as well.
+
+**The MM/OTC hub itself remains BlockSec-unattributed.** A first direct probe of the hub address `0x1990abd6e49218ab403f01aefeb9d22d07244181` on 2026-05-24 returned no BlockSec `main_entity`. Two readings are consistent with the on-chain pattern: (a) the hub is a crypto-native MM/OTC desk not yet indexed in BlockSec's institutional-entity database; (b) the hub is an internal routing wallet of some entity that doesn't merit a public label even when its counterparties (Wintermute, MakerDAO, Circle, FalconX, Coinbase Custody) are public. The on-chain primary citation surface terminates at the hub; the hub's underlying entity is left to investigator handoff.
+
+**Out of scope for this page.** Which specific Wintermute desk (institutional OTC, on-chain MM, principal trading book) corresponds to each of the three observed addresses, and what contractual or settlement arrangement underlies the ~$994M bilateral. Those are real-world-entity attribution questions that go beyond what the BlockSec primary attributions themselves state.
+
 ## Methodology cross-link
 
 See [`../methodology.md`](../methodology.md) for the confidence-tier definitions and the receipts-mirroring policy. The BlockSec MetaSleuth API v3 endpoint and the response-field semantics (`main_entity`, `attributes`, `name_tag`) are documented there. Aggregations against `tokens_ethereum.transfers` follow the same Dune-aggregation policy used by the per-wallet flow profiles.

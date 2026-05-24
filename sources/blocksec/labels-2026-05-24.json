@@ -1,0 +1,225 @@
+{
+  "_meta": {
+    "date": "2026-05-24",
+    "chain_id": 1,
+    "chain_name": "Ethereum",
+    "purpose": "Q5 + Q-D9 batch (9 slots, chain_id=1). Slot 1: F-044 T2 sub-network C residual (Q5 target per queue.md). Slot 2: F-005 institutional hub `0x1990abd6\u20264181` \u2014 Q5 'other potential targets' candidate; D2 showed $12.1M from Z5, never BlockSec-queried. Slots 3-9: F-054 D9 mega-bilaterals of the F-005 institutional hub (per receipt sources/dune/d9-f005-institutional-10k-reprofile-2026-05-21.json). These are the largest USDC/USDT/DAI institutional counterparties of F-005 \u2014 likely candidates: Wintermute, Cumberland, B2C2, Galaxy, FalconX, GSR, DRW, Jump.",
+    "slots_used": 9,
+    "daily_quota_remaining": 0,
+    "outcome": "3 hits / 6 empties. Wintermute first touchpoint in case at 3 of the F-005 D9 mega-bilaterals: 0xdbf5e9c5...1dc080 = Wintermute: Hot Wallet ($590M IN to F-005); 0xf8191d98...73aa = Wintermute: Hot Wallet ($206M IN); 0xdbefb887...b910 = Wintermute trading:b910(related_level_1) ($198M OUT). Combined Wintermute bilateral with F-005 hub: ~$994M lifetime. F-005 institutional hub 0x1990abd6...4181 itself BlockSec-empty (notable - Zonda's largest USDC-MM hub has no institutional-entity attribution). F-044 T2 0x42b6de74...498b BlockSec-empty (sub-network C residual). 6 empties total to Q6e 2026-06-23 +30d. NEW entity in case: Wintermute (major institutional MM). Combined with prior F-054 #1 = Maker RWA-007 / Coinbase Custody, F-005's institutional surface now ~$2B+ resolved (Wintermute + MakerDAO RWA + Circle + FalconX from earlier Q1)."
+  },
+  "0x42b6de749dc4bf0e9f9a0e13a94986587d42498b": {
+    "label": "F-044 T2 \u2014 sub-network C residual (Q5 target)",
+    "resp": {
+      "request_id": "9d08924ecc0c4d50",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x42b6de749dc4bf0e9f9a0e13a94986587d42498b",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0x1990abd6e49218ab403f01aefeb9d22d07244181": {
+    "label": "F-005 institutional hub \u2014 Q5 'other targets' candidate ($12.1M from Z5 per D2; first BlockSec probe)",
+    "resp": {
+      "request_id": "22250e02489e4804",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x1990abd6e49218ab403f01aefeb9d22d07244181",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0x323a76dc08d2df24229268ee17e7ca9fe7eb38ca": {
+    "label": "F-054 D9 \u2014 $450M IN to F-005 hub (USDC+USDT, 7 ev)",
+    "resp": {
+      "request_id": "39237432ab8e4acc",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x323a76dc08d2df24229268ee17e7ca9fe7eb38ca",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xdbf5e9c5206d0db70a90108bf936da60221dc080": {
+    "label": "F-054 D9 \u2014 $590M IN to F-005 hub (476 ev)",
+    "resp": {
+      "request_id": "2c6b640300f14915",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xdbf5e9c5206d0db70a90108bf936da60221dc080",
+        "main_entity": "Wintermute",
+        "main_entity_info": {
+          "entity": "Wintermute",
+          "categories": [
+            {
+              "name": "ASSET MANAGEMENT",
+              "code": 3001
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://wintermute.com/",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "Wintermute Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "Wintermute: Hot Wallet"
+      }
+    }
+  },
+  "0xdbefb887662ca19cd485381f3386fe5f8537b910": {
+    "label": "F-054 D9 \u2014 $198M OUT from F-005 hub (42 ev)",
+    "resp": {
+      "request_id": "e798554314484f9b",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xdbefb887662ca19cd485381f3386fe5f8537b910",
+        "main_entity": "Wintermute",
+        "main_entity_info": {
+          "entity": "Wintermute",
+          "categories": [
+            {
+              "name": "ASSET MANAGEMENT",
+              "code": 3001
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://wintermute.com/",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": "Wintermute trading:b910(related_level_1)"
+      }
+    }
+  },
+  "0xedb483e899343a7eaeecfbc9bd1c3ad94389e226": {
+    "label": "F-054 D9 \u2014 $241M IN to F-005 hub (USDC/USDT/DAI, 224 ev)",
+    "resp": {
+      "request_id": "78090c7550cc4d8b",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xedb483e899343a7eaeecfbc9bd1c3ad94389e226",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xd21e77d1d6e1901464494fbcb85b8a51a83f272c": {
+    "label": "F-054 D9 \u2014 $223M IN to F-005 hub (140 ev)",
+    "resp": {
+      "request_id": "3bc47efdc3874861",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xd21e77d1d6e1901464494fbcb85b8a51a83f272c",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa": {
+    "label": "F-054 D9 \u2014 $206M IN to F-005 hub (262 ev)",
+    "resp": {
+      "request_id": "11524480205542ce",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+        "main_entity": "Wintermute",
+        "main_entity_info": {
+          "entity": "Wintermute",
+          "categories": [
+            {
+              "name": "ASSET MANAGEMENT",
+              "code": 3001
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://wintermute.com/",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "Wintermute Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "Wintermute: Hot Wallet"
+      }
+    }
+  },
+  "0xa29e963992597b21bcdcaa969d571984869c4ff5": {
+    "label": "F-054 D9 \u2014 $2.0B OUT (A29-family); largest F-005 bilateral",
+    "resp": {
+      "request_id": "bbb3004c8d2c47f8",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xa29e963992597b21bcdcaa969d571984869c4ff5",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  }
+}
