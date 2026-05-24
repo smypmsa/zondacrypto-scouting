@@ -1,0 +1,2663 @@
+{
+  "execution_id": "01KSDE5BHFBY8PRYCKHRKYJFNT",
+  "query_id": 7500518,
+  "is_execution_finished": true,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-05-24T16:47:45.712762Z",
+  "expires_at": "2026-08-22T16:48:09.026711Z",
+  "execution_started_at": "2026-05-24T16:47:45.937618Z",
+  "execution_ended_at": "2026-05-24T16:48:09.026704Z",
+  "result": {
+    "rows": [
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-03-27 22:06:28.000 UTC",
+        "last_seen": "2026-03-06 14:21:11.000 UTC",
+        "n_events": 189,
+        "symbol": "USDC",
+        "total_amount": 10643750.723273003,
+        "total_usd": 10628990.39042167
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-08-11 12:45:23.000 UTC",
+        "last_seen": "2025-10-07 18:09:11.000 UTC",
+        "n_events": 94,
+        "symbol": "USDC",
+        "total_amount": 5086646.480794,
+        "total_usd": 5086114.3901354745
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-03-29 10:05:07.000 UTC",
+        "last_seen": "2024-03-14 06:55:23.000 UTC",
+        "n_events": 61,
+        "symbol": "USDT",
+        "total_amount": 3303325.517120001,
+        "total_usd": 3306215.804086543
+      },
+      {
+        "counterparty": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+        "direction": "IN",
+        "first_seen": "2025-08-23 09:29:47.000 UTC",
+        "last_seen": "2026-03-06 14:15:47.000 UTC",
+        "n_events": 22,
+        "symbol": "USDC",
+        "total_amount": 1453465.9496589997,
+        "total_usd": 1453496.208539834
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-07-18 06:47:48.000 UTC",
+        "last_seen": "2025-07-14 05:29:47.000 UTC",
+        "n_events": 32,
+        "symbol": "USDC",
+        "total_amount": 1440331.3318460004,
+        "total_usd": 1439811.7161276394
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-06-14 10:05:30.000 UTC",
+        "last_seen": "2023-11-17 12:30:35.000 UTC",
+        "n_events": 149,
+        "symbol": "MATIC",
+        "total_amount": 1173029.1728468009,
+        "total_usd": 1436668.1983840277
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-09-29 20:05:19.000 UTC",
+        "last_seen": "2025-08-12 13:20:11.000 UTC",
+        "n_events": 174,
+        "symbol": "REEF",
+        "total_amount": 262281372.89098516,
+        "total_usd": 1313189.2547426417
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-03-27 20:57:44.000 UTC",
+        "last_seen": "2025-07-10 17:06:11.000 UTC",
+        "n_events": 29,
+        "symbol": "USDC",
+        "total_amount": 1083997.0931379998,
+        "total_usd": 1083967.2125491009
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-04-08 22:17:06.000 UTC",
+        "last_seen": "2025-07-14 13:29:23.000 UTC",
+        "n_events": 29,
+        "symbol": "USDC",
+        "total_amount": 1081156.487419,
+        "total_usd": 1080902.33885088
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-01-17 14:05:23.000 UTC",
+        "last_seen": "2026-02-26 20:26:11.000 UTC",
+        "n_events": 112,
+        "symbol": "LINK",
+        "total_amount": 59604.55406485991,
+        "total_usd": 950274.4837208008
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-03-13 14:05:23.000 UTC",
+        "last_seen": "2025-12-15 16:01:11.000 UTC",
+        "n_events": 209,
+        "symbol": "REPv2",
+        "total_amount": 876018.2429886699,
+        "total_usd": 714849.4197113195
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-07-20 09:05:23.000 UTC",
+        "last_seen": "2026-01-02 18:11:11.000 UTC",
+        "n_events": 37,
+        "symbol": "PEPE",
+        "total_amount": 94730423120.02684,
+        "total_usd": 707094.4502001827
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-06-16 11:33:56.000 UTC",
+        "last_seen": "2023-11-12 23:36:11.000 UTC",
+        "n_events": 77,
+        "symbol": "MATIC",
+        "total_amount": 501307.14281274035,
+        "total_usd": 602027.5813911987
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-04-22 04:18:08.000 UTC",
+        "last_seen": "2023-11-10 16:14:47.000 UTC",
+        "n_events": 15,
+        "symbol": "USDT",
+        "total_amount": 600882.772676,
+        "total_usd": 601115.5852035929
+      },
+      {
+        "counterparty": "0x3d55ccb2a943d88d39dd2e62daf767c69fd0179f",
+        "direction": "IN",
+        "first_seen": "2023-12-09 08:19:11.000 UTC",
+        "last_seen": "2024-03-14 04:36:35.000 UTC",
+        "n_events": 18,
+        "symbol": "USDT",
+        "total_amount": 555845.4149470001,
+        "total_usd": 556274.7721003866
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-02-07 20:06:23.000 UTC",
+        "last_seen": "2025-09-08 10:16:11.000 UTC",
+        "n_events": 70,
+        "symbol": "MKR",
+        "total_amount": 435.62797347000003,
+        "total_usd": 547497.7659884575
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-04-22 05:44:47.000 UTC",
+        "last_seen": "2023-12-04 06:02:47.000 UTC",
+        "n_events": 11,
+        "symbol": "USDT",
+        "total_amount": 475642.887512,
+        "total_usd": 474605.9743158376
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-03-30 17:28:20.000 UTC",
+        "last_seen": "2023-10-23 06:10:59.000 UTC",
+        "n_events": 9,
+        "symbol": "USDT",
+        "total_amount": 404675.663,
+        "total_usd": 404904.6644333264
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-10-11 07:05:35.000 UTC",
+        "last_seen": "2024-11-18 12:51:47.000 UTC",
+        "n_events": 66,
+        "symbol": "SHIB",
+        "total_amount": 27216304142.07,
+        "total_usd": 392636.35392374423
+      },
+      {
+        "counterparty": "0x5041ed759dd4afc3a72b8192c143f72f4724081a",
+        "direction": "IN",
+        "first_seen": "2024-01-10 16:35:35.000 UTC",
+        "last_seen": "2024-03-14 03:33:59.000 UTC",
+        "n_events": 14,
+        "symbol": "USDT",
+        "total_amount": 390178.81572199997,
+        "total_usd": 390410.9886505799
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-06-14 09:34:15.000 UTC",
+        "last_seen": "2023-11-17 12:26:35.000 UTC",
+        "n_events": 49,
+        "symbol": "MATIC",
+        "total_amount": 327561.73124118,
+        "total_usd": 382081.78080846055
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-08-16 10:05:19.000 UTC",
+        "last_seen": "2024-07-21 09:59:23.000 UTC",
+        "n_events": 131,
+        "symbol": "FORM",
+        "total_amount": 364850004.0277895,
+        "total_usd": 375058.44189907686
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-02-08 11:04:55.000 UTC",
+        "last_seen": "2025-09-22 12:21:59.000 UTC",
+        "n_events": 36,
+        "symbol": "AAVE",
+        "total_amount": 3002.1804641600006,
+        "total_usd": 366461.20054022304
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-10-06 14:41:48.000 UTC",
+        "last_seen": "2024-04-09 07:48:35.000 UTC",
+        "n_events": 41,
+        "symbol": "REEF",
+        "total_amount": 28493960.67220968,
+        "total_usd": 365341.3788201987
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2023-03-13 13:42:35.000 UTC",
+        "last_seen": "2025-12-15 15:51:47.000 UTC",
+        "n_events": 136,
+        "symbol": "REPv2",
+        "total_amount": 487542.7720133698,
+        "total_usd": 365203.6646678784
+      },
+      {
+        "counterparty": "0x6cc5f688a315f3dc28a7781717a9a798a59fda7b",
+        "direction": "IN",
+        "first_seen": "2023-07-16 08:10:23.000 UTC",
+        "last_seen": "2024-04-14 03:40:47.000 UTC",
+        "n_events": 137,
+        "symbol": "REPv2",
+        "total_amount": 368648.4784153,
+        "total_usd": 348460.07535628596
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-02-16 13:49:59.000 UTC",
+        "last_seen": "2026-02-26 20:20:35.000 UTC",
+        "n_events": 51,
+        "symbol": "LINK",
+        "total_amount": 23052.93550038,
+        "total_usd": 338139.08919940714
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-09-30 10:20:37.000 UTC",
+        "last_seen": "2024-08-26 07:44:35.000 UTC",
+        "n_events": 44,
+        "symbol": "REEF",
+        "total_amount": 34187350.17271446,
+        "total_usd": 325834.3864820887
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-06-16 11:14:28.000 UTC",
+        "last_seen": "2023-06-23 17:42:59.000 UTC",
+        "n_events": 41,
+        "symbol": "MATIC",
+        "total_amount": 254053.87495288003,
+        "total_usd": 318062.90408469
+      },
+      {
+        "counterparty": "0x68841a1806ff291314946eebd0cda8b348e73d6d",
+        "direction": "IN",
+        "first_seen": "2024-01-01 18:00:35.000 UTC",
+        "last_seen": "2024-03-14 06:46:35.000 UTC",
+        "n_events": 11,
+        "symbol": "USDT",
+        "total_amount": 313377.73129499995,
+        "total_usd": 313748.1525600692
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-04-27 08:05:23.000 UTC",
+        "last_seen": "2025-11-07 18:42:35.000 UTC",
+        "n_events": 46,
+        "symbol": "FET",
+        "total_amount": 367676.09360648994,
+        "total_usd": 304300.91442620807
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-09-29 19:59:39.000 UTC",
+        "last_seen": "2024-08-14 10:40:47.000 UTC",
+        "n_events": 44,
+        "symbol": "REEF",
+        "total_amount": 29853146.90534052,
+        "total_usd": 293113.57189929223
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-12-04 13:05:10.000 UTC",
+        "last_seen": "2025-09-14 05:40:11.000 UTC",
+        "n_events": 51,
+        "symbol": "MANA",
+        "total_amount": 503972.10828240006,
+        "total_usd": 292248.007739658
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-03-09 11:05:23.000 UTC",
+        "last_seen": "2025-12-09 12:21:11.000 UTC",
+        "n_events": 26,
+        "symbol": "LPT",
+        "total_amount": 28044.214161809996,
+        "total_usd": 291397.2775563258
+      },
+      {
+        "counterparty": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+        "direction": "IN",
+        "first_seen": "2022-04-22 08:44:28.000 UTC",
+        "last_seen": "2024-03-05 17:39:47.000 UTC",
+        "n_events": 7,
+        "symbol": "USDT",
+        "total_amount": 284178.278447,
+        "total_usd": 284623.89523047337
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-06-14 10:05:14.000 UTC",
+        "last_seen": "2025-10-01 09:19:11.000 UTC",
+        "n_events": 46,
+        "symbol": "CHZ",
+        "total_amount": 1374367.50138751,
+        "total_usd": 279541.2023950483
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-02-16 13:53:47.000 UTC",
+        "last_seen": "2025-11-21 07:54:11.000 UTC",
+        "n_events": 44,
+        "symbol": "LINK",
+        "total_amount": 17545.90806742,
+        "total_usd": 277269.8239188239
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-07-20 08:09:47.000 UTC",
+        "last_seen": "2026-01-02 18:06:11.000 UTC",
+        "n_events": 38,
+        "symbol": "PEPE",
+        "total_amount": 30521645201.420006,
+        "total_usd": 262272.91702770686
+      },
+      {
+        "counterparty": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        "direction": "IN",
+        "first_seen": "2022-03-29 09:27:59.000 UTC",
+        "last_seen": "2024-03-05 19:53:59.000 UTC",
+        "n_events": 6,
+        "symbol": "USDT",
+        "total_amount": 253552.05352100002,
+        "total_usd": 253620.44814676314
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-04-13 13:05:23.000 UTC",
+        "last_seen": "2025-10-17 18:01:11.000 UTC",
+        "n_events": 65,
+        "symbol": "OMG",
+        "total_amount": 619376.34981366,
+        "total_usd": 234926.56854282485
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-01-17 13:20:35.000 UTC",
+        "last_seen": "2025-11-03 16:57:47.000 UTC",
+        "n_events": 35,
+        "symbol": "LINK",
+        "total_amount": 14402.561640810001,
+        "total_usd": 225366.69531282037
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-04-15 22:15:30.000 UTC",
+        "last_seen": "2025-10-07 17:15:11.000 UTC",
+        "n_events": 42,
+        "symbol": "UNI",
+        "total_amount": 18445.371979469997,
+        "total_usd": 222658.89947920456
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-07-20 13:54:47.000 UTC",
+        "last_seen": "2025-10-13 14:17:47.000 UTC",
+        "n_events": 36,
+        "symbol": "PEPE",
+        "total_amount": 32539583901.709995,
+        "total_usd": 215560.63616102387
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-04-15 22:14:26.000 UTC",
+        "last_seen": "2025-11-07 18:56:11.000 UTC",
+        "n_events": 51,
+        "symbol": "SUSHI",
+        "total_amount": 177458.14264968998,
+        "total_usd": 201975.57183666388
+      },
+      {
+        "counterparty": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+        "direction": "IN",
+        "first_seen": "2025-10-07 15:31:11.000 UTC",
+        "last_seen": "2026-01-10 11:28:11.000 UTC",
+        "n_events": 14,
+        "symbol": "USDC",
+        "total_amount": 200291.22000000003,
+        "total_usd": 200318.33067917166
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-07-20 10:51:35.000 UTC",
+        "last_seen": "2025-10-13 14:19:23.000 UTC",
+        "n_events": 40,
+        "symbol": "PEPE",
+        "total_amount": 31200412383.640007,
+        "total_usd": 194936.80776656044
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-08-24 08:05:23.000 UTC",
+        "last_seen": "2025-11-07 16:01:11.000 UTC",
+        "n_events": 27,
+        "symbol": "WLD",
+        "total_amount": 106614.35328417,
+        "total_usd": 185899.1133802181
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-04-09 07:05:23.000 UTC",
+        "last_seen": "2025-03-28 14:20:23.000 UTC",
+        "n_events": 28,
+        "symbol": "ZRX",
+        "total_amount": 292258.09773409,
+        "total_usd": 183201.5645657149
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-03-22 19:59:11.000 UTC",
+        "last_seen": "2025-09-02 13:54:59.000 UTC",
+        "n_events": 28,
+        "symbol": "MKR",
+        "total_amount": 137.583956,
+        "total_usd": 182610.68056774873
+      },
+      {
+        "counterparty": "0xb489324d77d5b356e6e688949f199e4c4857a75a",
+        "direction": "IN",
+        "first_seen": "2022-12-30 15:49:47.000 UTC",
+        "last_seen": "2023-03-11 03:56:11.000 UTC",
+        "n_events": 3,
+        "symbol": "USDC",
+        "total_amount": 180000,
+        "total_usd": 178502.63
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-02-07 19:06:23.000 UTC",
+        "last_seen": "2025-06-17 09:23:11.000 UTC",
+        "n_events": 30,
+        "symbol": "MKR",
+        "total_amount": 155.21787013000002,
+        "total_usd": 173159.78325627302
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-09-25 15:05:22.000 UTC",
+        "last_seen": "2025-12-07 14:36:23.000 UTC",
+        "n_events": 39,
+        "symbol": "COMP",
+        "total_amount": 2985.1715339699995,
+        "total_usd": 168495.6944684568
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-03-17 18:47:35.000 UTC",
+        "last_seen": "2025-08-26 17:37:47.000 UTC",
+        "n_events": 30,
+        "symbol": "MKR",
+        "total_amount": 128.19174163000002,
+        "total_usd": 167820.1908227213
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2024-09-18 21:13:47.000 UTC",
+        "last_seen": "2024-10-15 20:25:11.000 UTC",
+        "n_events": 58,
+        "symbol": "REEF",
+        "total_amount": 30301158.01241675,
+        "total_usd": 160876.8230030399
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-04-15 22:11:58.000 UTC",
+        "last_seen": "2024-12-20 19:09:23.000 UTC",
+        "n_events": 50,
+        "symbol": "GRT",
+        "total_amount": 780830.05758446,
+        "total_usd": 160525.9010731243
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-10-11 10:18:11.000 UTC",
+        "last_seen": "2024-11-10 18:34:23.000 UTC",
+        "n_events": 29,
+        "symbol": "SHIB",
+        "total_amount": 10767494851.14,
+        "total_usd": 160224.9118626205
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2023-01-27 17:14:23.000 UTC",
+        "last_seen": "2024-07-21 09:50:35.000 UTC",
+        "n_events": 59,
+        "symbol": "FORM",
+        "total_amount": 160531963.34119406,
+        "total_usd": 157551.9638411827
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-01-08 22:44:27.000 UTC",
+        "last_seen": "2025-08-29 07:48:35.000 UTC",
+        "n_events": 22,
+        "symbol": "AAVE",
+        "total_amount": 1202.04261227,
+        "total_usd": 150886.2893237601
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-04-27 07:28:47.000 UTC",
+        "last_seen": "2025-11-04 08:21:35.000 UTC",
+        "n_events": 26,
+        "symbol": "FET",
+        "total_amount": 171489.92144712,
+        "total_usd": 145508.821065244
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-03-09 10:21:11.000 UTC",
+        "last_seen": "2025-12-09 12:13:11.000 UTC",
+        "n_events": 19,
+        "symbol": "LPT",
+        "total_amount": 11917.816248249997,
+        "total_usd": 130955.12467747253
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-09-29 20:05:03.000 UTC",
+        "last_seen": "2023-04-23 04:05:23.000 UTC",
+        "n_events": 31,
+        "symbol": "SXP",
+        "total_amount": 142199.16270116996,
+        "total_usd": 129638.0353059706
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-06-14 10:05:30.000 UTC",
+        "last_seen": "2026-02-15 14:11:11.000 UTC",
+        "n_events": 44,
+        "symbol": "ENJ",
+        "total_amount": 545294.3831507422,
+        "total_usd": 129143.24147387057
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-10-11 06:39:47.000 UTC",
+        "last_seen": "2024-11-13 20:03:23.000 UTC",
+        "n_events": 24,
+        "symbol": "SHIB",
+        "total_amount": 8125749757,
+        "total_usd": 128665.70143886082
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-03-13 20:53:59.000 UTC",
+        "last_seen": "2025-06-25 06:58:23.000 UTC",
+        "n_events": 14,
+        "symbol": "LPT",
+        "total_amount": 8120.60961315,
+        "total_usd": 125462.87841397106
+      },
+      {
+        "counterparty": "0xf16e9b0d03470827a95cdfd0cb8a8a3b46969b91",
+        "direction": "IN",
+        "first_seen": "2022-08-16 09:44:48.000 UTC",
+        "last_seen": "2023-08-28 11:36:23.000 UTC",
+        "n_events": 106,
+        "symbol": "FORM",
+        "total_amount": 124351583.22062956,
+        "total_usd": 119552.83188545186
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-01-26 17:40:45.000 UTC",
+        "last_seen": "2025-07-23 06:23:47.000 UTC",
+        "n_events": 17,
+        "symbol": "AAVE",
+        "total_amount": 907.0457391000001,
+        "total_usd": 114467.27130650314
+      },
+      {
+        "counterparty": "0xd91efec7e42f80156d1d9f660a69847188950747",
+        "direction": "IN",
+        "first_seen": "2024-10-18 07:55:35.000 UTC",
+        "last_seen": "2025-02-06 16:38:35.000 UTC",
+        "n_events": 46,
+        "symbol": "REEF",
+        "total_amount": 78458083.62504023,
+        "total_usd": 109105.93055554519
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-12-04 15:42:05.000 UTC",
+        "last_seen": "2024-11-23 07:18:47.000 UTC",
+        "n_events": 25,
+        "symbol": "MANA",
+        "total_amount": 179343.47431951,
+        "total_usd": 108122.26685818988
+      },
+      {
+        "counterparty": "0xf16e9b0d03470827a95cdfd0cb8a8a3b46969b91",
+        "direction": "IN",
+        "first_seen": "2023-03-11 05:43:47.000 UTC",
+        "last_seen": "2023-03-11 07:58:47.000 UTC",
+        "n_events": 9,
+        "symbol": "USDC",
+        "total_amount": 117862.15659900001,
+        "total_usd": 106989.73283668366
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-03-30 09:05:23.000 UTC",
+        "last_seen": "2024-07-21 18:49:11.000 UTC",
+        "n_events": 18,
+        "symbol": "RNDR",
+        "total_amount": 24341.04962924,
+        "total_usd": 105453.3465520776
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-06-20 15:09:36.000 UTC",
+        "last_seen": "2025-08-04 16:58:47.000 UTC",
+        "n_events": 23,
+        "symbol": "CHZ",
+        "total_amount": 528514.98517897,
+        "total_usd": 102568.49569503644
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-22 05:08:59.000 UTC",
+        "last_seen": "2025-10-09 09:02:47.000 UTC",
+        "n_events": 11,
+        "symbol": "LINK",
+        "total_amount": 4603.1488552499995,
+        "total_usd": 98552.47928630667
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-10-11 11:56:11.000 UTC",
+        "last_seen": "2024-11-18 12:38:11.000 UTC",
+        "n_events": 22,
+        "symbol": "SHIB",
+        "total_amount": 8323059533.93,
+        "total_usd": 97072.89751013242
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-06-14 09:23:26.000 UTC",
+        "last_seen": "2025-06-11 04:50:11.000 UTC",
+        "n_events": 19,
+        "symbol": "CHZ",
+        "total_amount": 515895.95186003996,
+        "total_usd": 96493.21806481946
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-04-09 06:09:47.000 UTC",
+        "last_seen": "2025-03-28 14:10:47.000 UTC",
+        "n_events": 16,
+        "symbol": "ZRX",
+        "total_amount": 157854.23165911,
+        "total_usd": 95930.9482773005
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-12-15 19:25:23.000 UTC",
+        "last_seen": "2024-11-23 07:13:35.000 UTC",
+        "n_events": 25,
+        "symbol": "MANA",
+        "total_amount": 187919.53901338996,
+        "total_usd": 95784.2841594099
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-06-30 03:36:56.000 UTC",
+        "last_seen": "2025-07-22 14:06:11.000 UTC",
+        "n_events": 17,
+        "symbol": "AAVE",
+        "total_amount": 845.76966302,
+        "total_usd": 94038.19814800612
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-09-16 21:05:23.000 UTC",
+        "last_seen": "2025-09-22 16:51:23.000 UTC",
+        "n_events": 54,
+        "symbol": "GNYerc20",
+        "total_amount": 11466005.48731223,
+        "total_usd": 91700.98009130247
+      },
+      {
+        "counterparty": "0xa83b11093c858c86321fbc4c20fe82cdbd58e09e",
+        "direction": "IN",
+        "first_seen": "2021-08-30 01:30:26.000 UTC",
+        "last_seen": "2021-11-09 07:33:59.000 UTC",
+        "n_events": 14,
+        "symbol": "MATIC",
+        "total_amount": 66221.27184000002,
+        "total_usd": 89629.27186691666
+      },
+      {
+        "counterparty": "0x58edf78281334335effa23101bbe3371b6a36a51",
+        "direction": "IN",
+        "first_seen": "2023-10-26 11:34:47.000 UTC",
+        "last_seen": "2023-12-22 08:22:23.000 UTC",
+        "n_events": 39,
+        "symbol": "FORM",
+        "total_amount": 79966457.46596567,
+        "total_usd": 85448.03364647069
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-04-28 07:02:11.000 UTC",
+        "last_seen": "2025-11-07 17:40:47.000 UTC",
+        "n_events": 18,
+        "symbol": "FET",
+        "total_amount": 105575.82718536998,
+        "total_usd": 81404.21537264591
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-04-15 17:27:47.000 UTC",
+        "last_seen": "2025-11-11 14:31:47.000 UTC",
+        "n_events": 12,
+        "symbol": "LPT",
+        "total_amount": 7506.398783619999,
+        "total_usd": 81307.67236650448
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-12-04 12:56:20.000 UTC",
+        "last_seen": "2025-01-17 08:22:23.000 UTC",
+        "n_events": 20,
+        "symbol": "MANA",
+        "total_amount": 117684.55479449999,
+        "total_usd": 81300.99597338057
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-09-20 00:40:26.000 UTC",
+        "last_seen": "2025-02-03 07:54:11.000 UTC",
+        "n_events": 24,
+        "symbol": "SUSHI",
+        "total_amount": 69517.78190141,
+        "total_usd": 77588.2217434478
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-05-25 07:05:23.000 UTC",
+        "last_seen": "2024-06-30 21:24:11.000 UTC",
+        "n_events": 19,
+        "symbol": "OCEAN",
+        "total_amount": 150172.99312097003,
+        "total_usd": 76719.11983798695
+      },
+      {
+        "counterparty": "0x2982bb64bcd07ac3315c32cb2bb7e5e8a2de7d67",
+        "direction": "IN",
+        "first_seen": "2024-04-26 10:25:59.000 UTC",
+        "last_seen": "2025-12-21 09:22:59.000 UTC",
+        "n_events": 50,
+        "symbol": "GNYerc20",
+        "total_amount": 9838262.601354118,
+        "total_usd": 74879.72579266116
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-06-19 11:05:23.000 UTC",
+        "last_seen": "2025-06-16 06:04:11.000 UTC",
+        "n_events": 41,
+        "symbol": "PAY",
+        "total_amount": 12211709.125907632,
+        "total_usd": 74865.3340658816
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2023-06-19 10:05:11.000 UTC",
+        "last_seen": "2025-06-16 05:53:11.000 UTC",
+        "n_events": 50,
+        "symbol": "PAY",
+        "total_amount": 12211709.12590763,
+        "total_usd": 74385.14102276949
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-04-06 15:43:39.000 UTC",
+        "last_seen": "2025-11-07 18:01:11.000 UTC",
+        "n_events": 18,
+        "symbol": "SUSHI",
+        "total_amount": 61173.18476527,
+        "total_usd": 72247.07985711691
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2024-06-03 10:20:35.000 UTC",
+        "last_seen": "2025-10-17 17:45:47.000 UTC",
+        "n_events": 20,
+        "symbol": "OMG",
+        "total_amount": 281028.20831750997,
+        "total_usd": 69462.29002326826
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-04-27 18:37:35.000 UTC",
+        "last_seen": "2025-03-10 18:16:11.000 UTC",
+        "n_events": 17,
+        "symbol": "FET",
+        "total_amount": 81115.4,
+        "total_usd": 69159.27911598417
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-06-15 14:47:14.000 UTC",
+        "last_seen": "2024-06-11 15:51:23.000 UTC",
+        "n_events": 13,
+        "symbol": "CHZ",
+        "total_amount": 257823.30265499998,
+        "total_usd": 67232.77003120577
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-08-05 22:42:43.000 UTC",
+        "last_seen": "2024-01-03 17:23:59.000 UTC",
+        "n_events": 19,
+        "symbol": "GRT",
+        "total_amount": 311252.34397648997,
+        "total_usd": 59409.86923357776
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-06-14 12:12:45.000 UTC",
+        "last_seen": "2024-12-20 09:50:23.000 UTC",
+        "n_events": 19,
+        "symbol": "GRT",
+        "total_amount": 318288.4222296,
+        "total_usd": 59122.65961963872
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-09-25 14:49:22.000 UTC",
+        "last_seen": "2025-12-07 14:30:59.000 UTC",
+        "n_events": 17,
+        "symbol": "COMP",
+        "total_amount": 1122.17788315,
+        "total_usd": 57371.240791999335
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-05-14 02:44:16.000 UTC",
+        "last_seen": "2025-05-27 06:50:47.000 UTC",
+        "n_events": 14,
+        "symbol": "UNI",
+        "total_amount": 6150.84718463,
+        "total_usd": 55891.76784407437
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-10-10 18:19:40.000 UTC",
+        "last_seen": "2025-10-17 12:28:47.000 UTC",
+        "n_events": 19,
+        "symbol": "COMP",
+        "total_amount": 907.4743993799999,
+        "total_usd": 55517.01379785773
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-08-24 07:51:47.000 UTC",
+        "last_seen": "2025-11-07 15:52:59.000 UTC",
+        "n_events": 16,
+        "symbol": "WLD",
+        "total_amount": 32807.8967884,
+        "total_usd": 54338.51078888854
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-04-15 22:15:51.000 UTC",
+        "last_seen": "2023-05-28 10:05:23.000 UTC",
+        "n_events": 5,
+        "symbol": "DAI",
+        "total_amount": 53384.53630000001,
+        "total_usd": 53274.428969587316
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2024-01-26 11:22:59.000 UTC",
+        "last_seen": "2025-01-16 10:07:35.000 UTC",
+        "n_events": 7,
+        "symbol": "ZRX",
+        "total_amount": 75570.06607498,
+        "total_usd": 52286.80780245475
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-10-17 07:50:11.000 UTC",
+        "last_seen": "2025-07-29 11:42:35.000 UTC",
+        "n_events": 14,
+        "symbol": "SUSHI",
+        "total_amount": 46668.54598301,
+        "total_usd": 49842.0071902984
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2024-01-28 08:22:59.000 UTC",
+        "last_seen": "2024-12-03 05:35:47.000 UTC",
+        "n_events": 7,
+        "symbol": "SAND",
+        "total_amount": 89434.92,
+        "total_usd": 49795.29728008333
+      },
+      {
+        "counterparty": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        "direction": "IN",
+        "first_seen": "2023-11-11 22:32:35.000 UTC",
+        "last_seen": "2024-12-13 08:33:59.000 UTC",
+        "n_events": 19,
+        "symbol": "ENJ",
+        "total_amount": 160709.32028695,
+        "total_usd": 47943.173289187005
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-08 18:08:47.000 UTC",
+        "last_seen": "2025-09-21 12:41:35.000 UTC",
+        "n_events": 4,
+        "symbol": "WLD",
+        "total_amount": 29845.394072709998,
+        "total_usd": 46286.125929524016
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-12-07 10:05:23.000 UTC",
+        "last_seen": "2026-01-17 14:21:11.000 UTC",
+        "n_events": 12,
+        "symbol": "AXS",
+        "total_amount": 11080.978676270002,
+        "total_usd": 46258.91423364954
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-12-07 12:36:47.000 UTC",
+        "last_seen": "2025-11-07 18:32:35.000 UTC",
+        "n_events": 13,
+        "symbol": "COMP",
+        "total_amount": 846.00125944,
+        "total_usd": 46131.539551479334
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2024-02-22 17:09:59.000 UTC",
+        "last_seen": "2025-07-24 06:45:47.000 UTC",
+        "n_events": 9,
+        "symbol": "WLD",
+        "total_amount": 20274.56892504,
+        "total_usd": 45800.06643635017
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-04-13 12:57:59.000 UTC",
+        "last_seen": "2024-06-03 07:43:11.000 UTC",
+        "n_events": 15,
+        "symbol": "OMG",
+        "total_amount": 60807.72000000001,
+        "total_usd": 45432.64031363417
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-04-21 10:09:35.000 UTC",
+        "last_seen": "2024-06-16 19:38:47.000 UTC",
+        "n_events": 15,
+        "symbol": "OMG",
+        "total_amount": 65409.30194271,
+        "total_usd": 45183.38771466643
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-05-08 02:33:11.000 UTC",
+        "last_seen": "2024-06-08 11:02:59.000 UTC",
+        "n_events": 15,
+        "symbol": "OMG",
+        "total_amount": 77390.25082944,
+        "total_usd": 44495.21795059709
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-04-11 10:31:35.000 UTC",
+        "last_seen": "2024-07-21 18:14:59.000 UTC",
+        "n_events": 9,
+        "symbol": "RNDR",
+        "total_amount": 9938.26011098,
+        "total_usd": 41089.694234648014
+      },
+      {
+        "counterparty": "0x58edf78281334335effa23101bbe3371b6a36a51",
+        "direction": "IN",
+        "first_seen": "2024-10-15 22:28:59.000 UTC",
+        "last_seen": "2024-10-24 07:11:47.000 UTC",
+        "n_events": 34,
+        "symbol": "REEF",
+        "total_amount": 18412710.88666691,
+        "total_usd": 40399.79566767362
+      },
+      {
+        "counterparty": "0xf16e9b0d03470827a95cdfd0cb8a8a3b46969b91",
+        "direction": "IN",
+        "first_seen": "2021-12-27 15:34:17.000 UTC",
+        "last_seen": "2022-06-15 09:38:33.000 UTC",
+        "n_events": 11,
+        "symbol": "SXP",
+        "total_amount": 29485.109274249997,
+        "total_usd": 37387.77794080333
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-03-30 08:58:23.000 UTC",
+        "last_seen": "2024-05-07 06:51:23.000 UTC",
+        "n_events": 7,
+        "symbol": "RNDR",
+        "total_amount": 11607.82951826,
+        "total_usd": 36146.42730590435
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2024-04-25 06:45:23.000 UTC",
+        "last_seen": "2026-03-22 09:14:11.000 UTC",
+        "n_events": 11,
+        "symbol": "SNX",
+        "total_amount": 26044.24912578,
+        "total_usd": 34325.69181792884
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-05-25 10:22:27.000 UTC",
+        "last_seen": "2023-03-23 08:34:35.000 UTC",
+        "n_events": 13,
+        "symbol": "GRT",
+        "total_amount": 147058.99137837,
+        "total_usd": 33324.38971123547
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2024-03-15 10:02:11.000 UTC",
+        "last_seen": "2024-11-27 10:16:47.000 UTC",
+        "n_events": 7,
+        "symbol": "ZRX",
+        "total_amount": 58833.8,
+        "total_usd": 33215.32895038334
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-05-19 03:18:36.000 UTC",
+        "last_seen": "2025-02-02 20:52:59.000 UTC",
+        "n_events": 12,
+        "symbol": "UNI",
+        "total_amount": 4389.3885427899995,
+        "total_usd": 33120.472747979315
+      },
+      {
+        "counterparty": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        "direction": "IN",
+        "first_seen": "2024-07-31 20:04:11.000 UTC",
+        "last_seen": "2024-10-31 16:03:59.000 UTC",
+        "n_events": 10,
+        "symbol": "OMG",
+        "total_amount": 119939.868724,
+        "total_usd": 29841.341195375113
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-12-01 23:03:47.000 UTC",
+        "last_seen": "2024-06-17 10:27:59.000 UTC",
+        "n_events": 11,
+        "symbol": "UNI",
+        "total_amount": 4663.51399627,
+        "total_usd": 29727.536644460935
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-06-14 09:29:38.000 UTC",
+        "last_seen": "2023-10-09 16:42:35.000 UTC",
+        "n_events": 9,
+        "symbol": "ENJ",
+        "total_amount": 46293.504234579996,
+        "total_usd": 29275.65946180139
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-03-13 15:05:47.000 UTC",
+        "last_seen": "2025-03-28 14:34:11.000 UTC",
+        "n_events": 8,
+        "symbol": "GLM",
+        "total_amount": 100330.25849022,
+        "total_usd": 28886.893390419038
+      },
+      {
+        "counterparty": "0x46340b20830761efd32832a74d7169b29feb9758",
+        "direction": "IN",
+        "first_seen": "2021-11-11 08:03:15.000 UTC",
+        "last_seen": "2021-11-20 01:09:55.000 UTC",
+        "n_events": 3,
+        "symbol": "MATIC",
+        "total_amount": 17205.7,
+        "total_usd": 28563.00075
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-09-29 19:48:09.000 UTC",
+        "last_seen": "2023-04-03 20:45:47.000 UTC",
+        "n_events": 11,
+        "symbol": "SXP",
+        "total_amount": 41516.81752692,
+        "total_usd": 27482.26413333193
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-05-25 06:57:23.000 UTC",
+        "last_seen": "2024-06-18 03:30:59.000 UTC",
+        "n_events": 8,
+        "symbol": "OCEAN",
+        "total_amount": 65127.08,
+        "total_usd": 27409.344239473332
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-11-15 11:50:47.000 UTC",
+        "last_seen": "2025-04-30 22:09:11.000 UTC",
+        "n_events": 6,
+        "symbol": "PUNDIX",
+        "total_amount": 49611.11930893,
+        "total_usd": 26159.67470311071
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2024-02-22 16:06:59.000 UTC",
+        "last_seen": "2024-05-23 20:05:35.000 UTC",
+        "n_events": 3,
+        "symbol": "RNDR",
+        "total_amount": 2794.96,
+        "total_usd": 25917.80691666667
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2023-12-06 11:01:23.000 UTC",
+        "last_seen": "2023-12-06 11:01:23.000 UTC",
+        "n_events": 1,
+        "symbol": "USDT",
+        "total_amount": 24991.9,
+        "total_usd": 25017.3417542
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-10-12 09:05:23.000 UTC",
+        "last_seen": "2025-09-10 18:01:11.000 UTC",
+        "n_events": 14,
+        "symbol": "KNC",
+        "total_amount": 44932.76405534,
+        "total_usd": 24968.234363131407
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-08-03 07:05:11.000 UTC",
+        "last_seen": "2025-12-30 15:21:11.000 UTC",
+        "n_events": 10,
+        "symbol": "QNT",
+        "total_amount": 264.1330185,
+        "total_usd": 24841.03952153154
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-08 08:48:47.000 UTC",
+        "last_seen": "2025-09-08 10:11:35.000 UTC",
+        "n_events": 3,
+        "symbol": "MKR",
+        "total_amount": 14.63440571,
+        "total_usd": 24086.3303131977
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-11-07 15:41:59.000 UTC",
+        "last_seen": "2025-02-10 11:07:59.000 UTC",
+        "n_events": 4,
+        "symbol": "WLD",
+        "total_amount": 10512.337338020001,
+        "total_usd": 22649.247482669583
+      },
+      {
+        "counterparty": "0x564286362092d8e7936f0549571a803b203aaced",
+        "direction": "IN",
+        "first_seen": "2021-04-03 09:47:59.000 UTC",
+        "last_seen": "2021-04-18 09:23:11.000 UTC",
+        "n_events": 3,
+        "symbol": "UNI",
+        "total_amount": 701.71,
+        "total_usd": 22025.086208333334
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-10-01 20:07:29.000 UTC",
+        "last_seen": "2023-04-23 03:33:35.000 UTC",
+        "n_events": 9,
+        "symbol": "SXP",
+        "total_amount": 30355.8,
+        "total_usd": 21703.404575501667
+      },
+      {
+        "counterparty": "0x85b931a32a0725be14285b66f1a22178c672d69b",
+        "direction": "IN",
+        "first_seen": "2021-04-03 08:56:08.000 UTC",
+        "last_seen": "2021-05-11 13:33:23.000 UTC",
+        "n_events": 4,
+        "symbol": "UNI",
+        "total_amount": 536.53,
+        "total_usd": 21689.931158333333
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-05-27 08:02:23.000 UTC",
+        "last_seen": "2024-06-30 21:16:59.000 UTC",
+        "n_events": 8,
+        "symbol": "OCEAN",
+        "total_amount": 45286.91979965,
+        "total_usd": 21540.198254976283
+      },
+      {
+        "counterparty": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "direction": "IN",
+        "first_seen": "2021-05-03 18:20:47.000 UTC",
+        "last_seen": "2021-05-11 10:14:03.000 UTC",
+        "n_events": 3,
+        "symbol": "UNI",
+        "total_amount": 535.0886,
+        "total_usd": 21095.742625333336
+      },
+      {
+        "counterparty": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "direction": "IN",
+        "first_seen": "2021-03-31 14:51:51.000 UTC",
+        "last_seen": "2021-03-31 14:51:51.000 UTC",
+        "n_events": 1,
+        "symbol": "DAI",
+        "total_amount": 19945,
+        "total_usd": 20114.552444999998
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-06-15 15:08:49.000 UTC",
+        "last_seen": "2023-11-03 08:46:35.000 UTC",
+        "n_events": 9,
+        "symbol": "ENJ",
+        "total_amount": 39308.130000000005,
+        "total_usd": 19914.9599831125
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2023-06-19 10:05:23.000 UTC",
+        "last_seen": "2025-12-15 20:06:11.000 UTC",
+        "n_events": 7,
+        "symbol": "BAT",
+        "total_amount": 87292.6747815,
+        "total_usd": 19570.974032273018
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2024-01-24 19:37:23.000 UTC",
+        "last_seen": "2024-06-14 18:46:35.000 UTC",
+        "n_events": 5,
+        "symbol": "SAND",
+        "total_amount": 44419,
+        "total_usd": 19387.202919249998
+      },
+      {
+        "counterparty": "0xa03400e098f4421b34a3a44a1b4e571419517687",
+        "direction": "IN",
+        "first_seen": "2024-02-29 08:27:23.000 UTC",
+        "last_seen": "2025-08-12 13:10:35.000 UTC",
+        "n_events": 15,
+        "symbol": "REEF",
+        "total_amount": 36751078.08746925,
+        "total_usd": 19386.18187860145
+      },
+      {
+        "counterparty": "0xad85405cbb1476825b78a021fa9e543bf7937549",
+        "direction": "IN",
+        "first_seen": "2025-09-21 11:33:47.000 UTC",
+        "last_seen": "2025-09-21 11:50:35.000 UTC",
+        "n_events": 2,
+        "symbol": "WLD",
+        "total_amount": 13174.15616,
+        "total_usd": 19344.05262826667
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-06-01 10:09:47.000 UTC",
+        "last_seen": "2024-03-19 06:33:23.000 UTC",
+        "n_events": 5,
+        "symbol": "OCEAN",
+        "total_amount": 39758.99332132,
+        "total_usd": 18951.685885209004
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-10-12 10:01:09.000 UTC",
+        "last_seen": "2023-04-02 08:14:23.000 UTC",
+        "n_events": 5,
+        "symbol": "SXP",
+        "total_amount": 22388.989999999998,
+        "total_usd": 18867.08210783417
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2024-01-08 00:50:47.000 UTC",
+        "last_seen": "2026-01-17 14:14:23.000 UTC",
+        "n_events": 6,
+        "symbol": "AXS",
+        "total_amount": 6961.030000000001,
+        "total_usd": 18851.25909166667
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-11-16 08:10:59.000 UTC",
+        "last_seen": "2023-05-21 18:15:11.000 UTC",
+        "n_events": 2,
+        "symbol": "DAI",
+        "total_amount": 17991.999900000003,
+        "total_usd": 18011.859352594634
+      },
+      {
+        "counterparty": "0xa1d8d972560c2f8144af871db508f0b0b10a3fbf",
+        "direction": "IN",
+        "first_seen": "2021-12-04 16:26:05.000 UTC",
+        "last_seen": "2021-12-07 11:19:31.000 UTC",
+        "n_events": 4,
+        "symbol": "SXP",
+        "total_amount": 10622.4459,
+        "total_usd": 17610.558471499997
+      },
+      {
+        "counterparty": "0x6cc5f688a315f3dc28a7781717a9a798a59fda7b",
+        "direction": "IN",
+        "first_seen": "2021-12-27 19:49:35.000 UTC",
+        "last_seen": "2022-01-05 20:27:09.000 UTC",
+        "n_events": 2,
+        "symbol": "MATIC",
+        "total_amount": 6679.452,
+        "total_usd": 16528.813051666668
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2024-03-09 07:44:59.000 UTC",
+        "last_seen": "2024-12-03 05:23:59.000 UTC",
+        "n_events": 2,
+        "symbol": "SAND",
+        "total_amount": 21581.92,
+        "total_usd": 16314.034429166668
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-03-09 00:05:35.000 UTC",
+        "last_seen": "2024-11-27 10:28:23.000 UTC",
+        "n_events": 5,
+        "symbol": "GLM",
+        "total_amount": 53574.02537406,
+        "total_usd": 15306.13591339471
+      },
+      {
+        "counterparty": "0x708396f17127c42383e3b9014072679b2f60b82f",
+        "direction": "IN",
+        "first_seen": "2021-04-07 15:21:00.000 UTC",
+        "last_seen": "2021-05-11 11:50:19.000 UTC",
+        "n_events": 3,
+        "symbol": "UNI",
+        "total_amount": 415.01,
+        "total_usd": 14771.747483333333
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-08-03 06:19:59.000 UTC",
+        "last_seen": "2025-05-07 07:58:23.000 UTC",
+        "n_events": 6,
+        "symbol": "QNT",
+        "total_amount": 148.195,
+        "total_usd": 14428.010119999999
+      },
+      {
+        "counterparty": "0x501b86ac0de6958da2f9250194d15d8aae985861",
+        "direction": "IN",
+        "first_seen": "2024-07-11 22:11:23.000 UTC",
+        "last_seen": "2024-12-03 05:53:59.000 UTC",
+        "n_events": 6,
+        "symbol": "ENJ",
+        "total_amount": 60540.49107999999,
+        "total_usd": 13443.30379388955
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-12-07 21:10:11.000 UTC",
+        "last_seen": "2024-07-15 13:13:59.000 UTC",
+        "n_events": 5,
+        "symbol": "AXS",
+        "total_amount": 1772.97,
+        "total_usd": 13061.416666666666
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2024-01-24 13:49:11.000 UTC",
+        "last_seen": "2024-11-27 10:24:59.000 UTC",
+        "n_events": 5,
+        "symbol": "SAND",
+        "total_amount": 23434,
+        "total_usd": 11961.473649166666
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-03-17 10:51:23.000 UTC",
+        "last_seen": "2023-06-14 20:40:23.000 UTC",
+        "n_events": 5,
+        "symbol": "ENJ",
+        "total_amount": 28382.100000000002,
+        "total_usd": 11045.911888758335
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2024-07-15 13:12:23.000 UTC",
+        "last_seen": "2026-03-22 09:04:23.000 UTC",
+        "n_events": 5,
+        "symbol": "SNX",
+        "total_amount": 9736.82713883,
+        "total_usd": 10999.628750232137
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-10-16 06:26:59.000 UTC",
+        "last_seen": "2025-07-14 06:41:11.000 UTC",
+        "n_events": 5,
+        "symbol": "KNC",
+        "total_amount": 18073.602395449998,
+        "total_usd": 10338.245162101026
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-05-28 09:32:23.000 UTC",
+        "last_seen": "2023-05-28 09:32:23.000 UTC",
+        "n_events": 1,
+        "symbol": "DAI",
+        "total_amount": 10004.036399999999,
+        "total_usd": 10013.3709996309
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-12-07 10:01:35.000 UTC",
+        "last_seen": "2025-01-02 20:26:35.000 UTC",
+        "n_events": 2,
+        "symbol": "AXS",
+        "total_amount": 1351.3198242699998,
+        "total_usd": 9499.088573341207
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-09-12 17:24:11.000 UTC",
+        "last_seen": "2025-12-30 15:14:11.000 UTC",
+        "n_events": 6,
+        "symbol": "QNT",
+        "total_amount": 99.17171695,
+        "total_usd": 9118.278573060501
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-11-11 18:37:23.000 UTC",
+        "last_seen": "2024-03-03 23:49:59.000 UTC",
+        "n_events": 4,
+        "symbol": "PUNDIX",
+        "total_amount": 17118.57,
+        "total_usd": 8759.948998148333
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2024-04-25 06:38:11.000 UTC",
+        "last_seen": "2024-06-14 18:47:35.000 UTC",
+        "n_events": 2,
+        "symbol": "SNX",
+        "total_amount": 3273.2699999999995,
+        "total_usd": 8661.697299999998
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-27 14:53:23.000 UTC",
+        "last_seen": "2025-09-27 17:18:47.000 UTC",
+        "n_events": 2,
+        "symbol": "SNX",
+        "total_amount": 7431.90199206,
+        "total_usd": 8495.31141313103
+      },
+      {
+        "counterparty": "0x2982bb64bcd07ac3315c32cb2bb7e5e8a2de7d67",
+        "direction": "IN",
+        "first_seen": "2024-08-07 08:38:47.000 UTC",
+        "last_seen": "2024-08-08 14:41:47.000 UTC",
+        "n_events": 5,
+        "symbol": "REPv2",
+        "total_amount": 18298.2,
+        "total_usd": 8487.893456733333
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-11-13 13:49:47.000 UTC",
+        "last_seen": "2024-12-11 11:38:11.000 UTC",
+        "n_events": 5,
+        "symbol": "PUNDIX",
+        "total_amount": 17299.74020533,
+        "total_usd": 8319.766411718689
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-06-19 09:12:11.000 UTC",
+        "last_seen": "2024-12-20 10:31:23.000 UTC",
+        "n_events": 4,
+        "symbol": "BAT",
+        "total_amount": 39069,
+        "total_usd": 8184.993649083333
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2025-02-18 17:30:59.000 UTC",
+        "last_seen": "2025-03-28 14:18:59.000 UTC",
+        "n_events": 2,
+        "symbol": "GLM",
+        "total_amount": 29614.93311616,
+        "total_usd": 8168.1483355199425
+      },
+      {
+        "counterparty": "0x566a00ee7b48b39eafc6de905dad87cc83afa4d2",
+        "direction": "IN",
+        "first_seen": "2025-01-22 03:18:59.000 UTC",
+        "last_seen": "2025-01-24 01:52:59.000 UTC",
+        "n_events": 7,
+        "symbol": "GNYerc20",
+        "total_amount": 1310449.4,
+        "total_usd": 7823.942874008335
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2024-03-19 09:14:23.000 UTC",
+        "last_seen": "2024-08-05 08:06:47.000 UTC",
+        "n_events": 2,
+        "symbol": "BAT",
+        "total_amount": 32507,
+        "total_usd": 7553.1963230833335
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-11 12:42:35.000 UTC",
+        "last_seen": "2025-10-07 15:49:59.000 UTC",
+        "n_events": 2,
+        "symbol": "UNI",
+        "total_amount": 788.22365578,
+        "total_usd": 7086.226256567632
+      },
+      {
+        "counterparty": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "direction": "IN",
+        "first_seen": "2021-04-01 13:09:45.000 UTC",
+        "last_seen": "2021-05-17 06:20:14.000 UTC",
+        "n_events": 6,
+        "symbol": "GRT",
+        "total_amount": 4230.3,
+        "total_usd": 6879.844166666668
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2024-05-29 08:16:47.000 UTC",
+        "last_seen": "2025-10-01 09:04:59.000 UTC",
+        "n_events": 2,
+        "symbol": "CHZ",
+        "total_amount": 72133.2616935,
+        "total_usd": 6474.649918579801
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-10-12 08:42:11.000 UTC",
+        "last_seen": "2023-10-30 14:19:35.000 UTC",
+        "n_events": 3,
+        "symbol": "KNC",
+        "total_amount": 8930.130000000001,
+        "total_usd": 6113.9833300966675
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-04-21 18:55:11.000 UTC",
+        "last_seen": "2025-09-14 05:30:11.000 UTC",
+        "n_events": 2,
+        "symbol": "MANA",
+        "total_amount": 19024.540155000002,
+        "total_usd": 6063.585142423111
+      },
+      {
+        "counterparty": "0xd551234ae421e3bcba99a0da6d736074f22192ff",
+        "direction": "IN",
+        "first_seen": "2021-05-07 03:32:42.000 UTC",
+        "last_seen": "2021-05-07 03:32:42.000 UTC",
+        "n_events": 1,
+        "symbol": "UNI",
+        "total_amount": 150.24,
+        "total_usd": 5982.0560000000005
+      },
+      {
+        "counterparty": "0x6d0d19bdddc5ed1dd501430c9621dd37ebd9062d",
+        "direction": "IN",
+        "first_seen": "2024-03-02 19:07:47.000 UTC",
+        "last_seen": "2024-03-02 19:07:47.000 UTC",
+        "n_events": 1,
+        "symbol": "GNYerc20",
+        "total_amount": 233729.22979901,
+        "total_usd": 5840.406516781845
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-04-01 10:30:11.000 UTC",
+        "last_seen": "2025-04-01 10:30:11.000 UTC",
+        "n_events": 1,
+        "symbol": "COMP",
+        "total_amount": 109.517992,
+        "total_usd": 5649.941942286667
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-04-30 21:48:23.000 UTC",
+        "last_seen": "2025-04-30 21:48:23.000 UTC",
+        "n_events": 1,
+        "symbol": "PUNDIX",
+        "total_amount": 10234.8091036,
+        "total_usd": 5275.772870464555
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-03-11 06:37:59.000 UTC",
+        "last_seen": "2023-03-11 06:37:59.000 UTC",
+        "n_events": 1,
+        "symbol": "DAI",
+        "total_amount": 5428.5,
+        "total_usd": 5070.601256875001
+      },
+      {
+        "counterparty": "0x738cf6903e6c4e699d1c2dd9ab8b67fcdb3121ea",
+        "direction": "IN",
+        "first_seen": "2023-03-28 10:14:35.000 UTC",
+        "last_seen": "2023-05-11 16:57:59.000 UTC",
+        "n_events": 2,
+        "symbol": "REEF",
+        "total_amount": 2037018,
+        "total_usd": 4689.813219916667
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2024-04-24 18:50:47.000 UTC",
+        "last_seen": "2025-07-07 09:31:59.000 UTC",
+        "n_events": 2,
+        "symbol": "AXS",
+        "total_amount": 995.658852,
+        "total_usd": 4583.559551975001
+      },
+      {
+        "counterparty": "0xb489324d77d5b356e6e688949f199e4c4857a75a",
+        "direction": "IN",
+        "first_seen": "2026-02-15 09:36:47.000 UTC",
+        "last_seen": "2026-02-15 14:03:11.000 UTC",
+        "n_events": 4,
+        "symbol": "ENJ",
+        "total_amount": 200398.68394921225,
+        "total_usd": 4415.4654880738335
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-08-30 06:11:47.000 UTC",
+        "last_seen": "2025-09-10 17:51:11.000 UTC",
+        "n_events": 2,
+        "symbol": "KNC",
+        "total_amount": 11630.03165989,
+        "total_usd": 4386.003236554782
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2024-10-02 19:25:35.000 UTC",
+        "last_seen": "2024-10-02 19:25:35.000 UTC",
+        "n_events": 1,
+        "symbol": "PEPE",
+        "total_amount": 468781633.17999995,
+        "total_usd": 4280.3669622943835
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2023-10-13 09:23:11.000 UTC",
+        "last_seen": "2024-11-27 10:21:11.000 UTC",
+        "n_events": 4,
+        "symbol": "KNC",
+        "total_amount": 6299,
+        "total_usd": 4043.7884591666666
+      },
+      {
+        "counterparty": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "direction": "IN",
+        "first_seen": "2021-04-15 22:08:57.000 UTC",
+        "last_seen": "2023-10-20 13:05:35.000 UTC",
+        "n_events": 164,
+        "symbol": "ETH",
+        "total_amount": 1.5754762347582103,
+        "total_usd": 4025.8628433910767
+      },
+      {
+        "counterparty": "0x6c69fa64ec451b1bc5b5fbaa56cf648a281634be",
+        "direction": "IN",
+        "first_seen": "2024-09-02 13:22:11.000 UTC",
+        "last_seen": "2024-09-02 13:22:11.000 UTC",
+        "n_events": 1,
+        "symbol": "REEF",
+        "total_amount": 3604985.960839,
+        "total_usd": 3813.47431557419
+      },
+      {
+        "counterparty": "0x6cc5f688a315f3dc28a7781717a9a798a59fda7b",
+        "direction": "IN",
+        "first_seen": "2024-04-29 11:48:59.000 UTC",
+        "last_seen": "2024-04-29 11:48:59.000 UTC",
+        "n_events": 1,
+        "symbol": "SNX",
+        "total_amount": 1321.14999489,
+        "total_usd": 3800.5081519668997
+      },
+      {
+        "counterparty": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "direction": "IN",
+        "first_seen": "2023-11-14 16:40:35.000 UTC",
+        "last_seen": "2026-04-01 09:31:11.000 UTC",
+        "n_events": 2287,
+        "symbol": "ETH",
+        "total_amount": 1.4992228480291376,
+        "total_usd": 3783.03523430889
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-22 06:44:11.000 UTC",
+        "last_seen": "2025-09-22 06:44:11.000 UTC",
+        "n_events": 1,
+        "symbol": "AAVE",
+        "total_amount": 13.645449769999999,
+        "total_usd": 3664.2126267380995
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-12-15 19:52:35.000 UTC",
+        "last_seen": "2025-12-15 19:52:35.000 UTC",
+        "n_events": 1,
+        "symbol": "BAT",
+        "total_amount": 15716.674781500002,
+        "total_usd": 3585.131994130864
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-09-09 14:28:47.000 UTC",
+        "last_seen": "2025-09-09 14:28:47.000 UTC",
+        "n_events": 1,
+        "symbol": "LPT",
+        "total_amount": 499.38951679,
+        "total_usd": 3551.491780238217
+      },
+      {
+        "counterparty": "0x738cf6903e6c4e699d1c2dd9ab8b67fcdb3121ea",
+        "direction": "IN",
+        "first_seen": "2022-05-11 20:59:09.000 UTC",
+        "last_seen": "2022-05-11 20:59:09.000 UTC",
+        "n_events": 1,
+        "symbol": "SXP",
+        "total_amount": 7830.000000000001,
+        "total_usd": 3521.214292500001
+      },
+      {
+        "counterparty": "0x0681d8db095565fe8a346fa0277bffde9c0edbbf",
+        "direction": "IN",
+        "first_seen": "2021-04-08 19:50:47.000 UTC",
+        "last_seen": "2021-04-08 19:50:47.000 UTC",
+        "n_events": 1,
+        "symbol": "UNI",
+        "total_amount": 114.82,
+        "total_usd": 3399.3417833333333
+      },
+      {
+        "counterparty": "0xd91efec7e42f80156d1d9f660a69847188950747",
+        "direction": "IN",
+        "first_seen": "2023-12-18 21:56:11.000 UTC",
+        "last_seen": "2023-12-18 21:56:11.000 UTC",
+        "n_events": 1,
+        "symbol": "AAVE",
+        "total_amount": 33.677,
+        "total_usd": 3330.2062733333337
+      },
+      {
+        "counterparty": "0x58edf78281334335effa23101bbe3371b6a36a51",
+        "direction": "IN",
+        "first_seen": "2025-03-03 21:35:35.000 UTC",
+        "last_seen": "2025-03-03 21:35:35.000 UTC",
+        "n_events": 1,
+        "symbol": "OMG",
+        "total_amount": 14801,
+        "total_usd": 3242.9854391666663
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2023-06-10 08:00:35.000 UTC",
+        "last_seen": "2023-08-17 22:29:11.000 UTC",
+        "n_events": 2,
+        "symbol": "GLM",
+        "total_amount": 17141.3,
+        "total_usd": 2834.0451924749996
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2023-11-13 13:59:23.000 UTC",
+        "last_seen": "2024-03-03 23:41:23.000 UTC",
+        "n_events": 2,
+        "symbol": "PUNDIX",
+        "total_amount": 4958,
+        "total_usd": 2727.0045565
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2025-07-30 12:47:23.000 UTC",
+        "last_seen": "2025-07-30 12:51:35.000 UTC",
+        "n_events": 2,
+        "symbol": "SNX",
+        "total_amount": 4281.1,
+        "total_usd": 2553.150288216667
+      },
+      {
+        "counterparty": "0xd91efec7e42f80156d1d9f660a69847188950747",
+        "direction": "IN",
+        "first_seen": "2023-10-31 07:03:35.000 UTC",
+        "last_seen": "2023-10-31 07:03:35.000 UTC",
+        "n_events": 1,
+        "symbol": "ENJ",
+        "total_amount": 9662.1536,
+        "total_usd": 2532.4061736893336
+      },
+      {
+        "counterparty": "0xc61206fdc09e595b8be1d2b4a708f27d2bdea64c",
+        "direction": "IN",
+        "first_seen": "2023-09-12 14:40:47.000 UTC",
+        "last_seen": "2023-11-06 17:48:11.000 UTC",
+        "n_events": 8,
+        "symbol": "GNYerc20",
+        "total_amount": 128371.85615909999,
+        "total_usd": 2463.4666288057933
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2023-05-15 10:28:35.000 UTC",
+        "last_seen": "2023-05-15 10:28:35.000 UTC",
+        "n_events": 1,
+        "symbol": "FET",
+        "total_amount": 9494.944974,
+        "total_usd": 2364.4778809049353
+      },
+      {
+        "counterparty": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+        "direction": "IN",
+        "first_seen": "2025-09-18 11:44:23.000 UTC",
+        "last_seen": "2025-09-18 11:44:23.000 UTC",
+        "n_events": 1,
+        "symbol": "SKY",
+        "total_amount": 23326.600000000002,
+        "total_usd": 1782.7179100500007
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2025-09-18 11:55:11.000 UTC",
+        "last_seen": "2025-09-18 11:55:11.000 UTC",
+        "n_events": 1,
+        "symbol": "SKY",
+        "total_amount": 23326.600000000002,
+        "total_usd": 1782.7179100500007
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-10-05 11:22:59.000 UTC",
+        "last_seen": "2025-10-05 11:22:59.000 UTC",
+        "n_events": 1,
+        "symbol": "QNT",
+        "total_amount": 16.76630155,
+        "total_usd": 1727.6975151377083
+      },
+      {
+        "counterparty": "0x0681d8db095565fe8a346fa0277bffde9c0edbbf",
+        "direction": "IN",
+        "first_seen": "2021-04-01 19:59:55.000 UTC",
+        "last_seen": "2021-04-01 19:59:55.000 UTC",
+        "n_events": 1,
+        "symbol": "SUSHI",
+        "total_amount": 98.63,
+        "total_usd": 1487.5047833333333
+      },
+      {
+        "counterparty": "0x6c69fa64ec451b1bc5b5fbaa56cf648a281634be",
+        "direction": "IN",
+        "first_seen": "2024-09-09 14:40:11.000 UTC",
+        "last_seen": "2024-09-09 14:40:11.000 UTC",
+        "n_events": 1,
+        "symbol": "REPv2",
+        "total_amount": 1528.79256,
+        "total_usd": 512.5419744705603
+      },
+      {
+        "counterparty": "0xa910f92acdaf488fa6ef02174fb86208ad7722ba",
+        "direction": "IN",
+        "first_seen": "2023-06-10 15:55:59.000 UTC",
+        "last_seen": "2023-06-10 15:55:59.000 UTC",
+        "n_events": 1,
+        "symbol": "REEF",
+        "total_amount": 181880.56828832,
+        "total_usd": 258.7402651041593
+      },
+      {
+        "counterparty": "0xd551234ae421e3bcba99a0da6d736074f22192ff",
+        "direction": "IN",
+        "first_seen": "2021-03-31 14:46:02.000 UTC",
+        "last_seen": "2021-03-31 14:46:02.000 UTC",
+        "n_events": 1,
+        "symbol": "DAI",
+        "total_amount": 15,
+        "total_usd": 15.127514999999999
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2025-11-20 14:28:11.000 UTC",
+        "last_seen": "2026-03-30 11:53:47.000 UTC",
+        "n_events": 4,
+        "symbol": "ETH",
+        "total_amount": 0.004498227293950063,
+        "total_usd": 9.391449537317854
+      },
+      {
+        "counterparty": "0x5bffc3e304072d8d89335475b5201bd32ac69503",
+        "direction": "IN",
+        "first_seen": "2026-01-13 13:11:23.000 UTC",
+        "last_seen": "2026-01-13 13:11:23.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 4e-06,
+        "total_usd": 0.01255076666666666
+      },
+      {
+        "counterparty": "0x5bff9d62a977a2a53ab9700b285add032ac69503",
+        "direction": "IN",
+        "first_seen": "2026-01-12 13:26:35.000 UTC",
+        "last_seen": "2026-01-12 13:26:35.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 4e-06,
+        "total_usd": 0.012440813333333335
+      },
+      {
+        "counterparty": "0x6edf2527128b94b0c93ec23123772dd4fcf95048",
+        "direction": "IN",
+        "first_seen": "2026-01-08 09:53:47.000 UTC",
+        "last_seen": "2026-01-10 11:40:59.000 UTC",
+        "n_events": 2,
+        "symbol": "USDC",
+        "total_amount": 0.001597,
+        "total_usd": 0.0015975230002499997
+      },
+      {
+        "counterparty": "0x6edfd7e0cd88149b7cbc83e946e4b084269d5048",
+        "direction": "IN",
+        "first_seen": "2026-01-08 09:51:35.000 UTC",
+        "last_seen": "2026-01-08 09:51:35.000 UTC",
+        "n_events": 1,
+        "symbol": "USDC",
+        "total_amount": 0.001312,
+        "total_usd": 0.001312425634666667
+      },
+      {
+        "counterparty": "0x6edf1f4f5971fd12e5ad8c355ff05ffd946a5048",
+        "direction": "IN",
+        "first_seen": "2026-01-10 11:37:11.000 UTC",
+        "last_seen": "2026-01-10 11:37:11.000 UTC",
+        "n_events": 1,
+        "symbol": "USDC",
+        "total_amount": 0.0009,
+        "total_usd": 0.0009002963999999995
+      },
+      {
+        "counterparty": "0x6357d3843d715496257e338a878ab0b72040a918",
+        "direction": "IN",
+        "first_seen": "2026-04-04 16:45:35.000 UTC",
+        "last_seen": "2026-04-04 16:45:35.000 UTC",
+        "n_events": 1,
+        "symbol": "HEX",
+        "total_amount": 1,
+        "total_usd": 0.0006619999999999998
+      },
+      {
+        "counterparty": "0x6edfb4e3007bbcd3c587895ba8d286fa349e5048",
+        "direction": "IN",
+        "first_seen": "2026-02-14 09:07:23.000 UTC",
+        "last_seen": "2026-02-26 20:27:11.000 UTC",
+        "n_events": 2,
+        "symbol": "ETH",
+        "total_amount": 5.0000000007e-08,
+        "total_usd": 0.00010159395834789791
+      },
+      {
+        "counterparty": "0x6edfb4e3007bbcd3c587895ba8d286fa349e5048",
+        "direction": "IN",
+        "first_seen": "2026-02-14 09:07:11.000 UTC",
+        "last_seen": "2026-02-26 20:26:47.000 UTC",
+        "n_events": 2,
+        "symbol": "LINK",
+        "total_amount": 1.634286000999e-06,
+        "total_usd": 1.474345427408924e-05
+      },
+      {
+        "counterparty": "0x6edfb4e3007bbcd3c587895ba8d286fa349e5048",
+        "direction": "IN",
+        "first_seen": "2026-01-10 11:36:47.000 UTC",
+        "last_seen": "2026-01-10 11:36:47.000 UTC",
+        "n_events": 1,
+        "symbol": "USDC",
+        "total_amount": 9e-06,
+        "total_usd": 9.002963999999995e-06
+      },
+      {
+        "counterparty": "0x6edffd3c53ce226b0b16fbe960e2d69af31c5048",
+        "direction": "IN",
+        "first_seen": "2024-10-26 23:48:47.000 UTC",
+        "last_seen": "2025-02-04 11:19:11.000 UTC",
+        "n_events": 5,
+        "symbol": "PEPE",
+        "total_amount": 0.076832,
+        "total_usd": 7.736214566666664e-07
+      },
+      {
+        "counterparty": "0x5bff47025d5c87c6b51d0cccfb3de2e1e2499503",
+        "direction": "IN",
+        "first_seen": "2026-01-12 13:26:47.000 UTC",
+        "last_seen": "2026-01-13 13:13:11.000 UTC",
+        "n_events": 2,
+        "symbol": "ETH",
+        "total_amount": 8e-18,
+        "total_usd": 2.499158e-14
+      },
+      {
+        "counterparty": "0x6edf2527128b94b0c93ec23123772dd4fcf95048",
+        "direction": "OUT",
+        "first_seen": "2026-01-08 09:59:35.000 UTC",
+        "last_seen": "2026-01-10 11:41:11.000 UTC",
+        "n_events": 2,
+        "symbol": "USDC",
+        "total_amount": 0,
+        "total_usd": 0
+      },
+      {
+        "counterparty": "0x6edf0a4128a781e6f81e1becb9d6f528434e5048",
+        "direction": "OUT",
+        "first_seen": "2025-07-10 20:38:23.000 UTC",
+        "last_seen": "2025-07-14 23:35:23.000 UTC",
+        "n_events": 3,
+        "symbol": "USDC",
+        "total_amount": 0,
+        "total_usd": 0
+      },
+      {
+        "counterparty": "0x6edf2e9f3502a0142e316b1beefba15fd22d5048",
+        "direction": "OUT",
+        "first_seen": "2025-07-10 23:34:47.000 UTC",
+        "last_seen": "2025-07-14 23:38:47.000 UTC",
+        "n_events": 3,
+        "symbol": "USDC",
+        "total_amount": 0,
+        "total_usd": 0
+      },
+      {
+        "counterparty": "0x6edf0a4128a781e6f81e1becb9d6f528434e5048",
+        "direction": "OUT",
+        "first_seen": "2025-07-15 00:40:47.000 UTC",
+        "last_seen": "2025-07-15 00:40:47.000 UTC",
+        "n_events": 1,
+        "symbol": "U\u0405D\u0421",
+        "total_amount": 99664.36,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edf80b1735991bdbc90176db278af15a81c5048",
+        "direction": "OUT",
+        "first_seen": "2023-10-21 17:06:11.000 UTC",
+        "last_seen": "2023-10-21 18:06:23.000 UTC",
+        "n_events": 2,
+        "symbol": "...",
+        "total_amount": 59977.702999999994,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2024-10-25 18:27:11.000 UTC",
+        "last_seen": "2026-04-02 19:21:11.000 UTC",
+        "n_events": 464,
+        "symbol": "ZND",
+        "total_amount": 76176571.86195388,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x58edf78281334335effa23101bbe3371b6a36a51",
+        "direction": "IN",
+        "first_seen": "2025-04-10 10:06:47.000 UTC",
+        "last_seen": "2025-04-10 10:06:47.000 UTC",
+        "n_events": 1,
+        "symbol": "LSK",
+        "total_amount": 10493.4128,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edb55a63224bfa6b764bb12ea1d1043191c5048",
+        "direction": "OUT",
+        "first_seen": "2023-10-21 17:07:47.000 UTC",
+        "last_seen": "2023-10-21 18:07:47.000 UTC",
+        "n_events": 2,
+        "symbol": "USD",
+        "total_amount": 59977.702999999994,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2024-05-24 09:42:11.000 UTC",
+        "last_seen": "2025-02-03 04:25:59.000 UTC",
+        "n_events": 25,
+        "symbol": "LSK",
+        "total_amount": 215105,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "direction": "IN",
+        "first_seen": "2025-01-29 11:33:47.000 UTC",
+        "last_seen": "2025-01-29 11:33:47.000 UTC",
+        "n_events": 1,
+        "symbol": "Claim $weETH ( t.ly/weETH ) - #",
+        "total_amount": 1,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+        "direction": "IN",
+        "first_seen": "2024-02-10 04:28:11.000 UTC",
+        "last_seen": "2024-02-10 04:28:11.000 UTC",
+        "n_events": 1,
+        "symbol": "Claim $OCEAN Reward at https://",
+        "total_amount": 3250,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x514910771af9ca656af840dff83e8264ecf986ca",
+        "direction": "IN",
+        "first_seen": "2024-01-20 05:14:47.000 UTC",
+        "last_seen": "2024-01-20 05:14:47.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit earn-link.com to claim re",
+        "total_amount": 245.44,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edf7d6a3d9eb2ed68388f1cd92a976068b75048",
+        "direction": "OUT",
+        "first_seen": "2024-10-27 00:01:47.000 UTC",
+        "last_seen": "2024-10-27 00:01:47.000 UTC",
+        "n_events": 2,
+        "symbol": "\u0415RC20",
+        "total_amount": 12432076.13042,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2024-05-29 13:18:59.000 UTC",
+        "last_seen": "2025-11-11 09:35:35.000 UTC",
+        "n_events": 18,
+        "symbol": "LSK",
+        "total_amount": 162001.92498845,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x58edf78281334335effa23101bbe3371b6a36a51",
+        "direction": "IN",
+        "first_seen": "2025-05-21 12:27:59.000 UTC",
+        "last_seen": "2026-04-01 11:29:35.000 UTC",
+        "n_events": 62,
+        "symbol": "ZND",
+        "total_amount": 28031218.92,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+        "direction": "IN",
+        "first_seen": "2024-02-10 04:30:23.000 UTC",
+        "last_seen": "2024-02-10 04:30:23.000 UTC",
+        "n_events": 1,
+        "symbol": "Claim $GTC Reward at https://gi",
+        "total_amount": 987,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+        "direction": "IN",
+        "first_seen": "2024-01-12 03:51:47.000 UTC",
+        "last_seen": "2024-01-12 03:51:47.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit aavenetwork.org to claim ",
+        "total_amount": 30,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x5d80a8d8cb80696073e82407968600a37e1dd780",
+        "direction": "IN",
+        "first_seen": "2022-09-21 09:12:11.000 UTC",
+        "last_seen": "2022-09-21 09:12:11.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit [aave-sr.xyz] and claim s",
+        "total_amount": 634.8616,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x0000000000000000000000000000000000000000",
+        "direction": "IN",
+        "first_seen": "2024-02-14 10:53:11.000 UTC",
+        "last_seen": "2024-02-14 10:53:11.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit https://www.gammaswap.pro",
+        "total_amount": 12499.999999999998,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+        "direction": "IN",
+        "first_seen": "2024-01-15 12:27:59.000 UTC",
+        "last_seen": "2024-01-15 12:27:59.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit managift.org to claim rew",
+        "total_amount": 5000,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+        "direction": "IN",
+        "first_seen": "2024-01-28 02:56:11.000 UTC",
+        "last_seen": "2024-01-28 02:56:11.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit aaveprotocol.net to claim",
+        "total_amount": 30,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+        "direction": "IN",
+        "first_seen": "2024-02-10 04:17:59.000 UTC",
+        "last_seen": "2024-02-10 04:17:59.000 UTC",
+        "n_events": 1,
+        "symbol": "Claim $FET Reward at https://fe",
+        "total_amount": 2450,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xd152f549545093347a162dce210e7293f1452150",
+        "direction": "IN",
+        "first_seen": "2024-03-15 08:04:47.000 UTC",
+        "last_seen": "2024-03-15 08:04:47.000 UTC",
+        "n_events": 1,
+        "symbol": "CHKN",
+        "total_amount": 100208017.706,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+        "direction": "IN",
+        "first_seen": "2024-10-25 18:07:11.000 UTC",
+        "last_seen": "2025-05-21 12:40:11.000 UTC",
+        "n_events": 26,
+        "symbol": "ZND",
+        "total_amount": 544649.3499999999,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xd38cf87f114f2a0582c329fb9df4f7044ce71330",
+        "direction": "IN",
+        "first_seen": "2025-01-10 08:15:35.000 UTC",
+        "last_seen": "2025-01-27 07:57:35.000 UTC",
+        "n_events": 2,
+        "symbol": "ZND",
+        "total_amount": 11994.362321999999,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2024-05-29 13:35:59.000 UTC",
+        "last_seen": "2025-11-30 07:11:11.000 UTC",
+        "n_events": 50,
+        "symbol": "LSK",
+        "total_amount": 545330.33872652,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x98ec059dc3adfbdd63429454aeb0c990fba4a128",
+        "direction": "IN",
+        "first_seen": "2022-12-04 07:47:23.000 UTC",
+        "last_seen": "2022-12-04 07:47:23.000 UTC",
+        "n_events": 1,
+        "symbol": "Bonus. Visit https://bitbonus.t",
+        "total_amount": 25,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x0000000000000000000000000000000000000000",
+        "direction": "IN",
+        "first_seen": "2024-04-05 07:38:59.000 UTC",
+        "last_seen": "2024-04-05 07:38:59.000 UTC",
+        "n_events": 1,
+        "symbol": "fetdao.com",
+        "total_amount": 62500,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x82dfdb2ec1aa6003ed4acba663403d7c2127ff67",
+        "direction": "IN",
+        "first_seen": "2021-09-11 16:06:46.000 UTC",
+        "last_seen": "2021-09-11 16:06:46.000 UTC",
+        "n_events": 1,
+        "symbol": "akSwap.io",
+        "total_amount": 250000,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edf527d75ef84bd4836b624f41032815ab05048",
+        "direction": "OUT",
+        "first_seen": "2025-07-16 05:39:35.000 UTC",
+        "last_seen": "2025-07-16 05:39:35.000 UTC",
+        "n_events": 1,
+        "symbol": "\u200aUSDC\u200a\u200a\u200a\u200a\u200a\u200a",
+        "total_amount": 99664.36,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xd55210bb6898c021a19de1f58d27b71f095921ee",
+        "direction": "IN",
+        "first_seen": "2024-03-31 12:42:35.000 UTC",
+        "last_seen": "2024-03-31 12:42:35.000 UTC",
+        "n_events": 1,
+        "symbol": "CHKN Airdrop Ticket | https://c",
+        "total_amount": 783158000,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-03-04 08:59:23.000 UTC",
+        "last_seen": "2026-04-02 19:15:35.000 UTC",
+        "n_events": 502,
+        "symbol": "ZND",
+        "total_amount": 47588709.22963183,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x4a0536b8ce1bd63e7e2aad08d3b17195273ac205",
+        "direction": "IN",
+        "first_seen": "2023-07-22 06:48:35.000 UTC",
+        "last_seen": "2023-07-22 06:48:35.000 UTC",
+        "n_events": 1,
+        "symbol": "Rewards Token From https://aboc",
+        "total_amount": 823,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2024-05-29 20:47:35.000 UTC",
+        "last_seen": "2025-01-19 12:51:11.000 UTC",
+        "n_events": 13,
+        "symbol": "LSK",
+        "total_amount": 100536.9,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+        "direction": "IN",
+        "first_seen": "2024-03-06 02:48:23.000 UTC",
+        "last_seen": "2024-03-06 02:48:23.000 UTC",
+        "n_events": 1,
+        "symbol": "Claim $PEPE reward at https://p",
+        "total_amount": 204200,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+        "direction": "IN",
+        "first_seen": "2024-01-15 12:23:23.000 UTC",
+        "last_seen": "2024-01-15 12:23:23.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit makertoken.net to claim r",
+        "total_amount": 1.5,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+        "direction": "IN",
+        "first_seen": "2023-11-25 01:39:47.000 UTC",
+        "last_seen": "2023-11-25 01:39:47.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit fetchprotocol.com to clai",
+        "total_amount": 4999,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+        "direction": "IN",
+        "first_seen": "2025-11-12 08:34:11.000 UTC",
+        "last_seen": "2025-11-30 07:03:59.000 UTC",
+        "n_events": 3,
+        "symbol": "LSK",
+        "total_amount": 57193.10093807,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+        "direction": "IN",
+        "first_seen": "2024-01-24 22:55:35.000 UTC",
+        "last_seen": "2024-01-24 22:55:35.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit oceangift.org to claim re",
+        "total_amount": 4999,
+        "total_usd": null
+      }
+    ],
+    "metadata": {
+      "column_names": [
+        "counterparty",
+        "direction",
+        "first_seen",
+        "last_seen",
+        "n_events",
+        "symbol",
+        "total_amount",
+        "total_usd"
+      ],
+      "column_types": [
+        "varchar",
+        "varchar(3)",
+        "timestamp(3) with time zone",
+        "timestamp(3) with time zone",
+        "bigint",
+        "varchar",
+        "double",
+        "double"
+      ],
+      "row_count": 262,
+      "result_set_bytes": 40073,
+      "total_row_count": 262,
+      "total_result_set_bytes": 23272,
+      "datapoint_count": 2096,
+      "pending_time_millis": 224,
+      "execution_time_millis": 23089
+    }
+  }
+}

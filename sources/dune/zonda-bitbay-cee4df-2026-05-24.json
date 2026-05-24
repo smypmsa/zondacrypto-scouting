@@ -1,0 +1,703 @@
+{
+  "execution_id": "01KSDE82NPW5Q1ED7PPJ77W889",
+  "query_id": 7500518,
+  "is_execution_finished": true,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-05-24T16:49:14.935703Z",
+  "expires_at": "2026-08-22T16:49:43.286092Z",
+  "execution_started_at": "2026-05-24T16:49:15.298764Z",
+  "execution_ended_at": "2026-05-24T16:49:43.286085Z",
+  "result": {
+    "rows": [
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-06-16 15:05:20.000 UTC",
+        "last_seen": "2022-12-30 14:05:47.000 UTC",
+        "n_events": 85,
+        "symbol": "MATIC",
+        "total_amount": 1724127.3160000008,
+        "total_usd": 2306950.815820966
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-04-23 04:06:30.000 UTC",
+        "last_seen": "2022-11-25 17:05:35.000 UTC",
+        "n_events": 30,
+        "symbol": "MANA",
+        "total_amount": 806120.8269925001,
+        "total_usd": 2232272.205974935
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-05-05 16:05:04.000 UTC",
+        "last_seen": "2022-12-15 03:05:59.000 UTC",
+        "n_events": 52,
+        "symbol": "SUSHI",
+        "total_amount": 347309.5140020001,
+        "total_usd": 1748612.580364758
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-04-04 18:05:13.000 UTC",
+        "last_seen": "2022-09-25 22:05:35.000 UTC",
+        "n_events": 12,
+        "symbol": "USDT",
+        "total_amount": 1697890.45,
+        "total_usd": 1699718.3105919082
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-06-15 15:07:41.000 UTC",
+        "last_seen": "2022-06-12 04:05:23.000 UTC",
+        "n_events": 46,
+        "symbol": "CHZ",
+        "total_amount": 4517520.31687357,
+        "total_usd": 1475237.6993464185
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-05-07 00:05:15.000 UTC",
+        "last_seen": "2022-11-14 14:05:23.000 UTC",
+        "n_events": 31,
+        "symbol": "AAVE",
+        "total_amount": 6401.336901099998,
+        "total_usd": 1315175.912852112
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-05-03 17:05:00.000 UTC",
+        "last_seen": "2022-06-13 23:06:26.000 UTC",
+        "n_events": 42,
+        "symbol": "UNI",
+        "total_amount": 41031.156005000026,
+        "total_usd": 1107084.303295129
+      },
+      {
+        "counterparty": "0x4c6007e38ce164ed80ff8ff94192225fcdac68cd",
+        "direction": "IN",
+        "first_seen": "2021-05-05 22:18:27.000 UTC",
+        "last_seen": "2022-06-13 22:29:46.000 UTC",
+        "n_events": 42,
+        "symbol": "UNI",
+        "total_amount": 38491.960000000014,
+        "total_usd": 1000595.6249333331
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-07-30 20:49:29.000 UTC",
+        "last_seen": "2022-11-10 20:19:35.000 UTC",
+        "n_events": 14,
+        "symbol": "MANA",
+        "total_amount": 340481.92000000004,
+        "total_usd": 971024.6551939168
+      },
+      {
+        "counterparty": "0x26a78d5b6d7a7aceedd1e6ee3229b372a624d8b7",
+        "direction": "IN",
+        "first_seen": "2021-09-09 01:46:46.000 UTC",
+        "last_seen": "2022-11-14 13:10:47.000 UTC",
+        "n_events": 46,
+        "symbol": "AAVE",
+        "total_amount": 4896.359999999999,
+        "total_usd": 965166.3091249999
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-06-20 20:41:55.000 UTC",
+        "last_seen": "2022-11-09 17:34:35.000 UTC",
+        "n_events": 28,
+        "symbol": "MATIC",
+        "total_amount": 618702.7050000001,
+        "total_usd": 775334.0419541533
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-07-19 13:48:53.000 UTC",
+        "last_seen": "2022-09-21 18:39:23.000 UTC",
+        "n_events": 23,
+        "symbol": "MATIC",
+        "total_amount": 525928.7030000001,
+        "total_usd": 744277.7297249875
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-11-10 22:21:38.000 UTC",
+        "last_seen": "2021-12-13 20:08:57.000 UTC",
+        "n_events": 7,
+        "symbol": "MANA",
+        "total_amount": 165940.01,
+        "total_usd": 712645.3046333332
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-06-07 00:11:07.000 UTC",
+        "last_seen": "2022-08-15 14:49:25.000 UTC",
+        "n_events": 22,
+        "symbol": "SUSHI",
+        "total_amount": 123155.616,
+        "total_usd": 615526.1654656965
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-06-08 04:28:04.000 UTC",
+        "last_seen": "2022-11-09 17:56:11.000 UTC",
+        "n_events": 21,
+        "symbol": "SUSHI",
+        "total_amount": 104039.307002,
+        "total_usd": 597406.4258676999
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-06-15 14:45:43.000 UTC",
+        "last_seen": "2022-06-12 03:10:55.000 UTC",
+        "n_events": 18,
+        "symbol": "CHZ",
+        "total_amount": 1788013.7768735702,
+        "total_usd": 527133.6721872368
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-08-18 00:51:54.000 UTC",
+        "last_seen": "2022-04-04 18:52:54.000 UTC",
+        "n_events": 17,
+        "symbol": "CHZ",
+        "total_amount": 1471108.54,
+        "total_usd": 510009.3359486649
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-06-16 14:37:40.000 UTC",
+        "last_seen": "2022-05-05 15:22:14.000 UTC",
+        "n_events": 18,
+        "symbol": "MATIC",
+        "total_amount": 339443.40800000005,
+        "total_usd": 508485.29452758
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-08-30 21:29:27.000 UTC",
+        "last_seen": "2022-08-19 01:27:54.000 UTC",
+        "n_events": 16,
+        "symbol": "SUSHI",
+        "total_amount": 105192.149,
+        "total_usd": 502611.55532249995
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-07-21 17:10:17.000 UTC",
+        "last_seen": "2022-04-07 01:03:28.000 UTC",
+        "n_events": 15,
+        "symbol": "CHZ",
+        "total_amount": 1258398,
+        "total_usd": 435537.8394745
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-04-07 13:40:46.000 UTC",
+        "last_seen": "2022-06-20 18:23:45.000 UTC",
+        "n_events": 3,
+        "symbol": "USDT",
+        "total_amount": 419970,
+        "total_usd": 420630.05977833335
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-11-03 01:29:53.000 UTC",
+        "last_seen": "2022-01-19 23:53:40.000 UTC",
+        "n_events": 5,
+        "symbol": "MANA",
+        "total_amount": 118551.12,
+        "total_usd": 416931.55812066665
+      },
+      {
+        "counterparty": "0x89e51fa8ca5d66cd220baed62ed01e8951aa7c40",
+        "direction": "IN",
+        "first_seen": "2022-05-04 18:58:09.000 UTC",
+        "last_seen": "2022-09-14 01:19:48.000 UTC",
+        "n_events": 3,
+        "symbol": "USDT",
+        "total_amount": 399956.45,
+        "total_usd": 400136.1579068209
+      },
+      {
+        "counterparty": "0x56eddb7aa87536c09ccc2793473599fd21a8b17f",
+        "direction": "IN",
+        "first_seen": "2022-04-04 17:10:44.000 UTC",
+        "last_seen": "2022-04-07 22:31:55.000 UTC",
+        "n_events": 2,
+        "symbol": "USDT",
+        "total_amount": 349980,
+        "total_usd": 350744.3711941666
+      },
+      {
+        "counterparty": "0xa83b11093c858c86321fbc4c20fe82cdbd58e09e",
+        "direction": "IN",
+        "first_seen": "2021-08-30 17:40:16.000 UTC",
+        "last_seen": "2022-12-30 13:44:11.000 UTC",
+        "n_events": 24,
+        "symbol": "MATIC",
+        "total_amount": 240052.5,
+        "total_usd": 290625.77825485
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-02-23 18:04:52.000 UTC",
+        "last_seen": "2022-11-09 20:08:11.000 UTC",
+        "n_events": 10,
+        "symbol": "MKR",
+        "total_amount": 183.96720000000002,
+        "total_usd": 226324.85313258332
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-07-11 17:52:16.000 UTC",
+        "last_seen": "2022-07-19 00:11:49.000 UTC",
+        "n_events": 2,
+        "symbol": "USDT",
+        "total_amount": 217992,
+        "total_usd": 217942.58558966665
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2021-06-15 16:05:17.000 UTC",
+        "last_seen": "2022-11-09 21:06:35.000 UTC",
+        "n_events": 8,
+        "symbol": "ENJ",
+        "total_amount": 138882.198,
+        "total_usd": 191197.84090126932
+      },
+      {
+        "counterparty": "0x9696f59e4d72e237be84ffd425dcad154bf96976",
+        "direction": "IN",
+        "first_seen": "2022-06-27 18:26:53.000 UTC",
+        "last_seen": "2022-09-25 21:29:35.000 UTC",
+        "n_events": 2,
+        "symbol": "USDT",
+        "total_amount": 179992,
+        "total_usd": 180207.382927
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2021-06-09 01:49:03.000 UTC",
+        "last_seen": "2021-08-31 14:55:30.000 UTC",
+        "n_events": 5,
+        "symbol": "AAVE",
+        "total_amount": 418.968,
+        "total_usd": 139784.39002083332
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-05-21 17:34:20.000 UTC",
+        "last_seen": "2022-06-30 21:10:53.000 UTC",
+        "n_events": 6,
+        "symbol": "AAVE",
+        "total_amount": 657.795,
+        "total_usd": 134706.0685
+      },
+      {
+        "counterparty": "0x29d5527caa78f1946a409fa6acaf14a0a4a0274b",
+        "direction": "IN",
+        "first_seen": "2022-06-20 18:36:11.000 UTC",
+        "last_seen": "2022-06-21 14:45:42.000 UTC",
+        "n_events": 2,
+        "symbol": "USDT",
+        "total_amount": 130000,
+        "total_usd": 129965.9075
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-02-23 16:43:55.000 UTC",
+        "last_seen": "2022-08-15 13:48:51.000 UTC",
+        "n_events": 4,
+        "symbol": "MKR",
+        "total_amount": 78.49430000000001,
+        "total_usd": 107053.10861058334
+      },
+      {
+        "counterparty": "0xc6bed363b30df7f35b601a5547fe56cd31ec63da",
+        "direction": "IN",
+        "first_seen": "2022-02-14 19:11:39.000 UTC",
+        "last_seen": "2022-11-09 15:07:47.000 UTC",
+        "n_events": 5,
+        "symbol": "LINK",
+        "total_amount": 11853.756000000001,
+        "total_usd": 100370.65773166667
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-02-14 21:09:42.000 UTC",
+        "last_seen": "2022-11-09 16:05:35.000 UTC",
+        "n_events": 5,
+        "symbol": "LINK",
+        "total_amount": 11853.756000000001,
+        "total_usd": 98852.27369999999
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2021-10-14 14:58:24.000 UTC",
+        "last_seen": "2021-11-09 12:23:56.000 UTC",
+        "n_events": 2,
+        "symbol": "ENJ",
+        "total_amount": 35414.520000000004,
+        "total_usd": 81956.5053
+      },
+      {
+        "counterparty": "0x28c6c06298d514db089934071355e5743bf21d60",
+        "direction": "IN",
+        "first_seen": "2022-01-07 04:13:49.000 UTC",
+        "last_seen": "2022-06-14 19:21:12.000 UTC",
+        "n_events": 3,
+        "symbol": "ENJ",
+        "total_amount": 52310.708,
+        "total_usd": 80782.07404019033
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-04-25 07:30:42.000 UTC",
+        "last_seen": "2022-08-14 16:17:17.000 UTC",
+        "n_events": 4,
+        "symbol": "MKR",
+        "total_amount": 64.95439999999999,
+        "total_usd": 78237.93388633334
+      },
+      {
+        "counterparty": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "direction": "IN",
+        "first_seen": "2021-05-04 01:03:12.000 UTC",
+        "last_seen": "2021-05-05 13:28:24.000 UTC",
+        "n_events": 2,
+        "symbol": "UNI",
+        "total_amount": 1654.782005,
+        "total_usd": 69853.97123810416
+      },
+      {
+        "counterparty": "0x29d5527caa78f1946a409fa6acaf14a0a4a0274b",
+        "direction": "IN",
+        "first_seen": "2021-07-30 06:50:23.000 UTC",
+        "last_seen": "2022-11-14 16:25:11.000 UTC",
+        "n_events": 4,
+        "symbol": "MANA",
+        "total_amount": 88000,
+        "total_usd": 64469.042333333324
+      },
+      {
+        "counterparty": "0x708396f17127c42383e3b9014072679b2f60b82f",
+        "direction": "IN",
+        "first_seen": "2021-05-16 15:23:17.000 UTC",
+        "last_seen": "2021-05-16 15:23:17.000 UTC",
+        "n_events": 1,
+        "symbol": "AAVE",
+        "total_amount": 116.759,
+        "total_usd": 60621.5646975
+      },
+      {
+        "counterparty": "0xd551234ae421e3bcba99a0da6d736074f22192ff",
+        "direction": "IN",
+        "first_seen": "2021-05-07 16:29:05.000 UTC",
+        "last_seen": "2021-05-07 16:29:05.000 UTC",
+        "n_events": 1,
+        "symbol": "AAVE",
+        "total_amount": 128.76100110000002,
+        "total_usd": 60263.68944233025
+      },
+      {
+        "counterparty": "0x0681d8db095565fe8a346fa0277bffde9c0edbbf",
+        "direction": "IN",
+        "first_seen": "2021-05-06 23:10:35.000 UTC",
+        "last_seen": "2021-05-06 23:10:35.000 UTC",
+        "n_events": 1,
+        "symbol": "AAVE",
+        "total_amount": 126.8729,
+        "total_usd": 57825.81317975
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2022-05-05 14:06:13.000 UTC",
+        "last_seen": "2022-11-09 17:55:35.000 UTC",
+        "n_events": 2,
+        "symbol": "MKR",
+        "total_amount": 40.5185,
+        "total_usd": 43593.635254583336
+      },
+      {
+        "counterparty": "0xd551234ae421e3bcba99a0da6d736074f22192ff",
+        "direction": "IN",
+        "first_seen": "2021-05-03 16:11:53.000 UTC",
+        "last_seen": "2021-05-03 16:11:53.000 UTC",
+        "n_events": 1,
+        "symbol": "UNI",
+        "total_amount": 884.4140000000001,
+        "total_usd": 38334.18781833333
+      },
+      {
+        "counterparty": "0x21a31ee1afc51d94c2efccaa2092ad1028285549",
+        "direction": "IN",
+        "first_seen": "2021-06-15 15:14:28.000 UTC",
+        "last_seen": "2022-11-09 20:51:59.000 UTC",
+        "n_events": 3,
+        "symbol": "ENJ",
+        "total_amount": 51156.97,
+        "total_usd": 28572.394390773326
+      },
+      {
+        "counterparty": "0x85b931a32a0725be14285b66f1a22178c672d69b",
+        "direction": "IN",
+        "first_seen": "2021-05-05 15:28:36.000 UTC",
+        "last_seen": "2021-05-05 15:28:36.000 UTC",
+        "n_events": 1,
+        "symbol": "SUSHI",
+        "total_amount": 2034.441,
+        "total_usd": 27710.7817875
+      },
+      {
+        "counterparty": "0x29d5527caa78f1946a409fa6acaf14a0a4a0274b",
+        "direction": "IN",
+        "first_seen": "2022-05-18 14:49:38.000 UTC",
+        "last_seen": "2022-05-23 19:22:16.000 UTC",
+        "n_events": 2,
+        "symbol": "BAT",
+        "total_amount": 60000,
+        "total_usd": 23651.364166666663
+      },
+      {
+        "counterparty": "0x85b931a32a0725be14285b66f1a22178c672d69b",
+        "direction": "IN",
+        "first_seen": "2021-05-20 04:19:43.000 UTC",
+        "last_seen": "2021-05-20 04:19:43.000 UTC",
+        "n_events": 1,
+        "symbol": "AAVE",
+        "total_amount": 55.821,
+        "total_usd": 23631.587762499996
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-05-18 15:05:12.000 UTC",
+        "last_seen": "2022-05-23 20:06:10.000 UTC",
+        "n_events": 2,
+        "symbol": "BAT",
+        "total_amount": 60000,
+        "total_usd": 23265.075416666667
+      },
+      {
+        "counterparty": "0x85b931a32a0725be14285b66f1a22178c672d69b",
+        "direction": "IN",
+        "first_seen": "2021-05-19 16:49:13.000 UTC",
+        "last_seen": "2021-05-19 16:49:13.000 UTC",
+        "n_events": 1,
+        "symbol": "MANA",
+        "total_amount": 24967.999999999996,
+        "total_usd": 22970.559999999998
+      },
+      {
+        "counterparty": "0x564286362092d8e7936f0549571a803b203aaced",
+        "direction": "IN",
+        "first_seen": "2021-05-25 22:40:53.000 UTC",
+        "last_seen": "2021-05-25 22:40:53.000 UTC",
+        "n_events": 1,
+        "symbol": "SUSHI",
+        "total_amount": 1447.501,
+        "total_usd": 17057.59303416666
+      },
+      {
+        "counterparty": "0x564286362092d8e7936f0549571a803b203aaced",
+        "direction": "IN",
+        "first_seen": "2021-04-23 02:49:17.000 UTC",
+        "last_seen": "2021-04-23 02:49:17.000 UTC",
+        "n_events": 1,
+        "symbol": "MANA",
+        "total_amount": 14981,
+        "total_usd": 16245.326488666664
+      },
+      {
+        "counterparty": "0xe9f7ecae3a53d2a67105292894676b00d1fab785",
+        "direction": "IN",
+        "first_seen": "2022-11-09 15:00:59.000 UTC",
+        "last_seen": "2022-12-27 14:49:47.000 UTC",
+        "n_events": 2,
+        "symbol": "OMG",
+        "total_amount": 11099.699,
+        "total_usd": 13633.035737999997
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-11-09 15:05:35.000 UTC",
+        "last_seen": "2022-12-27 15:05:35.000 UTC",
+        "n_events": 2,
+        "symbol": "OMG",
+        "total_amount": 11099.699,
+        "total_usd": 13628.66619683333
+      },
+      {
+        "counterparty": "0x8a108e4761386c94b8d2f98a5ffe13e472cfe76a",
+        "direction": "IN",
+        "first_seen": "2022-12-10 23:04:23.000 UTC",
+        "last_seen": "2022-12-15 02:24:23.000 UTC",
+        "n_events": 3,
+        "symbol": "SUSHI",
+        "total_amount": 11440.5,
+        "total_usd": 13023.058521625
+      },
+      {
+        "counterparty": "0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be",
+        "direction": "IN",
+        "first_seen": "2021-05-24 02:38:25.000 UTC",
+        "last_seen": "2021-05-24 02:38:25.000 UTC",
+        "n_events": 1,
+        "symbol": "MANA",
+        "total_amount": 21010.927,
+        "total_usd": 12812.820470358998
+      },
+      {
+        "counterparty": "0xe1498a9ef5c6aa51790a642f70c31238326b1724",
+        "direction": "IN",
+        "first_seen": "2022-11-25 16:17:59.000 UTC",
+        "last_seen": "2022-11-25 16:17:59.000 UTC",
+        "n_events": 1,
+        "symbol": "MANA",
+        "total_amount": 32187.8499925,
+        "total_usd": 12514.523419609026
+      },
+      {
+        "counterparty": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+        "direction": "IN",
+        "first_seen": "2022-11-10 16:31:59.000 UTC",
+        "last_seen": "2022-11-10 16:31:59.000 UTC",
+        "n_events": 1,
+        "symbol": "ZRX",
+        "total_amount": 54974.990000000005,
+        "total_usd": 10640.679608200833
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-11-10 17:05:59.000 UTC",
+        "last_seen": "2022-11-10 17:05:59.000 UTC",
+        "n_events": 1,
+        "symbol": "ZRX",
+        "total_amount": 54974.990000000005,
+        "total_usd": 10517.553955597503
+      },
+      {
+        "counterparty": "0x818ab3c61f66e975b8e6290c20999d6749f60d8d",
+        "direction": "IN",
+        "first_seen": "2021-04-23 03:46:34.000 UTC",
+        "last_seen": "2022-11-13 22:05:35.000 UTC",
+        "n_events": 117,
+        "symbol": "ETH",
+        "total_amount": 1.090027434525624,
+        "total_usd": 3487.4103829037867
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "IN",
+        "first_seen": "2022-01-17 12:50:43.000 UTC",
+        "last_seen": "2022-01-17 12:50:43.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 0.018,
+        "total_usd": 58.816755
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2025-11-20 14:38:59.000 UTC",
+        "last_seen": "2025-11-20 14:38:59.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 0.010024789377830514,
+        "total_usd": 30.017619471621884
+      },
+      {
+        "counterparty": "0x6edef88d161e6b6633a3d648a3c1c99afecc5048",
+        "direction": "OUT",
+        "first_seen": "2022-11-28 21:52:59.000 UTC",
+        "last_seen": "2022-11-28 21:52:59.000 UTC",
+        "n_events": 1,
+        "symbol": "MATIC",
+        "total_amount": 0,
+        "total_usd": 0
+      },
+      {
+        "counterparty": "0x34278f6f40079eae344cbac61a764bcf85afc949",
+        "direction": "IN",
+        "first_seen": "2021-09-17 16:15:56.000 UTC",
+        "last_seen": "2021-09-17 16:15:56.000 UTC",
+        "n_events": 1,
+        "symbol": "FF9.io",
+        "total_amount": 300000,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x82dfdb2ec1aa6003ed4acba663403d7c2127ff67",
+        "direction": "IN",
+        "first_seen": "2021-09-11 16:06:46.000 UTC",
+        "last_seen": "2021-09-11 16:06:46.000 UTC",
+        "n_events": 1,
+        "symbol": "akSwap.io",
+        "total_amount": 250000,
+        "total_usd": null
+      }
+    ],
+    "metadata": {
+      "column_names": [
+        "counterparty",
+        "direction",
+        "first_seen",
+        "last_seen",
+        "n_events",
+        "symbol",
+        "total_amount",
+        "total_usd"
+      ],
+      "column_types": [
+        "varchar",
+        "varchar(3)",
+        "timestamp(3) with time zone",
+        "timestamp(3) with time zone",
+        "bigint",
+        "varchar",
+        "double",
+        "double"
+      ],
+      "row_count": 66,
+      "result_set_bytes": 10002,
+      "total_row_count": 66,
+      "total_result_set_bytes": 5804,
+      "datapoint_count": 528,
+      "pending_time_millis": 363,
+      "execution_time_millis": 27987
+    }
+  }
+}

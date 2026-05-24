@@ -1,0 +1,347 @@
+{
+  "_meta": {
+    "date": "2026-05-23",
+    "chain_id": 1,
+    "chain_name": "Ethereum",
+    "purpose": "Q4a batch (9 of 9 slots, chain_id=1) \u2014 D3 inventory-promotion candidate sweep. All targets: 100% OUT-to-Z5, >=3 distinct CEX-hot IN, >=$5M IN volume; same operational shape that caught BB-3ef668 + HUB-distrib (ced004) + BB-879882. Q4a covers the top 9 of 13 D3 rows by total_out; Q4b 2026-05-25 takes the remaining 4. OUTCOME: 8 hits / 1 empty (89% hit rate). All 8 hits = Zonda (BitBay): Deposit Address (chain_id=1). Inventory-promotion candidates pending [[scouting-publication-gate]] user review (34 \u2192 42 if approved): 0xa370\u20264c98 ($40.2M IN), 0xaad6\u20261862 ($27.2M IN; was F-044 X2 customer-aggregator \u2014 REATTRIBUTED), 0xd3b1\u20265b73 ($19.0M IN), 0xb777\u20262af8 ($18.7M IN), 0x73bf\u20264020 ($18.5M IN), 0x8960\u202620b0d ($14.3M IN; was F-021/F-024 A27 CEX-aggregator \u2014 REATTRIBUTED), 0xf910\u202643a7 ($13.3M IN), 0xcee4\u2026d457 ($12.3M IN). Empty: 0x70a9\u20269852 ($24.1M / 23 CEX-IN) \u2192 Q6d +30d (2026-06-22). Q4b 2026-05-25 still queued for 4 remaining D3 candidates.",
+    "slots_used": 9,
+    "daily_quota_remaining": 0
+  },
+  "0xa370d3a30a125bb025501bf256eb6eab23d54c98": {
+    "label": "D3 #3 $40.2M / 5 CEX-IN \u2014 top Q4a",
+    "resp": {
+      "request_id": "255529542eb64208",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xa370d3a30a125bb025501bf256eb6eab23d54c98",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0xaad6825c2e63363adebbb79203d45b4ed0ac1862": {
+    "label": "D3 #4 $27.2M / 5 CEX-IN \u2014 X2 in F-044",
+    "resp": {
+      "request_id": "aee487b6b9b848d5",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xaad6825c2e63363adebbb79203d45b4ed0ac1862",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x70a9ffd5ccd90efd82b56e55ff7dc5511c809852": {
+    "label": "D3 #5 $24.1M / 23 CEX-IN",
+    "resp": {
+      "request_id": "1eeae0ca87474a13",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x70a9ffd5ccd90efd82b56e55ff7dc5511c809852",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0xd3b1ca9dfbb4acf1669c60bd8587122144295b73": {
+    "label": "D3 #6 $19.0M / 11 CEX-IN",
+    "resp": {
+      "request_id": "ea2c559c0cbe41e9",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xd3b1ca9dfbb4acf1669c60bd8587122144295b73",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0xb7777ac291408554b0e3fedbe79d7675ac962af8": {
+    "label": "D3 #7 $18.7M / 3 CEX-IN",
+    "resp": {
+      "request_id": "6edba964e8f74232",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xb7777ac291408554b0e3fedbe79d7675ac962af8",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x73bfc8b17296cb284b7b116e519c7b84df4e4020": {
+    "label": "D3 #8 $18.5M / 14 CEX-IN",
+    "resp": {
+      "request_id": "c31acf41fd224052",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x73bfc8b17296cb284b7b116e519c7b84df4e4020",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x896088463f9660410f10c52e002ac1e274920b0d": {
+    "label": "D3 #9 $14.3M / 6 CEX-IN \u2014 A27 in F-021/F-024",
+    "resp": {
+      "request_id": "b6a16bc442914b4e",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x896088463f9660410f10c52e002ac1e274920b0d",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0xf910450ee0d86bd4e3ee4425de0b435edd8543a7": {
+    "label": "D3 #10 $13.3M / 6 CEX-IN",
+    "resp": {
+      "request_id": "94a91421b82b415e",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xf910450ee0d86bd4e3ee4425de0b435edd8543a7",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0xcee4dfde1ce0260afb87f8c917726ab0502fd457": {
+    "label": "D3 #11 $12.3M / 18 CEX-IN",
+    "resp": {
+      "request_id": "6a07810810474aed",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xcee4dfde1ce0260afb87f8c917726ab0502fd457",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  }
+}

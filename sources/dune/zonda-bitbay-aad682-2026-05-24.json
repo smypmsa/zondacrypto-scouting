@@ -1,0 +1,463 @@
+{
+  "execution_id": "01KSDE30V2Y8ET237FRQT6444T",
+  "query_id": 7500518,
+  "is_execution_finished": true,
+  "state": "QUERY_STATE_COMPLETED",
+  "submitted_at": "2026-05-24T16:46:29.220129Z",
+  "expires_at": "2026-08-22T16:46:42.492729Z",
+  "execution_started_at": "2026-05-24T16:46:29.746266Z",
+  "execution_ended_at": "2026-05-24T16:46:42.492721Z",
+  "result": {
+    "rows": [
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2022-12-07 13:40:47.000 UTC",
+        "last_seen": "2026-02-23 08:06:11.000 UTC",
+        "n_events": 472,
+        "symbol": "ETH",
+        "total_amount": 6842.388380421075,
+        "total_usd": 17502947.63656722
+      },
+      {
+        "counterparty": "0x8e96a3e70530f013f4d92f0076d833fdcaa47df4",
+        "direction": "IN",
+        "first_seen": "2024-01-08 09:40:23.000 UTC",
+        "last_seen": "2025-11-20 13:10:35.000 UTC",
+        "n_events": 360,
+        "symbol": "ETH",
+        "total_amount": 4245.801320819808,
+        "total_usd": 11913593.416505206
+      },
+      {
+        "counterparty": "0x6edf968da408a9640b8865826429a977a11c5048",
+        "direction": "OUT",
+        "first_seen": "2024-03-08 22:51:23.000 UTC",
+        "last_seen": "2024-12-11 07:37:35.000 UTC",
+        "n_events": 248,
+        "symbol": "USDT",
+        "total_amount": 9764042.368935999,
+        "total_usd": 9770972.857954081
+      },
+      {
+        "counterparty": "0x8e96a3e70530f013f4d92f0076d833fdcaa47df4",
+        "direction": "IN",
+        "first_seen": "2024-02-16 18:59:47.000 UTC",
+        "last_seen": "2024-12-10 18:09:35.000 UTC",
+        "n_events": 309,
+        "symbol": "USDT",
+        "total_amount": 9189383.889997007,
+        "total_usd": 9194066.871137055
+      },
+      {
+        "counterparty": "0x74dec05e5b894b0efec69cdf6316971802a2f9a1",
+        "direction": "IN",
+        "first_seen": "2022-09-20 11:53:11.000 UTC",
+        "last_seen": "2023-06-21 18:50:23.000 UTC",
+        "n_events": 135,
+        "symbol": "ETH",
+        "total_amount": 1382.7916708,
+        "total_usd": 2348338.4340791763
+      },
+      {
+        "counterparty": "0x65cbc8aa675e7e339e374568746b6d40e87ba084",
+        "direction": "IN",
+        "first_seen": "2023-07-05 14:28:59.000 UTC",
+        "last_seen": "2025-06-23 09:09:11.000 UTC",
+        "n_events": 77,
+        "symbol": "ETH",
+        "total_amount": 855.08834369,
+        "total_usd": 1884562.8954050755
+      },
+      {
+        "counterparty": "0xde7adbb368c2616df8c5c0e986933bee8f660add",
+        "direction": "IN",
+        "first_seen": "2025-03-20 10:05:11.000 UTC",
+        "last_seen": "2026-02-23 07:59:59.000 UTC",
+        "n_events": 26,
+        "symbol": "ETH",
+        "total_amount": 305.83034029,
+        "total_usd": 897362.9756278583
+      },
+      {
+        "counterparty": "0x65cbc8aa675e7e339e374568746b6d40e87ba084",
+        "direction": "IN",
+        "first_seen": "2024-02-16 09:17:59.000 UTC",
+        "last_seen": "2024-08-19 08:25:11.000 UTC",
+        "n_events": 13,
+        "symbol": "USDT",
+        "total_amount": 545930.123571,
+        "total_usd": 546328.2204393295
+      },
+      {
+        "counterparty": "0xcc6fcfb8b3988043e382a481d6bf482d68897024",
+        "direction": "IN",
+        "first_seen": "2023-11-30 10:11:47.000 UTC",
+        "last_seen": "2024-02-07 17:43:47.000 UTC",
+        "n_events": 3,
+        "symbol": "ETH",
+        "total_amount": 32,
+        "total_usd": 71763.96333333332
+      },
+      {
+        "counterparty": "0x39f6a6c85d39d5abad8a398310c52e7c374f2ba3",
+        "direction": "IN",
+        "first_seen": "2024-01-26 08:14:11.000 UTC",
+        "last_seen": "2024-04-18 13:54:47.000 UTC",
+        "n_events": 2,
+        "symbol": "ETH",
+        "total_amount": 16.09087613,
+        "total_usd": 36446.92326966678
+      },
+      {
+        "counterparty": "0xf0d76d3b9042e7b01e647c9c24573b7d3ff8d650",
+        "direction": "IN",
+        "first_seen": "2024-10-28 14:36:35.000 UTC",
+        "last_seen": "2024-10-29 22:20:47.000 UTC",
+        "n_events": 2,
+        "symbol": "USDT",
+        "total_amount": 23358.08,
+        "total_usd": 23349.700845733336
+      },
+      {
+        "counterparty": "0x4976a4a02f38326660d17bf34b431dc6e2eb2327",
+        "direction": "IN",
+        "first_seen": "2026-01-22 09:18:11.000 UTC",
+        "last_seen": "2026-01-22 09:18:11.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 4.99997,
+        "total_usd": 15039.543095533341
+      },
+      {
+        "counterparty": "0xf326de08e72ecd44c6394dbd5277c65700f0716a",
+        "direction": "IN",
+        "first_seen": "2024-10-18 12:56:35.000 UTC",
+        "last_seen": "2024-10-18 12:56:35.000 UTC",
+        "n_events": 1,
+        "symbol": "USDT",
+        "total_amount": 4064.09,
+        "total_usd": 4062.6665524775003
+      },
+      {
+        "counterparty": "0x05304c13e2095dd370f6cdbbcaa5d573e3ebeada",
+        "direction": "IN",
+        "first_seen": "2024-10-18 12:59:23.000 UTC",
+        "last_seen": "2024-10-18 12:59:23.000 UTC",
+        "n_events": 1,
+        "symbol": "USDT",
+        "total_amount": 1306.106654,
+        "total_usd": 1305.6491901444365
+      },
+      {
+        "counterparty": "0x5bff49eec8f76c066f979a818187b9732ac69503",
+        "direction": "IN",
+        "first_seen": "2024-03-17 01:34:59.000 UTC",
+        "last_seen": "2024-12-09 11:28:11.000 UTC",
+        "n_events": 196,
+        "symbol": "ETH",
+        "total_amount": 0.14521286841270764,
+        "total_usd": 479.3888386663215
+      },
+      {
+        "counterparty": "0x1e22db5dd1a733d45b7b0f9e03a179e19e2eff67",
+        "direction": "IN",
+        "first_seen": "2023-11-29 14:56:11.000 UTC",
+        "last_seen": "2023-11-29 14:56:11.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 0.01,
+        "total_usd": 20.517066666666665
+      },
+      {
+        "counterparty": "0x6edffd3c53ce226b0b16fbe960e2d69af31c5048",
+        "direction": "IN",
+        "first_seen": "2024-08-20 22:42:11.000 UTC",
+        "last_seen": "2024-08-27 00:55:23.000 UTC",
+        "n_events": 7,
+        "symbol": "USDT",
+        "total_amount": 0.07871399999999999,
+        "total_usd": 0.07877192207516667
+      },
+      {
+        "counterparty": "0x6edffd3c53ce226b0b16fbe960e2d69af31c5048",
+        "direction": "IN",
+        "first_seen": "2024-08-28 11:47:47.000 UTC",
+        "last_seen": "2024-09-03 19:33:23.000 UTC",
+        "n_events": 7,
+        "symbol": "ETH",
+        "total_amount": 6.999999999999999e-06,
+        "total_usd": 0.017469506666666666
+      },
+      {
+        "counterparty": "0x8e9dfd1826d5586fe59395f63861026efb647df4",
+        "direction": "IN",
+        "first_seen": "2025-11-20 13:11:47.000 UTC",
+        "last_seen": "2025-11-20 13:11:47.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 9.55109728141e-07,
+        "total_usd": 0.0028855106529786195
+      },
+      {
+        "counterparty": "0xd152f549545093347a162dce210e7293f1452150",
+        "direction": "IN",
+        "first_seen": "2026-03-29 15:53:11.000 UTC",
+        "last_seen": "2026-03-29 15:53:11.000 UTC",
+        "n_events": 1,
+        "symbol": "HEX",
+        "total_amount": 1,
+        "total_usd": 0.0005550833333333332
+      },
+      {
+        "counterparty": "0xde7ae45072ca01c87f9e6067eb21376e8f660add",
+        "direction": "IN",
+        "first_seen": "2026-02-04 12:31:59.000 UTC",
+        "last_seen": "2026-02-04 12:31:59.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 1.09448112e-07,
+        "total_usd": 0.0002459366569642401
+      },
+      {
+        "counterparty": "0xd44746e7267be2eefd306c4584f3c803027341d9",
+        "direction": "IN",
+        "first_seen": "2025-09-24 23:17:47.000 UTC",
+        "last_seen": "2025-09-24 23:17:47.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 1e-08,
+        "total_usd": 4.158854166666668e-05
+      },
+      {
+        "counterparty": "0x6edf2527128b94b0c93ec23123772dd4fcf95048",
+        "direction": "IN",
+        "first_seen": "2026-01-17 19:35:11.000 UTC",
+        "last_seen": "2026-01-17 19:35:11.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 1e-09,
+        "total_usd": 3.3165475000000007e-06
+      },
+      {
+        "counterparty": "0xde7a74d122397b5db53fb8f9c74b445c2cba0add",
+        "direction": "IN",
+        "first_seen": "2026-01-17 19:28:59.000 UTC",
+        "last_seen": "2026-01-17 19:28:59.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 1e-09,
+        "total_usd": 3.3165475000000007e-06
+      },
+      {
+        "counterparty": "0x8e964eb9f0d47358525bba9b5adddd5613637df4",
+        "direction": "IN",
+        "first_seen": "2025-11-20 13:15:11.000 UTC",
+        "last_seen": "2025-11-20 13:15:11.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 1e-09,
+        "total_usd": 3.02113e-06
+      },
+      {
+        "counterparty": "0x05bfbb31b9eb9e76621a6d2e1905b7575f660add",
+        "direction": "IN",
+        "first_seen": "2026-01-17 19:25:23.000 UTC",
+        "last_seen": "2026-01-17 19:25:23.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 1e-17,
+        "total_usd": 3.3165475000000006e-14
+      },
+      {
+        "counterparty": "0x6edfaf9bff031659524a0bb30230e8d67f645048",
+        "direction": "IN",
+        "first_seen": "2026-01-17 19:31:47.000 UTC",
+        "last_seen": "2026-01-17 19:31:47.000 UTC",
+        "n_events": 1,
+        "symbol": "ETH",
+        "total_amount": 9e-18,
+        "total_usd": 2.984892750000001e-14
+      },
+      {
+        "counterparty": "0x8e96a3ed59225daebcf49550ee27056ccaa47df4",
+        "direction": "IN",
+        "first_seen": "2024-03-04 13:52:35.000 UTC",
+        "last_seen": "2024-03-04 13:52:35.000 UTC",
+        "n_events": 1,
+        "symbol": "USDT",
+        "total_amount": 0,
+        "total_usd": 0
+      },
+      {
+        "counterparty": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
+        "direction": "IN",
+        "first_seen": "2024-01-30 23:29:23.000 UTC",
+        "last_seen": "2024-01-30 23:29:23.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit StakeEther.net claim rewa",
+        "total_amount": 1.7,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x8e96a3ed59225daebcf49550ee27056ccaa47df4",
+        "direction": "IN",
+        "first_seen": "2024-03-04 13:52:35.000 UTC",
+        "last_seen": "2024-03-04 13:52:35.000 UTC",
+        "n_events": 1,
+        "symbol": "U\u0405D\u0422",
+        "total_amount": 25983.27,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
+        "direction": "IN",
+        "first_seen": "2023-09-23 04:48:59.000 UTC",
+        "last_seen": "2023-09-23 04:48:59.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit https://apyeth.com to cla",
+        "total_amount": 1.4,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xde7ab8dc683afa87e4b8b0c95b020cee8f660add",
+        "direction": "IN",
+        "first_seen": "2026-02-04 12:31:59.000 UTC",
+        "last_seen": "2026-02-17 20:59:11.000 UTC",
+        "n_events": 3,
+        "symbol": "ETH",
+        "total_amount": 6.73034029,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x65cbc8aa398ddc0f930e4fdeb5ae3871ee7ba084",
+        "direction": "IN",
+        "first_seen": "2023-07-17 08:31:35.000 UTC",
+        "last_seen": "2023-07-20 13:20:11.000 UTC",
+        "n_events": 2,
+        "symbol": "ETH",
+        "total_amount": 20.988,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x6edf53fdd7e287123f04905b2f0cdbd15ef35048",
+        "direction": "OUT",
+        "first_seen": "2023-11-14 19:43:35.000 UTC",
+        "last_seen": "2023-11-17 16:49:11.000 UTC",
+        "n_events": 3,
+        "symbol": "E\u200aTH",
+        "total_amount": 88.26430627,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "direction": "IN",
+        "first_seen": "2023-09-04 04:10:35.000 UTC",
+        "last_seen": "2023-09-04 04:10:35.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit https://usd-coin.net to c",
+        "total_amount": 3999.9900000000002,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x3ab281cfad326e4e93c16d99ea51cb9db27fb198",
+        "direction": "IN",
+        "first_seen": "2026-01-27 09:18:35.000 UTC",
+        "last_seen": "2026-01-27 09:18:35.000 UTC",
+        "n_events": 1,
+        "symbol": "Elon Air",
+        "total_amount": 2,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x05d26df93ba55a8e9e60693291213a5a835764bb",
+        "direction": "IN",
+        "first_seen": "2026-02-25 19:26:23.000 UTC",
+        "last_seen": "2026-02-25 19:26:23.000 UTC",
+        "n_events": 1,
+        "symbol": "POWER",
+        "total_amount": 5,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x65cbc8a50eeaced1e0145ca430005ef6e87ba084",
+        "direction": "IN",
+        "first_seen": "2023-08-01 09:02:59.000 UTC",
+        "last_seen": "2024-04-22 20:28:23.000 UTC",
+        "n_events": 52,
+        "symbol": "\u0415\u0422\u041d",
+        "total_amount": 591.2365276999999,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x8e96a3ed59225daebcf49550ee27056ccaa47df4",
+        "direction": "IN",
+        "first_seen": "2024-01-08 17:27:23.000 UTC",
+        "last_seen": "2024-03-02 07:51:23.000 UTC",
+        "n_events": 20,
+        "symbol": "\u0415\u0422\u041d",
+        "total_amount": 273.1120595404539,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "direction": "IN",
+        "first_seen": "2023-08-20 21:54:11.000 UTC",
+        "last_seen": "2023-08-20 21:54:11.000 UTC",
+        "n_events": 1,
+        "symbol": "Visit https://usdswap.org to cl",
+        "total_amount": 3999.9900000000002,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x059b2051bc369a52dfa4bcbaa77388483279320c",
+        "direction": "IN",
+        "first_seen": "2026-01-17 19:30:11.000 UTC",
+        "last_seen": "2026-01-17 19:30:11.000 UTC",
+        "n_events": 1,
+        "symbol": "UniLife",
+        "total_amount": 5,
+        "total_usd": null
+      },
+      {
+        "counterparty": "0x65cbc8a50eeaced1e0145ca430005ef6e87ba084",
+        "direction": "IN",
+        "first_seen": "2023-07-21 07:27:59.000 UTC",
+        "last_seen": "2023-07-29 06:51:47.000 UTC",
+        "n_events": 5,
+        "symbol": "ETH",
+        "total_amount": 50.926507470000004,
+        "total_usd": null
+      }
+    ],
+    "metadata": {
+      "column_names": [
+        "counterparty",
+        "direction",
+        "first_seen",
+        "last_seen",
+        "n_events",
+        "symbol",
+        "total_amount",
+        "total_usd"
+      ],
+      "column_types": [
+        "varchar",
+        "varchar(3)",
+        "timestamp(3) with time zone",
+        "timestamp(3) with time zone",
+        "bigint",
+        "varchar",
+        "double",
+        "double"
+      ],
+      "row_count": 42,
+      "result_set_bytes": 6324,
+      "total_row_count": 42,
+      "total_result_set_bytes": 3702,
+      "datapoint_count": 336,
+      "pending_time_millis": 526,
+      "execution_time_millis": 12746
+    }
+  }
+}

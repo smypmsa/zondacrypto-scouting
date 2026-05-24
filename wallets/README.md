@@ -56,7 +56,7 @@ The ZND token contract, its deployer EOA, the ZNDStaking contract that owns the 
 
 ## Ethereum — BitBay-era wallets
 
-Wallets attributed to ZondaCrypto / BitBay by one or more primary sources (Bubblemaps `entity_id = "zonda"`; BlockSec MetaSleuth label). Rows attributed by a single primary source are PARTIAL tier; the BB-879882 row carries two independent primary sources (BlockSec MetaSleuth 2026-05-22 + Bubblemaps) and is CONFIRMED. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's tier.
+Wallets attributed to ZondaCrypto / BitBay by one or more primary sources (Bubblemaps `entity_id = "zonda"`; BlockSec MetaSleuth label). Rows attributed by a single primary source are PARTIAL tier; the BB-879882 row carries two independent primary sources (BlockSec MetaSleuth 2026-05-22 + Bubblemaps) and is CONFIRMED. Underlying transfers are CONFIRMED from on-chain data; their attribution to ZondaCrypto operations inherits the wallet's tier. The eight rows added on 2026-05-23 share the same operational signature as `0xced004…2f06` and `0x3ef668…2eda` — many CEX hot wallets fund the address, 100% of outbound USD lands on Zonda 5 — and were surfaced by a Dune-side structural predictor (`out_to_z5_pct = 1.0` AND `distinct_cex_in ≥ 3` AND `in_to_z5 ≥ $5M`) validated to 92% BlockSec hit-rate over the previous four batches; each is BlockSec-CONFIRMED individually on 2026-05-23 but has no second independent primary source yet, hence PARTIAL.
 
 | Address | What it is | Tier | Activity | Detail |
 |---|---|---|---|---|
@@ -69,6 +69,14 @@ Wallets attributed to ZondaCrypto / BitBay by one or more primary sources (Bubbl
 | `0xc7f05e700f3f1fb6dc62428e2d0e4280110c9305` | Zonda (BitBay) 0xc7f05e…9305 | PARTIAL | 2019-05-01 → 2026-03-18, 2,029 native / 8 ERC-20 | [→](ethereum/zonda-bitbay-c7f05e.md) |
 | `0xced004645e40f1bd5d11e6562e8fdbe9f4862f06` | Zonda (BitBay) 0xced004…2f06 | PARTIAL | 2022-08-31 → 2026-03-29, 472 events (227 IN / 245 OUT); deposit-receipt hop — 18 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-ced004.md) |
 | `0x3ef6683f2553af861f91194d23bdf8522d1f2eda` | Zonda (BitBay) 0x3ef668…2eda | PARTIAL | 2023-05-31 → 2026-03-29, 2,465 events (1,322 IN / 1,143 OUT); deposit-receipt hop — 17 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 (~2.8× the throughput of the ced004 instance) | [→](ethereum/zonda-bitbay-3ef668.md) |
+| `0xa370d3a30a125bb025501bf256eb6eab23d54c98` | Zonda (BitBay) 0xa370d3…4c98 | PARTIAL | 2022-08-25 → 2026-03-30, 3,141 events; deposit-receipt hop — 5 hildobby-tagged CEXes feed in (Binance 14/15/16/17/18, ~100% of inbound USD), 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-a370d3.md) |
+| `0xaad6825c2e63363adebbb79203d45b4ed0ac1862` | Zonda (BitBay) 0xaad682…1862 | PARTIAL | deposit-receipt hop — 6 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5; prior case-side classification "Forwarder / Unknown entity" overturned by 2026-05-23 BlockSec attribution | [→](ethereum/zonda-bitbay-aad682.md) |
+| `0xd3b1ca9dfbb4acf1669c60bd8587122144295b73` | Zonda (BitBay) 0xd3b1ca…5b73 | PARTIAL | deposit-receipt hop — 13 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-d3b1ca.md) |
+| `0xb7777ac291408554b0e3fedbe79d7675ac962af8` | Zonda (BitBay) 0xb7777a…2af8 | PARTIAL | deposit-receipt hop — 4 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5; lowest hildobby-tagged CEX-density among the 2026-05-23 Q4a cohort | [→](ethereum/zonda-bitbay-b7777a.md) |
+| `0x73bfc8b17296cb284b7b116e519c7b84df4e4020` | Zonda (BitBay) 0x73bfc8…4020 | PARTIAL | deposit-receipt hop — 33 hildobby-tagged CEXes feed in (highest hildobby-tagged CEX-density among the 2026-05-23 Q4a cohort), 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-73bfc8.md) |
+| `0x896088463f9660410f10c52e002ac1e274920b0d` | Zonda (BitBay) 0x896088…20b0d | PARTIAL | deposit-receipt hop — 6 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5; prior case-side classification "CEX-aggregator intermediary → Gate.io + KuCoin" overturned by 2026-05-23 BlockSec attribution (Gate / KuCoin tags are on inbound side, not outbound) | [→](ethereum/zonda-bitbay-896088.md) |
+| `0xf910450ee0d86bd4e3ee4425de0b435edd8543a7` | Zonda (BitBay) 0xf91045…43a7 | PARTIAL | deposit-receipt hop — 6 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-f91045.md) |
+| `0xcee4dfde1ce0260afb87f8c917726ab0502fd457` | Zonda (BitBay) 0xcee4df…d457 | PARTIAL | deposit-receipt hop — 20 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-cee4df.md) |
 
 ## Polygon — Zonda vanity-suffix cluster
 
