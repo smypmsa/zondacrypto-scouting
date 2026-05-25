@@ -1,0 +1,305 @@
+{
+  "_meta": {
+    "date": "2026-05-25",
+    "chain_id": 1,
+    "chain_name": "Ethereum",
+    "purpose": "Q4b batch (6 of 9 slots used today, chain_id=1, 3 slots reserved for post-F-066-per-CP Dune analysis later in the day). Composition: 4 D3 carryovers from the 2026-05-20 D3 receipt (predicted Zonda Deposit Addresses per the 92% D3-structural-predictor hit rate from F-061), 2 F-065 b7777a sustained-channel sources (top-priority unattributed sources accounting for 97% of b7777a's 2026-Q1-Q2 sustained inflow). Reserve 3 slots (slots 7-9) added later 2026-05-25 UTC for F-067b-surfaced Jan-26 OUT-spike top recipients.",
+    "slots_used": 9,
+    "daily_quota_remaining": 0
+  },
+  "0x413f54b9308f35e1ae954a111acd059b9083d6b8": {
+    "label": "Q4b D3 #12 $10.8M / 7 CEX-IN",
+    "resp": {
+      "request_id": "052c4764415b4f6a",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x413f54b9308f35e1ae954a111acd059b9083d6b8",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x47ef949598e02b90ae2a38624f07b77c18fabb8b": {
+    "label": "Q4b D3 #13 $10M / 15 CEX-IN",
+    "resp": {
+      "request_id": "1caefb7146594d92",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x47ef949598e02b90ae2a38624f07b77c18fabb8b",
+        "main_entity": "Zonda (BitBay)",
+        "main_entity_info": {
+          "entity": "Zonda (BitBay)",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://zondacrypto.com",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Zonda (BitBay) Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Zonda (BitBay): Deposit Address"
+      }
+    }
+  },
+  "0x05ec9b54a2bcfc24aafde58dde17a8e72b3a2708": {
+    "label": "Q4b D3 #14 $8.6M / 5 CEX-IN",
+    "resp": {
+      "request_id": "bb5c3a17dda946a3",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x05ec9b54a2bcfc24aafde58dde17a8e72b3a2708",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0x057d28906f3b32d9b0826d8a64f47e6e3a82a4f4": {
+    "label": "Q4b D3 #15 $6.5M / 6 CEX-IN",
+    "resp": {
+      "request_id": "7da98a1f78bc4060",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x057d28906f3b32d9b0826d8a64f47e6e3a82a4f4",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0x05ff6964d21e5dae3b1010d5ae0465b3c450f381": {
+    "label": "F-065 b7777a sustained-channel source #1 ($11.71M IN to b7777a 4 months 2026-Q1-Q2)",
+    "resp": {
+      "request_id": "168cb8c468e14898",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x05ff6964d21e5dae3b1010d5ae0465b3c450f381",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "Kraken Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Hot Wallet"
+      }
+    }
+  },
+  "0xf30ba13e4b04ce5dc4d254ae5fa95477800f0eb0": {
+    "label": "F-065 b7777a sustained-channel source #2 ($5.74M IN 4 months)",
+    "resp": {
+      "request_id": "b962176d1b5a4307",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xf30ba13e4b04ce5dc4d254ae5fa95477800f0eb0",
+        "main_entity": "Kraken",
+        "main_entity_info": {
+          "entity": "Kraken",
+          "categories": [
+            {
+              "name": "EXCHANGE",
+              "code": 3011
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.kraken.com",
+            "twitter": "https://twitter.com/krakenfx",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "HOT WALLET",
+            "code": 4009,
+            "comp_info": [
+              "Kraken Hot Wallet"
+            ]
+          }
+        ],
+        "name_tag": "Kraken: Hot Wallet"
+      }
+    }
+  },
+  "0x091d1c972cb1648537a2ba78eaba371b1ce18336": {
+    "label": "F-005 hub Jan-26 OUT $75.31M / 5 ev / 3 syms \u2014 top unexplained portion of Jan spike",
+    "resp": {
+      "request_id": "8aad2877def841f3",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x091d1c972cb1648537a2ba78eaba371b1ce18336",
+        "main_entity": "",
+        "main_entity_info": null,
+        "comp_entities": null,
+        "attributes": null,
+        "name_tag": ""
+      }
+    }
+  },
+  "0x046b3b8c1abc35f2ac76dcbb319534c628bfe377": {
+    "label": "F-005 hub Jan-26 OUT $45.01M / 5 ev / 2 syms",
+    "resp": {
+      "request_id": "6afb5708136c49e9",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0x046b3b8c1abc35f2ac76dcbb319534c628bfe377",
+        "main_entity": "Circle",
+        "main_entity_info": {
+          "entity": "Circle",
+          "categories": [
+            {
+              "name": "PAYMENT PROCESSOR",
+              "code": 3018
+            },
+            {
+              "name": "STABLE COIN",
+              "code": 3024
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://www.circle.com/en/",
+            "twitter": "https://twitter.com/circle",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Circle Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Circle: Deposit Address"
+      }
+    }
+  },
+  "0xce84449a8ebec019ac110a4b6662e55d0fd9f228": {
+    "label": "F-005 hub Jan-26 OUT $45.00M / 2 ev / 1 sym (USDC/USDT-like single-symbol bulk transfer)",
+    "resp": {
+      "request_id": "997cef0c7e3f43b2",
+      "code": 200000,
+      "message": "Success",
+      "data": {
+        "chain_id": 1,
+        "address": "0xce84449a8ebec019ac110a4b6662e55d0fd9f228",
+        "main_entity": "Wintermute",
+        "main_entity_info": {
+          "entity": "Wintermute",
+          "categories": [
+            {
+              "name": "ASSET MANAGEMENT",
+              "code": 3001
+            }
+          ],
+          "attributes": null,
+          "description": {
+            "website": "https://wintermute.com/",
+            "twitter": "",
+            "telegram": "",
+            "discord": ""
+          }
+        },
+        "comp_entities": null,
+        "attributes": [
+          {
+            "name": "DEPOSIT ADDRESS",
+            "code": 4007,
+            "comp_info": [
+              "Wintermute Deposit Address"
+            ]
+          }
+        ],
+        "name_tag": "Wintermute: Deposit Address"
+      }
+    }
+  }
+}

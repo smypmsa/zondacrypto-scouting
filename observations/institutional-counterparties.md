@@ -51,6 +51,29 @@ The two-hop structural path is identical to the MakerDAO RWA-007 row above (Zond
 
 **Out of scope for this page.** Which specific Wintermute desk (institutional OTC, on-chain MM, principal trading book) corresponds to each of the three observed addresses, and what contractual or settlement arrangement underlies the ~$994M bilateral. Those are real-world-entity attribution questions that go beyond what the BlockSec primary attributions themselves state.
 
+### Update 2026-05-25 — fourth Wintermute address surfaces on the same hub via January 2026 OUT-side enumeration
+
+A fourth Wintermute address, `0xce84449a8ebec019ac110a4b6662e55d0fd9f228`, attributed by BlockSec MetaSleuth on 2026-05-25 to `Wintermute: Deposit Address` (`main_entity = "Wintermute"`, category `ASSET MANAGEMENT` code 3001, attribute `DEPOSIT ADDRESS` code 4007). The address received $45.00 million from the same MM/OTC hub `0x5ee84d30c7ee57f63f71c92247ff31f95e26916b` in January 2026 alone, across 2 events in a single token symbol (a single-symbol bulk-transfer pattern consistent with a stablecoin settlement burst). Receipt at [`../sources/blocksec/labels-2026-05-25.json`](../sources/blocksec/labels-2026-05-25.json). The hub's January 2026 OUT volume was anomalously high relative to the 2025 baseline; this address accounts for $45M of that month's OUT-side flow.
+
+The four Wintermute-attributed addresses now bilateral with the MM/OTC hub:
+
+| Address | BlockSec class | Lifetime bilateral with hub |
+|---|---|---:|
+| `0xdbf5e9c5206d0db70a90108bf936da60221dc080` | Hot Wallet | $590M IN |
+| `0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa` | Hot Wallet | $206M IN |
+| `0xdbefb887662ca19cd485381f3386fe5f8537b910` | trading wallet (related_level_1) | $198M OUT |
+| `0xce84449a8ebec019ac110a4b6662e55d0fd9f228` | Deposit Address | $45M OUT in January 2026 alone (lifetime aggregate not separately computed) |
+
+## Circle — USDC redemption flow from the MM/OTC hub two hops downstream of Zonda 1
+
+A second Circle-attributed address, `0x046b3b8c1abc35f2ac76dcbb319534c628bfe377`, was attributed by BlockSec MetaSleuth on 2026-05-25 as `Circle: Deposit Address` (`main_entity = "Circle"`). Circle is the issuer of the USDC stablecoin; a Circle deposit address typically receives USDC for off-chain USD redemption (USDC burning paired with USD wire-out). The address received $45.01 million from the MM/OTC hub `0x5ee84d30c7ee57f63f71c92247ff31f95e26916b` in January 2026 alone, across 5 events in 2 token symbols. Receipt at [`../sources/blocksec/labels-2026-05-25.json`](../sources/blocksec/labels-2026-05-25.json).
+
+This is the first Circle attribution on the F-005-hub-direct path (the MM/OTC hub two hops downstream of [Zonda 1](../wallets/ethereum/zonda-1.md)). A prior Circle attribution from 2026-05-20 is on the Zonda-1-direct path (one hop) at `0x26186052…73945` with $4.4 billion lifetime aggregate; that's a different address and a different position on Zonda's institutional-flow graph. The combined Circle exposure across the two paths suggests systematic USDC redemption activity at scale.
+
+**Plain-language reading.** When Zonda's MM/OTC hub holds excess USDC and wishes to convert it to off-chain USD, it sends the USDC to a Circle deposit address; Circle then burns the USDC and wires USD to the depositing entity. The $45M January 2026 OUT to Circle is consistent with such a redemption — institutional-scale USDC-to-USD conversion timed to the same month that the hub's overall OUT-side volume spiked ($386M total in January 2026 vs $150-220M monthly Q1-Q3 2025 baseline). The on-chain pattern documents the redemption; the underlying business rationale (treasury management, customer-redemption fulfilment, position close-out) is investigator handoff.
+
+**Out of scope for this page.** The specific Zonda customer or operator who originated the USDC that ended up at Circle, and the specific USD destination after Circle's redemption.
+
 ## Methodology cross-link
 
 See [`../methodology.md`](../methodology.md) for the confidence-tier definitions and the receipts-mirroring policy. The BlockSec MetaSleuth API v3 endpoint and the response-field semantics (`main_entity`, `attributes`, `name_tag`) are documented there. Aggregations against `tokens_ethereum.transfers` follow the same Dune-aggregation policy used by the per-wallet flow profiles.

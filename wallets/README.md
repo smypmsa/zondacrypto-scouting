@@ -77,6 +77,8 @@ Wallets attributed to ZondaCrypto / BitBay by one or more primary sources (Bubbl
 | `0x896088463f9660410f10c52e002ac1e274920b0d` | Zonda (BitBay) 0x896088…20b0d | PARTIAL | deposit-receipt hop — 6 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5; prior case-side classification "CEX-aggregator intermediary → Gate.io + KuCoin" overturned by 2026-05-23 BlockSec attribution (Gate / KuCoin tags are on inbound side, not outbound) | [→](ethereum/zonda-bitbay-896088.md) |
 | `0xf910450ee0d86bd4e3ee4425de0b435edd8543a7` | Zonda (BitBay) 0xf91045…43a7 | PARTIAL | deposit-receipt hop — 6 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-f91045.md) |
 | `0xcee4dfde1ce0260afb87f8c917726ab0502fd457` | Zonda (BitBay) 0xcee4df…d457 | PARTIAL | deposit-receipt hop — 20 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-cee4df.md) |
+| `0x413f54b9308f35e1ae954a111acd059b9083d6b8` | Zonda (BitBay) 0x413f54…d6b8 | PARTIAL | deposit-receipt hop — 10 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-413f54.md) |
+| `0x47ef949598e02b90ae2a38624f07b77c18fabb8b` | Zonda (BitBay) 0x47ef94…bb8b | PARTIAL | deposit-receipt hop — 20 hildobby-tagged CEXes feed in, 100% of outbound to Zonda 5 | [→](ethereum/zonda-bitbay-47ef94.md) |
 
 ## Polygon — Zonda vanity-suffix cluster
 
